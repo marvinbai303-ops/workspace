@@ -1,0 +1,9 @@
+fund_code,manager_name,year,turnover_rate_pct,turnover_rate_max_pct,note,data_source
+000411.OF,张仲维,2024,341.99,,双边换手率,iFinD
+720001.OF,金梓才,2024,287.02,290.01,,iFinD
+011891.OF,武阳,2024,239.95,248.02,,iFinD
+519181.OF,莫海波,2024,121.33,132.55,,iFinD
+001513.OF,郑希,2024,602.41,606.18,,iFinD
+009914.OF,曹晋,2024,427.14,438.75,,iFinD
+001323.OF,刘元海,2024,,228.64,仅有单边最大值,iFinD
+001170.OF,孙硕,2024,,440.30,仅有单边最大值,iFinD

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 _build_classification.py)",
+      "mcp__hexin-ifind-ds-stock-mcp__get_stock_info"
+    ]
+  }
+}

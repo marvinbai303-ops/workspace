@@ -1,0 +1,142 @@
+directory: managers
+description: >
+  8位成长型基金经理的档案、业绩、换手率与持仓数据。
+  数据来源：iFinD同花顺MCP工具（get_fund_profile / get_fund_market_performance /
+  get_fund_financials / get_fund_portfolio），截至2026-04-28拉取。
+
+managers:
+  - name: 张仲维
+    fund_code: 000411.OF
+    fund_name: 景顺长城优质成长股票A
+    company: 景顺长城基金
+    tenure_start: "2023-11-07"
+    manager_type: A       # A类：专注1-2个赛道（半导体/AI算力）
+    primary_industries: [semiconductor]
+
+  - name: 金梓才
+    fund_code: 720001.OF
+    fund_name: 财通价值动量混合A
+    company: 财通基金
+    tenure_start: "2014-11-19"
+    manager_type: B       # B类：跨行业轮动（AI算力+消费）
+    primary_industries: [semiconductor, consumer]
+
+  - name: 武阳
+    fund_code: 011891.OF
+    fund_name: 易方达先锋成长混合A
+    company: 易方达基金
+    tenure_start: "2021-09-23"
+    manager_type: B       # B类：AI基础设施+汽车电子
+    primary_industries: [semiconductor, new_energy_vehicle]
+
+  - name: 莫海波
+    fund_code: 519181.OF
+    fund_name: 万家和谐增长混合A
+    company: 万家基金
+    tenure_start: "2017-01-01"
+    tenure_start_note: approximate
+    manager_type: B       # B类：TMT+新能源跨行业
+    primary_industries: [semiconductor, photovoltaic]
+
+  - name: 郑希
+    fund_code: 001513.OF
+    fund_name: 易方达信息产业混合A
+    company: 易方达基金
+    tenure_start: "2016-09-27"
+    manager_type: A       # A类：信息产业/PCB/AI芯片深度专注
+    primary_industries: [semiconductor]
+
+  - name: 曹晋
+    fund_code: 009914.OF
+    fund_name: 富国成长动力混合A
+    company: 富国基金
+    tenure_start: "2020-09-17"
+    manager_type: B       # B类：互联网+消费+制造，较分散
+    primary_industries: [consumer, internet]
+
+  - name: 刘元海
+    fund_code: 001323.OF
+    fund_name: 东吴移动互联混合A
+    company: 东吴基金
+    tenure_start: "2016-04-27"
+    manager_type: B       # B类：电子光学+汽车电子
+    primary_industries: [semiconductor, new_energy_vehicle]
+
+  - name: 孙硕
+    fund_code: 001170.OF
+    fund_name: 宏利复兴混合A
+    company: 宏利基金
+    tenure_start: "2022-11-22"
+    manager_type: A       # A类：AI算力/IDC基础设施专注
+    primary_industries: [semiconductor]
+
+files:
+  - file: manager_profiles.csv
+    description: 基金经理基本档案（代码、公司、任职起始、类型、行业方向、规模）
+    columns: [manager_name, fund_code, fund_name, company, tenure_start, tenure_start_note, manager_type, primary_industries, current_fund_aum_bn, total_managed_aum_bn, education, data_date]
+    update:
+      method: manual_or_ifind
+      ifind_tools: [get_fund_profile, search_funds]
+      frequency: quarterly
+      last_updated: "2026-04"
+
+  - file: fund_performance.csv
+    description: 基金近1年/近3年收益率、规模、股票仓位（截至2026-04-28）
+    columns: [fund_code, manager_name, data_date, return_1y_pct, return_3y_pct, aum_bn_2024q4, equity_ratio_pct_2024q4, data_source]
+    update:
+      method: ifind
+      ifind_tools: [get_fund_market_performance, get_fund_financials]
+      frequency: monthly
+      last_updated: "2026-04"
+      note: >
+        孙硕(001170.OF)近1年收益率iFinD未返回数据，可能是近1年因净值计算口径问题。
+        更新示例: get_fund_market_performance("001170.OF 近1年收益率、近3年收益率")
+
+  - file: fund_turnover.csv
+    description: 2024年全年换手率（双边/单边最大值）
+    columns: [fund_code, manager_name, year, turnover_rate_pct, turnover_rate_max_pct, note, data_source]
+    update:
+      method: ifind
+      ifind_tools: [get_fund_financials]
+      frequency: annual
+      last_updated: "2024"
+      note: >
+        刘元海(001323)和孙硕(001170)仅有单边最大值，标准双边换手率未返回。
+        每年年报发布后（约次年4月）更新：
+        get_fund_financials("001323.OF 在2025-12-31的换手率")
+
+  - file: fund_top10_holdings_2024q4.csv
+    description: 2024年四季报前十大重仓股（市值单位：百万元）
+    columns: [fund_code, manager_name, report_date, rank, stock_name, stock_code, mkt_value_mn_rmb]
+    update:
+      method: ifind
+      ifind_tools: [get_fund_portfolio]
+      frequency: quarterly
+      last_updated: "2024-12-31"
+      note: >
+        每季度末后约1个月（即1月/4月/7月/10月）更新。
+        更新示例：get_fund_portfolio("000411.OF 在2025-03-31的前十大重仓股")
+        用新数据追加行（report_date改为新季报日期）。
+
+industry_mapping:
+  # 持仓股票到产业时钟行业的映射（用于cross-check）
+  semiconductor:
+    keywords: [光模块, PCB, AI芯片, 半导体, 存储, 射频, 服务器, IDC, 算力]
+    typical_stocks: [新易盛, 中际旭创, 德科立, 天孚通信, 沪电股份, 深南电路, 生益电子, 寒武纪, 海光信息, 兆易创新, 豪威集团, 晶方科技, 水晶光电, 英维克, 光环新网]
+  new_energy_vehicle:
+    keywords: [新能源车, 汽车电子, 动力电池, 汽车零部件]
+    typical_stocks: [宁德时代, 拓普集团, 德赛西威, 伯特利, 立讯精密, 歌尔股份]
+  photovoltaic:
+    keywords: [光伏, 多晶硅, 组件, 逆变器]
+    typical_stocks: [通威股份, 钧达股份]
+
+scoring_notes: >
+  产业时钟吻合度评分关键维度（参考SKILL.md详细说明）：
+  1. 行业配置与产业时钟阶段是否吻合（主要看top10持仓对应哪个时钟位置）
+  2. 换手率是否与行业景气变化节点一致（高换手=频繁轮动，低换手=坚守）
+  3. 当前重仓行业的持续跟踪（结合 data/<行业>/_manifest.yaml 中的 clock_logic）
+
+  注意事项：
+  - 持仓数据为季报披露口径，存在约45-90天滞后
+  - 当前8位经理均重仓AI算力/半导体产业链，与2024Q4的产业时钟"加速上行期"高度吻合
+  - 曹晋（009914）持仓以港股互联网+消费制造为主，与产业时钟行业覆盖匹配度最低

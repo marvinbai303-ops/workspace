@@ -1,0 +1,115 @@
+industry_cn: 半导体/算力
+industry_en: semiconductor
+scope: >
+  覆盖全球半导体销售景气、AI算力需求传导链（TSMC代工→先进封装→HBM/DRAM→GPU服务器），
+  以及存储器价格周期。典型基金经理持仓包括北方华创、中芯国际、长鑫存储产业链、寒武纪、景嘉微等。
+typical_managers:
+  - 易方达武阳
+  - 交银冯明远
+  - 国投瑞银王鹏
+
+indicators:
+  - file: wsts_semiconductor.csv
+    name: WSTS全球半导体月度销售额
+    columns: [date, sales_usd_billion, yoy_pct]
+    frequency: monthly
+    nature: coincident        # 当期需求的直接映射，无领先性
+    ifind_index_id: ~         # WSTS数据已内嵌，无需EDB
+    use_for: >
+      判断全球半导体景气周期的整体走势。同比转正（yoy_pct > 0）是景气复苏的先决条件；
+      连续3个月同比加速是加仓信号；同比由正转负时应考虑降低配置。
+    source: WSTS（世界半导体贸易统计）, via data file
+    update:
+      method: manual          # WSTS官网每月发布，手动下载后更新
+      last_updated: "2026-03"
+      next_expected: "2026-05" # 通常次月末发布
+      note: >
+        更新方式：访问 https://www.wsts.org/76/Recent-Monthly-Sales 下载最新月报，
+        将新数据追加至 wsts_semiconductor.csv。
+
+  - file: tsmc_revenue_monthly.csv
+    name: 台积电月度营收（千新台币）
+    columns: [date, revenue_ktwd, yoy_pct]
+    frequency: monthly
+    nature: leading           # 台积电是全球先进制程唯一代工厂，其营收领先半导体设备/材料约1-2个季度
+    ifind_index_id: S002975304   # 台积电(2330):营收:当月值
+    ifind_index_id_yoy: S009085265  # 台积电(2330):营收:当月同比
+    use_for: >
+      验证AI算力需求是否已传导至台积电产能端。台积电N3/N5营收占比上升 → CoWoS封装扩产 →
+      HBM需求上升 → 国内AI芯片设计公司受益。连续3个月营收同比>30%时可视为算力牛市确认信号。
+      当yoy_pct持续下滑或转负，需警惕半导体下行周期。
+    source: 台湾证券交易所, via iFinD (S002975304)
+    update:
+      method: ifind_edb
+      ifind_query: "get_edb_data(index_ids=['S002975304','S009085265'], start_date='YYYYMMDD', end_date='YYYYMMDD')"
+      last_updated: "2026-03"
+      next_expected: "2026-05"  # 台积电每月10日前后发布营收
+      note: >
+        iFinD工具每次返回最近约60条记录，月度数据总量<200条可一次性获取全量。
+        更新时调用: get_edb_data(['S002975304','S009085265'])，将新增行追加至文件。
+
+  - file: dram_ddr4_8gb_monthly.csv
+    name: DRAM合约均价（DDR4 8Gb，美元）
+    columns: [date, contract_avg_price_usd]
+    frequency: monthly
+    nature: leading           # DRAM价格领先半导体设备/材料采购约1个季度，是存储行业景气先行指标
+    ifind_index_id: S009122089   # 合约平均价:DRAM:DDR4 8Gb 1Gx8
+    use_for: >
+      追踪存储器价格周期，判断存储产业链（长鑫存储、澜起科技、北京君正等）的配置时点。
+      DRAM月环比价格连续2个月上涨（+5%以上）是存储复苏信号；价格创新高后连续下跌警示顶部。
+      结合WSTS数据交叉验证：DRAM涨价+WSTS同比加速 = 高置信度上行周期。
+    source: DRAMexchange, via iFinD (S009122089)
+    update:
+      method: ifind_edb
+      ifind_query: "get_edb_data(index_ids=['S009122089'], start_date='YYYYMMDD', end_date='YYYYMMDD')"
+      last_updated: "2026-02"
+      next_expected: "2026-05"
+      note: >
+        DRAMexchange每月发布，iFinD延迟约1个月。数据起始2021-10，总量<60条可一次性获取。
+
+  - file: nand_tlc_512gb_weekly.csv
+    name: NAND Flash TLC 512Gb Wafer现货均价（美元，周度）
+    columns: [date, spot_avg_price_usd, source]
+    frequency: weekly
+    nature: leading           # NAND价格领先存储终端产品价格约1-2个季度，是存储景气最灵敏的先行指标
+    ifind_index_id: S009122014   # 现货平均价:Wafer:512Gb TLC
+    use_for: >
+      追踪NAND Flash存储器价格周期，判断存储产业链（兆易创新、北京君正、江波龙、佰维存储等）配置时点。
+      TLC 512Gb Wafer是当前主流制程（用于企业SSD/消费SSD），价格比合约价更灵敏。
+      关键信号：价格连续4周上涨（尤其从低点反弹>20%）→ 存储复苏信号；
+      价格跌破前低 → 库存去化尚未结束，继续等待。
+      结合DRAM价格交叉验证：NAND+DRAM同时涨价 = 半导体存储超级复苏。
+      注意：2025年下半年NAND TLC价格从2.7美元暴涨至23美元（+750%），是AI服务器SSD需求爆发的典型信号。
+    source: DRAMexchange, via iFinD (S009122014)
+    update:
+      method: ifind_edb
+      ifind_query: "get_edb_data(index_ids=['S009122014'], start_date='YYYYMMDD', end_date='YYYYMMDD')"
+      last_updated: "2026-04"
+      next_expected: "2026-05-04"   # 每周更新
+      note: >
+        iFinD每次返回最近约60条记录（约15个月）。当前文件覆盖2025-02至2026-04。
+        如需2022-2024历史：
+          第一批: start_date='20220101', end_date='20221231'
+          第二批: start_date='20230101', end_date='20231231'
+          第三批: start_date='20240101', end_date='20241231'
+        历史参考：2022年底约8美元，2023年中跌至2美元（历史低点），2025年底反弹至23美元。
+
+clock_logic: >
+  半导体产业时钟（从谷底到顶部典型路径，约18-24个月一个周期）：
+
+  1. 【底部信号】WSTS月度销售额同比降幅收窄 + DRAM价格止跌企稳 → 库存去化尾声
+  2. 【复苏确认】WSTS同比转正 + 台积电营收加速 → 下游需求真实复苏
+  3. 【加速上行】DRAM价格连续涨价 + TSMC N5/N3满产 → 算力/AI需求爆发
+  4. 【顶部预警】WSTS同比增速放缓 + 台积电营收增速下台阶 → 需求见顶
+  5. 【下行】DRAM价格连续下跌 + WSTS同比转负 → 下行周期开始，减仓
+
+  验证基金经理产业时钟感的关键节点：
+  - 2022Q4~2023Q1：WSTS深跌期，是否提前减仓AI算力以外的通用半导体？
+  - 2023Q2~Q3：AI算力驱动台积电N3爬坡，是否在营收加速前建仓？
+  - 2024年：HBM超级周期，SK Hynix/三星营收暴增，国内替代链受益，是否同步加仓？
+
+caveats:
+  - WSTS数据发布滞后约45天，分析时需注意时滞
+  - 台积电营收以千新台币计价，换算美元需考虑台币汇率波动（当前约31-32台币/美元）
+  - DRAM DDR4价格已进入成熟品，AI服务器主要用HBM，DDR4价格与AI景气相关性降低，2024年后建议同时追踪HBM报价
+  - 国内半导体受出口管制影响，与全球WSTS周期存在结构性偏差，需结合个股政策风险单独分析

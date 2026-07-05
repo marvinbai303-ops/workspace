@@ -1,0 +1,57 @@
+<svg viewBox="0 0 780 560" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#5B616E"/>
+    </marker>
+    <marker id="arrRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#B3261E"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="780" height="560" rx="16" fill="#FBFBF9"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="#20242E">同步「加仓 B · 减仓 A」:为何要拆成两天</text>
+
+  <!-- 1 intent -->
+  <text x="40" y="92" font-size="15" font-weight="600" fill="#2D6A8E">① 你的意图:单向调仓,以 000917 货币作中转</text>
+  <rect x="60" y="108" width="140" height="56" rx="10" fill="#FBEEEA" stroke="#C8553D" stroke-width="1.5"/>
+  <text x="130" y="134" font-size="15" font-weight="700" fill="#C8553D" text-anchor="middle">基金 A</text>
+  <text x="130" y="153" font-size="12" fill="#9A5A48" text-anchor="middle">(待减仓)</text>
+  <rect x="320" y="108" width="140" height="56" rx="10" fill="#E8F0F5" stroke="#2D6A8E" stroke-width="1.5"/>
+  <text x="390" y="134" font-size="15" font-weight="700" fill="#2D6A8E" text-anchor="middle">000917 货币</text>
+  <text x="390" y="153" font-size="12" fill="#56788C" text-anchor="middle">(中转)</text>
+  <rect x="580" y="108" width="140" height="56" rx="10" fill="#E9F4F0" stroke="#2E8B6F" stroke-width="1.5"/>
+  <text x="650" y="134" font-size="15" font-weight="700" fill="#2E8B6F" text-anchor="middle">基金 B</text>
+  <text x="650" y="153" font-size="12" fill="#4C8C77" text-anchor="middle">(待加仓)</text>
+  <line x1="200" y1="136" x2="312" y2="136" stroke="#5B616E" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="256" y="126" font-size="12" fill="#5B616E" text-anchor="middle">减仓</text>
+  <line x1="460" y1="136" x2="572" y2="136" stroke="#5B616E" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="516" y="126" font-size="12" fill="#5B616E" text-anchor="middle">加仓</text>
+
+  <!-- 2 system reality -->
+  <text x="40" y="216" font-size="15" font-weight="600" fill="#B3261E">② 系统实际:拆单无法拆清 → 917 被跳过</text>
+  <rect x="60" y="232" width="140" height="56" rx="10" fill="#FBEEEA" stroke="#C8553D" stroke-width="1.5"/>
+  <text x="130" y="266" font-size="15" font-weight="700" fill="#C8553D" text-anchor="middle">基金 A</text>
+  <rect x="580" y="232" width="140" height="56" rx="10" fill="#E9F4F0" stroke="#2E8B6F" stroke-width="1.5"/>
+  <text x="650" y="266" font-size="15" font-weight="700" fill="#2E8B6F" text-anchor="middle">基金 B</text>
+  <rect x="335" y="240" width="110" height="40" rx="9" fill="#F0F0EC" stroke="#C2C0B8" stroke-width="1.3" stroke-dasharray="4 3"/>
+  <text x="390" y="265" font-size="13" fill="#A9A79E" text-anchor="middle">000917</text>
+  <line x1="338" y1="243" x2="442" y2="277" stroke="#B3261E" stroke-width="1.6"/>
+  <path d="M200,275 C260,310 520,310 580,275" fill="none" stroke="#B3261E" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrRed)"/>
+  <text x="390" y="320" font-size="13" font-weight="600" fill="#B3261E" text-anchor="middle">直接判定为 A → B 调仓</text>
+
+  <line x1="40" y1="350" x2="740" y2="350" stroke="#E2E0D8" stroke-width="1.3"/>
+
+  <!-- 3 recommendation -->
+  <text x="40" y="384" font-size="15" font-weight="600" fill="#2E8B6F">③ 建议:拆成两天分别执行 ✓</text>
+  <rect x="60" y="402" width="310" height="118" rx="12" fill="#FFFFFF" stroke="#C8553D" stroke-width="1.4"/>
+  <text x="80" y="430" font-size="14" font-weight="700" fill="#C8553D">第 1 天 · T 日</text>
+  <text x="80" y="458" font-size="14" fill="#20242E">减仓:基金 A → 000917 货币</text>
+  <text x="80" y="486" font-size="12.5" fill="#5B616E">先把 A 的资金落到货币基金</text>
+  <text x="80" y="506" font-size="12.5" fill="#5B616E">等待赎回交割</text>
+  <line x1="372" y1="461" x2="408" y2="461" stroke="#5B616E" stroke-width="1.8" marker-end="url(#arr)"/>
+  <rect x="410" y="402" width="310" height="118" rx="12" fill="#FFFFFF" stroke="#2E8B6F" stroke-width="1.4"/>
+  <text x="430" y="430" font-size="14" font-weight="700" fill="#2E8B6F">第 2 天 · T+N 日</text>
+  <text x="430" y="458" font-size="14" fill="#20242E">加仓:000917 货币 → 基金 B</text>
+  <text x="430" y="486" font-size="12.5" fill="#5B616E">货币到账后再申购 B</text>
+  <text x="430" y="506" font-size="12.5" fill="#5B616E">两步独立,不会被并单</text>
+</svg>

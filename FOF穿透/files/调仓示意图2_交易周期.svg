@@ -1,0 +1,53 @@
+<svg viewBox="0 0 780 470" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="tk" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#5B616E"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="780" height="470" rx="16" fill="#FBFBF9"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="#20242E">调仓周期对比:货币转购 vs 双非货基调仓</text>
+
+  <!-- timeline axis -->
+  <line x1="170" y1="120" x2="730" y2="120" stroke="#C2C0B8" stroke-width="1.4" marker-end="url(#tk)"/>
+  <!-- day ticks: T, T+1..T+5 across 170..710 -->
+  <!-- step = (710-170)/5 = 108 -->
+  <g font-size="12" fill="#5B616E" text-anchor="middle">
+    <line x1="170" y1="114" x2="170" y2="126" stroke="#C2C0B8" stroke-width="1.2"/><text x="170" y="108">T</text>
+    <line x1="278" y1="114" x2="278" y2="126" stroke="#C2C0B8" stroke-width="1.2"/><text x="278" y="108">T+1</text>
+    <line x1="386" y1="114" x2="386" y2="126" stroke="#C2C0B8" stroke-width="1.2"/><text x="386" y="108">T+2</text>
+    <line x1="494" y1="114" x2="494" y2="126" stroke="#C2C0B8" stroke-width="1.2"/><text x="494" y="108">T+3</text>
+    <line x1="602" y1="114" x2="602" y2="126" stroke="#C2C0B8" stroke-width="1.2"/><text x="602" y="108">T+4</text>
+    <line x1="710" y1="114" x2="710" y2="126" stroke="#C2C0B8" stroke-width="1.2"/><text x="710" y="108">T+5</text>
+  </g>
+
+  <!-- Path 1: 货币转购 -->
+  <text x="40" y="185" font-size="14" font-weight="700" fill="#2D6A8E">路径 A · 组合内货币转购</text>
+  <text x="40" y="205" font-size="12.5" fill="#5B616E">000917 → 目标基金</text>
+  <rect x="170" y="170" width="14" height="40" rx="3" fill="#2D6A8E"/>
+  <circle cx="177" cy="190" r="9" fill="#2D6A8E"/>
+  <text x="200" y="186" font-size="13.5" font-weight="600" fill="#20242E">当天按 T 日净值确认申购</text>
+  <text x="200" y="205" font-size="12.5" fill="#2E8B6F">周期 = T 日(当天到位,效率高)</text>
+
+  <!-- Path 2: 双非货基 -->
+  <text x="40" y="285" font-size="14" font-weight="700" fill="#C8553D">路径 B · 双非货基调仓</text>
+  <text x="40" y="305" font-size="12.5" fill="#5B616E">非货基 A → 非货基 B</text>
+  <!-- redemption bar T..T+3 : 170..494 -->
+  <rect x="170" y="262" width="324" height="30" rx="6" fill="#F2D9CF" stroke="#C8553D" stroke-width="1.2"/>
+  <text x="332" y="282" font-size="12.5" font-weight="600" fill="#9A4A33" text-anchor="middle">① 赎回 A · 交割 T+3</text>
+  <!-- subscription bar T+3..T+5 : 494..710 -->
+  <rect x="494" y="262" width="216" height="30" rx="6" fill="#D6EBE3" stroke="#2E8B6F" stroke-width="1.2"/>
+  <text x="602" y="282" font-size="12.5" font-weight="600" fill="#2E6B5A" text-anchor="middle">② 申购 B · 确认 T+1~+2</text>
+
+  <!-- total bracket -->
+  <line x1="170" y1="320" x2="710" y2="320" stroke="#5B616E" stroke-width="1.2"/>
+  <line x1="170" y1="314" x2="170" y2="320" stroke="#5B616E" stroke-width="1.2"/>
+  <line x1="710" y1="314" x2="710" y2="320" stroke="#5B616E" stroke-width="1.2"/>
+  <text x="440" y="340" font-size="13" font-weight="700" fill="#20242E" text-anchor="middle">完整调仓周期 ≈ 赎回交割(T+3) + 申购确认(T+1~+2) = T+4 ~ T+5</text>
+
+  <!-- footnote -->
+  <line x1="40" y1="370" x2="740" y2="370" stroke="#E2E0D8" stroke-width="1.2"/>
+  <text x="40" y="398" font-size="12.5" fill="#5B616E">· 货币转购:申购按当日净值算,资金不脱离市场,几乎无空窗。</text>
+  <text x="40" y="420" font-size="12.5" fill="#5B616E">· 双非货基:必须先等 A 赎回交割,再等 B 申购确认,两段时间叠加,中途有资金在途空窗。</text>
+  <text x="40" y="442" font-size="12" fill="#9AA0A6">注:T+3 / T+1~+2 为示例值,实际以各基金合同约定的交割与确认日为准。</text>
+</svg>

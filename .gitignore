@@ -1,0 +1,15 @@
+# ===== 系统 / 缓存文件 =====
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+
+# ===== 爬虫下载的音视频（可重新爬取，共约 7.8GB）=====
+产业趋势研究&选股/scraper/output/audio/
+
+# ===== Whisper 语音模型（可重新下载，约 2.9GB）=====
+产业趋势研究&选股/scraper/models/
+
+# ===== 登录凭证/浏览器数据（敏感，不上传；换机后重新登录即可）=====
+产业趋势研究&选股/scraper/user_data/
+产业趋势研究&选股/scraper/output/cookies.txt
