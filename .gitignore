@@ -3,6 +3,9 @@
 __pycache__/
 *.pyc
 *.log
+# Office 临时锁文件（文件在 Excel 中打开时产生）
+.~*
+~$*
 
 # ===== 爬虫下载的音视频（可重新爬取，共约 7.8GB）=====
 产业趋势研究&选股/scraper/output/audio/

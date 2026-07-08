@@ -1,0 +1,30 @@
+{
+  "params": {
+    "K": 3,
+    "persist": 12,
+    "min_hold_days": 7,
+    "core_target": 0.50,
+    "core_band": [0.45, 0.55],
+    "cash_target": 0.01,
+    "cap": 2.0,
+    "hard_cap": 1.94,
+    "exec_lag_days": 3,
+    "score": "z(r20/σ20)+z(r60/σ60)+z(r120/σ120) 等权平均, 量能不入分",
+    "qualification": "收盘价>MA60 且 历史>=120交易日 且 有可申赎场外基金"
+  },
+  "state": {
+    "last_trade_date": "2026-05-08",
+    "note": "streak自该日起算; 每次调仓执行后更新此日期"
+  },
+  "ledger": {
+    "year": 2026,
+    "used_turnover": 0.67,
+    "note": "监管口径(申购+赎回)/2/均值; 2026-02-03约34% + 2026-05-08约33%; 每次执行后累加, 跨年清零"
+  },
+  "core_keywords": ["科技100"],
+  "cash_keywords": ["货币"],
+  "fund_index_overrides": {
+    "_说明": "基金6位代码 -> 指数名称; 当指数&基金匹配sheet缺失或换了跟踪基金时在此补充",
+    "_示例": "021894 -> 半导体材料设备"
+  }
+}
