@@ -6,7 +6,7 @@
   组合净值ₜ = [ Σ 初始权重ᵢ × (基金当日复权净值ᵢ / 基金起始日复权净值ᵢ) ] × (1-年化费率)^((当日-起始日)自然日数/365)
   当日预估涨跌幅 = 组合净值ₜ / 组合净值ₜ₋₁ - 1
   累计涨幅       = 组合净值 - 1
-持仓明细：今日涨跌=基金复权净值日涨跌；累计涨跌=当日净值/起始日净值-1；贡献=初始配比×涨跌。
+持仓明细：今日涨跌=基金复权净值日涨跌；今日贡献=当前持仓权重×今日涨跌。
 报表版式复刻同组"样板间组合日报"：总览页 + 3 张分策略页，红涨蓝跌。
 
 用法：
@@ -152,11 +152,16 @@ def compute(ports, nav, funds, asof=None):
 
 # ---------- 格式 ----------
 def pct(x):
-    return ('+' if x >= 0 else '-') + f'{abs(x)*100:.2f}%'
+    v = round(x * 100, 2)
+    if v == 0:
+        return '0.00%'
+    return ('+' if v >= 0 else '-') + f'{abs(v):.2f}%'
 def clr(x):
     return POS if x >= 0 else NEG
 def wfmt(w):
     return f'{w*100:g}%'
+def holding_wfmt(w):
+    return f'{w*100:.2f}%'
 def disp(name):
     return name.replace('-', '/')
 
@@ -181,7 +186,7 @@ def _port_row(pname, r):
 
 def _disclaimer():
     return ('<div style="padding:10px 16px;color:#9aa3b0;font-size:12px;background:#fafbfc">'
-            '数据基于底层基金涨跌幅加权+费率估算，AI推送，仅供预览使用，最终务必以系统数据为准</div>')
+            '组合涨跌幅取自Excel刷新后的组合净值表，AI推送，仅供预览使用，最终务必以系统数据为准</div>')
 
 def _headerbar(title, asof, bg, subcolor):
     return (f'<table role="presentation" style="width:100%;background:{bg};border-collapse:collapse">'
@@ -213,13 +218,11 @@ def _sec_title(text, st):
 def _holdings_table(pname, r, st):
     head = (f'<tr style="background:{HEADBG};color:#5a6472;font-size:12px">'
             f'<th style="text-align:left;padding:8px 14px;font-weight:600">基金名称</th>'
-            f'<th style="padding:8px;font-weight:600">初始配比</th>'
+            f'<th style="padding:8px;font-weight:600">持仓权重</th>'
             f'<th style="padding:8px;font-weight:600">今日涨跌</th>'
-            f'<th style="padding:8px;font-weight:600">今日贡献</th>'
-            f'<th style="padding:8px;font-weight:600">累计涨跌</th>'
-            f'<th style="padding:8px 14px;font-weight:600">累计贡献</th></tr>')
+            f'<th style="padding:8px 14px;font-weight:600">今日贡献</th></tr>')
     arrow = '▲' if r['day_ret'] >= 0 else '▼'
-    sub = (f'<tr><td colspan="6" style="padding:0">'
+    sub = (f'<tr><td colspan="4" style="padding:0">'
            f'<div style="border-left:4px solid {st["color"]};background:{st["tint"]};padding:7px 12px;font-size:13px">'
            f'<b style="color:{st["color"]}">{disp(pname)}</b> '
            f'<span style="color:{clr(r["day_ret"])};font-weight:700">{arrow} {pct(r["day_ret"])}</span>'
@@ -229,11 +232,9 @@ def _holdings_table(pname, r, st):
     for h in r['holdings']:
         rows += (f'<tr style="border-bottom:1px solid #f0f2f5">'
                  f'<td style="text-align:left;padding:9px 14px;color:#2b3240">{h["name"]}</td>'
-                 f'<td style="padding:9px 8px;text-align:center;color:{GREY}">{wfmt(h["w"])}</td>'
+                 f'<td style="padding:9px 8px;text-align:center;color:{GREY}">{holding_wfmt(h["w"])}</td>'
                  f'<td style="padding:9px 8px;text-align:center;font-weight:600;color:{clr(h["day"])}">{pct(h["day"])}</td>'
-                 f'<td style="padding:9px 8px;text-align:center;color:{clr(h["cd"])}">{pct(h["cd"])}</td>'
-                 f'<td style="padding:9px 8px;text-align:center;font-weight:600;color:{clr(h["cum"])}">{pct(h["cum"])}</td>'
-                 f'<td style="padding:9px 14px;text-align:center;color:{clr(h["cc"])}">{pct(h["cc"])}</td></tr>')
+                 f'<td style="padding:9px 14px;text-align:center;color:{clr(h["cd"])}">{pct(h["cd"])}</td></tr>')
     return (f'<table style="border-collapse:collapse;width:100%;font-size:13.5px;margin:0 0 6px;'
             f'font-family:\'PingFang SC\',\'Microsoft YaHei\',sans-serif">{sub}{head}{rows}</table>')
 

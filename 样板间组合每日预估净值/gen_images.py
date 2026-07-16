@@ -7,13 +7,33 @@
 用法：python3 gen_images.py --config config.json --nav nav_history.csv [--asof YYYYMMDD] [--outdir reports]
 """
 import argparse, os
+from functools import lru_cache
 from PIL import Image, ImageDraw, ImageFont
 import daily_monitor as dm
 
-FB = "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
-FR = "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
-SC = 2  # 简体中文字面
-def F(sz, bold=False): return ImageFont.truetype(FB if bold else FR, sz, index=SC)
+FONT_BOLD_CANDIDATES = [
+    "/System/Library/Fonts/STHeiti Medium.ttc",
+    "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+]
+FONT_REGULAR_CANDIDATES = [
+    "/System/Library/Fonts/STHeiti Light.ttc",
+    "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "/System/Library/Fonts/Supplemental/Songti.ttc",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+]
+
+@lru_cache(maxsize=None)
+def F(sz, bold=False):
+    for path in (FONT_BOLD_CANDIDATES if bold else FONT_REGULAR_CANDIDATES):
+        if not os.path.exists(path):
+            continue
+        for idx in (0, 1, 2):
+            try:
+                return ImageFont.truetype(path, sz, index=idx)
+            except Exception:
+                pass
+    return ImageFont.load_default()
 
 WHITE=(255,255,255); INK=(43,50,64); GREY=(140,150,164)
 SLATE=(56,65,79); POS=(196,54,44); NEG=(43,108,204)
@@ -26,6 +46,11 @@ STRAT = {
  '产业趋势': {'members':['产业趋势基石','产业趋势','产业趋势2号'],'color':(45,111,209), 'tint':(230,238,251)},
 }
 ORDER = ['10/90','30/70','产业趋势']
+STRATEGY_FILE = {
+ '10/90': 'strategy_10_90.png',
+ '30/70': 'strategy_30_70.png',
+ '产业趋势': 'strategy_industry_trend.png',
+}
 
 W = 1180
 Lx = 40           # 左边距（文字起点）
@@ -37,7 +62,7 @@ def cT(d, xy, t, f, fill, anchor='lm'): d.text(xy, t, font=f, fill=fill, anchor=
 # 列中心 x（总览表）
 OV = {'name':Lx, 'date':500, 'fee':620, 'nav':760, 'day':920, 'cum':1080}
 # 列中心 x（持仓表）
-HD = {'name':Lx, 'w':500, 'day':650, 'cd':800, 'cum':960, 'cc':1100}
+HD = {'name':Lx, 'w':650, 'day':850, 'cd':1050}
 
 def header_bar(d, y, title, asof, bg, sub):
     d.rectangle([0,y,W,y+82], fill=bg)
@@ -47,7 +72,7 @@ def header_bar(d, y, title, asof, bg, sub):
 
 def disclaimer(d, y):
     d.rectangle([0,y,W,y+48], fill=DISCBG)
-    cT(d,(Lx,y+24),"数据基于底层基金涨跌幅加权+费率估算，AI推送，仅供预览使用，最终务必以系统数据为准",F(17),DISC,'lm')
+    cT(d,(Lx,y+24),"组合涨跌幅取自Excel刷新后的组合净值表，AI推送，仅供预览使用，最终务必以系统数据为准",F(17),DISC,'lm')
     return y+48
 
 def ov_header(d, y):
@@ -100,18 +125,16 @@ def hd_header(d, y):
     d.rectangle([Lx-16,y,Rx+16,y+h], fill=HEADBG)
     g=F(17); c=(90,100,114)
     cT(d,(HD['name'],y+h/2),"基金名称",g,c,'lm')
-    for k,lab in [('w','初始配比'),('day','今日涨跌'),('cd','今日贡献'),('cum','累计涨跌'),('cc','累计贡献')]:
+    for k,lab in [('w','持仓权重'),('day','今日涨跌'),('cd','今日贡献')]:
         cT(d,(HD[k],y+h/2),lab,g,c,'mm')
     return y+h
 
 def hd_row(d, y, h_):
     h=50
     cT(d,(HD['name'],y+h/2),h_['name'],F(20),INK,'lm')
-    cT(d,(HD['w'],y+h/2),dm.wfmt(h_['w']),F(18),GREY,'mm')
+    cT(d,(HD['w'],y+h/2),dm.holding_wfmt(h_['w']),F(18),GREY,'mm')
     cT(d,(HD['day'],y+h/2),dm.pct(h_['day']),F(19,True),clr(h_['day']),'mm')
     cT(d,(HD['cd'],y+h/2),dm.pct(h_['cd']),F(18),clr(h_['cd']),'mm')
-    cT(d,(HD['cum'],y+h/2),dm.pct(h_['cum']),F(19,True),clr(h_['cum']),'mm')
-    cT(d,(HD['cc'],y+h/2),dm.pct(h_['cc']),F(18),clr(h_['cc']),'mm')
     d.line([Lx-16,y+h,Rx+16,y+h],fill=LINE,width=1)
     return y+h
 
@@ -134,7 +157,7 @@ def gen_overview(res, asof, outdir):
         if not members: continue
         y=group_head(d,y,st,key)
         for m in members: y=ov_row(d,y,m,res[m])
-    p=os.path.join(outdir,"样板间组合业绩概览.png")
+    p=os.path.join(outdir,"portfolio_overview.png")
     return finish(img,y,p)
 
 def gen_strategy(key, res, asof, outdir):
@@ -153,7 +176,7 @@ def gen_strategy(key, res, asof, outdir):
         y=hd_header(d,y)
         for h_ in res[m]['holdings']: y=hd_row(d,y,h_)
         y+=10
-    fname=f"{key.replace('/','-')}策略.png"
+    fname=STRATEGY_FILE[key]
     return finish(img,y,os.path.join(outdir,fname))
 
 def main():
