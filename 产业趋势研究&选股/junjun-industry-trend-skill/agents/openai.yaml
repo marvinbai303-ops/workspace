@@ -1,0 +1,9 @@
+interface:
+  display_name: "君君产业趋势skill"
+  short_description: "产业趋势、景气主题判别与验证清单"
+  brand_color: "#0F766E"
+  default_prompt: "Use $junjun-industry-trend-skill to diagnose whether this industry trend or stock is trading on real prosperity or narrative, score its quality and position risk, and list falsifiable checks."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools: []

@@ -318,14 +318,77 @@ def active_weight_row(wb, portfolio, asof):
     if not candidates:
         raise RuntimeError(f'未找到 {portfolio} 在 {ymd(asof)} 前生效的持仓行')
     eff, row = max(candidates, key=lambda item: item[0])
+    weights = read_weight_values(ws, row)
+    factor_value = ws.cell(row, 28).value
+    factor = float(factor_value) if isinstance(factor_value, (int, float)) else None
+    return eff, row, weights, factor
+
+
+def read_weight_values(ws, row):
     weights = {}
     for col in range(2, 26):
         code = norm_code(ws.cell(3, col).value)
         value = ws.cell(row, col).value
         if code and isinstance(value, (int, float)) and abs(value) > 1e-12:
             weights[code] = float(value)
-    factor = float(ws.cell(row, 28).value or 1.0)
-    return eff, row, weights, factor
+    return weights
+
+
+def portfolio_segments(wb, portfolio, asof):
+    ws = wb[WEIGHT_SHEET]
+    segments = []
+    for row in range(5, ws.max_row + 1):
+        label = ws.cell(row, 1).value
+        if not isinstance(label, str) or not label.startswith(f'{portfolio} ·'):
+            continue
+        eff = as_date(ws.cell(row, 27).value)
+        if not eff or eff > asof:
+            continue
+        weights = read_weight_values(ws, row)
+        if not weights:
+            raise RuntimeError(f'{portfolio} 第 {row} 行没有可用持仓权重缓存')
+        segments.append((eff, row, weights))
+    if not segments:
+        raise RuntimeError(f'未找到 {portfolio} 在 {ymd(asof)} 前生效的持仓行')
+    return sorted(segments, key=lambda item: (item[0], item[1]))
+
+
+def calculate_segment_factor(wb, portfolio, target_row, target_eff, fund_history):
+    segments = portfolio_segments(wb, portfolio, target_eff)
+    factor = 1.0
+    previous = None
+    for eff, row, weights in segments:
+        if previous is None:
+            previous = (eff, row, weights)
+            if row == target_row:
+                return factor
+            continue
+
+        prev_eff, prev_row, prev_weights = previous
+        prev_navs = fund_history.get(prev_eff)
+        current_navs = fund_history.get(eff)
+        if not prev_navs or not current_navs:
+            raise RuntimeError(
+                f'{portfolio} 无法计算第 {row} 行累计因子：缺少 {ymd(prev_eff)} 或 {ymd(eff)} 的底层净值'
+            )
+
+        gross = 0.0
+        missing = []
+        for code, weight in prev_weights.items():
+            before = prev_navs.get(code)
+            now = current_navs.get(code)
+            if not before or not now:
+                missing.append(code)
+                continue
+            gross += weight * now / before
+        if missing:
+            raise RuntimeError(f'{portfolio} 无法计算第 {row} 行累计因子，缺少基金：{",".join(missing)}')
+        factor *= gross
+        previous = (eff, row, weights)
+        if row == target_row:
+            return factor
+
+    raise RuntimeError(f'{portfolio} 未能定位目标持仓行 {target_row} 的累计因子')
 
 
 def read_portfolio_history(wb):
@@ -358,6 +421,8 @@ def calculate_portfolios(wb, target_date, fund_history, current_navs):
         if name not in config or not config[name].get('start'):
             raise RuntimeError(f'实盘持仓配置缺少 {name} 的费率或起始日')
         eff, weight_row, weights, factor = active_weight_row(wb, name, target_date)
+        if factor is None:
+            factor = calculate_segment_factor(wb, name, weight_row, eff, fund_history)
         base_navs = fund_history.get(eff)
         if not base_navs:
             raise RuntimeError(f'{name} 的生效日 {ymd(eff)} 没有底层基金基准净值')

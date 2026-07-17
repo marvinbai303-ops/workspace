@@ -22,7 +22,7 @@ from openpyxl import load_workbook
 
 import excel_daily_report as report
 
-EXCEL_FILE = '样板间投顾组合监控模板-202600710调仓.xlsx'
+EXCEL_FILE = '样板间投顾组合监控模板-20260716调仓.xlsx'
 OUTDIR = 'reports'
 LOGDIR = 'reports/run_logs'
 RUN_LOG = 'reports/run_logs/daily_run_log.jsonl'
