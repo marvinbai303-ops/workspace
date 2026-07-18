@@ -290,6 +290,13 @@ def read_fund_history(wb, codes):
     return history
 
 
+def excel_cached_navs_for_target(fund_history, codes, target_date):
+    values = fund_history.get(target_date) or {}
+    if all(code in values for code in codes):
+        return {code: values[code] for code in codes}
+    return None
+
+
 def read_config(wb):
     ws = wb[CONFIG_SHEET]
     config = {}
@@ -593,10 +600,15 @@ def main():
     fund_row = target_or_blank_row(fund_ws, target_date)
     combo_row = target_or_blank_row(combo_ws, target_date)
 
+    excel_cached_navs = excel_cached_navs_for_target(fund_history, codes, target_date)
     if args.nav_json:
         navs = load_nav_json(args.nav_json)
         parsed_dates = {}
         raw_result = {'source': args.nav_json}
+    elif excel_cached_navs:
+        navs = excel_cached_navs
+        parsed_dates = {code: args.target_date for code in codes}
+        raw_result = {'source': 'excel_cached_fund_navs'}
     else:
         navs, parsed_dates, raw_result = fetch_ifind_navs(codes, target_date, outdir, args.batch_size, args.delay_ms)
 
