@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<rect x="0" y="0" width="1024" height="1536" rx="0" fill="#F7FBFF" stroke="none" stroke-width="0"/>
+<rect x="0" y="0" width="1024" height="112" rx="0" fill="#102F57" stroke="none" stroke-width="0"/>
+<rect x="0" y="108" width="1024" height="5" rx="0" fill="#2E8DE6" stroke="none" stroke-width="0"/>
+<text x="54" y="52" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="31px" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="54" dy="0px">产业趋势研究小组 ｜ 科技热点 · 市场底色</tspan></text>
+<text x="965" y="52" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27px" font-weight="700" fill="#FFFFFF" text-anchor="end"><tspan x="965" dy="0px">2026.08.14</tspan></text>
+<rect x="44" y="140" width="936" height="232" rx="22" fill="#EAF4FF" stroke="#B9D9F6" stroke-width="2"/>
+<text x="72" y="213" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="49px" font-weight="700" fill="#102F57" text-anchor="start"><tspan x="72" dy="0px">英伟达撬动AI融资</tspan><tspan x="72" dy="60px">5000亿美元</tspan></text>
+<text x="74" y="325" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="25px" font-weight="400" fill="#56738F" text-anchor="start"><tspan x="74" dy="0px">联手六大金融机构，为AI基础设施撬动第三方资本</tspan></text>
+<rect x="850" y="248" width="112" height="80" rx="10" fill="#16569C" stroke="none" stroke-width="0"/>
+<rect x="868" y="264" width="76" height="48" rx="6" fill="#D9EFFF" stroke="none" stroke-width="0"/>
+<line x1="828" y1="288" x2="850" y2="288" stroke="#2E8DE6" stroke-width="8"/>
+<line x1="962" y1="288" x2="984" y2="288" stroke="#2E8DE6" stroke-width="8"/>
+<line x1="906" y1="226" x2="906" y2="248" stroke="#2E8DE6" stroke-width="8"/>
+<line x1="906" y1="328" x2="906" y2="350" stroke="#2E8DE6" stroke-width="8"/>
+<circle cx="897" cy="292" r="9" fill="#2E8DE6"/><circle cx="923" cy="292" r="9" fill="#2E8DE6"/>
+<text x="54" y="404" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="30px" font-weight="700" fill="#102F57" text-anchor="start"><tspan x="54" dy="0px">一周热点速览</tspan></text>
+<rect x="54" y="427" width="148" height="5" rx="3" fill="#2E8DE6" stroke="none" stroke-width="0"/>
+<rect x="44" y="440" width="936" height="110" rx="16" fill="#FFFFFF" stroke="#C4DDF4" stroke-width="2"/>
+<rect x="66" y="465" width="70" height="48" rx="11" fill="#102F57" stroke="none" stroke-width="0"/>
+<text x="101" y="497" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27px" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="101" dy="0px">01</tspan></text>
+<text x="164" y="483" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="26px" font-weight="700" fill="#102F57" text-anchor="start"><tspan x="164" dy="0px">英伟达联手六大机构“找钱”</tspan></text>
+<text x="164" y="516" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="19px" font-weight="400" fill="#56738F" text-anchor="start"><tspan x="164" dy="0px">六家金融机构拟组建融资平台，超过5000亿美元第三方资本瞄准AI基础设施。</tspan></text>
+<text x="164" y="538" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="16px" font-weight="400" fill="#1769C2" text-anchor="start"><tspan x="164" dy="0px">英伟达｜华尔街｜AI基础设施</tspan></text>
+<rect x="44" y="557" width="936" height="110" rx="16" fill="#FFFFFF" stroke="#C4DDF4" stroke-width="2"/>
+<rect x="66" y="582" width="70" height="48" rx="11" fill="#1769C2" stroke="none" stroke-width="0"/>
+<text x="101" y="614" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27px" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="101" dy="0px">02</tspan></text>
+<text x="164" y="600" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="26px" font-weight="700" fill="#102F57" text-anchor="start"><tspan x="164" dy="0px">Cisco AI订单升至93亿美元</tspan></text>
+<text x="164" y="633" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="19px" font-weight="400" fill="#56738F" text-anchor="start"><tspan x="164" dy="0px">财年AI基础设施订单明显放量，网络设备开始成为算力扩张的直接受益环节。</tspan></text>
+<text x="164" y="655" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="16px" font-weight="400" fill="#1769C2" text-anchor="start"><tspan x="164" dy="0px">网络设备｜AI订单｜资本开支</tspan></text>
+<rect x="44" y="674" width="936" height="110" rx="16" fill="#FFFFFF" stroke="#C4DDF4" stroke-width="2"/>
+<rect x="66" y="699" width="70" height="48" rx="11" fill="#102F57" stroke="none" stroke-width="0"/>
+<text x="101" y="731" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27px" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="101" dy="0px">03</tspan></text>
+<text x="164" y="717" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="26px" font-weight="700" fill="#102F57" text-anchor="start"><tspan x="164" dy="0px">应用材料迎来AI设备需求</tspan></text>
+<text x="164" y="750" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="19px" font-weight="400" fill="#56738F" text-anchor="start"><tspan x="164" dy="0px">先进逻辑、HBM和先进封装共同拉动设备需求，半导体设备景气继续得到验证。</tspan></text>
+<text x="164" y="772" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="16px" font-weight="400" fill="#1769C2" text-anchor="start"><tspan x="164" dy="0px">半导体设备｜HBM｜先进封装</tspan></text>
+<rect x="44" y="791" width="936" height="110" rx="16" fill="#FFFFFF" stroke="#C4DDF4" stroke-width="2"/>
+<rect x="66" y="816" width="70" height="48" rx="11" fill="#1769C2" stroke="none" stroke-width="0"/>
+<text x="101" y="848" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27px" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="101" dy="0px">04</tspan></text>
+<text x="164" y="834" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="26px" font-weight="700" fill="#102F57" text-anchor="start"><tspan x="164" dy="0px">超微业绩超预期，股价一度大涨</tspan></text>
+<text x="164" y="867" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="19px" font-weight="400" fill="#56738F" text-anchor="start"><tspan x="164" dy="0px">AI服务器厂商单季每股收益明显高于预期，算力需求继续向服务器整机环节传导。</tspan></text>
+<text x="164" y="889" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="16px" font-weight="400" fill="#1769C2" text-anchor="start"><tspan x="164" dy="0px">AI服务器｜业绩｜算力</tspan></text>
+<rect x="44" y="908" width="936" height="110" rx="16" fill="#FFFFFF" stroke="#C4DDF4" stroke-width="2"/>
+<rect x="66" y="933" width="70" height="48" rx="11" fill="#102F57" stroke="none" stroke-width="0"/>
+<text x="101" y="965" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27px" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="101" dy="0px">05</tspan></text>
+<text x="164" y="951" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="26px" font-weight="700" fill="#102F57" text-anchor="start"><tspan x="164" dy="0px">国产大模型继续向开源和应用扩散</tspan></text>
+<text x="164" y="984" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="19px" font-weight="400" fill="#56738F" text-anchor="start"><tspan x="164" dy="0px">Kimi K3等国产模型在开源、代码和智能体场景受到关注，竞争转向落地效率。</tspan></text>
+<text x="164" y="1006" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="16px" font-weight="400" fill="#1769C2" text-anchor="start"><tspan x="164" dy="0px">国产大模型｜开源｜应用</tspan></text>
+<circle cx="129.0" cy="1135.0" r="80.0" fill="#D2E6F8"/><circle cx="124.0" cy="1127.0" r="78.0" fill="#102F57" stroke="#2E8DE6" stroke-width="4"/><circle cx="124.0" cy="1127.0" r="68.0" fill="#0C2343"/><polygon points="69.0,1192.0 86.0,1163.0 109.0,1152.0 139.0,1152.0 163.0,1163.0 181.0,1192.0" fill="#1769C2"/><polygon points="95.0,1086.0 124.0,1071.0 153.0,1086.0 164.0,1117.0 149.0,1150.0 124.0,1160.0 99.0,1150.0 84.0,1117.0" fill="#1C4877" stroke="#2E8DE6" stroke-width="3"/><rect x="93.0" y="1101.0" width="62.0" height="27.0" rx="8.0" fill="#57DAFF" stroke="#FFFFFF" stroke-width="2"/><rect x="99.0" y="1108.0" width="50.0" height="13.0" fill="#114B7E"/><line x1="106.0" y1="1114.0" x2="124.0" y2="1114.0" stroke="#FFFFFF" stroke-width="3"/><circle cx="141.0" cy="1114.0" r="3" fill="#FFFFFF"/><line x1="124.0" y1="1071.0" x2="124.0" y2="1061.0" stroke="#57DAFF" stroke-width="3"/><line x1="92.0" y1="1091.0" x2="79.0" y2="1077.0" stroke="#2E8DE6" stroke-width="3"/><line x1="156.0" y1="1091.0" x2="169.0" y2="1077.0" stroke="#2E8DE6" stroke-width="3"/><circle cx="124.0" cy="1060.0" r="4" fill="#57DAFF"/><circle cx="78.0" cy="1076.0" r="4" fill="#57DAFF"/><circle cx="170.0" cy="1076.0" r="4" fill="#57DAFF"/><line x1="111.0" y1="1144.0" x2="137.0" y2="1144.0" stroke="#8FC8FF" stroke-width="3"/>
+<rect x="226" y="1036" width="754" height="202" rx="18" fill="#D2E6F8"/>
+<polygon points="220,1097 183,1122 220,1138" fill="#FFFFFF" stroke="#2E8DE6" stroke-width="3"/>
+<rect x="212" y="1028" width="760" height="202" rx="18" fill="#FFFFFF" stroke="#2E8DE6" stroke-width="3"/>
+<rect x="240" y="1044" width="136" height="40" rx="20" fill="#102F57" stroke="none" stroke-width="0"/>
+<text x="308" y="1072" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="21px" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="308" dy="0px">小组点评</tspan></text>
+<text x="925" y="1086" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="58px" font-weight="700" fill="#8FC8FF" text-anchor="middle"><tspan x="925" dy="0px">“</tspan></text>
+<text x="242" y="1119" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="18px" font-weight="400" fill="#102F57" text-anchor="start"><tspan x="242" dy="0px">我们认为本期AI主线的核心变化，不是算力需求转弱，而是资本供给开始与芯片供给并</tspan><tspan x="242" dy="23px">行扩张。服务器、网络和设备环节的订单仍在验证需求，但融资结构也让市场从“投入即</tspan><tspan x="242" dy="23px">正义”转向审视现金流与兑现节奏。往后看，主线大概率缩圈至订单、交付和现金流更清</tspan><tspan x="242" dy="23px">晰的核心环节，纯融资驱动的高弹性标的仍需消化分歧。配置上维持均衡，对景气验证充</tspan><tspan x="242" dy="23px">分的方向保留仓位，对短期拥挤品种及时削峰填谷。</tspan></text>
+<rect x="44" y="1252" width="936" height="216" rx="16" fill="#102F57" stroke="none" stroke-width="0"/>
+<text x="68" y="1284" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="25px" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="68" dy="0px">市场底色</tspan></text>
+<text x="68" y="1321" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="18px" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="68" dy="0px">海外流动性：PPI降温、长端收益率回落，利率路径仍在拉锯</tspan></text>
+<text x="68" y="1354" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="18px" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="68" dy="0px">地缘与大类资产：油价回落、标普再创新高，风险偏好暂占上风</tspan></text>
+<text x="68" y="1387" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="18px" font-weight="400" fill="#8FC8FF" text-anchor="start"><tspan x="68" dy="0px">国内政策：积极财政、适度宽松方向延续，增量政策仍待落地</tspan></text>
+<text x="512" y="1500" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="16px" font-weight="400" fill="#56738F" text-anchor="middle"><tspan x="512" dy="0px">本期基于公开报道整理｜仅作信息分享</tspan></text>
+</svg>
