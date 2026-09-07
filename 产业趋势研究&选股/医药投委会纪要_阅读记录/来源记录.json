@@ -1,0 +1,35 @@
+{
+  "record_date": "2026-09-06",
+  "scope": "用户提供的S2与T4全量阅读记录；数字核对至PDF层，未完成一级来源核实",
+  "source_files": [
+    {
+      "filename": "problems_S2_中国医药产业是否正在从授权交易驱动的估值修复转向研发外包与全球商业化驱动的盈利重估.pdf",
+      "sha256": "ee809803de95523182a293451fef32cb22162eb67f6c468214b1ec63900f7b6f",
+      "pages": 8,
+      "metadata": {
+        "/Title": "problems_S2_中国医药产业是否正在从授权交易驱动的估值修复转向研发外包与全球商业化驱动的盈利重估.md",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+        "/Producer": "Skia/PDF m151",
+        "/CreationDate": "D:20260826125726+00'00'",
+        "/ModDate": "D:20260826125726+00'00'"
+      }
+    },
+    {
+      "filename": "problems_T4_创新药与医药外包升级.pdf",
+      "sha256": "121788a6449d52bc2474a0429402dd1a31f4fcdb6d37d4b014ef923f36ff4fab",
+      "pages": 15,
+      "metadata": {
+        "/Title": "problems_T4_创新药与医药外包升级.md",
+        "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+        "/Producer": "Skia/PDF m151",
+        "/CreationDate": "D:20260827025022+00'00'",
+        "/ModDate": "D:20260827025022+00'00'"
+      }
+    }
+  ],
+  "notes_file": "2026年8月底医药投委会材料_全部要点.md",
+  "source_text_files": [
+    "S2_逐页原文.txt",
+    "T4_逐页原文.txt"
+  ]
+}
