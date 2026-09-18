@@ -2,7 +2,16 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { Workbook, SpreadsheetFile } from "@oai/artifact-tool";
 
-const outputDir = path.resolve("君君美债利率模型_20260917");
+const asOfDate = process.env.RATE_MODEL_ASOF ?? "2026-09-16";
+const outputDir = path.resolve(process.env.RATE_MODEL_OUTPUT_DIR ?? "君君美债利率模型_20260917");
+const runtimeDataPath = path.resolve(process.env.RATE_MODEL_DATA ?? "data/processed/latest.json");
+let runtimeData = {};
+try {
+  runtimeData = JSON.parse(await fs.readFile(runtimeDataPath, "utf8"));
+} catch {
+  runtimeData = {};
+}
+const runtimeMetrics = runtimeData.metrics ?? {};
 await fs.mkdir(outputDir, { recursive: true });
 
 const wb = Workbook.create();
@@ -93,7 +102,7 @@ function environmentLabelFormula(cellRef) {
 
 // ---------------- 因子引擎 ----------------
 baseSheet(engine, "A:O");
-title(engine, "A1:O2", "君君美债利率模型｜因子引擎", "A3:O3", "名义利率 = 预期政策路径 + 通胀补偿 + 期限溢价；风险资产压力再经过市场传导门控。蓝色单元格为可更新输入。 数据截至 2026-09-16。 ");
+title(engine, "A1:O2", "君君美债利率模型｜因子引擎", "A3:O3", `名义利率 = 预期政策路径 + 通胀补偿 + 期限溢价；风险资产压力再经过市场传导门控。蓝色单元格为可更新输入。 数据截至 ${asOfDate}。 `);
 engine.freezePanes.freezeRows(4);
 engine.getRange("A4:O4").values = [["模块", "指标", "正向=收紧", "权重", "当前值", "单位", "5年均值/中枢", "5年标准差/尺度", "标准化Z", "压力分", "数据日期", "可得性(1-5)", "准确性(1-5)", "口径与局限", "主要来源"]];
 header(engine, "A4:O4");
@@ -121,6 +130,21 @@ const rows = [
   [36,"市场传导","美元广义指数20日变动",1,0.15,-0.1231008,"%",0.0573589,1.1875496,"2026-09-11",5,4,"全球美元流动性与风险偏好代理","Fed/FRED: DTWEXBGS"],
   [37,"市场传导","芝加哥联储NFCI水平",1,0.15,-0.56,"指数",-0.3977854,0.1335983,"2026-09-11",5,4,"周频综合金融条件；负值代表较历史均值宽松","Chicago Fed/FRED: NFCI"],
 ];
+
+// 自动刷新器把最新值、5年统计量和数据日期写入 data/processed/latest.json。
+// 没有刷新文件时保留上一版静态快照，保证手工打开模型仍然可用。
+for (const row of rows) {
+  const override = runtimeMetrics[String(row[0])];
+  if (!override) continue;
+  if (override.current !== undefined) row[5] = override.current;
+  if (override.mean !== undefined) row[7] = override.mean;
+  if (override.std !== undefined) row[8] = override.std;
+  if (override.date) row[9] = override.date;
+  if (override.availability !== undefined) row[10] = override.availability;
+  if (override.accuracy !== undefined) row[11] = override.accuracy;
+  if (override.note) row[12] = override.note;
+  if (override.source) row[13] = override.source;
+}
 
 for (const [r,mod,metric,dir,w,current,unit,mean,std,date,avail,acc,note,source] of rows) {
   engine.getRange(`A${r}:H${r}`).values = [[mod,metric,dir,w,current,unit,mean,std]];
@@ -408,7 +432,7 @@ audit.getRange("F:F").format.columnWidth = 30;
 
 // ---------------- 模型总览 ----------------
 baseSheet(dash, "A:O");
-title(dash, "A1:O2", "君君美债利率模型｜风险资产监测总览", "A3:O3", "当前快照截至 2026-09-16；官方数据经 FRED、纽约联储、BLS、DOL、EIA、Atlanta Fed 交叉核验。高分=利率/金融条件压力更大。");
+title(dash, "A1:O2", "君君美债利率模型｜风险资产监测总览", "A3:O3", `当前快照截至 ${asOfDate}；官方数据经 FRED、纽约联储、BLS、DOL、EIA、Atlanta Fed 交叉核验。高分=利率/金融条件压力更大。`);
 
 const cards = [
   ["A5:C5","A6:C7","A8:C8","政策路径","='因子引擎'!$B$42"],
@@ -448,6 +472,13 @@ dash.getRange("I11:O16").values = [
 dash.getRange("J12").formulas = [["='因子引擎'!$B$49"]];
 dash.getRange("M12").formulas = [["='因子引擎'!$B$50"]];
 dash.getRange("M16").formulas = [["='因子引擎'!$B$51"]];
+dash.getRange("J13").formulas = [["='因子引擎'!$E$6"]];
+dash.getRange("M13").formulas = [["='因子引擎'!$E$32"]];
+dash.getRange("J14").formulas = [["='因子引擎'!$E$28"]];
+dash.getRange("M14").formulas = [["='因子引擎'!$E$29"]];
+dash.getRange("J15").formulas = [["='因子引擎'!$E$33"]];
+dash.getRange("M15").formulas = [["='因子引擎'!$E$35"]];
+dash.getRange("J16").formulas = [["='因子引擎'!$E$37"]];
 dash.getRange("J12:M12").format.numberFormat = "0%";
 dash.getRange("J13:J15").format.numberFormat = "0.00";
 dash.getRange("M13:M15").format.numberFormat = "0.00";
@@ -531,12 +562,13 @@ for (const sheetName of ["模型总览", "因子引擎", "风险资产"]) {
 }
 
 const xlsx = await SpreadsheetFile.exportXlsx(wb);
-await xlsx.save(path.join(outputDir, "君君美债利率模型_风险资产评估_20260917.xlsx"));
+const outputFile = process.env.RATE_MODEL_OUTPUT_FILE ?? "君君美债利率模型_风险资产评估_20260917.xlsx";
+await xlsx.save(path.join(outputDir, outputFile));
 
 const summary = await wb.inspect({ kind: "workbook,sheet,formula", maxChars: 9000, tableMaxRows: 8, tableMaxCols: 8, options: { maxResults: 120 } });
 await fs.writeFile(path.join(outputDir, "inspect_summary.txt"), summary.ndjson ?? String(summary));
 
 console.log(JSON.stringify({
-  output: path.join(outputDir, "君君美债利率模型_风险资产评估_20260917.xlsx"),
+  output: path.join(outputDir, outputFile),
   previews: ["模型总览.png","因子引擎.png","风险资产.png"].map(x=>path.join(outputDir,x)),
 }, null, 2));

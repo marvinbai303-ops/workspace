@@ -1,0 +1,220 @@
+{
+  "generatedAt": "2026-09-18T06:26:42.254Z",
+  "runDate": "2026-09-18",
+  "snapshotDate": "2026-09-17",
+  "sourcePolicy": "官方源/FRED取数；保留原始文件与每次运行快照；失败时沿用上一有效值并标记 stale",
+  "metrics": {
+    "5": {
+      "current": 1.1100000000000003,
+      "mean": -0.12721289456010745,
+      "std": 1.093747299078823,
+      "date": "2026-09-16",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "2Y与有效联邦基金利率之差，包含2Y期限溢价",
+      "source": "FRED: DGS2-DFF"
+    },
+    "6": {
+      "current": 0.5499999999999998,
+      "mean": 0.054378777703156404,
+      "std": 1.054619972567636,
+      "date": "2026-09-16",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "捕捉政策路径重定价",
+      "source": "FRED: DGS2"
+    },
+    "7": {
+      "current": 0,
+      "mean": 0.03395683453237418,
+      "std": 0.1832035987542321,
+      "date": "2026-09-16",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "实际政策动作，离散且滞后于市场定价",
+      "source": "FRED: DFF"
+    },
+    "10": {
+      "current": 2.32,
+      "mean": 2.344751677852352,
+      "std": 0.5582254805357899,
+      "date": "2026-09-17",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "含通胀风险与TIPS流动性溢价，不是纯预期",
+      "source": "FRED: T5YIE"
+    },
+    "11": {
+      "current": -0.020000000000000018,
+      "mean": 0.006060402684563769,
+      "std": 0.6965786939074076,
+      "date": "2026-09-17",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "适合看边际再定价",
+      "source": "FRED: T5YIE"
+    },
+    "12": {
+      "current": 2.34,
+      "mean": 2.1599865771812086,
+      "std": 0.46196371789329477,
+      "date": "2026-09-17",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "长期通胀锚，含风险与流动性成分",
+      "source": "FRED: T5YIFR"
+    },
+    "15": {
+      "current": 3.085745494265435,
+      "mean": 4.304672044722189,
+      "std": 0.8463168288520321,
+      "date": "2026-08-01",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "平均时薪同比；CES会月度及年度修订",
+      "source": "BLS/FRED: CES0500000003"
+    },
+    "16": {
+      "current": 4.1,
+      "mean": 4.788059701492538,
+      "std": 1.0265450126752333,
+      "date": "2026-08-01",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "匹配同一劳动者的工资增速；官方三个月移动平均序列",
+      "source": "Atlanta Fed WGT"
+    },
+    "17": {
+      "current": 4.1,
+      "mean": 4.127941176470588,
+      "std": 0.8688378905585538,
+      "date": "2026-08-01",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "家庭调查月频；单月变化需谨慎",
+      "source": "BLS/FRED: UNRATE"
+    },
+    "18": {
+      "current": 7271,
+      "mean": 8847.611940298508,
+      "std": 1703.0436741959686,
+      "date": "2026-07-01",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "约1个月滞后，月度与年度修订较大",
+      "source": "BLS/FRED: JTSJOL"
+    },
+    "19": {
+      "current": 203250,
+      "mean": 265338.92617449665,
+      "std": 130027.55009105332,
+      "date": "2026-09-12",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "周频四周均值；受季调、假期与州级申报扰动",
+      "source": "DOL/FRED: ICSA"
+    },
+    "22": {
+      "current": -0.7829083390764935,
+      "mean": 1.6825988471851845,
+      "std": 3.253011654406362,
+      "date": "2026-08-01",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "广谱上游价格三个月变化，不等于最终消费价格",
+      "source": "BLS/FRED: PPIACO"
+    },
+    "23": {
+      "current": 43.41999463950683,
+      "mean": -0.308425441981964,
+      "std": 28.616253813956888,
+      "date": "2026-09-15",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "高频能源价格变化，不能代表核心服务通胀",
+      "source": "EIA/FRED: DCOILWTICO"
+    },
+    "28": {
+      "current": 0.708984261640762,
+      "mean": 1.4243919777930996,
+      "std": 1.3343105887732125,
+      "date": "15-Sep-2026",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "模型估计值；存在模型风险；本次来源未更新，沿用上一有效值",
+      "source": "NY Fed ACMTP10",
+      "stale": true
+    },
+    "29": {
+      "current": -0.184550669786129,
+      "mean": 0.0016200556719725716,
+      "std": 0.24760982316433927,
+      "date": "15-Sep-2026",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "判断长端上行是否来自期限溢价边际扩张；本次来源未更新，沿用上一有效值",
+      "source": "NY Fed ACMTP10",
+      "stale": true
+    },
+    "32": {
+      "current": 0.33000000000000007,
+      "mean": 0.04402283411685694,
+      "std": 0.5046333727332171,
+      "date": "2026-09-16",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "长久期估值的直接折现率通道",
+      "source": "FRED: DFII10"
+    },
+    "33": {
+      "current": -0.029999999999999805,
+      "mean": -0.03661935483870964,
+      "std": 0.5349181186702819,
+      "date": "2026-09-16",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "信用风险与融资条件核心确认指标",
+      "source": "FRED: BAMLH0A0HYM2"
+    },
+    "34": {
+      "current": -0.030000000000000027,
+      "mean": -0.01134193548387099,
+      "std": 0.15456032659441596,
+      "date": "2026-09-16",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "投资级信用条件确认指标",
+      "source": "FRED: BAMLC0A0CM"
+    },
+    "35": {
+      "current": 17.71,
+      "mean": 18.887065144392203,
+      "std": 5.609279362765213,
+      "date": "2026-09-16",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "股票隐含波动；事件冲击快、均值回归也快",
+      "source": "CBOE/FRED: VIXCLS"
+    },
+    "36": {
+      "current": -0.5804741351759679,
+      "mean": -3.9169067651735343,
+      "std": 19.680972978456346,
+      "date": "2026-09-11",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "全球美元流动性与风险偏好代理",
+      "source": "Fed/FRED: DTWEXBGS"
+    },
+    "37": {
+      "current": -0.56,
+      "mean": -0.42970469798657746,
+      "std": 0.15141420894835894,
+      "date": "2026-09-11",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "周频综合金融条件；负值代表相对宽松",
+      "source": "Chicago Fed/FRED: NFCI"
+    }
+  }
+}

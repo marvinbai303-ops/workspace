@@ -1,0 +1,10 @@
+interface:
+  display_name: "医药研究 skill"
+  short_description: "创新药与CXO景气传导、个股机会及位置风险评分"
+  brand_color: "#B91C1C"
+  default_prompt: "Use $yiyao-yanjiu-skill to analyze this pharmaceutical stock, identify whether the innovation-drug or CXO framework applies, locate its prosperity-transmission stage, and score opportunity, evidence confidence, and position risk separately."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools: []
+
