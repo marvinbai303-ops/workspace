@@ -1,7 +1,7 @@
----
-name: yiyao-yanjiu-skill
-description: "Use this skill for Chinese buy-side research on pharmaceutical sectors and stocks, especially innovative drugs, modality-specific pipelines, and CXO/CRO/CDMO companies. It classifies business models, locates the current prosperity-transmission stage, scores stock opportunity, data confidence, and position risk separately, and states when the CXO framework is not applicable."
----
+\---  
+name: yiyao-yanjiu-skill  
+description: "Use this skill for Chinese buy-side research on pharmaceutical sectors and stocks, especially innovative drugs, modality-specific pipelines, and CXO/CRO/CDMO companies. It classifies business models, locates the current prosperity-transmission stage, scores stock opportunity, data confidence, and position risk separately, and states when the CXO framework is not applicable."  
+\---
 
 # 医药研究 skill
 
@@ -41,4 +41,3 @@ description: "Use this skill for Chinese buy-side research on pharmaceutical sec
 - 市场规模预测、外包率远期预测、License-out 总交易金额和单一卖方预测只能作为背景，不能直接给个股加分。
 - 对文章、纪要或研报中的数字，尽量追溯到监管、交易所、公司公告、临床登记或原始数据库；无法追溯时降低可信度。
 - 明确列出证伪条件和下一次可观察的数据窗口。
-

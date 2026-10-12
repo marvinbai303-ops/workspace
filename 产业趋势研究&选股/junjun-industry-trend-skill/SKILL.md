@@ -1,7 +1,7 @@
----
-name: junjun-industry-trend-skill
-description: "Use this skill for Chinese buy-side style industry trend and stock prosperity diagnosis inspired by 君君/军军/君总: judging whether a stock is trading on real prosperity or theme narrative, scoring prosperity quality vs position risk, processing sell-side/buy-side notes through a source gate, mapping industry topology, analyzing AI/semi value-chain profit redistribution, storage cycles, capex duration, and building falsifiable verification checklists. Trigger on 君君产业趋势skill, 君君, 军军, 君总, 景气度诊断, 景气还是主题, 信源闸门, 底子分/位置分, 产业拓扑, 97/久期, AI产业链价值重分配, or requests to diagnose an industry trend or stock's current market pricing logic."
----
+\---  
+name: junjun-industry-trend-skill  
+description: "Use this skill for Chinese buy-side style industry trend and stock prosperity diagnosis inspired by 君君/军军/君总: judging whether a stock is trading on real prosperity or theme narrative, scoring prosperity quality vs position risk, processing sell-side/buy-side notes through a source gate, mapping industry topology, analyzing AI/semi value-chain profit redistribution, storage cycles, capex duration, and building falsifiable verification checklists. Trigger on 君君产业趋势skill, 君君, 军军, 君总, 景气度诊断, 景气还是主题, 信源闸门, 底子分/位置分, 产业拓扑, 97/久期, AI产业链价值重分配, or requests to diagnose an industry trend or stock's current market pricing logic."  
+\---
 
 # 君君产业趋势skill
 
@@ -23,12 +23,10 @@ Price and volume can support **theme/position-risk** analysis, but they must not
 1. **Set scope**
    - Identify the company, ticker, market, value-chain node, and time window.
    - If the request is current or stock-specific, use live/available market and financial data where possible. If data tools are unavailable, state which checks need verification.
-
 2. **Build the industry topology**
    - Map upstream resources, materials/equipment/components, modules, systems, and downstream demand.
    - Split broad labels into tradable/observable nodes. For example, do not stop at "光模块"; split into light source, EML, CW light source, LPO/NPO, CPO, PCB/CCL, connectors, testing, and packaging where relevant.
    - Label each node as route-independent, route-dependent, scarce, substitutable, or mainly narrative.
-
 3. **Run the source gate**
    - For each note, roadshow, post, transcript, or report, ask:
      - Is it already-observed data or forward narrative?
@@ -37,22 +35,18 @@ Price and volume can support **theme/position-risk** analysis, but they must not
      - Does it include verifiable quantities such as orders, tons, utilization, shipment, price, customers, capex, delivery time, or certification progress?
      - Is it too clean, too sexy, or too dependent on a single source?
    - Route hard, checkable, cross-confirmed evidence into prosperity scoring. Route soft, remote, single-source, and self-contradictory claims into theme score and red flags.
-
 4. **Locate duration and value pool**
    - Before judging prosperity, mark whether the claim trades 26H2, 2027, 2028, or a longer cycle.
    - For AI/semi chains, ask who is taking too much value, who must give value back, and who recovers certainty after value redistribution.
    - If one component's BOM or operating-cost share becomes too high, check whether downstream users are cutting demand, reducing specs, negotiating long-term prices, changing routes, or delaying capex.
-
 5. **Judge prosperity vs theme**
    - Prosperity signals: earnings acceleration, margin expansion, price pass-through, real shipment/volume, supply scarcity, duration that can cross the near-term cost/capex gap, and orderly value-chain ranking.
    - Theme signals: price far ahead of data, financing/leverage crowding, high turnover, valuation detachment, single-source narrative, forward-only TAM, "unique bottleneck" storytelling without evidence, or profit-pool imbalance.
    - Output a blended judgment such as "景气 6 成 / 主题 4 成" only after explaining the key evidence.
-
 6. **Score quality and position separately**
    - **底子分**: prosperity logic, realization, scarcity, duration match, value-pool health, beta/alpha character, and ranking order.
    - **位置分**: valuation percentile, financing balance, turnover/crowding, institutional vs speculative holders, and liquidity risk.
    - Never let a high valuation alone kill a real prosperity case, and never let a true industry logic excuse weak realization plus crowded money.
-
 7. **Build falsifiable checks**
    - Convert the conclusion into hard variables and failure conditions.
    - Prefer physical or contractual evidence: procurement volume, shipment, utilization, capex orders, long-term contract price, customer orders, delivery time, certification progress, inventory, accounts receivable, and gross margin.
