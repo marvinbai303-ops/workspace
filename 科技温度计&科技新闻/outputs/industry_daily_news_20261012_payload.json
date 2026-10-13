@@ -1,0 +1,85 @@
+{
+  "date": "2026.10.12",
+  "news_window": "2026-10-01 to 2026-10-12 Asia/Shanghai",
+  "avatar_style": "group-portrait",
+  "hero": {
+    "title": ["AI资本开支继续扩张", "芯片业绩同步走强"],
+    "subtitle": "SpaceX据报拟筹400亿美元采购英伟达芯片"
+  },
+  "cards": [
+    {
+      "title": "SpaceX据报拟筹400亿美元",
+      "body": "资金拟用于采购英伟达AI芯片，融资方案尚未落地。",
+      "tag": "AI算力｜融资｜英伟达",
+      "accent": "navy"
+    },
+    {
+      "title": "GPT-6面向全球用户推出",
+      "body": "OpenAI向免费与付费用户逐步开放，交互式界面成为新看点。",
+      "tag": "大模型｜应用｜OpenAI",
+      "accent": "blue"
+    },
+    {
+      "title": "三星三季度利润预告大增",
+      "body": "预计营业利润107.4万亿韩元，约为去年同期的8.8倍。",
+      "tag": "存储｜业绩｜AI供应链",
+      "accent": "navy"
+    },
+    {
+      "title": "台积电9月营收同比增54.6%",
+      "body": "单月营收约5118.6亿新台币，继续观察AI芯片订单兑现。",
+      "tag": "晶圆代工｜AI芯片｜营收",
+      "accent": "blue"
+    },
+    {
+      "title": "壁仞GPU接入主流开源生态",
+      "body": "推理适配方案已提交，三大强化学习框架完成主线集成。",
+      "tag": "国产算力｜GPU｜开源生态",
+      "accent": "navy"
+    }
+  ],
+  "commentary": "短期磨底态势或未结束；市场核心矛盾亦非基本面恶化，而是AI叙事待突破与存量资金博弈。短期三季报披露与地产链增量政策预期成为核心定价锚，ETF放量承接与10月加息预期降温提供修复动能，但反弹高度受美债利率与中东局势约束，难现系统性上行。中期维度，我们认为四季度或仍将维持宽幅震荡，更大级别行情或许需等待更大催化，跟踪三季报兑现与政策落地节奏。账户层面，建议维持维持哑铃风格配置，磨底期保持结构均衡，做好动平衡",
+  "macro": [
+    "海外流动性：10月加息预期降温，年内再加息预期仍在",
+    "风险资产：AI资本开支与业绩信号并存，油价和美债利率仍是扰动",
+    "国内政策：新质生产力意见强调人工智能应用与算力供给"
+  ],
+  "source_audit": [
+    {
+      "card": 1,
+      "published": "2026-10-07",
+      "url": "https://www.axios.com/2026/10/07/spacex-bond-binge-nvidia-apollo",
+      "status": "media report; proposed, not completed"
+    },
+    {
+      "card": 2,
+      "published": "2026-10-07",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "status": "official product release"
+    },
+    {
+      "card": 3,
+      "published": "2026-10-08",
+      "url": "https://news.samsung.com/be/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+      "status": "official preliminary guidance"
+    },
+    {
+      "card": 4,
+      "published": "2026-10-08",
+      "url": "https://pr.cld.tsmc.com/english/news/3343",
+      "status": "official monthly revenue report"
+    },
+    {
+      "card": 5,
+      "published": "2026-10-10",
+      "url": "https://www.birentech.com/news/vi4s9mme12dtnmpue4f3lqo5/",
+      "status": "company release; llm-d adaptation submitted, RL frameworks merged"
+    }
+  ],
+  "macro_audit": [
+    "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+    "https://www.axios.com/2026/10/08/interest-rate-hikes-fed-waller",
+    "https://www.nda.gov.cn/sjj/swdt/xwfb/1009/20261009191908259329235_mobile.html",
+    "https://fund.eastmoney.com/a/202610123892134437.html"
+  ]
+}
