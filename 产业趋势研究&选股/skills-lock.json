@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skills": {
+    "backtest-expert": {
+      "source": "https://gitee.com/wind_info/wind-skills.git",
+      "sourceUrl": "https://gitee.com/wind_info/wind-skills.git",
+      "sourceType": "git",
+      "skillPath": "skills/backtest-expert/SKILL.md",
+      "computedHash": "4dc34b8c2828d826ed417b74cd63fe12349a30bab1064620d06c96e3e24a2e80"
+    }
+  }
+}
