@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="截至2026年10月16日的特斯拉催化、预期、争议、估值情景与投资判断。">
+<title>特斯拉｜催化与估值简报｜2026-10-17</title>
+<style>
+  :root {
+    --ink: #172536;
+    --muted: #5e6d7e;
+    --line: #dce3e9;
+    --paper: #ffffff;
+    --wash: #f3f6f8;
+    --navy: #13263b;
+    --blue: #376a91;
+    --teal: #187c78;
+    --amber: #a46316;
+    --red: #a3423b;
+    --green-bg: #e9f4f1;
+    --amber-bg: #fff4e5;
+    --red-bg: #fbefed;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: #e9edf0;
+    font: 15px/1.58 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  }
+  a { color: #285f87; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { color: #123f60; }
+  .page { max-width: 1120px; margin: 28px auto; background: var(--paper); box-shadow: 0 14px 44px rgba(24, 42, 61, .11); }
+  .masthead { padding: 38px 54px 34px; color: #fff; background: var(--navy); position: relative; overflow: hidden; }
+  .masthead:after { content: "TSLA"; position: absolute; right: 42px; bottom: -38px; color: rgba(255,255,255,.055); font-size: 126px; font-weight: 800; letter-spacing: -.08em; }
+  .eyebrow { text-transform: uppercase; letter-spacing: .13em; font-size: 11px; color: #bdcbd7; font-weight: 700; }
+  h1 { font-size: clamp(30px, 4.5vw, 44px); line-height: 1.12; letter-spacing: -.035em; margin: 14px 0 10px; max-width: 720px; }
+  .subhead { max-width: 720px; color: #d6e0e9; font-size: 16px; margin: 0; }
+  .meta { display: flex; flex-wrap: wrap; gap: 9px 22px; color: #becbd7; font-size: 12px; margin-top: 22px; }
+  .meta strong { color: #fff; font-weight: 650; }
+  main { padding: 32px 54px 46px; }
+  h2 { font-size: 22px; letter-spacing: -.02em; margin: 0 0 14px; line-height: 1.25; }
+  h3 { font-size: 16px; margin: 0 0 8px; line-height: 1.35; }
+  p { margin: 0 0 12px; }
+  .section { margin-top: 34px; scroll-margin-top: 14px; }
+  .section-lead { color: var(--muted); margin-top: -7px; margin-bottom: 15px; font-size: 13px; }
+  .tag { display: inline-flex; align-items: center; border-radius: 999px; padding: 3px 8px; font-size: 10px; font-weight: 750; letter-spacing: .04em; white-space: nowrap; text-transform: uppercase; }
+  .tag.fact { background: #e9eff5; color: #395a75; }
+  .tag.consensus { background: #e8f2f4; color: #28666d; }
+  .tag.view { background: #f0eaf6; color: #72548b; }
+  .tag.assumption { background: var(--amber-bg); color: #87510f; }
+  .cite { font-size: 11px; font-weight: 700; vertical-align: super; margin-left: 2px; text-decoration: none; }
+  .verdict { display: grid; grid-template-columns: 1.35fr .85fr; gap: 24px; border: 1px solid #d4e2e5; border-left: 4px solid var(--teal); border-radius: 8px; padding: 22px 24px; background: #f5faf9; }
+  .verdict h2 { margin: 8px 0 9px; }
+  .verdict p:last-child { margin-bottom: 0; }
+  .verdict-side { border-left: 1px solid #d3e0e2; padding-left: 22px; display: flex; flex-direction: column; justify-content: center; }
+  .verdict-side .label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; }
+  .verdict-side strong { font-size: 20px; line-height: 1.3; margin: 3px 0 6px; }
+  .verdict-side small { color: var(--muted); }
+  .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 15px; }
+  .metric { padding: 14px 16px; border: 1px solid var(--line); border-radius: 7px; background: #fff; }
+  .metric .k { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .055em; font-weight: 700; }
+  .metric .v { font-size: 23px; font-weight: 760; letter-spacing: -.03em; margin: 4px 0 1px; line-height: 1.15; }
+  .metric .n { color: var(--muted); font-size: 11px; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .panel { border: 1px solid var(--line); border-radius: 8px; padding: 18px 19px; background: #fff; }
+  .panel.soft { background: var(--wash); }
+  .panel p:last-child { margin-bottom: 0; }
+  .callout { border-radius: 7px; padding: 13px 15px; background: var(--amber-bg); color: #5c461f; font-size: 13px; margin-top: 13px; }
+  .timeline { border-left: 2px solid #d8e0e5; margin: 6px 0 0 6px; padding-left: 22px; }
+  .event { position: relative; padding: 0 0 19px; display: grid; grid-template-columns: 122px 1fr; gap: 12px; }
+  .event:last-child { padding-bottom: 0; }
+  .event:before { content: ""; position: absolute; left: -29px; top: 5px; width: 10px; height: 10px; background: #fff; border: 2px solid var(--blue); border-radius: 50%; }
+  .event.next:before { background: var(--teal); border-color: var(--teal); box-shadow: 0 0 0 4px #e6f2f0; }
+  .event-date { color: var(--muted); font-size: 12px; font-weight: 750; }
+  .event h3 { display: inline; }
+  .event p { margin: 5px 0 0; color: #445466; font-size: 13px; }
+  .event-status { display: block; margin-top: 4px; color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { padding: 11px 13px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+  th { background: #f2f5f7; color: #445568; font-size: 11px; text-transform: uppercase; letter-spacing: .045em; }
+  tr:last-child td { border-bottom: 0; }
+  td.num, th.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .positive { color: #187267; font-weight: 750; }
+  .negative { color: #a1423b; font-weight: 750; }
+  .debates { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }
+  .debate { border: 1px solid var(--line); border-radius: 8px; padding: 16px 17px; }
+  .debate .question { color: var(--muted); text-transform: uppercase; letter-spacing: .055em; font-size: 10px; font-weight: 750; margin-bottom: 7px; }
+  .debate p { color: #445466; font-size: 13px; margin-bottom: 0; }
+  .scenario-note { font-size: 12px; color: var(--muted); margin: -4px 0 13px; }
+  .scenarios td:first-child { font-weight: 760; min-width: 85px; }
+  .scenarios td:last-child { min-width: 255px; }
+  .scenario-price { font-size: 16px; font-weight: 800; }
+  .risk-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .risk { padding: 14px 15px; border-radius: 7px; background: #f7f8f9; border: 1px solid var(--line); }
+  .risk strong { display: block; margin-bottom: 4px; }
+  .risk p { color: #4d5e6e; font-size: 12px; margin: 0; }
+  .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .action-box { border-radius: 8px; padding: 18px 19px; }
+  .action-box.upgrade { background: var(--green-bg); border: 1px solid #cfe4dd; }
+  .action-box.downgrade { background: var(--red-bg); border: 1px solid #edd4d0; }
+  .action-box ul { margin: 8px 0 0; padding-left: 19px; color: #405061; font-size: 13px; }
+  .action-box li { margin: 5px 0; }
+  .sources { border-top: 1px solid var(--line); margin-top: 38px; padding-top: 23px; }
+  .sources ol { padding-left: 20px; margin: 10px 0 0; }
+  .sources li { padding: 5px 0; font-size: 12px; color: #536274; }
+  .sources li strong { color: var(--ink); }
+  .method { padding: 14px 16px; background: #f3f6f8; border-radius: 7px; margin-top: 15px; color: #536274; font-size: 11px; }
+  footer { display: flex; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line); margin-top: 24px; padding-top: 14px; font-size: 10px; color: #738191; }
+  @media (max-width: 760px) {
+    .page { margin: 0; }
+    .masthead { padding: 29px 23px 27px; }
+    .masthead:after { right: 15px; font-size: 86px; bottom: -25px; }
+    main { padding: 24px 21px 32px; }
+    .verdict, .two-col, .debates, .risk-grid, .actions { grid-template-columns: 1fr; }
+    .verdict-side { border-left: 0; border-top: 1px solid #d3e0e2; padding: 13px 0 0; }
+    .metrics { grid-template-columns: 1fr 1fr; }
+    .metric .v { font-size: 20px; }
+    .event { grid-template-columns: 1fr; gap: 2px; }
+    footer { flex-direction: column; }
+  }
+  @media print {
+    body { background: #fff; font-size: 11pt; }
+    .page { max-width: none; margin: 0; box-shadow: none; }
+    .masthead { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    main { padding: 24px 32px; }
+    a { color: inherit; }
+    .section, .panel, .debate, .risk, .event, tr { break-inside: avoid; }
+    .sources a:after { content: " (" attr(href) ")"; font-size: 8pt; overflow-wrap: anywhere; }
+  }
+</style>
+</head>
+<body>
+<article class="page">
+  <header class="masthead">
+    <div class="eyebrow">Public Equity · Catalyst & Valuation Brief</div>
+    <h1>特斯拉：催化与估值简报</h1>
+    <p class="subhead">交付超预期尚未解决盈利与现金流问题。当前股价仍要求自动驾驶、储能和 AI 投资兑现为高质量利润增长。</p>
+    <div class="meta">
+      <span>股票 <strong>NASDAQ: TSLA</strong></span>
+      <span>报告日 <strong>2026 年 10 月 17 日</strong></span>
+      <span>行情截点 <strong>10 月 16 日美股收盘</strong></span>
+      <span>币种 <strong>美元</strong></span>
+    </div>
+  </header>
+
+  <main>
+    <section class="verdict" id="view">
+      <div>
+        <span class="tag view">投资判断 · 等待证据</span>
+        <h2>现价不适合把“故事兑现”当作基准情景</h2>
+        <p>我的判断：<strong>观察 / 等待证明，现价不新增长仓。</strong>截至 10 月 16 日收盘，特斯拉约 1.40 万亿美元市值，对应约 368 倍 TTM 市盈率；2027 年一致预期 EPS 对应约 163 倍市盈率。估值不是只在押汽车周期反弹，而是在押多年期自动驾驶、AI 与能源业务能转化为利润和现金流。<a class="cite" href="#src1">[1]</a><a class="cite" href="#src4">[4]</a><a class="cite" href="#src5">[5]</a></p>
+        <p>Q3 交付超过分析师预期，但 Visible Alpha 对收入、调整后 EPS 与自由现金流的预期仍偏弱；储能部署也低于特斯拉汇总的分析师均值。10 月 21 日财报是近期最重要的验证点。<a class="cite" href="#src2">[2]</a><a class="cite" href="#src3">[3]</a><a class="cite" href="#src7">[7]</a></p>
+      </div>
+      <aside class="verdict-side">
+        <span class="label">12 个月情景中枢（非正式目标价）</span>
+        <strong>$326 / 股 · 基准情景 -8%</strong>
+        <small>基准采用 2027E EPS $2.17 × 150 倍；EPS 口径未披露。牛市需要盈利超预期且高估值延续，熊市首先受盈利与估值双杀。</small>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="估值快照">
+      <div class="metric"><div class="k">收盘价 · 10/16</div><div class="v">$354.72</div><div class="n">iFinD / 妙想行情交叉核对 <a class="cite" href="#src1">[1]</a></div></div>
+      <div class="metric"><div class="k">市值</div><div class="v">$1.401T</div><div class="n">数据商报价；约等于股价 × 已发行股数 <a class="cite" href="#src5">[5]</a></div></div>
+      <div class="metric"><div class="k">TTM 市盈率</div><div class="v">~368×</div><div class="n">约 $1.401T ÷ $3.804B TTM 归母净利润 <a class="cite" href="#src6">[6]</a></div></div>
+      <div class="metric"><div class="k">2027E EPS / 隐含 P/E</div><div class="v">$2.17 / 163×</div><div class="n">数据商汇总；EPS 会计口径未披露 <a class="cite" href="#src4">[4]</a></div></div>
+    </section>
+
+    <section class="section" id="priced-in">
+      <h2>市场在期待什么</h2>
+      <p class="section-lead">交付是领先指标；本次投资判断的分水岭在汽车毛利、自由现金流和新业务的可验证收入。</p>
+      <div class="two-col">
+        <div class="panel">
+          <h3>Q3 交付：好于预期，但不能直接推导利润超预期</h3>
+          <p><span class="tag fact">已披露</span> 交付 486,532 辆，环比高于特斯拉汇总的分析师均值 461,974 辆约 5.3%；但同比仍下降 2.1%。储能部署 13.7 GWh，同比增 9.6%，却低于分析师均值 15.9 GWh 约 13.8%。特斯拉明确提示，交付与储能部署只是业绩的部分指标，ASP、成本及汇率都会影响财务结果。<a class="cite" href="#src2">[2]</a><a class="cite" href="#src3">[3]</a></p>
+          <p><span class="tag consensus">财报前预期</span> Visible Alpha 预计 Q3 收入 $28.04B（同比 -0.2%）、调整后 EPS $0.44（同比 -11.8%）、自由现金流 -$4.09B，资本开支 $7.94B。汽车收入预期 $19.94B（同比 -6.8%）；服务与能源预期 $8.31B（同比 +20.6%）。<a class="cite" href="#src3">[3]</a></p>
+        </div>
+        <div class="panel soft">
+          <h3>全年交付门槛与估值预期</h3>
+          <p>特斯拉 9 月 29 日公布的分析师汇总预测 2026 年平均交付 1,767,255 辆。Q1–Q3 已交付 1,324,681 辆，因此 Q4 需要约 442,574 辆才能达到该均值；这是根据公司披露的季度实际值和共识值计算。公司不背书该分析师调查。<a class="cite" href="#src2">[2]</a></p>
+          <p>数据商汇总的 2026E 收入约 $107.18B、EPS $1.74；2027E 收入约 $121.68B、EPS $2.17。按现价，2026E 市销率约 13.1 倍、2027E EPS 市盈率约 163 倍。由于供应商没有清楚标注 EPS 是 GAAP 还是调整后口径，以下情景只能在相同的未明确口径下作敏感性分析。<a class="cite" href="#src4">[4]</a></p>
+          <p>44 位分析师的 12 个月目标价均值 $397.83、中位数 $412.50，范围 $128.11–$600；评级中持有 21 位，买入/强烈买入合计 19 位。中位目标价对应约 16% 上行，但不等于估值安全边际。<a class="cite" href="#src4">[4]</a></p>
+        </div>
+      </div>
+      <div class="callout"><strong>现金流背景：</strong>截至 Q2 末，现金、等价物及短期投资合计 $43.5B；公司预计 2026 年资本开支超过 $25B，2026 年上半年已支出 $8.28B。资产负债表提供了投资缓冲，但若资本开支先于回报大幅增加，股权回报仍可能被现金消耗与新增股份稀释侵蚀。Q2 末发行在外股数较 2025 年末增加约 5.3%。<a class="cite" href="#src5">[5]</a></div>
+    </section>
+
+    <section class="section" id="catalysts">
+      <h2>催化剂与验证窗口</h2>
+      <div class="timeline">
+        <div class="event next">
+          <div><div class="event-date">10 月 21 日</div><span class="event-status">近期关键催化 · 已确认</span></div>
+          <div><h3>Q3 财报与电话会</h3><p>财报在收盘后发布。关注汽车毛利率（剔除监管积分）、价格/产品组合、自由现金流相对 -$4.09B 预期、资本开支与全年投资节奏，以及 Robotaxi 的付费使用和单位经济数据。<a class="cite" href="#src3">[3]</a><a class="cite" href="#src7">[7]</a></p></div>
+        </div>
+        <div class="event">
+          <div><div class="event-date">2026 年 Q4</div><span class="event-status">公司尚未给出具体日期</span></div>
+          <div><h3>交付及能源部署数据</h3><p>全年平均交付共识要求 Q4 约 442.6k 辆。更关键的是价格、车型结构与储能部署能否同时改善收入质量；只完成台数不够。发布日期尚未确认，此处为监测窗口。<a class="cite" href="#src2">[2]</a></p></div>
+        </div>
+        <div class="event">
+          <div><div class="event-date">10 月 16 日</div><span class="event-status">已发生 · 监管进展</span></div>
+          <div><h3>斯洛伐克承认 FSD（Supervised）初步型式批准</h3><p>这是一个局部市场监管进展。斯洛伐克交通部明确该系统仍属驾驶辅助，驾驶员必须负责，并非完全自动驾驶或无人 Robotaxi 获准运营。它改善欧洲部署路径的可选性，但不应直接资本化成大规模 Robotaxi 收入。<a class="cite" href="#src8">[8]</a></p></div>
+        </div>
+        <div class="event">
+          <div><div class="event-date">10 月 15 日</div><span class="event-status">已发生 · 远期叙事</span></div>
+          <div><h3>新一代 Roadster 展示</h3><p>媒体报道消费版量产预期不早于 2028 年。它可以提振品牌与技术叙事，但对 12 个月盈利和现金流的贡献很有限。<a class="cite" href="#src9">[9]</a></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="debates">
+      <h2>关键争论：增长是否正在转化为股东回报</h2>
+      <div class="debates">
+        <article class="debate"><div class="question">争论 01 · 交付反弹 vs 盈利复苏</div><h3>台数回升的财务含金量尚未证实</h3><p>交付击败预期，但同比仍降、汽车收入预计下滑，调整后 EPS 和自由现金流共识走弱。需要看汽车毛利与 ASP 是否止跌，而不是只看出货量。</p></article>
+        <article class="debate"><div class="question">争论 02 · FSD 监管进展 vs Robotaxi 商业化</div><h3>辅助驾驶放行不等于无人驾驶网络</h3><p>斯洛伐克进展对监管扩张是利好；但官方强调驾驶员持续负责。若没有获准的无人运营、付费里程、利用率及单车贡献利润，Robotaxi 的大额估值仍是期权而非当期基本面。</p></article>
+        <article class="debate"><div class="question">争论 03 · 储能增长 vs 部署兑现</div><h3>长期空间仍在，单季交付未达预期</h3><p>13.7 GWh 同比增加 9.6%，说明业务继续增长；但低于分析师均值 13.8%。要验证订单兑现、毛利和资本回报，单看部署量无法证明高回报增长。</p></article>
+        <article class="debate"><div class="question">争论 04 · AI 投资 vs 资本回报</div><h3>高资本开支的收益时间与融资方式不确定</h3><p>公司预计 2026 年资本开支超过 $25B，方向包括 AI 算力、数据中心、制造、研发和自营 AI 车队。若投入扩大而经营现金流没有跟上，短期自由现金流和未来每股收益会受压。<a class="cite" href="#src5">[5]</a></p></article>
+      </div>
+    </section>
+
+    <section class="section" id="valuation">
+      <h2>估值情景：现价需要更长、更确定的盈利曲线</h2>
+      <p class="scenario-note">12 个月简化敏感性：每股价值 = 2027E EPS × 假设市盈率。EPS 以供应商聚合值 $2.17 为基准，供应商未说明 GAAP/调整后口径；情景是我的估值假设，不是卖方目标价或完整 DCF。没有在概率依据不足时虚构加权目标价。</p>
+      <div class="table-wrap">
+        <table class="scenarios">
+          <thead><tr><th>情景</th><th class="num">2027E EPS</th><th class="num">假设 P/E</th><th class="num">情景价值</th><th class="num">较 $354.72</th><th>成立条件 / 先行验证</th></tr></thead>
+          <tbody>
+            <tr><td>熊市</td><td class="num">$1.70</td><td class="num">100×</td><td class="num scenario-price">$170</td><td class="num negative">-52%</td><td>销量与价格竞争压低汽车利润；高资本开支造成现金消耗；FSD / Robotaxi 监管或安全事件延迟变现。100×仍是成长股溢价，未按传统车企低倍数惩罚。</td></tr>
+            <tr><td>基准</td><td class="num">$2.17</td><td class="num">150×</td><td class="num scenario-price">$326</td><td class="num negative">-8%</td><td>大致达到供应商 2027E EPS，能源与软件增长部分抵消汽车压力；现金流承压但未导致融资风险。给予显著高于成熟车企的溢价。</td></tr>
+            <tr><td>牛市</td><td class="num">$2.60</td><td class="num">185×</td><td class="num scenario-price">$481</td><td class="num positive">+36%</td><td>EPS 比供应商预期高约 20%，汽车利润率回升，付费 FSD / Robotaxi 与能源规模化可见，同时市场仍愿意给接近现价隐含的高倍数。</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="two-col" style="margin-top:13px">
+        <div class="panel soft"><h3>估值上的变体判断</h3><p>我与乐观叙事的分歧不在远期技术可能性，而在<strong>现金流兑现的时间、每股而非总量增长，以及高倍数能否维持</strong>。目前可以观测的 Q3 预期仍显示汽车收入承压、现金流为负；Robotaxi 单季服务收入预估仅 $23.8M，暂不足以支撑其成为利润主引擎。<a class="cite" href="#src3">[3]</a></p></div>
+        <div class="panel"><h3>风险收益不对称</h3><p>基准情景较现价低约 8%；牛市有约 36% 空间，但同时要求盈利超预期约 20% 并维持 185 倍市盈率。若估值回落至仍属昂贵的 100 倍、且 EPS 低于共识约 22%，下行约 52%。因此，当前价格的上行依赖兑现，回撤只需增长或倍数有一项落空。</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="risks">
+      <h2>主要风险与观察清单</h2>
+      <div class="risk-grid">
+        <div class="risk"><strong>估值压缩</strong><p>368× TTM 盈利对利率、增长预期和风险偏好高度敏感；远期 EPS 未达到预期时，盈利下修和倍数下降可能同时发生。</p></div>
+        <div class="risk"><strong>汽车价格、产品结构与竞争</strong><p>交付量不能抵消 ASP 下滑或低毛利车型占比上升；关注剔除监管积分的汽车毛利与单车毛利，而非仅看收入。</p></div>
+        <div class="risk"><strong>资本开支、自由现金流与股本</strong><p>2026 年资本开支指引超过 $25B；若回报晚于投入、自由现金流长期为负，新增融资或股权稀释将压低每股价值。已发行股数在 2026 上半年增加约 5.3%。<a class="cite" href="#src5">[5]</a></p></div>
+        <div class="risk"><strong>自动驾驶监管与安全</strong><p>不同国家的批准范围、责任规则与安全审查不同。FSD（Supervised）本质仍要求驾驶员负责；事故或监管收紧会影响扩张速度与品牌。</p></div>
+        <div class="risk"><strong>能源业务执行</strong><p>部署低于单季共识，后续要看供应能力、毛利和项目兑现。若为增长追加大量资本而利润率不升，储能增长本身不足以创造股东回报。</p></div>
+        <div class="risk"><strong>管理层执行与资源分配</strong><p>AI、机器人、汽车与能源同时投入，执行跨度大。判断应以可核验的产品进度、商业收入和资本回报为准，不把发布会目标等同于经营成果。</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="rules">
+      <h2>行动规则：哪些证据会改变判断</h2>
+      <div class="actions">
+        <div class="action-box upgrade"><h3>转向积极需要</h3><ul>
+          <li>Q3 / 后续季度汽车毛利（剔除监管积分）止跌，且不是单靠交付量或一次性项目。</li>
+          <li>资本开支持续增加时，自由现金流仍能收敛；管理层给出可追踪的投资回报节点。</li>
+          <li>Robotaxi 出现连续增长的付费收入、覆盖城市 / 车队规模和单位经济数据；监管许可扩展到真正无人运营范围。</li>
+          <li>能源部署回到增长预期，且毛利与现金回收随规模一起改善。</li>
+        </ul></div>
+        <div class="action-box downgrade"><h3>维持观望或重新下修需要</h3><ul>
+          <li>Q3 汽车毛利与自由现金流显著差于预期，管理层又提高投资强度。</li>
+          <li>2027 EPS 共识下修、交付增长依赖降价，或在较低价格下仍难以恢复需求。</li>
+          <li>FSD 的局部监管进展无法扩展，Robotaxi 继续只有试点而缺乏付费规模。</li>
+          <li>高估值下股本持续扩张，稀释抵消利润总额增长。</li>
+        </ul></div>
+      </div>
+    </section>
+
+    <section class="sources" id="sources">
+      <h2>来源与口径</h2>
+      <p class="section-lead">优先使用公司披露、监管机构和专业市场研究来源；分析师估计与我的判断均单独标示。</p>
+      <ol>
+        <li id="src1"><strong>行情与估值：</strong>iFinD 全球股票行情及妙想美股财务数据，2026-10-16 收盘；公开行情 / 预期汇总交叉核对 <a href="https://stockanalysis.com/stocks/tsla/forecast/" target="_blank" rel="noopener">StockAnalysis：TSLA Forecast</a>。市值及倍数会因发行股数和供应商口径有轻微差异。</li>
+        <li id="src2"><strong>特斯拉 Q3 交付与储能部署实际值：</strong><a href="https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments" target="_blank" rel="noopener">Tesla Q3 2026 Production, Deliveries and Deployments</a>；以及公司汇总且不背书的分析师交付调查 <a href="https://ir.tesla.com/press-release/delivery-consensus-third-quarter-2026" target="_blank" rel="noopener">Tesla Q3 Delivery Consensus</a>。</li>
+        <li id="src3"><strong>财报前预期：</strong><a href="https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/tesla-s-revenue-earnings-expected-to-edge-lower-despite-delivery-beat" target="_blank" rel="noopener">S&P Global Market Intelligence / Visible Alpha，2026-10-15</a>。文中财务数字为分析师汇总预期，不是特斯拉指引。</li>
+        <li id="src4"><strong>年度预测与卖方目标价：</strong><a href="https://stockanalysis.com/stocks/tsla/forecast/" target="_blank" rel="noopener">StockAnalysis TSLA Forecast</a>，页面标注数据来自 S&P Global Market Intelligence 与 TipRanks，2026-10-16 更新；目标价样本 44 位分析师。EPS 会计口径未在该摘要中披露。</li>
+        <li id="src5"><strong>资产负债表、资本开支和股份数：</strong><a href="https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm" target="_blank" rel="noopener">Tesla 2026 Q2 Form 10-Q</a>，现金及短期投资截至 2026-06-30；股数比较为 2026-06-30 对 2025-12-31。</li>
+        <li id="src6"><strong>Q2 财务与 TTM 归母净利润：</strong><a href="https://ir.tesla.com/_flysystem/s3/sec/000162828026049213/tsla-20260722-gen.pdf" target="_blank" rel="noopener">Tesla Q2 2026 Financial Update</a>。TTM 盈利及自由现金流截至 Q2 末；因此不是 Q3 实际值。</li>
+        <li id="src7"><strong>下一催化日期：</strong><a href="https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/exhibit991111111.htm" target="_blank" rel="noopener">Tesla Q3 2026 earnings announcement notice</a>，财报安排在 2026-10-21 收盘后。</li>
+        <li id="src8"><strong>斯洛伐克监管说明：</strong><a href="https://www.mindop.sk/media/tlacove-spravy/detail/slovensko-umoznilo-ciastocne-autonomne-riadenie-aut" target="_blank" rel="noopener">Slovak Ministry of Transport，2026-10-16</a>；明确 FSD（Supervised）仍是驾驶辅助，驾驶员承担责任。</li>
+        <li id="src9"><strong>Roadster 时点：</strong><a href="https://apnews.com/article/7d5f19665435b7408025bfb7a2f2f0b7" target="_blank" rel="noopener">Associated Press，Roadster unveil coverage，2026-10-15</a>；消费版量产预期不早于 2028 年。</li>
+      </ol>
+      <div class="method"><strong>计算和限制：</strong>市场市值约 $1.401T；以截至 Q2 的 TTM 归母净利润 $3.804B 计算，市盈率约 368×。FY26 市销率按市值 ÷ $107.18B 收入预期计算；情景股价按 EPS × 假设 P/E 计算，回报相对 $354.72。分析师共识与预测可变且口径不统一；FY26/FY27 EPS 汇总未明确 GAAP 或调整后口径，本简报因此不据此给正式目标价、不作概率加权，也未构建 DCF 或完整稀释后股数模型。此为截至报告日的研究判断，不构成个性化投资建议。</div>
+    </section>
+    <footer><span>研究判断基于截至 2026-10-17 可获得信息；事实、分析师预期与情景假设已区分。</span><span>TSLA · Catalyst & Valuation Brief</span></footer>
+  </main>
+</article>
+</body>
+</html>

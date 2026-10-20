@@ -1,0 +1,86 @@
+{
+  "date": "2026.10.19",
+  "news_window": "2026-10-16至10-19（过去72小时）；按用户要求补入10月15日台积电Q3业绩与Google量子科技进展",
+  "avatar_style": "group-portrait",
+  "thermometer_workbook": "/Users/yangguang/Documents/Codex/workspace/科技温度计&科技新闻/1019转换 行业温度计_量价_估值.xlsx",
+  "hero": {
+    "title": ["台积电全年营收增速上修至44%", "谷歌量子纠错再进一步"],
+    "subtitle": "Q3重申资本预算600亿—640亿美元；Willow特定量子态制备误差约降40倍"
+  },
+  "cards": [
+    {
+      "title": "台积电上调全年营收增速预期",
+      "body": "2026年营收增速预期升至约44%；Q3重申全年资本预算600亿—640亿美元。",
+      "tag": "台积电｜业绩指引｜资本开支",
+      "accent": "navy"
+    },
+    {
+      "title": "谷歌量子技术实现关键进展",
+      "body": "Willow芯片上特定量子态误差约降40倍；大规模验证仍待推进。",
+      "tag": "Google｜量子计算｜纠错",
+      "accent": "blue"
+    },
+    {
+      "title": "中国拟修订技术出口目录",
+      "body": "拟新增40项技术（含23项AI）；目前处于公开征求意见阶段。",
+      "tag": "中国科技｜AI政策｜征求意见",
+      "accent": "navy"
+    },
+    {
+      "title": "腾讯混元开源Hy-Memory 2.0",
+      "body": "模型、记忆框架与MemHub三层开放，覆盖聊天、工作和代码记忆。",
+      "tag": "国产大模型｜开源｜智能体",
+      "accent": "blue"
+    },
+    {
+      "title": "Anthropic芯片融资吸引黑石",
+      "body": "据Reuters转述FT，拟向黑石提供超10%收益率以参与芯片融资。",
+      "tag": "AI算力｜融资｜Anthropic",
+      "accent": "navy"
+    }
+  ],
+  "commentary": "短期防御氛围持续升温并非趋势转向，而中期产业趋势并未改变，台积电Q3业绩超预期并上调资本开支指引、谷歌量子芯片将误差降低40倍，产业催化仍然密集。资金层面，长线资金借道ETF持续承接，股票型ETF持续放量。往后看，本轮调整后可逐步向明年高景气方向布局，有真实三季报支撑的海外链及国产链依旧是核心抓手，在恐慌抛售后或提供更好的买点；顺周期方向则静待更多政策预期，扩大消费规划、5500亿结存限额与PSL降息已落地， \"六张网\"与基建链修复也被反复提及。海外方向，持续关注10月底的FOMC会议及通胀数据。账户层面，维持均衡配置，保持防御底仓，逢调整分批布局明年高景气方向，顺周期方向等待政策信号与基本面信号好转再加仓。",
+  "macro": [
+    "海外流动性：10月FOMC会议定于27—28日举行",
+    "风险资产：美股上周五收跌，纳指跌2.1%，芯片股延续承压",
+    "国内信用/政策：5500亿元地方债结存限额启用；PSL利率降至1.5%"
+  ],
+  "source_audit": [
+    {
+      "card": 1,
+      "published": "2026-10-15",
+      "url": "https://investor.tsmc.com/schinese/quarterly-results/2026/q3",
+      "status": "TSMC官方Q3材料：全年营收增速预期约44%，资本预算重申600亿—640亿美元；该预算区间在7月Q2时已上调。"
+    },
+    {
+      "card": 2,
+      "published": "2026-10-15",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+      "status": "Google Quantum AI称Willow上特定magic states误差降低约40倍；大规模实证仍未完成。"
+    },
+    {
+      "card": 3,
+      "published": "2026-10-16",
+      "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html",
+      "status": "商务部、科技部公开征求意见；拟新增40项技术，其中AI相关23项，不是已最终生效的新目录。"
+    },
+    {
+      "card": 4,
+      "published": "2026-10-16",
+      "url": "https://memory.hunyuan.tencent.com/",
+      "status": "腾讯混元官方发布页，Hy-Memory 2.0模型、框架和MemHub开源。"
+    },
+    {
+      "card": 5,
+      "published": "2026-10-16",
+      "url": "https://ca.finance.yahoo.com/news/anthropic-offers-blackstone-double-digit-010109355.html",
+      "status": "Reuters转述FT的报道，融资方案仍按媒体报道表述，不写作已完成交易。"
+    }
+  ],
+  "macro_audit": [
+    "https://www.federalreserve.gov/newsevents/2026-october.htm",
+    "https://apnews.com/article/c27809783ae3230b44c26e5ee4bea056",
+    "https://www.mof.gov.cn/caizhengshipin/czsy/202610/t20261010_4002574.htm",
+    "https://www3.xinhuanet.com/fortune/20260929/2a939258069e4e768a06ffdc04e11eed/c.html"
+  ]
+}

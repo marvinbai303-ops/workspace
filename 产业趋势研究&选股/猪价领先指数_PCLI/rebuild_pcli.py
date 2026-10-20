@@ -8,15 +8,21 @@ from __future__ import annotations
 
 import csv
 import math
+import argparse
+import calendar
 from datetime import date
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--snapshot", default="2026-10-20", help="YYYY-MM-DD data snapshot")
+args = parser.parse_args()
+AS_OF = date.fromisoformat(args.snapshot)
 ROOT = Path(__file__).resolve().parent
-RAW = ROOT / "data" / "raw" / "2026-10-11"
-OUT = ROOT / "outputs" / "2026-10-11"
+RAW = ROOT / "data" / "raw" / args.snapshot
+OUT = ROOT / "outputs" / args.snapshot
 OUT.mkdir(parents=True, exist_ok=True)
 
 
@@ -45,9 +51,20 @@ def growth(current, earlier):
     return 100.0 * (current / earlier - 1.0)
 
 
-def choose_latest(scores, as_of, max_age):
+release_dates = {}
+if (RAW / "release_dates.csv").exists():
+    release_dates = {(r["indicator_id"], month_key(r["observation_date"])):
+                     date.fromisoformat(r["first_public_date"])
+                     for r in read_csv("release_dates.csv")}
+
+
+def choose_latest(scores, as_of, max_age, indicator_id):
+    day = AS_OF if as_of == AS_OF.strftime("%Y-%m") else date(
+        int(as_of[:4]), int(as_of[5:7]), calendar.monthrange(int(as_of[:4]), int(as_of[5:7]))[1])
     eligible = [(m, x) for m, x in scores.items()
-                if month_no(m) + 2 <= month_no(as_of)
+                if (release_dates[(indicator_id, m)] <= day
+                    if (indicator_id, m) in release_dates
+                    else month_no(m) + 2 <= month_no(as_of))
                 and month_no(as_of) - month_no(m) <= max_age]
     return max(eligible, key=lambda x: month_no(x[0])) if eligible else (None, None)
 
@@ -58,6 +75,7 @@ def fmt(value, digits=2):
 
 index_rows = read_csv("885573_monthly.csv")
 index = {r["month"]: float(r["close"]) for r in index_rows}
+index_status = {r["month"]: r["period_status"] for r in index_rows}
 sow = {month_key(r["date"]): float(r["value"]) for r in read_csv("sow.csv")}
 stock = {month_key(r["date"]): float(r["value"]) for r in read_csv("stock.csv")}
 slaughter = {r["month"]: float(r["value"]) for r in read_csv("slaughter.csv")}
@@ -94,10 +112,10 @@ weight_scores = {m: score(growth(v, weight[year_prior(m)]), 10.0)
 
 rows = []
 for month in sorted(index):
-    sow_m, sow_s = choose_latest(sow_scores, month, 6)
-    stock_m, stock_s = choose_latest(stock_scores, month, 6)
-    slaughter_m, slaughter_s = choose_latest(slaughter_scores, month, 3)
-    weight_m, weight_s = choose_latest(weight_scores, month, 2)
+    sow_m, sow_s = choose_latest(sow_scores, month, 6, "S002841992")
+    stock_m, stock_s = choose_latest(stock_scores, month, 6, "S002841991")
+    slaughter_m, slaughter_s = choose_latest(slaughter_scores, month, 3, "S002841990")
+    weight_m, weight_s = choose_latest(weight_scores, month, 2, "S004320910")
     near_values = [x for x in (stock_s, slaughter_s) if x is not None]
     near_s = sum(near_values) / len(near_values) if near_values else None
 
@@ -113,10 +131,13 @@ for month in sorted(index):
     rows.append({
         "month": month,
         "index_close": index[month],
-        "index_period_status": "partial_through_2026-10-09" if month == "2026-10" else "month_end",
+        "index_period_status": ("partial_through_" + index_status[month]
+                                if len(index_status[month]) == 10 else index_status[month]),
         "sow_observation_month": sow_m or "",
+        "sow_release_date": (str(release_dates.get(("S002841992", sow_m), "")) if sow_m else ""),
         "sow_score": sow_s,
         "stock_observation_month": stock_m or "",
+        "stock_release_date": (str(release_dates.get(("S002841991", stock_m), "")) if stock_m else ""),
         "stock_score": stock_s,
         "slaughter_observation_month": slaughter_m or "",
         "slaughter_score": slaughter_s,
@@ -177,7 +198,9 @@ y_pcli = lambda v: bottom2 - v / 100.0 * (bottom2 - top2)
 
 draw.rounded_rectangle(xy(70, 125, 1630, 1035), radius=24 * S, fill="white")
 text_at((82, 42), "PCLI-Beta 可识别区间 与 同花顺猪肉指数", "#14283F", 35)
-text_at((82, 93), "2022.11—2026.10.09  |  供应收缩信号按次月末可见处理  |  885573.TI 月末收盘", "#64748B", 19)
+last_close_date = index_status[visible[-1]["month"]]
+timing_label = "按已知发布日期或保守滞后入图" if release_dates else "供应收缩信号按次月末可见处理"
+text_at((82, 93), f"2022.11—{last_close_date}  |  {timing_label}  |  885573.TI 收盘", "#64748B", 19)
 
 for year in range(2023, 2027):
     month = f"{year}-01"
@@ -203,8 +226,8 @@ last = visible[-1]
 draw.ellipse(xy(xcoord(last["month"]) - 5, y_index(last["index_close"]) - 5,
                 xcoord(last["month"]) + 5, y_index(last["index_close"]) + 5),
              fill="#CC563A")
-text_at((right - 6, y_index(last["index_close"]) - 21),
-        f"{last['index_close']:.1f}  (10/09)", "#B74730", 18, "rb")
+text_at((right - 10, top1 + 10),
+        f"最新 {last['index_close']:.1f}  ({last_close_date[5:].replace('-', '/')})", "#B74730", 18, "rt")
 
 text_at((135, 616), "PCLI-Beta 区间：缺失分项按 0—100 约束；虚线仅为区间中点", "#25445C", 20)
 valid = [r for r in visible if r["pcli_lower"] is not None]
@@ -225,8 +248,10 @@ text_at((right - 6, y_pcli(last_valid["pcli_upper"]) - 6),
 text_at((right - 6, y_pcli(last_valid["pcli_lower"]) + 6),
         f"下界 {last_valid['pcli_lower']:.1f}", "#255C79", 18, "rt")
 
-text_at((82, 1050), "来源：同花顺 iFinD；农业农村部；国家生猪市场。2026-10 为未完月。", "#64748B", 16)
-text_at((82, 1080), "本图是修订后历史数据的保守滞后重建，不是逐日首次发布版本或择时回测。", "#64748B", 16)
+text_at((82, 1050), "来源：同花顺 iFinD；国家统计局；农业农村部；国家生猪市场。2026-10 为未完月。", "#64748B", 16)
+timing_note = ("9月末官方产能数据按10月实际发布日期纳入；其余历史值用保守滞后，非逐期首次发布回测。"
+               if release_dates else "本图是修订后历史数据的保守滞后重建，不是逐日首次发布版本或择时回测。")
+text_at((82, 1080), timing_note, "#64748B", 16)
 im.save(OUT / "pcli_vs_885573.png", optimize=True)
 
 print(f"Saved {len(rows)} monthly rows, {len(valid)} plotted PCLI intervals.")
