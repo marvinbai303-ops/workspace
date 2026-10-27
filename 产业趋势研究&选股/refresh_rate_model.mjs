@@ -39,6 +39,34 @@ async function readJson(file, fallback) {
   }
 }
 
+async function readPriorMetrics() {
+  const latestData = await readJson(LATEST_FILE, { metrics: {} });
+  const snapshots = [];
+  try {
+    const history = await fs.readFile(HISTORY_FILE, "utf8");
+    for (const line of history.split(/\r?\n/).filter(Boolean)) {
+      try {
+        const snapshot = JSON.parse(line);
+        if (snapshot?.metrics) snapshots.push(snapshot);
+      } catch {
+        // Ignore malformed history rows and continue with the remaining snapshots.
+      }
+    }
+  } catch {
+    // The latest snapshot below remains usable when no history file exists.
+  }
+  if (latestData?.metrics) snapshots.push(latestData);
+
+  const metrics = {};
+  for (const snapshot of snapshots) {
+    for (const [key, metric] of Object.entries(snapshot.metrics)) {
+      if (!metric || metric.stale || !metric.date || !Number.isFinite(metric.current)) continue;
+      if (!metrics[key] || metric.date >= metrics[key].date) metrics[key] = metric;
+    }
+  }
+  return { ...latestData, metrics };
+}
+
 function command(file, args, options = {}) {
   return new Promise((resolve, reject) => {
     const child = spawn(file, args, { ...options, stdio: ["ignore", "pipe", "pipe"] });
@@ -224,7 +252,7 @@ async function main() {
     throw new Error("已有刷新任务正在运行，已退出以避免并发覆盖");
   }
 
-  const previous = await readJson(LATEST_FILE, { metrics: {} });
+  const previous = await readPriorMetrics();
   const seriesIds = [
     "DGS2", "DFF", "T5YIE", "T5YIFR", "CES0500000003", "UNRATE", "JTSJOL", "ICSA", "PPIACO", "DCOILWTICO",
     "DFII10", "BAMLH0A0HYM2", "BAMLC0A0CM", "VIXCLS", "DTWEXBGS", "NFCI",
@@ -285,6 +313,10 @@ async function main() {
   if (series.VIXCLS) add(35, modelMetric(series.VIXCLS, { availability: 5, accuracy: 5, note: "股票隐含波动；事件冲击快、均值回归也快", source: "CBOE/FRED: VIXCLS" }));
   if (series.DTWEXBGS) add(36, modelMetric(pctChange(series.DTWEXBGS, 20), { availability: 5, accuracy: 4, note: "全球美元流动性与风险偏好代理", source: "Fed/FRED: DTWEXBGS" }));
   if (series.NFCI) add(37, modelMetric(series.NFCI, { availability: 5, accuracy: 4, note: "周频综合金融条件；负值代表相对宽松", source: "Chicago Fed/FRED: NFCI" }));
+
+  for (const row of [5, 6, 7, 10, 11, 12, 15, 16, 17, 18, 19, 22, 23, 28, 29, 32, 33, 34, 35, 36, 37]) {
+    if (!metrics[String(row)]) add(row, null);
+  }
 
   const dates = Object.values(metrics).map((x) => x.date).filter(Boolean).sort();
   const snapshotDate = dates.at(-1) ?? runDate;

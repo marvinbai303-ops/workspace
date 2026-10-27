@@ -1,0 +1,79 @@
+{
+  "date": "2026.10.26",
+  "news_window": "2026-10-19至2026-10-26（过去7天）",
+  "thermometer_workbook": "/Users/yangguang/Documents/Codex/workspace/科技温度计&科技新闻/1026转换 行业温度计_量价_估值.xlsx",
+  "source_note": "资料：NVIDIA、OpenAI、寒武纪公告、中微公司、Fed、BEA、iFinD｜截至 2026.10.26",
+  "avatar_style": "group-portrait",
+  "hero": {
+    "title": ["英伟达扩展机器人平台", "物理AI工具链再加码"],
+    "subtitle": "Isaac新增人形参考平台与仿真训练工具，补齐机器人开发链条"
+  },
+  "cards": [
+    {
+      "title": "英伟达升级Isaac机器人平台",
+      "body": "新增人形参考平台、仿真与训练工具，完善从数据到部署的开发链。",
+      "tag": "英伟达｜物理AI｜机器人",
+      "accent": "navy"
+    },
+    {
+      "title": "OpenAI收购药物研发平台",
+      "body": "收购Orchestra Bio并与Rosalind整合，AI布局从科研工具延伸到研发流程协同。",
+      "tag": "OpenAI｜AI制药｜并购",
+      "accent": "blue"
+    },
+    {
+      "title": "寒武纪Q3营收、净利均翻倍",
+      "body": "营收35.31亿元、归母净利14.04亿元，同比分别增长104.47%、147.74%。",
+      "tag": "国产算力｜三季报｜业绩",
+      "accent": "blue"
+    },
+    {
+      "title": "中微首台高选择性刻蚀设备付运",
+      "body": "新设备已发往国内客户，面向下一代立体结构芯片制造的关键工艺。",
+      "tag": "半导体设备｜刻蚀｜国产化",
+      "accent": "navy"
+    }
+  ],
+  "commentary": "短期防御氛围仍在，但短期超跌明确，AI应用、物理AI等科技与制造方向受情绪催化已率先反弹。资金层面，长线资金借道ETF持续承接，上周五午后再次放量，两融去杠杆接近尾声，跟踪的活跃私募仓位已降至年内较低位置。往后看，本轮调整后可逐步向明年高景气方向布局，有真实三季报支撑的优质赛道依旧是核心抓手，在恐慌抛售后或提供更好的买点；顺周期方向则静待更多政策预期，年底中央经济工作会议与“十五五”规划落地前的政策窗口值得跟踪。海外方向，持续关注本周重点科技公司业绩披露与10月28日FOMC会议与通胀数据。账户层面，维持均衡配置，保持防御底仓，逢调整分批布局明年高景气方向，顺周期方向等待政策信号与基本面信号好转再加仓。",
+  "macro": [
+    "海外流动性：FOMC 10月27—28日；美国三季度GDP、9月PCE同于10月29日公布",
+    "风险资产：A股周五深V反弹，成交1.97万亿元，较前日放量约4310亿元",
+    "国内政策：国家数据集团在雄安成立，主责数据资源开发利用"
+  ],
+  "source_audit": [
+    {
+      "card": 1,
+      "published": "2026-10-21",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
+      "status": "NVIDIA官方发布：Isaac新增人形参考平台、数据集、runtime和机器人学习工具；Agile ONE SN计划2027年初上市，海报不把开发平台升级写成机器人规模化商用。"
+    },
+    {
+      "card": 2,
+      "published": "2026-10-20",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+      "status": "OpenAI官方宣布已收购Orchestra Bio，计划把团队和技术与Rosalind的模型及生命科学研究工具整合；不宣称已带来临床或药物研发成果。"
+    },
+    {
+      "card": 3,
+      "published": "2026-10-24",
+      "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-10-24/688256_20261024_FX52.pdf",
+      "status": "寒武纪2026年三季报：Q3营业收入35.308亿元、同比+104.47%；归母净利润14.036亿元、同比+147.74%。数字按公告原值四舍五入。"
+    },
+    {
+      "card": 4,
+      "published": "2026-10-22",
+      "url": "https://www.semi.org.cn/site/semi/article/876a72b271b8418ebe452d1c3b3d8687.html",
+      "status": "中微公司公告的Primo Domingo气相高选择性刻蚀设备全球首台机付运国内重要IC研发制造客户；付运不等于客户验证完成或量产导入。"
+    }
+  ],
+  "macro_audit": [
+    "https://www.federalreserve.gov/monetarypolicy.htm — FOMC 2026年10月27—28日会议",
+    "https://www.bea.gov/news/schedule/full — 10月29日公布2026年三季度GDP初值及9月Personal Income and Outlays（含PCE）",
+    "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniweywq5021971.shtml — 10月23日A股深V、成交额与放量数据",
+    "https://wap.sasac.gov.cn/n2588035/c36071870/content.html — 国资委关于组建国家数据集团的公告，2026年10月20日"
+  ],
+  "commentary_validation": {
+    "user_supplied_verbatim": true,
+    "evidence_note": "周五反弹和ETF承接有公开市场报道支持；‘两融去杠杆接近尾声’属于判断；‘跟踪的活跃私募仓位年内较低’的样本口径未在本次公开资料中独立复核。"
+  }
+}
