@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-27 close",
+  "index": "中证1000",
+  "code": "000852.SH",
+  "close": 6427.1732,
+  "change_percent": -3.0706,
+  "source_1": {
+    "provider": "iFinD index_data",
+    "first_response": "20261027 收盘价6427.1732 涨跌幅-3.0706%",
+    "repeated_request": "查询结果为空"
+  },
+  "source_2": {
+    "provider": "妙想 东方财富数据库 mx_index_block_finance_data",
+    "date": "2026-10-27",
+    "close": "6427.1732点",
+    "change_percent": "-3.071",
+    "quote_timestamp": "2026-10-27 15:54",
+    "quote_change": "-3.07%"
+  },
+  "note": "本文件为本次工具返回的核验摘录；二次iFinD请求为空，已按数据源优先级使用妙想交叉核验一致。"
+}
