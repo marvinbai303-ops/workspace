@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T01:16:02.899Z",
-  "runDate": "2026-10-28",
+  "generatedAt": "2026-10-29T01:33:28.038Z",
+  "runDate": "2026-10-29",
   "snapshotDate": "2026-10-22",
   "sourcePolicy": "官方源/FRED取数；保留原始文件与每次运行快照；失败时沿用上一有效值并标记 stale",
   "metrics": {
