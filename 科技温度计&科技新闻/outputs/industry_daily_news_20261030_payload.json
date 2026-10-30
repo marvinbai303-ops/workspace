@@ -1,0 +1,79 @@
+{
+  "date": "2026.10.30",
+  "news_window": "2026-10-27至2026-10-30（近三天）",
+  "thermometer_workbook": "/Users/yangguang/Documents/Codex/workspace/科技温度计&科技新闻/1030转换 行业温度计_量价_估值.xlsx",
+  "source_note": "资料：iFinD、SEC、Fed、Microsoft、Alphabet、Amazon官方财报及Reuters｜截至2026.10.30",
+  "avatar_style": "group-portrait",
+  "hero": {
+    "title": ["云厂财报再检验AI投入回报", "现金流成为新标尺"],
+    "subtitle": "Azure与Google Cloud高增，AI基建投入回报成焦点"
+  },
+  "cards": [
+    {
+      "title": "Google云收入翻倍，现金流再承压",
+      "body": "Q3云营收同比+103%；自由现金流为-91亿美元，连续第二季为负。",
+      "tag": "Alphabet｜云计算｜AI投入",
+      "accent": "navy"
+    },
+    {
+      "title": "微软Azure增速加快至48%",
+      "body": "FY27Q1营收+19%；季度资本开支452亿美元，低于此前500亿美元以上预期，部分交付延后。",
+      "tag": "微软｜云计算｜算力交付",
+      "accent": "blue"
+    },
+    {
+      "title": "AWS增速近五年最快",
+      "body": "Q3营收同比+39.3%；但过去12个月自由现金流降至-424亿美元。",
+      "tag": "亚马逊｜云计算｜现金流",
+      "accent": "navy"
+    },
+    {
+      "title": "Anthropic公开递交IPO文件",
+      "body": "S-1已提交SEC，拟在纳斯达克以ANT上市；发行规模、定价和挂牌日期未定。",
+      "tag": "Anthropic｜大模型｜IPO",
+      "accent": "blue"
+    }
+  ],
+  "commentary": "从外部环境看，10月FOMC会议暂停加息，但声明偏鹰、出现两票主张加息，沃什强调利率对AI投资并非没有影响，12月加息预期升温，从而抬升高估值成长股的分母端压力；美股云厂财报也动摇了“AI无限资本开支”的叙事，微软资本开支低于指引、甲骨文给出克制指引、谷歌自由现金流转负。A股三季报披露接近尾声，国内光模块龙头三季报低于预期，带动科技方向持续下跌，三季度主动基金业绩同样快速转负，半导体与硬件配置大幅削减并回落到历史中值，负债端从AI硬件基金转向煤炭、医药、有色。从账户层面看，当下已经不宜更加悲观，温度计读数逼近三年冰点，仍有仓位的建议开始逐步加仓产业趋势组合，调整金字塔结构。",
+  "macro": [
+    "海外流动性：FOMC维持利率、两票主张加息；12月加息预期升温",
+    "海外科技：Alphabet与亚马逊现金流承压，微软Azure增长加速",
+    "国内产业：天孚Q3净利略低预期；中际旭创、新易盛业绩仍高增"
+  ],
+  "source_audit": [
+    {
+      "card": 1,
+      "published": "2026-10-28",
+      "url": "https://www.publicnow.com/view/ED018F4AAE12FB3B1BD1E9649EA9BF381E69B00F",
+      "status": "Alphabet发布Q3结果：Google Cloud收入307亿美元、同比增长103%；iFinD及多家财报报道显示季度自由现金流为-90.65亿美元，且Q2已首次转负，因此Q3是连续第二季为负。"
+    },
+    {
+      "card": 2,
+      "published": "2026-10-28",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+      "status": "Microsoft Q1 FY27收入同比增长19%，Azure增长48%。Reuters报道本季资本开支452亿美元，低于此前超过500亿美元的指引，原因是部分第三方算力交付延期；下一季度资本开支指引仍高于500亿美元，故不解读为长期投资收缩。"
+    },
+    {
+      "card": 3,
+      "published": "2026-10-29",
+      "url": "https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf",
+      "status": "Amazon官方Q3财报：AWS净销售同比增长39.3%，为近五年最快；过去12个月自由现金流为-423.57亿美元。"
+    },
+    {
+      "card": 4,
+      "published": "2026-10-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "status": "Anthropic向SEC公开提交S-1，拟在Nasdaq Global Select Market以ANT代码上市；文件显示发行股数、价格区间与日期尚待确定，故准确说法是启动IPO程序而非已上市。"
+    }
+  ],
+  "macro_audit": [
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm — 10月28日按10比2投票维持利率，两位委员主张加息。",
+    "https://apnews.com/article/c06793b0c50641444701d5d098ccc2c8 — Fed主席Warsh与利率影响AI投资的表态；报道提及12月加息概率近85%。",
+    "https://m.21jingji.com/article/20261029/herald/9b0a54d2be85dbecf90644d61efc71a2.html — 天孚通信Q3净利8.79亿元，报道引述机构观点称略低于预期；中际旭创、新易盛三季报仍同比高增。",
+    "1030转换 行业温度计_量价_估值.xlsx：首页A/E列，最新有效点2026-10-29，E值0.1458889即14.59度；近三年约第2.1百分位，最低11.31度（2024-01-10）。"
+  ],
+  "commentary_validation": {
+    "user_supplied_verbatim": true,
+    "evidence_note": "FOMC两票偏鹰、Warsh关于利率影响AI投资、微软Q1资本开支低于前次指引且因交付延迟、Google FCF连续第二季为负均可找到公开来源。Anthropic已递交S-1但尚未上市。Oracle最新公开FY27 Q1指引为全年收入至少900亿美元；‘克制’属于需对照市场预期定义的判断。国内光模块预期差主要指天孚通信一家公司；中际旭创、新易盛Q3利润同比仍高增。主动基金业绩与持仓迁移因缺少明确样本/统计口径，未独立复核。"
+  }
+}
