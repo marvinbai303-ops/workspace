@@ -1,0 +1,78 @@
+{
+  "date": "2026.11.02",
+  "news_window": "2026-10-29至2026-11-02（近期重点科技热点）",
+  "thermometer_workbook": "/Users/yangguang/Documents/Codex/workspace/科技温度计&科技新闻/1102转换 行业温度计_量价_估值.xlsx",
+  "source_note": "资料：iFinD、Reuters、SEC、公司财报及公告｜截至2026.11.02",
+  "avatar_style": "group-portrait",
+  "hero": {
+    "title": ["海外风偏下修，资金对于", "AI融资持续担忧。"],
+    "subtitle": "据报道称，OpenAI新一轮募资目标由300亿美元降至200亿美元"
+  },
+  "cards": [
+    {
+      "title": "OpenAI募资目标下调",
+      "body": "据报道称，目标由300亿美元降至200亿美元，估值也随之调整。",
+      "tag": "OpenAI｜募资｜AI产业资本",
+      "accent": "navy"
+    },
+    {
+      "title": "谷歌云与微软Azure继续高增",
+      "body": "谷歌云+103%、Azure+48%；财报后两家股价反应分化。",
+      "tag": "云计算｜AI业绩｜资本开支",
+      "accent": "blue"
+    },
+    {
+      "title": "AWS近五年最快增长，现金流转负",
+      "body": "AWS收入同比+39.3%；过去12个月自由现金流-424亿美元。",
+      "tag": "亚马逊｜云计算｜现金流",
+      "accent": "navy"
+    },
+    {
+      "title": "英特尔Q4指引低于预期",
+      "body": "营收指引150亿—160亿美元，市场预期约170亿美元；盘后大跌。",
+      "tag": "英特尔｜芯片｜业绩",
+      "accent": "blue"
+    }
+  ],
+  "commentary": "我们认为市场继续寻找阶段性底部。绝对收益资金减仓或逐步进入尾声、托底的力量有望加强，叠加A股三季报负面信息已充分反映，但流动性负反馈已牵连债市周五开始下跌，卖盘枯竭进度、包括美国中期选举结果与油价是主要的市场下行超预期不确定因素。往中期看，海外AI高投入持续，美国长债利率维持5%以上高位、挤压全球流动性并削弱非AI类资产吸引力，全球指数更可能进入持续的震荡。风格上，市场风险偏好继续向红利防御倾斜，但短期内防御方向已经有明显拥挤信号，如果成长风险压制解除，可能迎来较快的回补。海外方向，中期选举结果、地缘政治与美联储政策路径仍有不确定性。账户层面，维持均衡配置，保持防御底仓，逢调整分批布局AI等产业趋势方向，顺周期方向等待政策信号与基本面信号好转。",
+  "macro": [
+    "海外利率：30年期美债仍高于5%；10年期10月30日约4.94%",
+    "风险资产：AI云厂财报表现分化；美国中期选举临近",
+    "国内流动性：10月30日债市走弱，月底资金面与止盈压力显现"
+  ],
+  "source_audit": [
+    {
+      "card": 1,
+      "published": "2026-10-31",
+      "url": "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/",
+      "status": "Reuters转述Financial Times报道称OpenAI新一轮融资目标从300亿美元降至约200亿美元；公司未公开确认，海报使用‘据报’限定。"
+    },
+    {
+      "card": 2,
+      "published": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+      "status": "Alphabet官方Q3公告披露Google Cloud收入同比增长103%；微软官方FY27Q1公告披露Azure收入同比增长48%。财报后市场反应分化由iFinD与主流报道交叉核对。"
+    },
+    {
+      "card": 3,
+      "published": "2026-10-29",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+      "status": "Amazon官方财报：AWS收入同比增长39.3%；截至Q3的过去12个月自由现金流为负423.57亿美元，海报四舍五入为-424亿美元。"
+    },
+    {
+      "card": 4,
+      "published": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",
+      "status": "Intel官方Q3公告给出Q4营收指引150亿至160亿美元；Reuters报道市场预期更高且盘后股价大幅下跌。"
+    }
+  ],
+  "macro_audit": [
+    "美国财政部2026年10月每日收益率曲线：10月30日10年期4.94%，30年期5.31%；‘长债利率5%以上’若指30年期成立，若指10年期则不成立。",
+    "iFinD新闻检索：10月30日中国国债期货主要期限普遍收跌；报道归因包括月末流动性压力和获利了结，后者属于市场解释。",
+    "科技温度计：1102工作簿首页A/E列，最新有效观测日2026-10-30，原始值0.1286667，显示12.87度。"
+  ],
+  "commentary_validation": {
+    "user_supplied_verbatim": true,
+    "evidence_note": "评论原文保持不变，不代表对其中关于阶段底部、绝对收益资金减仓尾声、红利拥挤度等判断作独立背书。数字表述中需区分30年期与10年期美债收益率。"
+  }
+}
