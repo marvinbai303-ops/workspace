@@ -1,0 +1,33 @@
+{
+  "evidence": "frames/54_0030.jpg",
+  "counts": {
+    "advance": 4381,
+    "decline": 1035,
+    "unchanged": 159,
+    "sum": 5575
+  },
+  "calculated": {
+    "advance_share_percent": 80.88995568685377,
+    "amount_gap_percentage_points": 2.42004431314623,
+    "volume_gap_percentage_points": -0.739955686853766,
+    "trin_amount": 0.8479926843284238,
+    "trin_volume": 1.0483103842131751
+  },
+  "displayed": {
+    "advance_share_percent": 80.89,
+    "amount_share_percent": 83.31,
+    "volume_share_percent": 80.15,
+    "amount_gap_percentage_points": 2.42,
+    "volume_gap_percentage_points": -0.74,
+    "trin_amount": 0.848,
+    "trin_volume": 1.048
+  },
+  "checks": {
+    "count_sum": true,
+    "advance_share": true,
+    "amount_gap": true,
+    "volume_gap": true,
+    "trin_amount": true,
+    "trin_volume": true
+  }
+}

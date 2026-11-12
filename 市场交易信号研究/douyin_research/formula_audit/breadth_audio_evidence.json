@@ -1,0 +1,705 @@
+{
+  "scope": "54篇逐字稿全文阅读；非54个实际音频逐一听验",
+  "video_count": 54,
+  "all_read": true,
+  "records": [
+    {
+      "idx": 1,
+      "id": "7685362553472801187",
+      "date": "2026-09-14",
+      "transcript": "douyin_research/transcripts/7685362553472801187.md",
+      "full_read": true,
+      "metadata_duration": 306.0,
+      "last_transcript_end": 197.43,
+      "visual_windows": [],
+      "known_issue": "ASR正文与03完全重复，且306秒视频转写仅197.43秒；须重核实际音频"
+    },
+    {
+      "idx": 2,
+      "id": "7686146252223881152",
+      "date": "2026-09-16",
+      "transcript": "douyin_research/transcripts/7686146252223881152.md",
+      "full_read": true,
+      "metadata_duration": 240.0,
+      "last_transcript_end": 240.135,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 3,
+      "id": "7685926019916794752",
+      "date": "2026-09-16",
+      "transcript": "douyin_research/transcripts/7685926019916794752.md",
+      "full_read": true,
+      "metadata_duration": 198.0,
+      "last_transcript_end": 197.43,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 4,
+      "id": "7686279141561598179",
+      "date": "2026-09-17",
+      "transcript": "douyin_research/transcripts/7686279141561598179.md",
+      "full_read": true,
+      "metadata_duration": 336.0,
+      "last_transcript_end": 336.745,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 5,
+      "id": "7687791876254400500",
+      "date": "2026-09-21",
+      "transcript": "douyin_research/transcripts/7687791876254400500.md",
+      "full_read": true,
+      "metadata_duration": 504.0,
+      "last_transcript_end": 502.26,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 6,
+      "id": "7688605083978223074",
+      "date": "2026-09-23",
+      "transcript": "douyin_research/transcripts/7688605083978223074.md",
+      "full_read": true,
+      "metadata_duration": 288.0,
+      "last_transcript_end": 285.095,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 7,
+      "id": "7689285388485479400",
+      "date": "2026-09-25",
+      "transcript": "douyin_research/transcripts/7689285388485479400.md",
+      "full_read": true,
+      "metadata_duration": 432.0,
+      "last_transcript_end": 429.19,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 8,
+      "id": "7689353967416166755",
+      "date": "2026-09-25",
+      "transcript": "douyin_research/transcripts/7689353967416166755.md",
+      "full_read": true,
+      "metadata_duration": 510.0,
+      "last_transcript_end": 510.115,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 9,
+      "id": "7689639585425056591",
+      "date": "2026-09-26",
+      "transcript": "douyin_research/transcripts/7689639585425056591.md",
+      "full_read": true,
+      "metadata_duration": 558.0,
+      "last_transcript_end": 555.135,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 10,
+      "id": "7690191990764353999",
+      "date": "2026-09-27",
+      "transcript": "douyin_research/transcripts/7690191990764353999.md",
+      "full_read": true,
+      "metadata_duration": 180.0,
+      "last_transcript_end": 179.45,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 11,
+      "id": "7690573967492733135",
+      "date": "2026-09-28",
+      "transcript": "douyin_research/transcripts/7690573967492733135.md",
+      "full_read": true,
+      "metadata_duration": 312.0,
+      "last_transcript_end": 314.03,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 12,
+      "id": "7690903126367405475",
+      "date": "2026-09-29",
+      "transcript": "douyin_research/transcripts/7690903126367405475.md",
+      "full_read": true,
+      "metadata_duration": 72.0,
+      "last_transcript_end": 70.135,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 13,
+      "id": "7691322359457817507",
+      "date": "2026-09-30",
+      "transcript": "douyin_research/transcripts/7691322359457817507.md",
+      "full_read": true,
+      "metadata_duration": 294.0,
+      "last_transcript_end": 295.49,
+      "visual_windows": [
+        {
+          "start_s": 41,
+          "end_s": 120,
+          "reason": "ADL/ADR与宽广度算法缺失"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 14,
+      "id": "7692341302306897984",
+      "date": "2026-10-03",
+      "transcript": "douyin_research/transcripts/7692341302306897984.md",
+      "full_read": true,
+      "metadata_duration": 186.0,
+      "last_transcript_end": 183.245,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 15,
+      "id": "7692783856278389416",
+      "date": "2026-10-04",
+      "transcript": "douyin_research/transcripts/7692783856278389416.md",
+      "full_read": true,
+      "metadata_duration": 504.0,
+      "last_transcript_end": 505.775,
+      "visual_windows": [
+        {
+          "start_s": 349,
+          "end_s": 410,
+          "reason": "定价权代码及保密口径，非A核心"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 16,
+      "id": "7693143424778845135",
+      "date": "2026-10-05",
+      "transcript": "douyin_research/transcripts/7693143424778845135.md",
+      "full_read": true,
+      "metadata_duration": 306.0,
+      "last_transcript_end": 308.845,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 17,
+      "id": "7693482292580785890",
+      "date": "2026-10-06",
+      "transcript": "douyin_research/transcripts/7693482292580785890.md",
+      "full_read": true,
+      "metadata_duration": 138.0,
+      "last_transcript_end": 138.11,
+      "visual_windows": [
+        {
+          "start_s": 68,
+          "end_s": 120,
+          "reason": "三只ETF成交额求和通达信代码"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 18,
+      "id": "7693875849703886179",
+      "date": "2026-10-07",
+      "transcript": "douyin_research/transcripts/7693875849703886179.md",
+      "full_read": true,
+      "metadata_duration": 132.0,
+      "last_transcript_end": 129.61,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 19,
+      "id": "7694223263169347791",
+      "date": "2026-10-08",
+      "transcript": "douyin_research/transcripts/7694223263169347791.md",
+      "full_read": true,
+      "metadata_duration": 72.0,
+      "last_transcript_end": 72.47,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 20,
+      "id": "7694432759611486287",
+      "date": "2026-10-09",
+      "transcript": "douyin_research/transcripts/7694432759611486287.md",
+      "full_read": true,
+      "metadata_duration": 516.0,
+      "last_transcript_end": 518.39,
+      "visual_windows": [
+        {
+          "start_s": 306,
+          "end_s": 360,
+          "reason": "宽广度背离图"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 21,
+      "id": "7696117087676565923",
+      "date": "2026-10-13",
+      "transcript": "douyin_research/transcripts/7696117087676565923.md",
+      "full_read": true,
+      "metadata_duration": 198.0,
+      "last_transcript_end": 196.815,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 22,
+      "id": "7696442668070866595",
+      "date": "2026-10-14",
+      "transcript": "douyin_research/transcripts/7696442668070866595.md",
+      "full_read": true,
+      "metadata_duration": 312.0,
+      "last_transcript_end": 313.695,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 23,
+      "id": "7696695237745807040",
+      "date": "2026-10-15",
+      "transcript": "douyin_research/transcripts/7696695237745807040.md",
+      "full_read": true,
+      "metadata_duration": 174.0,
+      "last_transcript_end": 171.3,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 24,
+      "id": "7697069823088879528",
+      "date": "2026-10-16",
+      "transcript": "douyin_research/transcripts/7697069823088879528.md",
+      "full_read": true,
+      "metadata_duration": 318.0,
+      "last_transcript_end": 320.365,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 25,
+      "id": "7697810582636650659",
+      "date": "2026-10-18",
+      "transcript": "douyin_research/transcripts/7697810582636650659.md",
+      "full_read": true,
+      "metadata_duration": 294.0,
+      "last_transcript_end": 290.74,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 26,
+      "id": "7697997846737995584",
+      "date": "2026-10-18",
+      "transcript": "douyin_research/transcripts/7697997846737995584.md",
+      "full_read": true,
+      "metadata_duration": 180.0,
+      "last_transcript_end": 180.915,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 27,
+      "id": "7698156381056391823",
+      "date": "2026-10-19",
+      "transcript": "douyin_research/transcripts/7698156381056391823.md",
+      "full_read": true,
+      "metadata_duration": 204.0,
+      "last_transcript_end": 205.13,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 28,
+      "id": "7698262666594409448",
+      "date": "2026-10-19",
+      "transcript": "douyin_research/transcripts/7698262666594409448.md",
+      "full_read": true,
+      "metadata_duration": 498.00000000000006,
+      "last_transcript_end": 495.985,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 29,
+      "id": "7698353244887886056",
+      "date": "2026-10-19",
+      "transcript": "douyin_research/transcripts/7698353244887886056.md",
+      "full_read": true,
+      "metadata_duration": 276.0,
+      "last_transcript_end": 273.32,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 30,
+      "id": "7698551410090119808",
+      "date": "2026-10-20",
+      "transcript": "douyin_research/transcripts/7698551410090119808.md",
+      "full_read": true,
+      "metadata_duration": 24.0,
+      "last_transcript_end": 20.525,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 31,
+      "id": "7698891487421377856",
+      "date": "2026-10-21",
+      "transcript": "douyin_research/transcripts/7698891487421377856.md",
+      "full_read": true,
+      "metadata_duration": 300.0,
+      "last_transcript_end": 297.81,
+      "visual_windows": [
+        {
+          "start_s": 91,
+          "end_s": 120,
+          "reason": "简略TRIN定义省略分子"
+        },
+        {
+          "start_s": 169,
+          "end_s": 256,
+          "reason": "TRIN1.69、家数比4.6、额比2.7及宽广度"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 32,
+      "id": "7698957540848250280",
+      "date": "2026-10-21",
+      "transcript": "douyin_research/transcripts/7698957540848250280.md",
+      "full_read": true,
+      "metadata_duration": 408.0,
+      "last_transcript_end": 410.53499999999997,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 33,
+      "id": "7699325785430067426",
+      "date": "2026-10-22",
+      "transcript": "douyin_research/transcripts/7699325785430067426.md",
+      "full_read": true,
+      "metadata_duration": 84.0,
+      "last_transcript_end": 84.5,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 34,
+      "id": "7699358528629458639",
+      "date": "2026-10-22",
+      "transcript": "douyin_research/transcripts/7699358528629458639.md",
+      "full_read": true,
+      "metadata_duration": 102.0,
+      "last_transcript_end": 99.535,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 35,
+      "id": "7699507023986335695",
+      "date": "2026-10-22",
+      "transcript": "douyin_research/transcripts/7699507023986335695.md",
+      "full_read": true,
+      "metadata_duration": 162.0,
+      "last_transcript_end": 161.32,
+      "visual_windows": [
+        {
+          "start_s": 95,
+          "end_s": 121,
+          "reason": "换手率>5%占比图"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 36,
+      "id": "7699681780400649826",
+      "date": "2026-10-23",
+      "transcript": "douyin_research/transcripts/7699681780400649826.md",
+      "full_read": true,
+      "metadata_duration": 270.0,
+      "last_transcript_end": 269.03,
+      "visual_windows": [
+        {
+          "start_s": 87,
+          "end_s": 120,
+          "reason": "VW MACD公式"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 37,
+      "id": "7699773387346673615",
+      "date": "2026-10-23",
+      "transcript": "douyin_research/transcripts/7699773387346673615.md",
+      "full_read": true,
+      "metadata_duration": 126.0,
+      "last_transcript_end": 126.585,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 38,
+      "id": "7700469388663999720",
+      "date": "2026-10-25",
+      "transcript": "douyin_research/transcripts/7700469388663999720.md",
+      "full_read": true,
+      "metadata_duration": 498.00000000000006,
+      "last_transcript_end": 499.405,
+      "visual_windows": [
+        {
+          "start_s": 180,
+          "end_s": 361,
+          "reason": "拆量、55%与80%红盘的两个例子"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 39,
+      "id": "7700876657855420904",
+      "date": "2026-10-26",
+      "transcript": "douyin_research/transcripts/7700876657855420904.md",
+      "full_read": true,
+      "metadata_duration": 234.0,
+      "last_transcript_end": 231.29500000000002,
+      "visual_windows": [
+        {
+          "start_s": 15,
+          "end_s": 70,
+          "reason": "重点：阿姆氏两种算法公式截图"
+        },
+        {
+          "start_s": 120,
+          "end_s": 181,
+          "reason": "5%红盘TRIN0.3"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 40,
+      "id": "7701250892050706659",
+      "date": "2026-10-27",
+      "transcript": "douyin_research/transcripts/7701250892050706659.md",
+      "full_read": true,
+      "metadata_duration": 210.0,
+      "last_transcript_end": 212.065,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 41,
+      "id": "7701667092567538511",
+      "date": "2026-10-28",
+      "transcript": "douyin_research/transcripts/7701667092567538511.md",
+      "full_read": true,
+      "metadata_duration": 462.0,
+      "last_transcript_end": 463.2,
+      "visual_windows": [
+        {
+          "start_s": 3,
+          "end_s": 60,
+          "reason": "ST平盘口径说明"
+        },
+        {
+          "start_s": 240,
+          "end_s": 315,
+          "reason": "重点：MCL/麦克连百源代码"
+        },
+        {
+          "start_s": 180,
+          "end_s": 240,
+          "reason": "低TRIN不适用趋势起点的反例"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 42,
+      "id": "7702035535511281472",
+      "date": "2026-10-29",
+      "transcript": "douyin_research/transcripts/7702035535511281472.md",
+      "full_read": true,
+      "metadata_duration": 222.0,
+      "last_transcript_end": 220.595,
+      "visual_windows": [
+        {
+          "start_s": 30,
+          "end_s": 80,
+          "reason": "MCL37%、综合分14.4%、均线参与率"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 43,
+      "id": "7702727277343865999",
+      "date": "2026-10-31",
+      "transcript": "douyin_research/transcripts/7702727277343865999.md",
+      "full_read": true,
+      "metadata_duration": 204.0,
+      "last_transcript_end": 205.42000000000002,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 44,
+      "id": "7703061073745870184",
+      "date": "2026-11-01",
+      "transcript": "douyin_research/transcripts/7703061073745870184.md",
+      "full_read": true,
+      "metadata_duration": 102.0,
+      "last_transcript_end": 102.28,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 45,
+      "id": "7703506532587894400",
+      "date": "2026-11-02",
+      "transcript": "douyin_research/transcripts/7703506532587894400.md",
+      "full_read": true,
+      "metadata_duration": 156.0,
+      "last_transcript_end": 157.53,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 46,
+      "id": "7703775933815298472",
+      "date": "2026-11-03",
+      "transcript": "douyin_research/transcripts/7703775933815298472.md",
+      "full_read": true,
+      "metadata_duration": 78.0,
+      "last_transcript_end": 77.935,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 47,
+      "id": "7703929946762337999",
+      "date": "2026-11-03",
+      "transcript": "douyin_research/transcripts/7703929946762337999.md",
+      "full_read": true,
+      "metadata_duration": 108.0,
+      "last_transcript_end": 107.33500000000001,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 48,
+      "id": "7704253968617275746",
+      "date": "2026-11-04",
+      "transcript": "douyin_research/transcripts/7704253968617275746.md",
+      "full_read": true,
+      "metadata_duration": 108.0,
+      "last_transcript_end": 107.31,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 49,
+      "id": "7704642620970947938",
+      "date": "2026-11-05",
+      "transcript": "douyin_research/transcripts/7704642620970947938.md",
+      "full_read": true,
+      "metadata_duration": 102.0,
+      "last_transcript_end": 104.285,
+      "visual_windows": [
+        {
+          "start_s": 7,
+          "end_s": 61,
+          "reason": "成交额口径明确"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 50,
+      "id": "7704895449426445219",
+      "date": "2026-11-06",
+      "transcript": "douyin_research/transcripts/7704895449426445219.md",
+      "full_read": true,
+      "metadata_duration": 354.0,
+      "last_transcript_end": 355.85,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 51,
+      "id": "7705312967499983311",
+      "date": "2026-11-07",
+      "transcript": "douyin_research/transcripts/7705312967499983311.md",
+      "full_read": true,
+      "metadata_duration": 438.0,
+      "last_transcript_end": 438.78,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 52,
+      "id": "7705615891414047360",
+      "date": "2026-11-08",
+      "transcript": "douyin_research/transcripts/7705615891414047360.md",
+      "full_read": true,
+      "metadata_duration": 66.0,
+      "last_transcript_end": 63.65,
+      "visual_windows": [],
+      "known_issue": null
+    },
+    {
+      "idx": 53,
+      "id": "7706109310832625280",
+      "date": "2026-11-09",
+      "transcript": "douyin_research/transcripts/7706109310832625280.md",
+      "full_read": true,
+      "metadata_duration": 204.0,
+      "last_transcript_end": 205.465,
+      "visual_windows": [
+        {
+          "start_s": 0,
+          "end_s": 64,
+          "reason": "TRIN0.5红盘45%额价差>15基点"
+        }
+      ],
+      "known_issue": null
+    },
+    {
+      "idx": 54,
+      "id": "7706497063014957027",
+      "date": "2026-11-10",
+      "transcript": "douyin_research/transcripts/7706497063014957027.md",
+      "full_read": true,
+      "metadata_duration": 168.0,
+      "last_transcript_end": 170.37,
+      "visual_windows": [
+        {
+          "start_s": 0,
+          "end_s": 121,
+          "reason": "红盘78%、额价差0.5基点、实时图"
+        }
+      ],
+      "known_issue": null
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "idx": 9,
+    "t": 452,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00452.jpg",
+    "text": "责收益率曲线 | × | 1 G00GL 342.36 4 +1.34%个 | ：26.9:26 ot/olutsim/ | 17 BTC1! 8 | guru新闻 | 宏观数据 | 图表［ 利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | SymLTTO-CLCKeT | na | 024042 | root = product == \"\"？ | get_root（）：product | if na（root） | runtime.error（\"X | 当前品种无自动映射， | 青手动填入CFTC代码\"） | if not timeframe.isweekly | runtime.error（\" | A | COT数据仅支持周线weekly周期\"） | // | Legacy 标准分組名（单个单词 +Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_Large | = \"Noncommercial Positions\" | group_specs | = “Nonreportable Positions\" | 1/ 已验证可用 | 修复：合并为 | 修复：合并为 | 读取CQT各分组持仓 ========= | 1/ Commercial | 商业套保盘 | com_Long | = cot.requestCommitmentOfTraders（reportType， | root"
+  },
+  {
+    "idx": 9,
+    "t": 454,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00454.jpg",
+    "text": "责收益率曲线 | 11 G00GL 342.36 A +1.34%个 | × | 26.9-26w V/oltitim | guru新闻 | 宏观数据 | C图表［利率利息债券 | 17 BTC1! 8 | 股票数据 | itor | OT comm/large/specs ~ | runtime.error（\"X 当前品种无自动映射 | 青手动填入CFTC代码“） | if not timeframe.isweekly | runtime.error（\" | A | COT数据仅支持周线weekly周期\"） | Legacy 标准分组名（单个单词+Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_Large | = \"Noncommercial Positions\" | group_specs | =\"Nonreportable Positions\" | // | // | // 已验证可用 | K | 修复：合并为 | 修复：合并为目 | 读取COT各分组持仓 ====== | // Commercial 商业套保盘 | com_Long | = cot.requestCommitmentOfTraders（reportType, root | com_short = cot.requestCommitmentOfTraders（reportType, root | 1/ Noncommercial 非商业大户 | noncom_1ong | = cot.requestCommitmentOfTraders（reportType, n | noncom_short = cot.requestCommitmentOfTraders（reportType, r"
+  },
+  {
+    "idx": 9,
+    "t": 456,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00456.jpg",
+    "text": "责收益率曲线 | × | 11 G00GL 342.36 A +1.34%个 | × | 17 BTC1! 8 | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | runtime.error（\" | X 当前品种无自动映射！ | 青手动填入CFTC代码\"） | if | not timeframe.isweekly | runtime.error（\" | A | COT数据仅支持周线weekly周期“） | Legacy 标准分组名（单个单词+Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_Large | = \"Noncommercial Positions\" | group_specs | = \"Nonreportable Positions\" | // | // | // 已验证可用 | K | 修复：合并为 | 修复：合并为目 | 读取COT各分组持仓 ====== | // Commercial | 商J套保盘 | com_Long | = cot.requestCommitmentOfTraders（reportType, root | com_short = cot.requestCommitmentOfTraders（reportType, root | 1/ Noncommercial 非商业大户 | noncom_Long | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（reportType, r"
+  },
+  {
+    "idx": 9,
+    "t": 458,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00458.jpg",
+    "text": "责收益率曲线 | × | 11 G00GL 342.36 A +1.34%个 | × | 26.9-26w v/oltitim | 17 BTC1! 8 | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | runtime.error（\" | X 当前品种无自动映射 | 青手动填入CFTC代码\"） | if | not timeframe.isweekly | runtime.error（\" | A | COT数据仅支持周线weekly周期“） | Legacy 标准分组名（单个单词+Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_Large | = \"Noncommercial Positions\" | group_specs | = \"Nonreportable Positions\" | // | // | // 已验证可用 | K | 修复：合并力 | 修复：合并为目 | 读取COT番分组持仓======= | // Commercial 商业套保盘 | com_Long | = cot.requestCommitmentOfTraders（reportType, root | com_short = cot.requestCommitmentOfTraders（reportType, root | 1/ Noncommercial 非商业大户 | noncom_Long | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（reportType, r"
+  },
+  {
+    "idx": 9,
+    "t": 460,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00460.jpg",
+    "text": "责收益率曲线 | × | 11 G00GL 342.36 A +1.34%个 | × | 26.9-26 V/oltitim） | 17 BTC1! 8 | guru新闻 | 宏观数据 | 图表 | 口 | 利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | runtime.error（\" | X 当前品种无自动映射！ | 青手动填入CFTC代码\"） | if | not timeframe.isweekly | runtime.error（\" | COT数据仅支持周线weekly周期“） | Legacy 标准分组名（单个单词+Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_Large | = \"Noncommercial Positions\" | group_specs | = \"Nonreportable Positions\" | // | // | // 已验证可用 | K | 修复：合并为 | 修复：合并为目 | 读取COT各分组持仓 ====== | // Commercial 商业套保盘 | com_Long | = cot.reluestCommitmentOfTraders（reportType, root | com_short = cot.requestCommitmentOfTraders（reportType, root | 1/ Noncommercial 非商业大户 | noncom_Long | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（reportType, r"
+  },
+  {
+    "idx": 9,
+    "t": 462,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00462.jpg",
+    "text": "责收益率曲线 | × | TI G00GL 342.36 A +1.34%个 | × | ：26.9:26 ot/olistsim/ | 17 BTC1! 8 | guru新闻 | 宏观数据 | 图表［利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | runtime.error（\"X 当前品种无自动映射 | 青手动填入CFTC代码“） | if not timeframe.isweekly | runtime.error（\" | COT数据仅支持周线weekly周期\"） | Legacy 标准分组名（单个单词+Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_large | = \"Noncommercial Positions\" | group_specs | = \"Nonreportable Positions\" | // | // | // 已验证可用 | 修复：合并为 | 修复：合并为目 | 读取COT各分组持仓 ========== | // Commercial | 商业套保盘 | com_long， | J cot.requestCommitmentOfTraders（reportType,root | com_short = cot.requestCommitmentOfTraders（reportType, root | 1/ Noncommercial 非商业大户 | noncom_long | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（repontType, r"
+  },
+  {
+    "idx": 9,
+    "t": 464,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00464.jpg",
+    "text": "责收益率曲线 | × | TI G00GL 342.36 A +1.34%个 | × | ：26.9:26 ot/olitsim/ | 17 BTC1! 8 | guru新闻 | 宏观数据 | 图表 ［ 利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | runtime.error（\"X 当前品种无自动映射 | 青手动填入CFTC代码\"） | if not timeframe.isweekly | runtime.error（\" | COT数据仅支持周线weekly周期“） | Legacy 标准分组名（单个单词+Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_large | = \"Noncommercial Positions\" | group_specs | = \"Nonrepontable Positions\" | 1/ | // | // | 已验证可用 | 修复：合并为 | 修复：合并为目 | 读取COT各分组持仓 ==== | // Commercial 商业套保盘 | com_Long | = cot.requestCommitmentOfTraders（reportType, root | com_short = cot.nequestCommitmentOfTraders（reportType, noot | // Noncommercial | 非商半大户 | noncom_long | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（repontType, r"
+  },
+  {
+    "idx": 9,
+    "t": 466,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00466.jpg",
+    "text": "责收益率曲线 | × | T1 G00GL 342.36 A +1.34%个 | × | e26.9-26 ww/olttsim | 17 BTC1! 8 | guru新闻 | 宏观数据 | C图表［ 利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | runtime.error（\"X 当前品种无自动映射 | 青手动填入CFTC代码\"） | if not timeframe.isweekly | runtime.error（\" | COT数据仅支持周线weekly周期“） | Legacy 标准分组名（单个单词+Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_Large | = \"Noncommercial Positions\" | group_specs | = \"Nonrepontable Positions\" | // | // | // | 已验证可用 | 修复：合并为 | 修复：合并为目 | 读取COT各分组持仓 ==== | // Commercial 商业套保盘 | com_Long | = cot.requestCommitmentOfTraders（reportType, root | com_short = cot.requestCommitmentOfTraders（reportType, root | 1/ Noncommercial 非商业大户 | noncom_1ong | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.rdquestCommitmentOfTraders（repontType, r"
+  },
+  {
+    "idx": 9,
+    "t": 468,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00468.jpg",
+    "text": "责收益率曲线 | × | 11 G00GL 342.36 A +1.34%个 | × | 26.9.26 votitim | 17 BTC1!8 | guru新闻 | 圖 | 宏观数据 | 图表［利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | runtime.error（\"X 当前品种无自动映射 | 青手动填入CFTC代码“） | if not timeframe.isweekly | runtime.error（\" | COT数据仅支持周线weekly周期\"） | Legacy 标准分组名（单个单词+Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | // | group_large | = \"Noncommercial Positions\" | group_specs | = \"Nonreportable Positions\" | 已验证可用 | 修复：合并为 | 修复：合并为目 | 读取COT各分组持仓 ==== | // Commercial 商业套保盘 | com_Long | = cot.requestCommitmentOfTraders（reportType, root | com_short = cot.nequestCommitmentOfTraders（reportType, root | // Noncommercial | noncom_Long | 非商业大户 | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（reportType, r"
+  },
+  {
+    "idx": 9,
+    "t": 470,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00470.jpg",
+    "text": "责收益率曲线 | × | 1I G00GL 342.36 A +1.34%个 | × | 26.9.26 o otidim | guru新闻 | 宏观数据 | 图表 ［ 利率利息债券 | 17 BTC1! 8 | 股票数据 | itor | OT comm/large/specs ~ | runtime.error（\"X 当前品种无自动映射 | 青手动填入CFTC代码\"） | if not timeframe.isweekly | runtime.error（\" | COT数据仅支持周线weekly周期\"） | Legacy 标准分组名（单个单词+Positions，无空格无连字符） | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_large | = \"Noncommercial Positions\" | // | // | group_specs | = \"Nonrepontable Positions\" | 已验证可用 | 修复：合并为 | 修复：合并为目 | //= = | 读取COT各分组持仓 ===== | // Commercial 商业套保盘 | com_Long | = cot.requestCommitmentOfTraders（reportType, root | com_short = cot.nequestCommitmentOfTraders（reportType, root | // Noncommercial | 非商业大户 | noncom_Long | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（reportType,r"
+  },
+  {
+    "idx": 9,
+    "t": 472,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00472.jpg",
+    "text": "责收益率曲线 | × | 11 G00GL 342.36 A +1.34%个 | 26.9-26w v/oltitim | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | × | 17 BTC1! 8 | 股票数据 | itor | OT comm/large/specs v | reportType = \"Legacy\" | group_com | = \"Commercial Positions\" | group_large | = “Noncommercial Positions\" | group_specs | = \"Nonreportable Positions\" | /！ | // | 已验证可用. | 修复：合并为 | 修复：合并力旦 | 读取COT各分组持仓== | // Commercial 商业套保盘 | com_long | = cot.requestCommitmentOfTraders（reportType, root | com_short = cot.requestCommitmentOfTraders（reportType, root | // Noncommercial 非商业大户 | noncom_Long | = cot.requestCommitmentOfTraders（reportType,r | noncom_short = cot.requestCommitmentOfTraders（reportType,r | 1/ Nonreportable 小投机者 | nonrep_Long | = cot.requestCommitmentOfTraders（reportType,n | nonrep_short = cot.requestComitmentOfTraders（reportType, r | 1/ 总未平仓QT | is | in"
+  },
+  {
+    "idx": 9,
+    "t": 474,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00474.jpg",
+    "text": "责收益率曲线 | × | 1I G00GL 342.36 A +1.34%个 | × | 17 BTC1!8 | guru新闻 | 宏观数据 | 图表 | ［ 利率利息债券 | 股票数据 | itor | OT comm/large/specs v | com_short | cot.nequestCommitmentOfTraders（reportType, root | // Noncommercial 非商业大户 | noncom_Long | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（repontType, n | 1/ Nonreportable 小投机者 | nonrep_long | = cot.requestCommitmentOfTraders（reportType,r | nonrep_short = cot.requestCommitmentOfTraders（reportType,r | 1/ 总未平仓OI | oi = cot.requestCommitmentOfTraders（repontType, root, is_in | 1/ 计算净持仓 | com_nettotal | = com_long- com_short | noncom_nettotal = noncom_long-noncom_short | nonrep_nettotal = nonrep._1ong -nonrep_short | 1/ 绘图 | col"
+  },
+  {
+    "idx": 9,
+    "t": 476,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00476.jpg",
+    "text": "责收益率曲线 | × | 11 G00GL 342.36 A +1.34%个 | 26.9.26 otisim | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | × | 17 BTC1!8 | 股票数据 | itor | OT comm/large/specs v | com | _short = cot.requestCommitmentOfTraders（reportType, root | // Noncommercial 非商业大户 | noncom_long = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（reportType, r | 1/ Nonreportable 小投机者 | nonrep_long | = cot.requestCommitmentOfTraders（reportType, r | nonrep_short = cot.requestComitmentOfTraders（reportType,r | 1/ 总未平仓OI | oi = cot.requestCommitmentOfTraders（repontType, root,is_in | 1/ 计算净折仓 | com_nettotal | =. com_long- com_short | noncom_nettotal = noncom_1ong -noncom_short | nonrep_nettotal = nonrep_1ong -nonrep_short | 1/ 绘图 | plot（com_nettotal， | offset = -displacement, color | cCol"
+  },
+  {
+    "idx": 9,
+    "t": 478,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00478.jpg",
+    "text": "责收益率曲线 | × | 11 G00GL 342.36 A +1.34%个量 | × | 26.9.26 otitsim | 1 BTC1!8 | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | 股票数据 | itor | OT comm/large/specs v | com | _shont | = cot.requestCommitmentOfTraders（reportType， | noot | 1/ Noncommercial 非商业大户 | noncom_long | = cot.requestCommitmentOfTraders（reportType,r | noncom_short = cot.requestCommitmentOfTraders（reportType,r | 1/ Nonreportable 小投机者 | nonrep_1ong | = cot.requestCommitmentOfTraders（reportType, r | nonrep_short = cot.requestComitmentOfTraders（reportType,r | com_nettotal （user-defined | variable） | （repontType, root, is_in | type series float | com_nettotal | =.com_long- com_short | noncom_nettotal =Jnoncom_1ong -noncom_short | nonrep_nettotal = nonrep_long -nonrep_short | 1/ 绘图 | plot（com_nettotal， | offset =-displacement, color = | Col"
+  },
+  {
+    "idx": 9,
+    "t": 480,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00480.jpg",
+    "text": "责收益率曲线 | × | 11 G00GL 342.36 A +1.34%个 | 26.9.26 votitsim | 17 BTC1!8 | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | 股票数据 | itor | OT comm/large/specs v | com | _short = cot.requestCommitmentOfTraders（reportType， | root | // Noncommercial 非商业大户 | noncom_Long | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（repontType,r | 1/ Nonreportable 小投机者 | nonrep_1ong | = cot.requestCommitmentOfTraders（reportType,r | nonrep_short = cot.requestCommitmentOfTraders（reportType,r | 1 总未平仓OI | oi = cot.requestCommitmentOfTraders（reportType,root, is_in | 1/ 计算净持仓 | com_nettotal | = com_long- com_short | noncom_nettotal = noncom_long-noncom_short | nonrep_nettotal = nonrep_long -nonrep_short | 1/ 绘图 | Plot（com_nettotal， | offset = -displacement， | color = | col"
+  },
+  {
+    "idx": 9,
+    "t": 482,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00482.jpg",
+    "text": "责收益率曲线 | 17 GO0GL 342.36 A+1.34%个 | ：26.9:26 ot/olinsim | 17 BTC1!8 | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | com_short | = cot.nequestCommitmentOfTraders（reportType, root | // Noncommercial 非商业大户 | noncom_1ong | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（repontType,r | 1/ Nonreportable 小投机者 | nonrep_long | = cot.requestCommitmentOfTraders（reportType, r | nonrep_short = cot.requestComitmentOfTraders（reportType,r | 1 总未平仓OI | com_long （user-defined | oi = cot.requestCommianabt&） Traders （reportlype, root, is_in | // 计算净持仓 | type series float | com_nettotal | =Eom_long - com_short | noncom_nettotal = noncom_1ong-noncom_short | nonrep_nettotal = nonrep_long -nonrep_shont | 1/ 绘图 | Plot（com_nettotal， | offset = -displacement， | color | col"
+  },
+  {
+    "idx": 9,
+    "t": 484,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00484.jpg",
+    "text": "责收益率曲线 | 17 GO0GL 342.36 A+1.34%个F | ：26.9:26 ot/olistsim/ | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | × | 17 BTC1!8 | 股票数据 | itor | OT comm/large/specs ~ | com_short = cot.requestCommitmentOfTraders（reportType, root | // Noncommercial 非商业大户 | noncom_1ong | = cot.requestCommitmentOfTraders（reportType,r | noncom_short = cot.requestCommitmentOfTraders（repontType,r | 1/ Nonreportable 小投机者 | nonrep_long | = cot.requestCommitmentOfTraders（reportType, r | nonrep_short = cot.requestComitmentOfTraders（reportType,r | 1/ 总未平仓OI | oi = cot.requestCommitmentOfTraders（repontType, root,is_in | // 计算净持仓 | com_nettotal | = com_long-Fom_shont | noncom_nettotal = noncom_1ong -noncom_short | nonrep_nettotal = nonrep_1ong -nonrep_short | 1/ 绘图 | plot（com_nettotal， | offset =-displacement, color | Col"
+  },
+  {
+    "idx": 9,
+    "t": 486,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00486.jpg",
+    "text": "责收益率曲线 | 17 GO0GL 342.36 A+1.34%个 | ：26.9:26 ot/olitsim/ | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | × | 17 BTC1!8 | 股票数据 | itor | OT comm/large/specs ~ | com_short | = cot.requestCommitmentOfTraders（reportType, root | // Noncommercial | noncom_1ong | 非商业大户 | = cot.requestCommitmentOfTraders（reportType,r | noncom_short = cot.requestCommitmentOfTraders（reportType, r | 1/ Nonreportable 小投机者 | nonrep_long | = cot.requestCommitmentOfTraders（reportType, r | nonrep_short = cot.requestCommitmentOfTraders（reportType,r | 1/ 总未平仓OI | oi = cot.requestCommitmentOfTraders（repontType, root,is_in | // 计算净持仓 | com_nettotal | J com_long-Kom_short | noncom_nettotal = noncom_long-noncom_short | nonrep_nettotal = nonrep_long -nonrep_shont | 1/ 绘图 | Col"
+  },
+  {
+    "idx": 9,
+    "t": 488,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00488.jpg",
+    "text": "责收益率曲线 | 17 GO0GL 342.36 A+1.34%个 | ：26.9:26 ot/olinsim | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | × | 17 BTC1!8 | 股票数据 | itor | OT comm/large/specs ~ | com_short = cot.requestCommitmentOfTraders（reportType, root | // Noncommercial | 非商业大户 | noncom_1ong | = cot.requestCommitmentOfTraders（reportType,r | noncom_short = cot.requestCommitmentOfTraders（repontType,r | 1/ Nonreportable 小投机者 | nonrep_long | = cot.requestCommitmentOfTraders（reportType, r | nonrep_short = cot.requestCommitmentOfTraders（reportType,r | 1/ 总未平仓OI | oi = cot.requestCo | noncom_long （user-defined variable） | is_in | // 计算净持仓 | type series float | com_nettotal | T- | noncom_nettotal = noncom_1ong -noncom_short | nonrep_nettotal = nonrep_1ong -nonrep_short | 1/ 绘图 | plot（com_nettotal， | offset =-displacement,color | Col"
+  },
+  {
+    "idx": 9,
+    "t": 490,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00490.jpg",
+    "text": "责收益率曲线 | × | 17 GO0GL 342.36 A+1.34%个 | 26-9.26 oltutsim | 17 BTC1!8 | guru新闻 | 宏观数据 | 图表［利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | com_short = cot.requestCommitmentOfTraders（reportType, root | // Noncommercial 非商业大户 | noncom_1ong | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（repontType,r | 1/ Nonreportable 小投机者 | nonrep_1ong | = cot.requestCommitmentOfTraders（reportType, r | nonrep_short = cot.requestCommitmentOfTraders（reportType,r | 1/ 总未平仓OI | oi = cot.requestCommitmentOfTraders（reportType, root, is_in | // 计算净持仓 | com_nettotal | = cpm_longT:com_shont | noncom_nettotal = noncom_1ong-noncom_short | nonrep_nettotal = nonrep_1ong -nonrep_shont | 1/ 绘图 | Plot（com_nettotal， | offset =-displacement, color | col"
+  },
+  {
+    "idx": 9,
+    "t": 492,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00492.jpg",
+    "text": "责收益率曲线 | × | 1I G00GL 342.36 A +1.34%个 | 1 BTC1!8 | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | com_shont | = cot.requestCommitmentOfTraders（reportType, root | // Noncommercial 非商业大户 | noncom_1ong | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（repontType,r | 1/ Nonreportable 小投机者 | nonrep_long | = cot.requestCommitmentOfTraders（reportType, r | nonrep_short = cot.requestCommitmentOfTraders（reportType,r | 1/ 总未平仓OI | oi = cot.requestCommitmentOfTraders（repontType, root, is_in | // 计算净持仓 | com_nettotal | = com_long -dom_short | noncom_nettotal = noncom_long-noncom_short | nonrep_nettotal = nonrep_1ong -nonrep_short | 1/ 绘图 | Col"
+  },
+  {
+    "idx": 9,
+    "t": 494,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00494.jpg",
+    "text": "责收益率曲线 | × | 1I G00GL 342.36 A +1.34%个 | 26.9.26 otitsim | 1 BTC1!8 | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | 股票数据 | itor | OT comm/large/specs ~ | com_short | = cot.requestCommitmentOfTraders（reportType, root | // Noncommercial 非商业大户 | noncom_1ong | = cot.requestCommitmentOfTraders（reportType, r | noncom_short = cot.requestCommitmentOfTraders（reportType,r | 1/ Nonreportable 小投机者 | nonrep_long | = cot.requestCommitmentOfTraders（reportType, r | nonrep_short = cot.requestCommitmentOfTraders（reportType,r | 1 总未平仓OI | oi = cot.requestCommitmentOfTraders（repontType, root,is_in | 1/ 计算净持仓 | com_nettotal | =Jeom_long -com_Short | noncom_nettotal = noncom_1ong -noncom_short | nonrep_nettotal = nonrep_long -nonrep_shont | 1/ 绘图 | plot（com_ | _nettotal， | offset =-displacement,colon | Col"
+  },
+  {
+    "idx": 9,
+    "t": 496,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00496.jpg",
+    "text": "责收益率曲线 | × | 17 G00GL 342.36 A+1.34%个 | ：26.9:26 otlolistsim/ | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | × | 17 BTC1!8 | 股票数据 | itor | OT comm/large/specs v | com_short | = cot.requestCommitmentOfTraders（reportType, root | // Noncommercial 非商业大户 | noncom_long = cot.requestCommitmentOfTraders（repontType,r | noncom_short = cot.requestComitmentOfTraders（reportType,r | 1/ Nonreportable 小投机者 | nonrep_long | = cot.requestCommitmentOfTraders（reportType, n | nonrep_short = cot.requestCommitmentOfTraders（reportType,r | 1/ 总未平仓OI | oi = cot.requestCommitmentOfTraders（reportType, root,is_in | 1/ 计算净持仓 | com_nettotal | = com_ long - com_short | noncom_nettotaj = noncom_Long-noncom_short | nonrep_nettotal = nonrep_long -nonrep_short | 1/ 绘图 | plot（com_nettotal， | offset = -displacement, color = | COL"
+  },
+  {
+    "idx": 9,
+    "t": 498,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/09/00498.jpg",
+    "text": "责收益率曲线 | × | 17 G00GL 342.36 A+1.34%个 | 26.9-26 ww/oltitsim/ | guru新闻 | 宏观数据 | 图表 | 利率利息债券 | × | 17 BTC1!84 | 股票数据 | itor | OT comm/large/specs v | oi = cot.requestCommitmentOfTraders（reportType, root,is_in | 1/ 计算净持仓 | com_nettotal | = com_Long-com_short | noncom_nettotal = noncom_long -noncom_short | nonrep_nettotal = nonrep_long -nonrep_short | 1/ 绘图 | plot（com_nettotal， | offset = -displacement,color = | Plot（noncom_nettotal, offset = -displacement, colon = | Plot（nonrep_nettotal, offset = -displacement, color = | col | col | cOl | hline（0, color= color.new（color.white,0）， linestyle=hline. | 1/ 保留原版备用绘图 | //plot（oi, color = color.gray, title=\"Open Interest\"） | 1/plot（noncom_long,color = color.green, title=\"Long Positi | //plot（noncom_shont, colon = color.red, title=\"Shont Positi | //plot（spread_noncom, color = color.olive, title=\"Spread Po | //plot（noncom_1ong-noncom_shont,color = color.yellow,titl | //hline（0, color=color.yellow, linestyle=style_dashed）"
+  },
+  {
+    "idx": 15,
+    "t": 352,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/15/00352.jpg",
+    "text": "26-10-4 | 硬核金融宝藏 | 公式名称 | 定价权系統C | 「 密码保护 | 公式类型 | 其他獎 | 公式描述 | 指数对比（副图，需下裁日线） | 版本0 | 公式只用于PC | 参数1-4 | 参数 | 参数5-8 | 最小 | 参数9-12 参数13-16 | 公式标签 | 最大 | 缺首 | 交易 | 无 | 无 | 2 | 额 | 3 | 值 | 4 | AI写公式 | 编拉 | 进阶优化版：原思路不变，三重过滤 | 怎生科技价 | 科技成交量 | 田期奶平滑 过流 | 的毛刺》 | 原始SMART：=（恒生科技价 | SMARTMONEY：=EMA | 共振过滤》 | 同步拐头向上 才确认市场整体流动性配谷 | 剔除单 | 共振：-指50>REF（指50,1）AND 指388>REF（指388,1）AND 创业 | ｛4. 趋势过滤：只做站上20周期均线的多头突破 避开下跌反弹假 | MA20：=MA（SMARTMONEY,20）； | 趋势多头：=SMARTHONEY>MA28；"
+  },
+  {
+    "idx": 15,
+    "t": 354,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/15/00354.jpg",
+    "text": "26-10-4 | 硬核金融宝藏 | 公式名称 | 定价权系统C | 「 密码保护 | 公式类型 | 其他獎基 | 公式描述 | 指数对比（副图，需下裁日线） | 版本0 | 公式只用于PC | 参数1-4 | 参数 | 参数5-8 | 最小 | 参数9-12 参数13-16 | 公式标签 | 缺首 | 交易 | 最大 | 无 | 无 | 2 | 额 | 3 | 值 | 4 | Al写公式 | 编拉 | 进阶优化版：原思路不变，三重过滤 | 頌生科技价 | 科技成交量 | 丑期奶平滑 过说 | 的毛刺》 | 原始SMART：=（恒生科技价 | SMARTMONEY：=EMA | 共振过滤》 | 同步拐头向上 才确认市场整体流动性配谷 | •剔除单 | 共振：-指50>REF（指50,1）AND 指388>REF（指388,1）AND 创业 | 趋势过滤：只做站上20周期均线的多头突破 避开下跌反弹假 | MA20：=MA（SMARTMONEY,20）； | 趋势多头：=SMARTHONEY>MA28；"
+  },
+  {
+    "idx": 15,
+    "t": 356,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/15/00356.jpg",
+    "text": "26-10-4 | 硬核金融宝藏 | 公式名称 | 定价权系統C | 「 密码保护 | 公式类型 | 其他类 | 公式描述 | 指数对比（副图，需下裁日线） | 版本0 | 公式只用于PC | 参数1-4 | 参数 | 参数5-8 | 最小 | 参数9-12 参数13-16 | 公式标签 | 缺省 | 交易 | 最大 | 无 | 无 | 2 | 额 | 3 | 值 | 4 | 编箱 | 进阶优化版：直思路不变，三重过滤 | 1= | AI写公式 | 甘=》 | 恒纬科技价 | 科技成交量 | 丑期奶平滑 过说 | 的毛刺》 | 原始SMART：=（恒生科技价 | SMARTMONEY：=EMA | 共振过滤》 | 同步拐头向上 才确认市场整体流动性配谷 | •剔除单 | 共振：-指50>REF（指58,1）AND 指380>REF（指388,1）AND 创业 | K4- | 趋势过滤：只做站上20周期均线的多头突破 避开下跌反弹假 | MA20：=MA（SMARTMONEY,20）； | 趋势多头：=SMARTMONEY>MA20；"
+  },
+  {
+    "idx": 15,
+    "t": 360,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/15/00360.jpg",
+    "text": "26-10-4 | 硬核金融宝藏 | 公式名称 | 定价权系统C | T 密码保护 | 公式类型 | 其他獎基 | 公式描述 | 指数对比（副图，需下裁日线） | 版本0 | 区 公式只用于PC | 参数1-4 | 参数 | 参数5-8 | 最小 | 参数9-12 参数13-16 | 公式标签 | 最大 | 缺首 | 交易 | 无 | 无 | 2 | 额 | 3 | 值 | AI写公式 | 编拉 | 进阶优化版：原思路不变，三重过滤 | 怎告科技价 | 科技成交量 | 丑期奶平滑 过说 | 的毛刺》 | 原始SMART：=（恒生科技价 | SMARTMONEY：=EMA | 共振过滤》 | 司步拐买向上 才确认市场整体流动性配合 | 、剔除单 | 共振：-指50>REF（指50,1）AND 指300>REF（指388,1）AND 创业 | ｛4. 趋势过滤：只做站上20周期均线的多头突破 避开下跌反弹假 | MA20：=MA（SMARTMONEY,20）； | 趋势多头：=SMARTMONEY>MA28；"
+  },
+  {
+    "idx": 17,
+    "t": 80,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/17/00080.jpg",
+    "text": "26-10-6 | 0感N19041 10341 | 413 | 4001 | 150g"
+  },
+  {
+    "idx": 29,
+    "t": 160,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/29/00160.jpg",
+    "text": "2026-10-19 | 文件 | N10 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 开始 | OfficePLUS | 插入 | 绘图 | 页面布局 | f | =M10/L10 | B | C | D | 日期 | 501H/多、 | 空 | 比例 | 2020/12 | 5200 | 6251 | 1.202115 | 202GJ | 4845 | 5305 | 1.094943 | 2020/1/6 | 5515 | 6008 | 1.089393 | 2020/1/7 | 5572 | 5696 | 1.022254 | 2020/1/8 | 5240 | 5360 | 1.022901 | 2020/1/9 | 5183 | 5314 | 1.025275 | 2020/1/10 | 5123 | 5187 | 1.012493 | 2020/1/13 | 5875 | 5290 | 0.900426 | 2020/1/14 | 5661 | 4978 | 0.87935 | 2020/1/15 | 5328 | 4568 | 0.857357 | 2020/1/16 | 5731 | 2020/1/17 | 5087 | 0.887629 | 5605 | 2020/1/20 | 4994 | 0.89099 | 5644 | 4849 | 0.859142 | E | 净 | -103 | -46 | -48 | -12 | -12 | -13 | -0 | 58 | 68 | 76（ | 64 | 611 | 795"
+  },
+  {
+    "idx": 29,
+    "t": 166,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/29/00166.jpg",
+    "text": "2026-10-19 | 50 300 COT.xlsx | 数据 | 审阅 | 初 | OfficePLUS | 插入 | 绘图 | 页面布局 | 公式 | X | =C3/B3 | B | 501H/多 | 5200 | J | 1 | 2 | 3 | C | D | E | 空 | 比例 | 净 | F | 待用1 | 5515 | 5572 | 5240 | 5183 | 5123 | 5875 | 5661 | 5328 | 5731 | 5605 | 5644 | 6234 | 6251 | 5305 | 6008 | 5696 | 5360 | 5314 | 5187 | 5290 | 4978 | 4568 | 5087 | 4994 | 4849 | 5480 | 1.202115 | 1.094943 | 1.089393 | 1.022254 | 1.022901 | 1.025275 | 1.012493 | 0.900426 | 0.87935 | 0.857357 | 0.887629 | 0.89099 | 0.859142 | 0.87905 | -1051 | -460 | -493 | -124 | -120 | -131 | -64 | 585 | 683 | 760 | 644 | 611 | 795 | 754 | G | 300IF/多 | 15885 | 14632 | 15169 | 14978 | 14795 | 15511 | 14821 | 14925 | 14692 | 16710 | 15587 | 14525 | 13760 | 13994 | 0.831255"
+  },
+  {
+    "idx": 36,
+    "t": 88,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00088.jpg",
+    "text": "26-10-23早 | 126 | JAW-MACD（12,26，.9） DIF: 62.55 DEA:67.16 MMACD： | BOLL（20） BOLL: 3250.64 UB: 3407.75 LB: 3093.53 | © CCl（14） CCl: 75:855 | 202023/05/12/五月 | 指标A指标B模板 管理 | 110 | 扩展人关联报价 财富園 | 另存 | 12 | 綁定到 大盘 | 2 | 个股强弱 | 技术"
+  },
+  {
+    "idx": 36,
+    "t": 90,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00090.jpg",
+    "text": "26-10-23早 | YW-MACD（12.26.9） DIF:32.69 DEA: 55.89 | T1 | BOLL（20） BOLL: 3274.12 UB: 3353.42 LB: 3192 | 1a | ◎ CCI（14） CCl：-110.84"
+  },
+  {
+    "idx": 36,
+    "t": 92,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00092.jpg",
+    "text": "26-10-23早 | 2 VW-MACD（12,26,9） DIF:55.97 | | DEA: 64.92 | BOLL（20） BOLL: 3262.53 UB: 3386.98 LB: 3138 | ◎ CCI（14） CCl： -25.05"
+  },
+  {
+    "idx": 36,
+    "t": 94,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00094.jpg",
+    "text": "26-10-23早 | VW-MACD（12,26.9） DIF: 55.97 DEA: 64.92 M/ | TU！ | BOLL（20） BOLL: 3262.53 UB: 3386.98 LB: 3138. | ◎ CCI（14） CCl：-25.05"
+  },
+  {
+    "idx": 36,
+    "t": 98,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00098.jpg",
+    "text": "问小达 | 财富圈 | 交易 | 濃期更多） | 26-10-23早 | T10.48 先行带A:3085.19先行 | 25：3306.58 佳分 3213.62 | ：.09 | 19.15 | 指标公式編辑器 | VW-MACD | 厂 密码保护 | 公式名称 | 公式描述 | 参数1-4 | 参数 | 1 | SHORT | 2 | LONG | 3 | MID | 4 | 版本 | 参数5-8 | 最小 | 2.00 | 2.00 | 2.00 | 参数9-12 | 最大 | 200.00 | 200.00 | 200.00 | 参数13-16 | 缺益 | 12.00 | 26.00 | 9.00 | WC1：=SUN（C*U,SHORT）/SUNCU,SHORT）； | UC2：=SUM（C*U,LONG） /SUNCU,LONG）； | DIF:UC1-493； | DEA: EMA（DIF ,MID）； | MACD ：（DIF-DEA）*2,COLORSTICK；"
+  },
+  {
+    "idx": 36,
+    "t": 100,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00100.jpg",
+    "text": "小达 | 财富圈 | 必芴 | 多周期 | 更多》 | 26-10-23早 | 3085.19先行带B:3257.77 | 标公式编辑器 | 式名称 | VW-MACD | 式描述 | 参数1-4 | 参数 | 1 | SHORT | 2 | ：LONG | 3 | MID | 参数5-8 | 最小 | 2.00 | 2.00 | 2.00 | 4 | 厂 密码保护 | 版本 | 0 | 参数9-12 参数13-16 | 最大 | 缺省 | 200.00 | 12.00 | 200.00 | 26.00 | 200.00 | 9.00 | 公式类型 | 成衣 | 厂公式只用于F | 交易 | 无 | 额夕 | 值1 | 编辑 | WC1： SUM（C*U,SHORT UMCV SHORT）； | UC2：-SUM（C*U,LONG） AUNCU ,LONG）； | DIF:UC1-U02； | DEA:EMA（DIF,MID）； | MACD： （DIF-DEA）*2,COLORSTICK；"
+  },
+  {
+    "idx": 36,
+    "t": 102,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00102.jpg",
+    "text": "问小法 | 财富圈 | 交易 | 26-10 23早 | 3085.19 先行带B:3257.77 | 基佳321 | 指标公式編辑： | VW-MACD | 厂 密码保护 | 公式名称 | 公式描述 | 参数1-4 | 参数 | 1 | SHORT | 2 | LONG | 3 | MID | 4 | 参数5-8 | 最小 | 2.00 | 2.00 | 2.00 | 参数9-12 | 最大 | 200.00 | 200.00 | 200.00 | 参数13-16 | 缺省 | 12.00 | 26.00 | 9.00 | WC1：=SUHCC*U.SHORT）/SUMCU.SHORT）； | UC2：=SUM（C*USLONG）/SUMCU,LONG）； | DIF:0C1-UC2； | DEA:EMA（DIF .MID）； | MACD：（DIF-DEA）*2,COLORSTICK： | 版本 | 0 | 公式类型 | 公式只用于！ | 交易 | 无 | 额 | 值1 | 编辂"
+  },
+  {
+    "idx": 36,
+    "t": 104,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00104.jpg",
+    "text": "问小达 | 钟45日线手线 | 年线 多周期 更多》 | 3085.19 先行带B:3257.77 | 26-10-23早 | 指标公式编辑器 | VW-MACD | 厂 密码保护 | 公式名称 | 公式描述 | 参数1-4 | 参数 | 1 | SHORT | 2 | LONG | 3 | MID | 4 | 版本 | 公式类型 | 厂公式貝用 | 交 | 参数5-8 | 最小 | 2.00 | 2.00 | 2.00 | 参数9-12 | 参数13-16 | 最大 | 缺省 | 200.00 | 12.00 | 200.00 | 26.00 | 200.00 | 9.00 | WC1：=SUMCC*U,SHOET）/SUMCU,SHORT）； | UC2：=SUMCC*U,LONG）/SUMCU,LONG）； | DIF:UC1-UC2； | DEA: EMACDIF ,MID）： | MACD：（DIF-DEA）*2,COLORSTICK；"
+  },
+  {
+    "idx": 36,
+    "t": 106,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00106.jpg",
+    "text": "问小达 | 年线 多周期 更多） | 26-10-23早 | 3085.19先行带B:3257.77 | 指标公式編 器 | 公式名称 | VW-MACD | 公式描述 | 参数1-4 | 参数 | 1 | 2 | 3 | SHORT | LONG | MID | 参数5-8 | 最小 | 2.00 | 2.00 | 2.00 | 厂 密码保护 | 版本 | 0 | 公式类型 | 厂公式貝用 | 交 | 参数9-12 参数13-16| | 最大 | 缺省 | 200.00 | 12.00 | 200.00 | 26.00 | 200.00 | 9.00 | WC1：=SUMCC*U,SHORT）/SUMCU,SHORT）； | UC2：=SUMCC*U,LONG）/SUMCU,LONG）： | DIF:UC1-0C2； | DEA:EMA（DIF.MI9； | MACD:CDIF-DEA）*2,COLORSTICK；"
+  },
+  {
+    "idx": 36,
+    "t": 112,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00112.jpg",
+    "text": "26-10-23早 | 2635.09 | VW-MACD（12,26,9） DIF：-88.40 DEA： -63.57 MACD： -49.67 | • BOLL（20） BOLL: 3136.03 UB: 3304.91 LB: 2967.15 | ◎ CCI（14） CCl：-75.55"
+  },
+  {
+    "idx": 36,
+    "t": 114,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00114.jpg",
+    "text": "26-10-23早 | 2635.09 | （12,26.9） DIF：-59.68 DEA: 5.24 IVIACD：-129.821 | BOLL: 3016.13 UB: 3199.20 LB:2889.07 | CCl：-108，.98"
+  },
+  {
+    "idx": 36,
+    "t": 116,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00116.jpg",
+    "text": "指数（周线.等比間友以 ） | 26-10-23早 | -2635.09 | VW-MACD（12,26,9） DIF：-31.19 DEA：-7.58 MACD： -47.22 | • BOLL（20） BOLL: 3257.81 UB: 3363.59 LB: 3152.03 | P CCI（14） CCl： -38.03"
+  },
+  {
+    "idx": 36,
+    "t": 118,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00118.jpg",
+    "text": "等比前复 数）◎ICHIMOKU7,22,44） | 26-10-23早 | 12635.09 | ACD（12,26,9） DIF：-12.36 DEA： -46.02 MACD: 67.32 | 20） BOLL: 2966.73 UB: 3146.58 LB:2786.89 | 11 | 14） CCl: 62.49"
+  },
+  {
+    "idx": 36,
+    "t": 120,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00120.jpg",
+    "text": "偶线等比前貝 致）◎ | MOQ72244 | 26-10-23早 | 12635.0！ | V-MACD（12,26,9） DIF:15.00:DEAA-25（69214CD:8）.37 | OLL（20） BOLL: 2970.80 UB: 3158.95 L8: 2782.65 | CCI（14） CCl: 67.24"
+  },
+  {
+    "idx": 36,
+    "t": 122,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00122.jpg",
+    "text": "26-10-23早 | 2635.09 | 9） DIF: 61,85 DEA: 57,29 MACD:9.12 | 3048.44 UB:3175.76 LB:2921.12 | 08.21 | 10 | 121 | 12 | 16 | 2024/06/28/日l | 110 | 12 | 、管理易存力 定到大盘个股强弱」技术黑板块对比」个般筹码选股精技选股2［AMQ | L1 13314900 2込 11207"
+  },
+  {
+    "idx": 36,
+    "t": 124,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00124.jpg",
+    "text": "言金融终瑞 | 市场 | 1分钟 5分钟 15分钟 30分钟 60分钟 日线 周线 | 月线 10分钟 45日线 爭线 年线 多周期 | 26-10-23早 | 3000.62 基准线：3020.99迟行带：3368.0 | -2635.09 | MACD（12,26,9） DIF: 38.36 DEA: 52.52 MAGD：-28.32 | L（20） BOLL: 3048.73 UB:3162.37 LB:2935.09 | （（14） CCl： -89.81"
+  },
+  {
+    "idx": 36,
+    "t": 128,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/36/00128.jpg",
+    "text": "26-10-23早 | 2635.09 | © VW-MACD（12,26,9） DIF: 11.69 DEA: 36.55 MACD：-49.72 | C BOLL（20） BOLL: 3268.34 UB: 3359.90 LB:/3176.77 | ② CCl（14） CCl：-128.21 | 2023年 | 2023/06/30/五MT0 | 指标A指标8模板管理 另存为 | 112 | 22 | 5 | 关联报价 | 财富圆 | 1綁定到 大盘 个股强弱技术展 | 6 | B | 9 | 上证 3607.94:50.09 -1.379 1504亿 创业 2534.31 | 板块对比个股筹码 | 42.59 | -165% 901.2亿Z 科创 12 | 文件资涡 | HSL百度"
+  },
+  {
+    "idx": 41,
+    "t": 280,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/41/00280.jpg",
+    "text": "26-10-28 | 公式名称 | MCL麦克联摆 | 码保护 | 公式描述 | 宽广度均线化 | 参数1-4 | 参数5-8 | 参数9-12 | 参数13-16 | 参数 | 最小 | 最大 | 缺省 | 1 | N1 | 2.00 | 100.00 | 19.00 | 2 | N2 | 2.00 | 200.00 | 39.00 | 3 | 4 | DIF：=ADUANCE-DECLINE； | EMA1：=EMA（DIF ,N1）； | EMA2：=EMA（DIF, N2）； | MCL:EMA1-EMA2； | MAMCL1:EMA1； | MAMCL2:EMA2； | A:0；"
+  },
+  {
+    "idx": 41,
+    "t": 282,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/41/00282.jpg",
+    "text": "26-10-28 | 公式名称 | MCL麦売联摆 | 公式描述 | 宽广度均线化 | 参数1-4 | 参数5-8 | 参数 | 最小 | 1 | N1 | 2.00 | 2 | N2 | 2.00 | 3 | 4 | DIF：=ADUANCE-DECLINE； | EMA1：=EMA（DIF ,N1）； | EMA2：=EMA（DIF,N2）； | MCL:EMA1-EMA2； | MAMCL1:EMA1； | MAMCL2:EMA2； | A:0； | 码保护 | 参数9-12 | 最大 | 100.00 | 200.00 | 参数13-16 | 缺省 | 19.00 | 39.00"
+  },
+  {
+    "idx": 42,
+    "t": 58,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/42/00058.jpg",
+    "text": "26-10-29 | 10-28 各指标历史分位 | （0=最低。100=最高） | 红盘导脉冲到商位，P250/P20/P60 仍在历史15%分位以下 | 红盘串 | 82.5% | MCL | 37% | 许分 | 14.4% | P60 | 12.3% | P20 | 13.7%"
+  },
+  {
+    "idx": 42,
+    "t": 60,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/42/00060.jpg",
+    "text": "26-10-29 | 10-28各指标历史分位（0=最低，100=最高） | 虹盘导脉冲到高位，P250/P20/P60 仍在历史15%分位以下 | 红盘率 | 82.5% | MCL | 37% | 许分 | 14.4% | P60 | 12.3% | P20 | 13.7%"
+  },
+  {
+    "idx": 42,
+    "t": 62,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/42/00062.jpg",
+    "text": "26-10-29 | 10-28 各指标历史分位 | （0=最低。100=最高） | 紅盘导脉冲到商位，P250/P20/P60 仍在历史15%分位以下 | 红盘率 | 82.5% | MCL | 37% | 许分 | 14.4% | P60 | 12.3% | P20 | 13.7%"
+  },
+  {
+    "idx": 42,
+    "t": 66,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/42/00066.jpg",
+    "text": "26-10-29 | 10-28 各指标历史分位（0=最低，100=最高） | 虹盘军脉冲到商位，P250/P20/P60 仍在历史15%分位以下 | 红盘串 | 82.5% | MCL | 37% | 许分 | 14.4%6 | P60 | 12.3% | P20 | 13.7%"
+  },
+  {
+    "idx": 42,
+    "t": 68,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/42/00068.jpg",
+    "text": "26-10-29 | 10-28 各指标历史分位（0=最低，100=最高） | 紅盘导脉冲到商位，P250/P20/P60 仍在历史15%分位以下 | 红盘率 | 82.5% | MCL | 37% | 许分 | 14.4%6 | P60 | 12.3% | P20 | 13.7%"
+  },
+  {
+    "idx": 42,
+    "t": 74,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/42/00074.jpg",
+    "text": "26-10-29 | 10-28 各指标历史分位 | （0=最低，100=最高） | 紅盘导脉冲到商位，P250/P20/P60仍在历史15%分位以下 | 红盘率 | 82.5% | MCL | 37% | 许分 | 14.4% | P60 | 12.3% | P20 | 13.7%"
+  },
+  {
+    "idx": 42,
+    "t": 76,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/42/00076.jpg",
+    "text": "26-10-29 | 10-28 各指标历史分位 | （0=最低，100=最高） | 虹盘导脉冲到高位，P250/P20/P60 仍在历史15%分位以下 | 红盘率 | 82.5% | MCL | 37% | 许分 | 14.4% | P60 | 12.3% | P20 | 13.7%"
+  },
+  {
+    "idx": 54,
+    "t": 24,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/54/00024.jpg",
+    "text": "26-11-10 | G | 实时TRIN | C］ | 日 | N排序、 | 查着、 | •• | realtime_trin.ps symbols_hs_a.tx | 单次查询.bat | 启动.bat | 一 | CIWINDOWS\\system32 | 实时 | TRIN 盯盘启动：每60 秒刷新，到15:00 目 | 动停止；Ctrl+C 可随时退出。 | ［13:44:39］涨家占比 80.89% | | 涨额占比 | 83.31% | | 额价差 | 8| 涨停 | +2.42 | TRIN_额 | 0.848 | TRIN_量 | 1.04 | 69 | 效 | 跌停1|涨4381/跌1035/平159 | 5575 | （99.9%）->） | 放量（资金强于宽度） | 1有 | 量价差 -0.74| 涨量占比 80.15%| TRI | N_额<1 表示涨额占比>涨家占比（资金强于宽度）"
+  },
+  {
+    "idx": 54,
+    "t": 26,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/54/00026.jpg",
+    "text": "26-11-10 | G | 实时TRIN | 日 | N排序、 | 直看、 | •.. | realtime_trin.ps symbols_hs_a.tx | 单次查询.bat | 启动.bat | 一 | CWINDOWS\\system32 | 实时 | TRIN 盯盘启动：每60 秒刷新，到15:00 目 | 动停止；Ctrl+C 可随时退出。 | ［13:44:39］涨家占比 80.89% | | 涨额占比 | 83.31% | | 额价差 | 8| 涨停 | +2.42 | TRIN_额 | 0.848 1 TRIN_量 | 1.04 | 69 | 效 | 跌停1|涨4381/跌1035/平159 | 1有 | 5575 | （99.9%）-21 | 放量（资金强于宽度） | 量价差 | -0.74| 涨量占比 80.15%| TRI | N额<1 表示涨额占比>涨家占比（资金强于宽度）"
+  },
+  {
+    "idx": 54,
+    "t": 28,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/54/00028.jpg",
+    "text": "26-11-10 | 实时TRIN | 日 | N排序、 | 查看、 | •.. | realtime_trin.ps symbols_hs_a.tx | 单次查询.bat | 启动.bat | CWINDOWS\\system32 | 实时 | TRIN 盯盘启动：每60 秒刷新，到15:00 目 | 动停止：Ctrl+C 可随时退出。 | ［13:44:39］ 涨家占比 80.89%| 涨额占比 | 83.31% | | 额价差 | 8| 涨停 | +2.42| TRIN_额 | 10.848 | TRIN_重 | 1.04 | 69 | 效 | 跌停 1| 涨4381/跌1035/平159 | 5575 | （99.9%）->） | 放量（资金强于宽度） | 1 有 | 量价差-0.74| 涨量占比 80.15%| TRI | N额<1 表示涨额占比＞涨家占比（资金强于宽度）"
+  },
+  {
+    "idx": 54,
+    "t": 30,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/54/00030.jpg",
+    "text": "261-O | 实时TRIN | 日 | N排序、 | 查看、 | •. | realtime_trin.ps symbols_hs_a.t | 单次查询.bat | 启动.bat | C WINDOWs\\system32 | 实时 | TRIN 盯盘启动：每60秒刷新，到 15:00 目 | 动停止：Ctrl+C 可随时退出。 | L13:44:39］ | 涨家占比 80.89% | | 涨额占比 | 83.31% | | 额价差 | 8| 涨停 | +2.42 | TRIN_额 | .848 | I TRIN | _量 | 1.04 | 69 | 效 | 跌停 1| 涨4381/跌1035/平159 | 有 | 5575 | （99.9%）-21 | 放量（资金强于宽度） | 量价差-0.74| 涨量占比 80.15%| TRI | N额<1 表示涨额占比＞涨家占比（资金强于宽度）"
+  },
+  {
+    "idx": 54,
+    "t": 58,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/54/00058.jpg",
+    "text": "26-11-10 | G | © | > | 实时TRIN | Cl | N排序、 | 查者、 | realtime trin.ps | symbols_hs. | t | _a.tx | 单次查询.bat | 启动.bat | C（WINDOWS\\system32 | 口 | 实时 | TRIN 盯盘启动：每 60 秒刷新，到 | 15:00 自 | 动停止：Ctrl+C可随时退出。 | ［13:44:39］ 涨家占比 80.89% | | 涨额占比 | 83.31% | | 额价差 | +2.42 | TRIN_额 | 0.848 | JRIN室 | 1.04 | 8|涨停 | 69 | 效 | 跌停1|涨4381/跌1035/平159 | 5575 | （99.9% | 放量（资金强于宽度） | 有 | 量价差 -0.74| 涨量占比 80.15%| TRI | N_额<1 表示涨额占比＞涨家占比（资金强于宽度）"
+  },
+  {
+    "idx": 54,
+    "t": 60,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/54/00060.jpg",
+    "text": "26-11-10. | G | © | > | 实时TRIN | N排序、 | 查看、 | realtime trin.ps | symbols_hs | t | _a.tx | 单次查询.bat | 启动.bat | C\\WINDOWS\\system32 | < | 口 | 实时 | TRIN 盯盘启动：每 60 秒刷新，到 | 15:00自 | 动停止：Ctrl+C | 可随时退出。 | ［13:44:39］ 涨家占比 80.89% | | 涨额占比 | 83.31% | | 额价差 | +2.42| TRIN_额 | 10.848 | JRIN童 | 1.04 | 8| 涨停 | 69 | 效 | 跌停1|涨4381/跌1035/平159 | 5575 | （99.9%） | 放量（资金强于宽度） | 有 | 量价差 -0.74| 涨量占比 80.15%| TRI | N_额<1 表示涨额占比＞涨家占比（资金强于宽度） | X"
+  },
+  {
+    "idx": 54,
+    "t": 62,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/54/00062.jpg",
+    "text": "26-11-10. | G | © | > | 实时TRIN | N排序、 | 查看 | realtime_trin.ps | symbols_hs | t | _a.tx | 单次查询.bat | 启动.bat | C\\WINDOWS\\system32 | < | 口 | 实时 | TRIN 盯盘启动：每 60 秒刷新，到 | 15:00自 | 动停止：Ctrl+C | 可随时退出。 | ［13:44:39］ 涨家占比 80.89% | | 涨额占比 | 83.31% | | 额价差 | +2.42| TRIN_额 | 10.646 | T TRIN_量 | 1.04 | 8| 涨停 | 69 | 效 | 跌停1|涨4381/跌1035/平159 | 5575 | （99.9%） | 放量（资金强于宽度） | 有 | 量价差 -0.74| 涨量占比 80.15% | TRI | N_额<1 表示涨额占比＞涨家占比（资金强于宽度）"
+  },
+  {
+    "idx": 54,
+    "t": 104,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/54/00104.jpg",
+    "text": "26-11-10 | A全市场宽度 中实时（2026-11-10） | 当前 15:27:11| 旅停91 跌停 0| 有效样本5575只| 每分钟自动现新 | 85 | 张家占比/涨额占比（%） | &家凸比 | 3家78.8% | 涨袋79.2% | 82.5 | 80 | 71.5 | 75 | TRIN 额（成交額口径•1.0为均街线） | 1.040 | 0.984 | 0.929 | TRIN 0.974 | 0.873） | 0.817 | 13$5:15 | 135642 | 143000 | 1431:58 | 14:3556 | 1438.05 | 143839 | 1&4114 | 152711"
+  },
+  {
+    "idx": 54,
+    "t": 106,
+    "path": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/scanframes/54/00106.jpg",
+    "text": "26-11-10 | A全市场宽度 中实时（2026-11-10） | 当前 15:27:11| 旅停 91 跌停 0| 有效将本：5575只| 每分钟自动亚新 | 85 | 张家占比/涨额占比（%） | &家占比 | 3家78.8% | 涨袋79.2% | 82.5 | 80 | 71.5 | 75 | TRIN 额（成交額口径•1.0为均𧗾线） | 1.040 | 0.984 | 0.929 | TRIN 0.974 | 0.873 | 0.817 | 1355:15 | 135642 | 143000 | 1431:58 | 143556 | 1&4114 | 152711"
+  }
+]

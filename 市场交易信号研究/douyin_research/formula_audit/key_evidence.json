@@ -1,0 +1,107 @@
+[
+  {
+    "video": 8,
+    "seconds": 100,
+    "finding": "PCR BB20/2",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/08_0100.jpg",
+    "sha256": "cd2b1ee4df055da83ff46b19b353b08c555ffe20c6aa1ee267bfb20aa843676e"
+  },
+  {
+    "video": 9,
+    "seconds": 474,
+    "finding": "COT Long-Short",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/09_0474.jpg",
+    "sha256": "dc4089d441a194701d77f124a729af6e896b1f93fba9b7c0dd8886992c9181e3"
+  },
+  {
+    "video": 9,
+    "seconds": 498,
+    "finding": "COT left-shift display",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/09_0498.jpg",
+    "sha256": "ba8e8cd491805ed58d390cdd8a663cc7308be75e552b85807c0b2f95fabc5628"
+  },
+  {
+    "video": 15,
+    "seconds": 356,
+    "finding": "Redacted pricing-power system and MA20 filter",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/15_0356.jpg",
+    "sha256": "991ad4517269c9ef351d9c603cf96bc8a58ab335c794931cd6e7942392770a33"
+  },
+  {
+    "video": 17,
+    "seconds": 90,
+    "finding": "Three ETF amount sum and MA20",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/17_0090.jpg",
+    "sha256": "ceda3de9befc006aab10dce47320310cefbd8622693809c12e05701824b6cb1b"
+  },
+  {
+    "video": 29,
+    "seconds": 166,
+    "finding": "Old holdings Short/Long Excel formula",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/v19_36_29_0166.jpg",
+    "sha256": "dc2178aa4f3e435c73c261e3c6d8d689c780ba4f96623048b0cd0b6c53eccbfb"
+  },
+  {
+    "video": 31,
+    "seconds": 90,
+    "finding": "Market breadth components",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/v19_36_31_0090.jpg",
+    "sha256": "3c4a952a56edc3ea7413a702bafcffd1ee512aa7d75ce8a24d237e7b7d05ef7f"
+  },
+  {
+    "video": 35,
+    "seconds": 96,
+    "finding": "Alternate PCR horizontal references",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/v19_36_35_0096.jpg",
+    "sha256": "9eebd3f300a5c6c8e3ca3342ea0d8e37ce07ebd4464b55b91d6c4c3c0a7e8324"
+  },
+  {
+    "video": 36,
+    "seconds": 100,
+    "finding": "VW-MACD 12/26/9",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/36_0100.jpg",
+    "sha256": "68145dafaf176cee3eeb24e3fb6e65f7caacd3ca286d366a30ec8d9726447e9c"
+  },
+  {
+    "video": 39,
+    "seconds": 48,
+    "finding": "TRIN equivalent equations",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/test39_48.png",
+    "sha256": "65a190227e92c2dc32daee9aab7ac7a394f536fc83ba338a6f391e4c4349fb33"
+  },
+  {
+    "video": 41,
+    "seconds": 280,
+    "finding": "MCL19/39",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/41_0280.jpg",
+    "sha256": "cef75fc4652080b46ea38a5d5faf3a18d2e42e2014b54b8848a48459e81e1d24"
+  },
+  {
+    "video": 42,
+    "seconds": 60,
+    "finding": "Historical percentile labels",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/42_0060.jpg",
+    "sha256": "353b7deee22150f002453fe500ded5ae53c851f4bb7e89b77898018c86e2f640"
+  },
+  {
+    "video": 46,
+    "seconds": 10,
+    "finding": "Futures capital flow unknown algorithm",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/46_0010.jpg",
+    "sha256": "8fbcd314734cbf0320dbac7538236dce105ff52c86b51bfd8e9e8e58e58e14dd"
+  },
+  {
+    "video": 54,
+    "seconds": 30,
+    "finding": "Breadth / amount gap / volume gap",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/54_0030.jpg",
+    "sha256": "42cad804da74cc25f3757bc58111f496702073950ca3b50d0c51b72f5453f249"
+  },
+  {
+    "video": 54,
+    "seconds": 104,
+    "finding": "Second snapshot later in session",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/formula_audit/frames/54_0104.jpg",
+    "sha256": "8dedda22f185ddc5d76d9330021db618502c5580cf69f5abc802f791c7dece3c"
+  }
+]
