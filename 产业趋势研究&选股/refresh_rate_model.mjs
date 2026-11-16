@@ -126,7 +126,7 @@ function parseFredCsv(text, seriesId) {
 
 async function fetchFred(seriesId) {
   const url = `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${encodeURIComponent(seriesId)}&cosd=${startDate}`;
-  const response = await fetch(url, { headers: { "User-Agent": "junjun-rate-model/1.0" } });
+  const response = await fetch(url, { headers: { "User-Agent": "junjun-rate-model/1.0" }, signal: AbortSignal.timeout(15000) });
   if (!response.ok) throw new Error(`HTTP ${response.status} for ${seriesId}`);
   const bytes = new Uint8Array(await response.arrayBuffer());
   const file = path.join(rawRunDir, `fred_${seriesId}.csv`);
@@ -212,7 +212,7 @@ function mergeWithPrevious(current, row, previous, sourceLabel) {
 
 async function tryAcmeTermPremium(previous) {
   const url = "https://www.newyorkfed.org/medialibrary/media/research/data_indicators/ACMTermPremium.xls";
-  const response = await fetch(url, { headers: { "User-Agent": "junjun-rate-model/1.0" } });
+  const response = await fetch(url, { headers: { "User-Agent": "junjun-rate-model/1.0" }, signal: AbortSignal.timeout(15000) });
   if (!response.ok) throw new Error(`HTTP ${response.status} for NY Fed ACM`);
   const xlsFile = path.join(rawRunDir, "ACMTermPremium.xls");
   await fs.writeFile(xlsFile, new Uint8Array(await response.arrayBuffer()));
@@ -233,7 +233,7 @@ async function tryAcmeTermPremium(previous) {
 
 async function tryWageGrowthTracker(previous) {
   const url = "https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/datafiles/chcs/wage-growth-tracker/wage-growth-data.xlsx";
-  const response = await fetch(url, { headers: { "User-Agent": "junjun-rate-model/1.0" } });
+  const response = await fetch(url, { headers: { "User-Agent": "junjun-rate-model/1.0" }, signal: AbortSignal.timeout(15000) });
   if (!response.ok) throw new Error(`HTTP ${response.status} for Atlanta Fed WGT`);
   const file = path.join(rawRunDir, "atlanta_fed_wage_growth_data.xlsx");
   await fs.writeFile(file, new Uint8Array(await response.arrayBuffer()));
