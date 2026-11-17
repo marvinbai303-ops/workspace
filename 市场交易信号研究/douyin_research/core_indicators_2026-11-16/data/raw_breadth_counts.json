@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-11-16",
+  "key": "breadth_counts",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer\":\"|证券代码|证券简称|\\n|---|---|\\n|001005345|内地股票->股票市场类->沪深A股|\",\"indicators_params\":{}}}"
+      }
+    ]
+  }
+}

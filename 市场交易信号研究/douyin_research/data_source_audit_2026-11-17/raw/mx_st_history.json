@@ -1,0 +1,16 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "mcp__mx_ds_mcp__mx_ashare_finance_data",
+  "arguments": {
+    "query": "仅查询股票代码688066.SH，分别在2025-11-03和2026-11-16历史当日的ST/*ST风险警示状态及其实施、撤销生效日期，用于按历史当日剔除ST股票。不要返回同名新三板证券，不要以当前简称替代历史状态。"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"data\":[{\"columns\":[\"*ST航图(688066.SH)\",\"2026-11-16\",\"2025-11-03\"],\"items\":[[\"是否属于风险警示板\",\"是\",\"否\"]],\"meta\":{\"jumpUrlList\":[{\"choiceUrl\":\"EM://stockdatacenter?type=browser&modType=STOCK&code=688066.SH&indId=100000000042875|121:2025-11-03,100000000042875|121:2026-11-16\",\"typeName\":\"股票数据浏览器\"}],\"dataType\":\"数据浏览器\"},\"sheetName\":\"_ST航图(688066.SH)的是否属于风险警示板\"},{\"columns\":[\"*ST航图(688066.SH)\",\"值\"],\"items\":[[\"戴帽摘帽日期\",\"ST:2026-06-17,*ST:2026-05-06\"]],\"meta\":{\"jumpUrlList\":[{\"choiceUrl\":\"EM://stockdatacenter?type=browser&modType=STOCK&code=688066.SH&indId=100000000003087\",\"typeName\":\"股票数据浏览器\"}],\"dataType\":\"数据浏览器\"},\"sheetName\":\"_ST航图(688066.SH)的戴帽摘帽日期\"}]}"
+      }
+    ],
+    "isError": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "mcp__hexin_ifind_ds_stock_mcp__stock_highfreq_quotes",
+  "arguments": {
+    "symbols": "600519.SH",
+    "indicators": "收盘价,涨跌幅,成交量,成交额",
+    "data_mode": "highfreq",
+    "interval": 60
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"tables\":[[\"证券代码\",\"证券简称\",\"time\",\"收盘价\",\"涨跌幅\",\"成交量\",\"成交额\"],[\"600519.SH\",\"贵州茅台\",\"2026-11-17 10:30\",\"1443.3\",\"-0.72907353\",\"1077231\",\"1556196300\"],[\"600519.SH\",\"贵州茅台\",\"2026-11-17 11:30\",\"1440.86\",\"-0.16905702\",\"383391\",\"554427800\"]],\"symbolMap\":{\"600519.SH\":\"贵州茅台\"},\"indicatorMap\":{\"成交量\":\"volume\",\"成交额\":\"amount\",\"涨跌幅\":\"changeRatio\",\"收盘价\":\"close\"},\"dataVol\":\"8\"}}"
+      }
+    ]
+  }
+}

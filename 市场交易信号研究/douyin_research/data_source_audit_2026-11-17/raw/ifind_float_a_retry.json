@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "mcp__hexin_ifind_ds_stock_mcp__get_stock_shareholders",
+  "arguments": {
+    "query": "300750.SZ宁德时代和600519.SH贵州茅台，2026年11月16日流通A股股数（股），只包含境内流通A股，不含H股、B股，不是自由流通股、也不是流通股合计。请返回字段原名和日期。"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer\":\"|证券代码|证券简称|流通A股（单位：股）|\\n|---|---|---|\\n|300750.SZ|宁德时代|42.6062亿|\\n|600519.SH|贵州茅台|12.5008亿|\",\"indicators_params\":{\"流通A股\":{\"单位\":\" 股\",\"截止日期\":\"20261116\"}}}}"
+      }
+    ]
+  }
+}

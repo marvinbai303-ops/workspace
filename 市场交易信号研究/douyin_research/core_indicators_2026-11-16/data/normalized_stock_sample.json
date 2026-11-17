@@ -1,0 +1,122 @@
+[
+  {
+    "code": "600036.SH",
+    "name": "招商银行",
+    "date": "2026-11-13",
+    "return_pct": 0.7037,
+    "amount_yuan": 3284160000.0,
+    "volume_shares": 76740311.0
+  },
+  {
+    "code": "300750.SZ",
+    "name": "宁德时代",
+    "date": "2026-11-13",
+    "return_pct": -0.9583,
+    "amount_yuan": 7244220000.0,
+    "volume_shares": 30299488.0
+  },
+  {
+    "code": "600519.SH",
+    "name": "贵州茅台",
+    "date": "2026-11-13",
+    "return_pct": 1.772,
+    "amount_yuan": 5954830000.0,
+    "volume_shares": 4177984.0
+  },
+  {
+    "code": "600036.SH",
+    "name": "招商银行",
+    "date": "2026-11-12",
+    "return_pct": 0.1645,
+    "amount_yuan": 2381850000.0,
+    "volume_shares": 56140636.00000001
+  },
+  {
+    "code": "300750.SZ",
+    "name": "宁德时代",
+    "date": "2026-11-12",
+    "return_pct": -2.7001,
+    "amount_yuan": 10114310000.0,
+    "volume_shares": 41795887.0
+  },
+  {
+    "code": "600519.SH",
+    "name": "贵州茅台",
+    "date": "2026-11-12",
+    "return_pct": 0.5684,
+    "amount_yuan": 4536810000.0,
+    "volume_shares": 3237294.0
+  },
+  {
+    "code": "600036.SH",
+    "name": "招商银行",
+    "date": "2026-11-11",
+    "return_pct": -1.0463,
+    "amount_yuan": 2269460000.0,
+    "volume_shares": 52896366.0
+  },
+  {
+    "code": "300750.SZ",
+    "name": "宁德时代",
+    "date": "2026-11-11",
+    "return_pct": -1.3163,
+    "amount_yuan": 9475990000.0,
+    "volume_shares": 38427362.0
+  },
+  {
+    "code": "600519.SH",
+    "name": "贵州茅台",
+    "date": "2026-11-11",
+    "return_pct": -2.5504,
+    "amount_yuan": 5633870000.0,
+    "volume_shares": 3984791.0
+  },
+  {
+    "code": "600036.SH",
+    "name": "招商银行",
+    "date": "2026-11-10",
+    "return_pct": 0.0,
+    "amount_yuan": 1864440000.0,
+    "volume_shares": 43472733.0
+  },
+  {
+    "code": "300750.SZ",
+    "name": "宁德时代",
+    "date": "2026-11-10",
+    "return_pct": 0.5269,
+    "amount_yuan": 8021780000.0,
+    "volume_shares": 32169395.0
+  },
+  {
+    "code": "600519.SH",
+    "name": "贵州茅台",
+    "date": "2026-11-10",
+    "return_pct": -0.4145,
+    "amount_yuan": 3316080000.0,
+    "volume_shares": 2303784.0
+  },
+  {
+    "code": "600036.SH",
+    "name": "招商银行",
+    "date": "2026-11-09",
+    "return_pct": 0.3032,
+    "amount_yuan": 2931640000.0,
+    "volume_shares": 68439760.0
+  },
+  {
+    "code": "300750.SZ",
+    "name": "宁德时代",
+    "date": "2026-11-09",
+    "return_pct": -2.1949,
+    "amount_yuan": 10908320000.0,
+    "volume_shares": 43512749.0
+  },
+  {
+    "code": "600519.SH",
+    "name": "贵州茅台",
+    "date": "2026-11-09",
+    "return_pct": -0.5513,
+    "amount_yuan": 3578410000.0,
+    "volume_shares": 2480122.0
+  }
+]

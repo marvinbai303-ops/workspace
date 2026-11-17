@@ -1,0 +1,13 @@
+{
+  "retrieved_at": "2026-11-16",
+  "key": "mx_group_amount",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"data\":[{\"columns\":[\"沪深A股(板块)\",\"2026-11-13\"],\"items\":[[\"成份区间涨跌幅(流通市值加权平均)\",\"-0.9687%\"]],\"meta\":{\"jumpUrlList\":[{\"choiceUrl\":\"EM://stockdatacenter?type=browser&modType=BLOCK&code=001004&indId=100000000015695|102:2026-11-13|283:2026-11-13\",\"typeName\":\"板块数据浏览器\"}],\"dataType\":\"数据浏览器\"},\"sheetName\":\"沪深A股(板块)的成份区间涨跌幅(流通市值加权平均)\"},{\"columns\":[\"沪深A股(板块)\",\"2026-11-13(日)\"],\"items\":[[\"成交额(合计)\",\"1.656万亿\"]],\"meta\":{\"dataType\":\"数据浏览器\"},\"sheetName\":\"沪深A股(板块)的成交额(合计)\"}]}"
+      }
+    ],
+    "isError": false
+  }
+}

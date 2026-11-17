@@ -1,0 +1,37 @@
+{
+  "version": "2026-11-17",
+  "confirmed_by_user": {
+    "market": "Shanghai and Shenzhen A shares",
+    "exclude_beijing": true,
+    "exclude_st_and_star_st": true,
+    "exclude_full_day_suspension": true,
+    "exclude_zero_turnover": true,
+    "ma_price_adjustment": "forward_adjusted",
+    "ma_insufficient_history": "exclude_from_corresponding_period_denominator",
+    "turnover_definition": "unadjusted_volume_shares / circulating_A_shares",
+    "turnover_cutoff_pct": 5,
+    "turnover_outputs": ["count_above_5pct", "percent_of_eligible_universe"]
+  },
+  "author_confirmed": {
+    "advance_share_excludes_flat": true,
+    "mcl": "EMA19(A-D)-EMA39(A-D)",
+    "vw_macd_reference": "Shanghai Composite 000001.SH, daily and weekly bars",
+    "etf_amount_symbols": ["510300.SH", "510050.SH", "588000.SH"]
+  },
+  "data_requirements": {
+    "historical_st_status": "as_of_each_observation_date",
+    "daily_minimum": "official daily close fields after update; exact requested date",
+    "midday_target": "completed morning session; close vs official reference previous close; cumulative morning volume and amount",
+    "midday_no_trade": "exclude from midday eligible universe, not label flat",
+    "midday_mcl": "provisional update from previous day EMA state; do not append twice per trading day",
+    "missing_data": "flag as missing, never convert to flat or zero",
+    "volume": "unadjusted shares",
+    "amount": "CNY yuan"
+  },
+  "unverified_vendor_details": [
+    "Exact end-of-day amount coverage for after-hours fixed-price and block trades across all markets",
+    "Point-in-time ST and listing membership completeness over full historical universe",
+    "Full-universe long-history and midday batch capacity"
+  ],
+  "not_done": ["production scheduled job", "full filtered historical MCL series", "full-market MA20/60/250 calculation", "full-market midday snapshot"]
+}

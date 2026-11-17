@@ -1,0 +1,105 @@
+{
+  "universe_download": {
+    "requested_count": 5027,
+    "downloaded_count": 1000,
+    "complete": false
+  },
+  "star_partition": {
+    "count": 606,
+    "unique": 606,
+    "st_names": 0,
+    "date": "2026-11-16",
+    "complete_partition": true,
+    "historical_status_independently_audited": false
+  },
+  "filtered_market_20261116": {
+    "A": 1091,
+    "D": 3850,
+    "U": 86,
+    "count": 5027,
+    "two_sided": true,
+    "advance_share_pct": 22.080550495851043,
+    "up_amount": 360186230000.0,
+    "down_amount": 1109100000000.0,
+    "up_amount_share_pct": 24.514367768899596,
+    "amount_gap_pp": 2.433817273048555,
+    "trin_amount": 0.8725847542450831,
+    "up_volume": 32585740465,
+    "down_volume": 61755910250,
+    "up_volume_share_pct": 34.540142363460866,
+    "volume_gap_pp": 12.459591867609825,
+    "trin_volume": 0.5370502885761201
+  },
+  "filter_reconciliation": {
+    "before": 5224,
+    "st": 193,
+    "zero_amount": 7,
+    "intersection": 3,
+    "after": 5027
+  },
+  "filtered_counts_20261113": {
+    "2026年11月13日沪深A股上涨家数": 715,
+    "2026年11月13日沪深A股下跌家数": 4261,
+    "2026年11月13日沪深A股平盘家数": 50,
+    "2026年11月13日沪深A股总家数": 5026
+  },
+  "turnover_above_5": {
+    "count": 677,
+    "denominator": 5027,
+    "percentage": 13.467276705788741,
+    "denominator_basis": "same iFinD筛选条件的总数，与Wind汇总家数一致；尚未全量逐股连接审计"
+  },
+  "ordinary_turnover_checks": {
+    "300750.SZ": 0.8476104651435706,
+    "600519.SH": 0.31971553820555487
+  },
+  "etf_amount": {
+    "days": 20,
+    "records": 60,
+    "last_yuan": 20772340000.0,
+    "ma20_yuan": 23892643500.0
+  },
+  "vw_macd_source_check": {
+    "symbol": "000001.SH",
+    "daily_bars": 31,
+    "first": "20260928",
+    "last": "20261116",
+    "formula_sample": {
+      "dif": -34.36606740818888,
+      "dea": -46.59240364261757,
+      "histogram": 24.452672468857372
+    },
+    "warmup_sufficient": false
+  },
+  "ma_history_check": {
+    "symbol": "600519.SH",
+    "daily_bars": 291,
+    "last_close": 1453.9,
+    "ma": {
+      "20": 1396.7,
+      "60": 1321.6751666666667,
+      "250": 1339.01692
+    },
+    "adjustment": "request aftype=0 afdate=2026-11-16; first value matches iFinD qfq within precision"
+  },
+  "midday_example": {
+    "symbol": "600519.SH",
+    "date": "2026-11-16",
+    "morning_bars": 120,
+    "last_bar_label": "2026-11-16T11:29:00.000+08:00",
+    "close": 1438.55,
+    "volume_shares": 1836954.0,
+    "amount_yuan": 2640163153.0,
+    "change_vs_prev_close_pct": 0.22922676030823208,
+    "daily_volume_check": 3996700.0,
+    "daily_amount_check": 5767305714.0,
+    "all_bars": 238
+  },
+  "hour_bar_trap": {
+    "last_period_label": "2026-11-17 11:30",
+    "queried_before_1130": true,
+    "reported_change_pct": -0.16905702,
+    "change_from_previous_hour": -0.16905702210212592,
+    "not_daily_change": true
+  }
+}
