@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "mcp__hexin_ifind_ds_stock_mcp__get_stock_performance",
+  "arguments": {
+    "query": "600519.SH、002007.SZ、000831.SZ，2026-11-16日线MA简单移动平均，周期20，价格前复权。只要这一个均线指标，并回显指标参数。"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer\":\"|证券代码|证券简称|MA简单移动平均|\\n|---|---|---|\\n|000831.SZ|中国稀土|49.0915|\\n|002007.SZ|华兰生物|12.1922|\\n|600519.SH|贵州茅台|1396.7|\",\"indicators_params\":{\"MA简单移动平均\":{\"交易日期\":\"20261116\",\"复权方式\":\"前复权\",\"周期\":\"20\",\"计算周期\":\"日\"}}}}"
+      }
+    ]
+  }
+}

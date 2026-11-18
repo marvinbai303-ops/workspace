@@ -1,0 +1,31 @@
+{
+  "new_policy": "actual individual daily bars; do not insert bars for suspended days",
+  "noon_price_volume_breadth": "passed_full_universe",
+  "noon_turnover_note": "Vendor hourly turnover used; 301055.SZ and 688653.SH require exact current floating-A-share denominator confirmation. Both remain below 5% under observed alternative denominators.",
+  "ma_full_market": "not_accepted_incomplete",
+  "complete_price_export_batches": 93,
+  "complete_price_export_codes": 558,
+  "history_responses_received": 424,
+  "responses_reporting_no_csv_permission": 331,
+  "mcl": "including_ST_variant_validated; historical_excluding_ST_variant_still_deferred",
+  "wind_complete_historical_days": 8,
+  "wind_missing_historical_days": 283,
+  "automatic_review_block": {
+    "action": "new iFinD MA query for five securities and multiple periods",
+    "executed": false,
+    "reason": "automatic approval review usage limit",
+    "retry_time_Asia_Shanghai": "2026-11-17 18:58",
+    "safety_rejection": false
+  },
+  "mcl_including_st": {
+    "source": "iFinD沪深A股涨跌家数报表",
+    "start": "2025-09-01",
+    "end": "2026-11-16",
+    "records": 291,
+    "warmed_records": 91,
+    "last_mcl": -183.57734070317508,
+    "audit": "../mcl_ifind_include_st_2026-11-17/validation.json",
+    "scope_interpretation": "本轮不考虑ST解释为MCL包含ST；其他指标维持剔ST",
+    "midday_including_st": "not_collected; existing non-ST noon snapshot is not sufficient"
+  }
+}

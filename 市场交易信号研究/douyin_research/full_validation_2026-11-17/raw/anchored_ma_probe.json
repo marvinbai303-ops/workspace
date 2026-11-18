@@ -1,0 +1,16 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "get_stock_performance",
+  "arguments": {
+    "query": "600519.SH、000831.SZ、002007.SZ、688827.SH、001381.SZ，交易日期均为2026年11月16日。查询前复权收盘价、日线MA20、MA60、MA250（价格前复权，简单移动平均）。"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Automatic approval review failed: You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 6:58 PM.\nThe action was not executed because automatic approval review could not be completed. This is a review failure, not a determination that the action is unsafe. Do not bypass the approval check; resolve the error or ask the user for guidance."
+      }
+    ],
+    "isError": true
+  }
+}

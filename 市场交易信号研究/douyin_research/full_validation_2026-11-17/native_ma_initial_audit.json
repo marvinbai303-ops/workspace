@@ -1,0 +1,57 @@
+[
+  {
+    "response": "native_ma_20_0000.json",
+    "period": 20,
+    "requested": 20,
+    "returned": 20,
+    "accepted": true,
+    "reasons": []
+  },
+  {
+    "response": "native_ma_60_0000.json",
+    "period": 60,
+    "requested": 20,
+    "returned": 20,
+    "accepted": true,
+    "reasons": []
+  },
+  {
+    "response": "native_ma_250_0000.json",
+    "period": 250,
+    "requested": 20,
+    "returned": 10,
+    "accepted": false,
+    "reasons": [
+      "证券覆盖不完整"
+    ]
+  },
+  {
+    "response": "native_ma_20_0001.json",
+    "period": 20,
+    "requested": 20,
+    "returned": 10,
+    "accepted": false,
+    "reasons": [
+      "证券覆盖不完整",
+      "价格或均线复权参数不符"
+    ]
+  },
+  {
+    "response": "native_ma_60_0001.json",
+    "period": 60,
+    "requested": 20,
+    "returned": 10,
+    "accepted": false,
+    "reasons": [
+      "证券覆盖不完整"
+    ]
+  },
+  {
+    "response": "native_ma_250_0001.json",
+    "period": 250,
+    "requested": 20,
+    "returned": 20,
+    "accepted": true,
+    "reasons": []
+  }
+]

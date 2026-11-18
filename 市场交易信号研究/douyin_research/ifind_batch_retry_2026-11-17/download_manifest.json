@@ -1,0 +1,378 @@
+[
+  {
+    "response": "etf_daily_long.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794893186606.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/etf_daily_long_0.csv",
+    "bytes": 70626,
+    "sha256": "09fe63d632cfa880f3987636525c28460e0365a963218ad5380b34dd78c4e112",
+    "encoding": "utf-8-sig",
+    "data_rows": 960,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价",
+      "交易币种",
+      "成交量",
+      "成交额"
+    ]
+  },
+  {
+    "response": "market_report.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/topic_report_40131b77-73b3-494b-a60f-4f0a431f00bb.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/market_report_0.csv",
+    "bytes": 642709,
+    "sha256": "fc015eb785b7e342264503d0cdabc90831adcd25513686ba51f7dc6e9667ace4",
+    "encoding": "utf-8-sig",
+    "data_rows": 1000,
+    "columns": [
+      "行业_证监会(新)",
+      "行业_同花顺(新)",
+      "行业_申万行业",
+      "代码",
+      "代码简称",
+      "基准日期",
+      "涨跌幅(%)_5日",
+      "涨跌幅(%)_10日",
+      "涨跌幅(%)_20日",
+      "涨跌幅(%)_60日",
+      "涨跌幅(%)_120日",
+      "涨跌幅(%)_250日",
+      "换手率(%)_5日",
+      "换手率(%)_10日",
+      "换手率(%)_20日",
+      "换手率(%)_60日",
+      "换手率(%)_120日",
+      "换手率(%)_250日",
+      "成交量(万股)_5日",
+      "成交量(万股)_10日",
+      "成交量(万股)_20日",
+      "成交量(万股)_60日",
+      "成交量(万股)_120日",
+      "成交量(万股)_250日",
+      "成交额(亿元)_5日",
+      "成交额(亿元)_10日",
+      "成交额(亿元)_20日",
+      "成交额(亿元)_60日",
+      "成交额(亿元)_120日",
+      "成交额(亿元)_250日",
+      "涨跌幅(%)_30日",
+      "换手率(%)_30日",
+      "成交量(万股)_30日",
+      "成交额(亿元)_30日"
+    ]
+  },
+  {
+    "response": "prefix_000.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429635120.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_000_0.csv",
+    "bytes": 107560,
+    "sha256": "8c767ae3495db2673aca57a9a0729d747a351862be022eca654166d03102bae7",
+    "encoding": "utf-8-sig",
+    "data_rows": 389,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "prefix_001.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429643313.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_001_0.csv",
+    "bytes": 32952,
+    "sha256": "0b7d449ca1a154c5282b07eb1a60e2b239ca263df80926afd2c7729a3b44bd76",
+    "encoding": "utf-8-sig",
+    "data_rows": 123,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "prefix_002.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309115211886637.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_002_0.csv",
+    "bytes": 252581,
+    "sha256": "8ba697469eb6d00ba6f352b2038eae06c80dc727c17b7796d9802ccb78c32b93",
+    "encoding": "utf-8-sig",
+    "data_rows": 865,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "prefix_300.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177465364.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_300_0.csv",
+    "bytes": 224376,
+    "sha256": "d6ad87b269e46d01e38ecf35f86bf60050647a0bf4b548da63dd8de39636c544",
+    "encoding": "utf-8-sig",
+    "data_rows": 899,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "prefix_301.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177461269.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_301_0.csv",
+    "bytes": 123967,
+    "sha256": "b727dfab6ed946ee4cdebdd7e52477ea787e6e4d8c806539416925f93ba0d6dc",
+    "encoding": "utf-8-sig",
+    "data_rows": 472,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "prefix_600.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177457173.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_600_0.csv",
+    "bytes": 209593,
+    "sha256": "f164670a5e890c37127274eca458104449715afffd872371ff59e74a8c9c7de2",
+    "encoding": "utf-8-sig",
+    "data_rows": 703,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "prefix_601.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429659697.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_601_0.csv",
+    "bytes": 69683,
+    "sha256": "0982b1c49a438c2c38381042cdfcaccc597291825360dcdabba5059978c870d6",
+    "encoding": "utf-8-sig",
+    "data_rows": 223,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "prefix_603.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429667889.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_603_0.csv",
+    "bytes": 166467,
+    "sha256": "414c38cd4bd17c374540fbc466b54c6451b1b26bd3107b6f26eb4caf17127881",
+    "encoding": "utf-8-sig",
+    "data_rows": 595,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "prefix_605.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309115211919405.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_605_0.csv",
+    "bytes": 29668,
+    "sha256": "634b14a99140cd67c16b4d7048ac00f81a3d7f5ea39bb26bd40ba9cdf9da22e4",
+    "encoding": "utf-8-sig",
+    "data_rows": 109,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "prefix_688.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429671985.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/prefix_688_0.csv",
+    "bytes": 161426,
+    "sha256": "72a2b006723278ecf3dba2a40290a42fc62414565281f41be4d48b0b374c8cb9",
+    "encoding": "utf-8-sig",
+    "data_rows": 605,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "qfq_history_multi.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794893195572.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/qfq_history_multi_0.csv",
+    "bytes": 60086,
+    "sha256": "a79bd6533a994317315536a43c093588c56063bdd9ccad6a31bc96d3e5ea8b21",
+    "encoding": "utf-8-sig",
+    "data_rows": 1326,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "qfq_history_single.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794893069252.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/qfq_history_single_0.csv",
+    "bytes": 20014,
+    "sha256": "0be3382404461a08a60e3e82d338267e9bfb606c2382fb3cc5bb740ace4d5761",
+    "encoding": "utf-8-sig",
+    "data_rows": 442,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "shanghai_daily_long.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794893164344.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/shanghai_daily_long_0.csv",
+    "bytes": 25922,
+    "sha256": "a01654ded1a6053c099ebc8c58bade446ed523069a9641d834b4683b71a06f29",
+    "encoding": "utf-8-sig",
+    "data_rows": 442,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "成交金额",
+      "成交量",
+      "收盘价（不前推）"
+    ]
+  },
+  {
+    "response": "universe_eod.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177436692.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/universe_eod_0.csv",
+    "bytes": 260239,
+    "sha256": "384c1265dcf3b3eda5a95bf6f405faf2ad0bc44300f5ff6fd28c88d246469dbb",
+    "encoding": "utf-8-sig",
+    "data_rows": 1000,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "universe_price_crosscheck.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429680176.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/universe_price_crosscheck_0.csv",
+    "bytes": 44811,
+    "sha256": "2e73d84661dadc6f1653b2cb0403e1fbe40e8755073b3486bd1f9f7952c434e5",
+    "encoding": "utf-8-sig",
+    "data_rows": 157,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "universe_recount.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429676080.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/universe_recount_0.csv",
+    "bytes": 260239,
+    "sha256": "384c1265dcf3b3eda5a95bf6f405faf2ad0bc44300f5ff6fd28c88d246469dbb",
+    "encoding": "utf-8-sig",
+    "data_rows": 1000,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  },
+  {
+    "response": "universe_remainder.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177485845.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/ifind_batch_retry_2026-11-17/downloads/universe_remainder_0.csv",
+    "bytes": 260239,
+    "sha256": "384c1265dcf3b3eda5a95bf6f405faf2ad0bc44300f5ff6fd28c88d246469dbb",
+    "encoding": "utf-8-sig",
+    "data_rows": 1000,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "成交额[20261116]",
+      "收盘价:不复权[20261116]",
+      "涨跌幅:不复权[20261116]",
+      "成交量[20261116]",
+      "换手率[20261116]"
+    ]
+  }
+]

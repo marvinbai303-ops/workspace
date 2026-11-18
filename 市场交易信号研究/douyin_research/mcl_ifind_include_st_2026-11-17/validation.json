@@ -1,0 +1,177 @@
+{
+  "status": "accepted_for_ifind_vendor_SHSZ_including_ST_variant",
+  "assumption_from_user": "本轮不考虑ST解释为MCL包含ST；其他指标剔ST规则不变",
+  "source_report": "内地专题统计_二级市场_市场表现_A股涨跌家数统计",
+  "source_report_path": "/专题统计/内地专题统计/二级市场/市场表现/A股涨跌家数统计",
+  "source_parameters": {
+    "开始日期": "20250901",
+    "截止日期": "20261116",
+    "统计范围": "A股"
+  },
+  "checks": {
+    "records": 291,
+    "unique_dates": 291,
+    "negative_counts": 0,
+    "sh_plus_sz_equals_total_every_day": true,
+    "dates_equal_cached_Shanghai_index_dates": true,
+    "report_index_close_equals_cached_index_close_every_day": true,
+    "max_mcl_error_against_decimal": 8.526512829121202e-13,
+    "last_day_nonst_plus_trading_st_equals_report": true
+  },
+  "latest_reconciliation": {
+    "date": "2026-11-16",
+    "nonst": {
+      "A": 1091,
+      "D": 3850,
+      "U": 86,
+      "N": 5027
+    },
+    "st_with_amount": {
+      "A": 18,
+      "D": 169,
+      "U": 3,
+      "N": 190
+    },
+    "report": {
+      "A": 1109,
+      "D": 4019,
+      "U": 89
+    },
+    "st_rows_with_missing_amount_not_assumed_zero": [
+      {
+        "code": "688121.SH",
+        "name": "*ST卓然"
+      },
+      {
+        "code": "002717.SZ",
+        "name": "*ST岭南"
+      },
+      {
+        "code": "688496.SH",
+        "name": "*ST清越"
+      }
+    ]
+  },
+  "initialization": {
+    "seed": "first net advances",
+    "warmup_transitions": 200,
+    "warmed_rows": 91,
+    "first_warmed_date": "2026-07-03",
+    "seed_first_minus_zero_mcl_at_last_date": -0.00036056469025349164,
+    "note": "种子及200次预热为工程约定；两种种子对比不等同于证明原博主起点"
+  },
+  "latest": {
+    "date": "2026-11-16",
+    "A": 1109,
+    "D": 4019,
+    "U": 89,
+    "source_id": "ifind_A_share_advance_decline_report",
+    "scope_id": "SHSZ_A_INCLUDE_ST_VENDOR_BREADTH_EOD_V1",
+    "N": 5217,
+    "net_advances": -2910,
+    "ema19": -778.0880761272286,
+    "ema39": -594.5107354240536,
+    "mcl": -183.57734070317508,
+    "warmed": true
+  },
+  "recent_five": [
+    {
+      "date": "2026-11-10",
+      "A": 4003,
+      "D": 1073,
+      "U": 142,
+      "source_id": "ifind_A_share_advance_decline_report",
+      "scope_id": "SHSZ_A_INCLUDE_ST_VENDOR_BREADTH_EOD_V1",
+      "N": 5218,
+      "net_advances": 2930,
+      "ema19": -1.6227345331939773,
+      "ema39": -235.53827600961148,
+      "mcl": 233.9155414764175,
+      "warmed": true
+    },
+    {
+      "date": "2026-11-11",
+      "A": 3381,
+      "D": 1647,
+      "U": 191,
+      "source_id": "ifind_A_share_advance_decline_report",
+      "scope_id": "SHSZ_A_INCLUDE_ST_VENDOR_BREADTH_EOD_V1",
+      "N": 5219,
+      "net_advances": 1734,
+      "ema19": 171.93953892012541,
+      "ema39": -137.0613622091309,
+      "mcl": 309.0009011292563,
+      "warmed": true
+    },
+    {
+      "date": "2026-11-12",
+      "A": 838,
+      "D": 4320,
+      "U": 60,
+      "source_id": "ifind_A_share_advance_decline_report",
+      "scope_id": "SHSZ_A_INCLUDE_ST_VENDOR_BREADTH_EOD_V1",
+      "N": 5218,
+      "net_advances": -3482,
+      "ema19": -193.45441497188716,
+      "ema39": -304.30829409867437,
+      "mcl": 110.8538791267872,
+      "warmed": true
+    },
+    {
+      "date": "2026-11-13",
+      "A": 744,
+      "D": 4415,
+      "U": 57,
+      "source_id": "ifind_A_share_advance_decline_report",
+      "scope_id": "SHSZ_A_INCLUDE_ST_VENDOR_BREADTH_EOD_V1",
+      "N": 5216,
+      "net_advances": -3671,
+      "ema19": -541.2089734746985,
+      "ema39": -472.64287939374066,
+      "mcl": -68.56609408095784,
+      "warmed": true
+    },
+    {
+      "date": "2026-11-16",
+      "A": 1109,
+      "D": 4019,
+      "U": 89,
+      "source_id": "ifind_A_share_advance_decline_report",
+      "scope_id": "SHSZ_A_INCLUDE_ST_VENDOR_BREADTH_EOD_V1",
+      "N": 5217,
+      "net_advances": -2910,
+      "ema19": -778.0880761272286,
+      "ema39": -594.5107354240536,
+      "mcl": -183.57734070317508,
+      "warmed": true
+    }
+  ],
+  "limitations": [
+    "采用iFinD报表的沪深A股涨跌方向口径；未逐股重建291天的历史上市及交易状态。",
+    "最新日的逐股勾稽通过不等于每个历史日都独立验证了停牌、零成交及除权参考价。",
+    "不与原先剔ST的Wind样本拼接，不宣称复制博主历史屏幕的全部数值。",
+    "本文件仅截至2026-11-16，未取得2026-11-17收盘值。"
+  ],
+  "files": [
+    {
+      "path": "full_validation_2026-11-17/downloads/ifind_history_counts_probe_0.csv",
+      "sha256": "229a740d19d67e02bfab53ff233ff9f2fc4b30c4eef92af35a79d1b06c883889"
+    },
+    {
+      "path": "full_validation_2026-11-17/raw/ifind_history_counts_probe.json",
+      "sha256": "12f6870b58fbc0f2005a2bdcfdb4c82b56ca58eb8e49a5dcbd8dee6f7c14f1e7"
+    },
+    {
+      "path": "ifind_batch_retry_2026-11-17/normalized/上证指数_日线及VW_MACD.csv",
+      "sha256": "68c6612ceab3fc420ca54fde90e0e7d231bdaf8da2895cee53e86074bd7afad2"
+    },
+    {
+      "path": "ifind_batch_retry_2026-11-17/normalized/全市场日终_2026-11-16.csv",
+      "sha256": "2af64425ea2ea31e1df8fed1c008f07f7fc9e4c4d85a9d0da3dc41fd5f2c8745"
+    },
+    {
+      "path": "full_validation_2026-11-17/downloads/ifind_st_history_20261116_0.csv",
+      "sha256": "0823694c32da9ad779fc1973eea13a809709117824615e9af42b3f71d4968f90"
+    }
+  ]
+}

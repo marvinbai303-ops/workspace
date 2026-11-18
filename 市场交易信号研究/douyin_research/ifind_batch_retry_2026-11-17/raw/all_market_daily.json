@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "mcp__hexin_ifind_ds_stock_mcp__get_stock_performance",
+  "arguments": {
+    "query": "查询全部沪深A股2026-11-16日终行情明细：不复权收盘价、当日涨跌幅（不复权）、成交量（股）、成交额（元）、普通换手率。范围不含北交所/B股，剔除该日ST、*ST以及零成交股票。返回完整股票代码及明细，数据多请提供全量CSV下载链接，不要仅前1000只。"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer\":\"查询结果为空\",\"indicators_params\":{}}}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "noon_0261_retry",
+    "tool": "stock_highfreq_quotes",
+    "args": {
+      "symbols": "301345.SZ,301348.SZ,301349.SZ,301353.SZ,301355.SZ,301356.SZ,301357.SZ,301358.SZ,301359.SZ,301360.SZ",
+      "indicators": "收盘价,成交量,成交额,涨跌,换手率",
+      "data_mode": "highfreq",
+      "interval": 60
+    }
+  },
+  {
+    "name": "noon_0285_retry",
+    "tool": "stock_highfreq_quotes",
+    "args": {
+      "symbols": "600089.SH,600094.SH,600095.SH,600096.SH,600097.SH,600098.SH,600099.SH,600100.SH,600101.SH,600103.SH",
+      "indicators": "收盘价,成交量,成交额,涨跌,换手率",
+      "data_mode": "highfreq",
+      "interval": 60
+    }
+  },
+  {
+    "name": "noon_missing4_status",
+    "tool": "get_stock_performance",
+    "args": {
+      "query": "000635.SZ、600185.SH、605255.SH、688798.SH，2026年11月17日的交易状态、停牌原因、停牌起止日期。只查当日停牌状态，不要用昨日数据。"
+    }
+  }
+]

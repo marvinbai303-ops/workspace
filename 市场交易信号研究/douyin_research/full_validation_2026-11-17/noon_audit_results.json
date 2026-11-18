@@ -1,0 +1,74 @@
+{
+  "metrics": {
+    "A": 3174,
+    "D": 1636,
+    "U": 217,
+    "count": 5027,
+    "two_sided": true,
+    "advance_share_pct": 65.98752598752598,
+    "up_amount": 518725402790.8,
+    "down_amount": 359184070500.5,
+    "up_amount_share_pct": 59.086434145207264,
+    "amount_gap_pp": -6.901091842318719,
+    "trin_amount": 1.3433932887193936,
+    "up_volume": 28642501745.0,
+    "down_volume": 28086336153.0,
+    "up_volume_share_pct": 50.490196531964926,
+    "volume_gap_pp": -15.49732945556106,
+    "trin_volume": 1.902425963062872,
+    "date": "2026-11-17",
+    "supplied_count": 5027,
+    "excluded_zero_amount": 0,
+    "total_amount_including_flat": 890295103543.9,
+    "turnover_gt5_count": 324,
+    "turnover_gt5_pct": 6.445195941913666,
+    "time": "11:30",
+    "eligible_count": 5027,
+    "universe_before_no_trade_exclusion": 5031
+  },
+  "requested_batches": 504,
+  "retry_batches": [
+    "noon_0261_retry",
+    "noon_0285_retry"
+  ],
+  "missing_unresolved": [],
+  "excluded": [
+    {
+      "code": "000635.SZ",
+      "reason": "重大事项，停牌自2026-11-13起连续停牌"
+    },
+    {
+      "code": "600185.SH",
+      "reason": "重要公告，停牌自2026-11-12起连续停牌"
+    },
+    {
+      "code": "605255.SH",
+      "reason": "重要公告，停牌自2026-11-16起连续停牌"
+    },
+    {
+      "code": "688798.SH",
+      "reason": "重要公告，停牌自2026-11-10起连续停牌"
+    }
+  ],
+  "reference_close_differs_from_prior_raw_close": [],
+  "implied_float_change_gt1pct": [
+    {
+      "code": "301055.SZ",
+      "today_inferred_float": 156000000.26484558,
+      "prior_inferred_float": 152667802.28292355
+    },
+    {
+      "code": "688653.SH",
+      "today_inferred_float": 424480000.72389966,
+      "prior_inferred_float": 316411601.1154056
+    }
+  ],
+  "check_original_three_stock_samples": true,
+  "reference_method": "first completed 60-minute bar close minus its period price change; both morning price changes sum to the noon price change",
+  "turnover_method": "sum of the two completed morning vendor hourly-turnover percentages; not a full-universe independent volume/float recomputation",
+  "turnover_denominator_pending": [
+    "301055.SZ",
+    "688653.SH"
+  ],
+  "cutoff": "2026-11-17 11:30 Asia/Shanghai"
+}

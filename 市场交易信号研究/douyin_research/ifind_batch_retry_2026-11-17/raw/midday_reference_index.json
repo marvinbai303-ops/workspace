@@ -1,0 +1,18 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "mcp__hexin_ifind_ds_mcp__security_highfreq_quotes",
+  "arguments": {
+    "market": "指数",
+    "symbols": "上证指数",
+    "indicators": "最新价,涨跌",
+    "data_mode": "real_time"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"tables\":[[\"证券代码\",\"证券简称\",\"time\",\"最新价\",\"涨跌\"],[\"000001.SH\",\"上证指数\",\"2026-11-17 13:38:48\",\"3597.24\",\"-5.330000000000382\"]],\"symbolMap\":{\"000001.SH\":\"上证指数\"},\"indicatorMap\":{\"最新价\":\"latest\",\"涨跌\":\"change\"},\"dataVol\":\"2\"}}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "retrieved_at": "2026-11-17T06:02:59.246Z",
+  "tool": "search_stocks",
+  "arguments": {
+    "query": "沪深A股，股票代码以600开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+  },
+  "result": {
+    "isError": true,
+    "content": [
+      {
+        "type": "text",
+        "text": "call failed, status: 429, response: {\"answer\":\"请求过于频繁，请降低频率；个人轻量级用户可通过升级权益获取高频/实时行情独立额外限流池，企业级用户享有更高并发权益。详情参考产品官网:<https://mcp.51ifind.com/#/pricing>\"}"
+      }
+    ]
+  }
+}

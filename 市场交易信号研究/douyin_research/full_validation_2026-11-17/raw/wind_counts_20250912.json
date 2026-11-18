@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-11-17T06:10:17Z",
+  "tool": "analytics_data.get_financial_data",
+  "arguments": {
+    "question": "2025年9月12日，沪深A股剔除当日ST、*ST、全天停牌和成交额为0的股票后，上涨家数、下跌家数、平盘家数、股票总家数各多少？不含北交所及B股。所有风险警示、上市及交易状态按2025年9月12日当日状态筛选。"
+  },
+  "result": {
+    "ok": false,
+    "code": "backend_error",
+    "message": "原因：账户积分余额不足，无法完成当前操作。建议：先完成充值并确认余额恢复后，再重新发起请求；官网充值地址：https://market.windalice.com/#/user/credits。"
+  }
+}

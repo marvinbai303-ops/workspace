@@ -1,0 +1,289 @@
+{
+  "source": "iFinD MCP",
+  "as_of": "2026-11-17",
+  "eod_date": "2026-11-16",
+  "max_query_concurrency": 5,
+  "universe": {
+    "vendor_selected": 5027,
+    "unique_downloaded": 5027,
+    "partitions": [
+      {
+        "prefix": "000",
+        "selected": 389,
+        "received": 389
+      },
+      {
+        "prefix": "001",
+        "selected": 123,
+        "received": 123
+      },
+      {
+        "prefix": "002",
+        "selected": 865,
+        "received": 865
+      },
+      {
+        "prefix": "003",
+        "selected": 42,
+        "received": 42
+      },
+      {
+        "prefix": "300",
+        "selected": 899,
+        "received": 899
+      },
+      {
+        "prefix": "301",
+        "selected": 472,
+        "received": 472
+      },
+      {
+        "prefix": "302",
+        "selected": 1,
+        "received": 1
+      },
+      {
+        "prefix": "600",
+        "selected": 703,
+        "received": 703
+      },
+      {
+        "prefix": "601",
+        "selected": 223,
+        "received": 223
+      },
+      {
+        "prefix": "603",
+        "selected": 595,
+        "received": 595
+      },
+      {
+        "prefix": "605",
+        "selected": 109,
+        "received": 109
+      },
+      {
+        "prefix": "688",
+        "selected": 605,
+        "received": 605
+      },
+      {
+        "prefix": "689",
+        "selected": 1,
+        "received": 1
+      }
+    ],
+    "direct_overlap_checks": {
+      "universe_eod": 1000,
+      "universe_recount": 1000,
+      "universe_price_crosscheck": 157,
+      "universe_volume_crosscheck": 1
+    },
+    "h5_codes_match_previous_complete_file": true,
+    "star_codes_match_previous_complete_file": true
+  },
+  "eod_metrics": {
+    "A": 1091,
+    "D": 3850,
+    "U": 86,
+    "count": 5027,
+    "two_sided": true,
+    "advance_share_pct": 22.080550495851043,
+    "up_amount": 360186227168.7,
+    "down_amount": 1109088162492.1,
+    "up_amount_share_pct": 24.514565128427332,
+    "amount_gap_pp": 2.4340146325762895,
+    "trin_amount": 0.8725754479412442,
+    "up_volume": 32585740469.0,
+    "down_volume": 61755910250.0,
+    "up_volume_share_pct": 34.54014236623631,
+    "volume_gap_pp": 12.459591870385267,
+    "trin_volume": 0.5370502885101955,
+    "date": "2026-11-16",
+    "turnover_gt5_count": 677,
+    "turnover_gt5_pct": 13.467276705788741,
+    "net_advances": -2759,
+    "flat_amount_yuan": 7609789293.2,
+    "total_amount_yuan": 1476884178954.0
+  },
+  "daily_index": {
+    "calendar_rows": 442,
+    "trading_rows": 291,
+    "start": "2025-09-01",
+    "end": "2026-11-16",
+    "last_vw_macd": {
+      "dif": -34.3660671594248,
+      "dea": -52.18078379031995,
+      "histogram": 35.6294332617903
+    },
+    "completed_weeks": 62,
+    "last_completed_week": {
+      "week": "2026-W46",
+      "date": "2026-11-13",
+      "close_points": 3634.353,
+      "volume_shares": 223453420700.0,
+      "vw_dif": -111.96184707401244,
+      "vw_dea": -92.83130527552228,
+      "vw_histogram": -38.26108359698031
+    }
+  },
+  "qfq": {
+    "calendar_rows": 1326,
+    "trading_rows": 873,
+    "per_stock_ma": [
+      {
+        "code": "300750.SZ",
+        "count": 291,
+        "last_close": 240.5,
+        "MA20": 241.562,
+        "MA60": 300.72066666666666,
+        "MA250": 364.1207268334104
+      },
+      {
+        "code": "600036.SH",
+        "count": 291,
+        "last_close": 43.4,
+        "MA20": 42.6935,
+        "MA60": 41.428333333333335,
+        "MA250": 39.10734567267579
+      },
+      {
+        "code": "600519.SH",
+        "count": 291,
+        "last_close": 1453.9,
+        "MA20": 1396.7,
+        "MA60": 1321.6751666666667,
+        "MA250": 1339.017046186444
+      }
+    ],
+    "maotai_max_abs_diff_vs_prior_wind_2decimal": 0.0050395173,
+    "adjustment": "前复权",
+    "requested_adjustment_anchor": "2026-11-16",
+    "vendor_explicit_anchor_metadata": false
+  },
+  "etfs": {
+    "calendar_rows": 960,
+    "trading_rows": 627,
+    "unique_trading_days": 209,
+    "last": {
+      "date": "2026-11-16",
+      "amount_yuan": 20772336522.0,
+      "MA20_amount_yuan": 23892645081.85
+    }
+  },
+  "midday_samples": [
+    {
+      "date": "2026-11-17",
+      "time": "11:30",
+      "code": "300750.SZ",
+      "name": "宁德时代",
+      "close": 239.47,
+      "previous_day_raw_close": 240.5,
+      "reference_previous_close": 240.5,
+      "return_pct": -0.4282744282744283,
+      "morning_volume_shares": 16027228.0,
+      "morning_amount_yuan": 3848935700.0,
+      "completed_bars": 2,
+      "source": "midday_stocks"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "11:30",
+      "code": "600036.SH",
+      "name": "招商银行",
+      "close": 42.96,
+      "previous_day_raw_close": 43.4,
+      "reference_previous_close": 43.4,
+      "return_pct": -1.0138248847926268,
+      "morning_volume_shares": 39512528.0,
+      "morning_amount_yuan": 1707707200.0,
+      "completed_bars": 2,
+      "source": "midday_stocks"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "11:30",
+      "code": "600519.SH",
+      "name": "贵州茅台",
+      "close": 1439.78,
+      "previous_day_raw_close": 1453.9,
+      "reference_previous_close": 1453.9,
+      "return_pct": -0.9711809615516885,
+      "morning_volume_shares": 1571622.0,
+      "morning_amount_yuan": 2270879100.0,
+      "completed_bars": 2,
+      "source": "midday_stocks"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "11:30",
+      "code": "510050.SH",
+      "name": "上证50ETF华夏",
+      "close": 2.877,
+      "previous_day_raw_close": 2.885,
+      "reference_previous_close": 2.885,
+      "return_pct": -0.2772963604852686,
+      "morning_volume_shares": 408901400.0,
+      "morning_amount_yuan": 1172808250.0,
+      "completed_bars": 2,
+      "source": "midday_etfs"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "11:30",
+      "code": "510300.SH",
+      "name": "沪深300ETF华泰柏瑞",
+      "close": 4.054,
+      "previous_day_raw_close": 4.054,
+      "reference_previous_close": 4.054,
+      "return_pct": 0.0,
+      "morning_volume_shares": 528116730.0,
+      "morning_amount_yuan": 2130602300.0,
+      "completed_bars": 2,
+      "source": "midday_etfs"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "11:30",
+      "code": "588000.SH",
+      "name": "科创50ETF华夏",
+      "close": 1.325,
+      "previous_day_raw_close": 1.282,
+      "reference_previous_close": 1.282,
+      "return_pct": 3.354134165366615,
+      "morning_volume_shares": 5238404200.0,
+      "morning_amount_yuan": 6789123100.0,
+      "completed_bars": 2,
+      "source": "midday_etfs"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "11:30",
+      "code": "000001.SH",
+      "name": "上证指数",
+      "close": 3602.07,
+      "previous_day_raw_close": 3602.5698,
+      "reference_previous_close": 3602.57,
+      "return_pct": -0.013878980838679054,
+      "morning_volume_shares": 27458439000.0,
+      "morning_amount_yuan": 424293170000.0,
+      "completed_bars": 4,
+      "source": "midday_index_close30"
+    }
+  ],
+  "maotai_minute_and_hourly_match": true,
+  "not_completed": [
+    "全市场 MA20/60/250 比例",
+    "按新股票池重建完整历史 MCL",
+    "全市场午盘快照",
+    "历史逐日 ST / 上市状态的独立明细验证",
+    "自动定时采集部署"
+  ],
+  "rejected_sources": {
+    "market_report": "返回阶段表现，未落实所需日终行情日期字段",
+    "universe_remainder": "未执行排除前缀条件，返回原池样例，不用于补齐",
+    "midday_index": "返回空表",
+    "midday_index_unified": "返回空表"
+  },
+  "midday_previous_close_method": "供应商同日最新价减涨跌，剔除浮点尾差。股票精确到分、ETF精确到厘；指数实时参考昨收仅到小数点后2位，与日线4位存在0.0002点舍入差。"
+}

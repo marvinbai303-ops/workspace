@@ -1,0 +1,93 @@
+{
+  "code": "000831.SZ",
+  "date": "2026-11-16",
+  "actual_bar_count": 20,
+  "first_bar": "20260929",
+  "last_bar": "20261116",
+  "actual_bar_ma20": "49.0915",
+  "market_calendar_filled_ma20": "48.294",
+  "native_ma20": "49.0915",
+  "match": true,
+  "price_inputs": [
+    {
+      "date": "20260929",
+      "close_qfq": "53.23"
+    },
+    {
+      "date": "20260930",
+      "close_qfq": "52.73"
+    },
+    {
+      "date": "20261008",
+      "close_qfq": "48.9"
+    },
+    {
+      "date": "20261009",
+      "close_qfq": "49.34"
+    },
+    {
+      "date": "20261012",
+      "close_qfq": "48.1"
+    },
+    {
+      "date": "20261013",
+      "close_qfq": "48.58"
+    },
+    {
+      "date": "20261014",
+      "close_qfq": "47.86"
+    },
+    {
+      "date": "20261015",
+      "close_qfq": "46.9"
+    },
+    {
+      "date": "20261016",
+      "close_qfq": "47.15"
+    },
+    {
+      "date": "20261019",
+      "close_qfq": "49.06"
+    },
+    {
+      "date": "20261020",
+      "close_qfq": "49.24"
+    },
+    {
+      "date": "20261021",
+      "close_qfq": "49.5"
+    },
+    {
+      "date": "20261022",
+      "close_qfq": "49.08"
+    },
+    {
+      "date": "20261023",
+      "close_qfq": "50.13"
+    },
+    {
+      "date": "20261026",
+      "close_qfq": "48.69"
+    },
+    {
+      "date": "20261027",
+      "close_qfq": "48.08"
+    },
+    {
+      "date": "20261028",
+      "close_qfq": "48.75"
+    },
+    {
+      "date": "20261029",
+      "close_qfq": "49.12"
+    },
+    {
+      "date": "20261030",
+      "close_qfq": "47.59"
+    },
+    {
+      "date": "20261116",
+      "close_qfq": "49.8"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "status": "sample_only_not_full_market",
+  "provider": "iFinD MCP",
+  "as_of": "2026-11-17",
+  "periods": [
+    20,
+    60,
+    150
+  ],
+  "latest_sample": {
+    "20": {
+      "date_parameter": "最新",
+      "row_dates": [
+        "20261117"
+      ],
+      "returned": 5,
+      "nonempty": 3
+    },
+    "60": {
+      "date_parameter": "最新",
+      "row_dates": [
+        "20261117"
+      ],
+      "returned": 5,
+      "nonempty": 3
+    },
+    "150": {
+      "date_parameter": "20261117",
+      "row_dates": [],
+      "returned": 5,
+      "nonempty": 3
+    }
+  },
+  "historical_batch_codes": 20,
+  "native_150_explicit_date": true,
+  "full_market_breadth_accepted": false,
+  "rejected": {
+    "ifind_screen_150": "混合20261116成交额与20261118价格/MA，拒绝计数",
+    "ifind_screen_exact_sample": "均线复权口径与原生技术指标不一致",
+    "ifind_150_100": "问句过长",
+    "ifind_150_40": "问句过长",
+    "mx_native_sample": "缺MA150，且不足周期新股返回MA值，不符合已确认口径",
+    "wind_cli": "NETWORK_ERROR: 服务暂时不可用"
+  },
+  "uncertainties": [
+    "MA20/60部分回执交易日期参数为最新，必须校验输出日期行；不可盲目历史批量。",
+    "茅台20261116原生MA150=1305.0894，已有高精度前复权历史均值=1305.09104018，差0.00164018元；不能声称精确到最后小数位，阈值附近个股应补核。",
+    "样本成功不等于全市场比例已验收。"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "provider_priority": ["iFinD", "妙想", "Wind"],
+  "new_queries_this_run": "iFinD only",
+  "max_concurrent_queries": 5,
+  "eod_validation_date": "2026-11-16",
+  "midday_validation_time": "2026-11-17 11:30 Asia/Shanghai",
+  "screening_export_observed_limit": 1000,
+  "partition_rule": "Each returned partition must be smaller than 1000 and match its selected count; union must match total count and contain no duplicate codes. Derive partitions from current security master, never assume a fixed prefix list is exhaustive.",
+  "tested_prefixes": ["000", "001", "002", "003", "300", "301", "302", "600", "601", "603", "605", "688", "689"],
+  "confirmed_policy_source": "../data_source_audit_2026-11-17/policy.json",
+  "ma_input": "Forward-adjusted close; actual exchange trading dates only; insufficient-history stocks excluded from the corresponding MA denominator.",
+  "adjustment_anchor": {"requested": "2026-11-16", "separately_echoed_by_vendor": false},
+  "midday_data": "Completed morning bars only; session close at 11:30; morning sum of bar volume and amount; reference previous close inferred and cross-checked in samples.",
+  "historical_intraday_ifind_mcp": "Not supported by the tested current-day high-frequency interface.",
+  "automation_created": false
+}

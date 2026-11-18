@@ -1,0 +1,1722 @@
+[
+  {
+    "response": "history_price6_probe.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794895769381.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/history_price6_probe_0.csv",
+    "bytes": 110320,
+    "sha256": "b2131bdf329c6ef50665a12991ad34b7a483b538e49de5864cc0cd22b6371043",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ifind_bulk_price20_probe.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794894485522.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ifind_bulk_price20_probe_0.csv",
+    "bytes": 110675,
+    "sha256": "22ad913e10ebeb8df4239feeba45621d4e52f1c3bac7ff824ce7a962b4a92167",
+    "encoding": "utf-8-sig",
+    "data_rows": 3000,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ifind_history_counts_probe.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/topic_report_0b23b41c-a4a0-4208-acbd-0458c81df172.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ifind_history_counts_probe_0.csv",
+    "bytes": 33401,
+    "sha256": "229a740d19d67e02bfab53ff233ff9f2fc4b30c4eef92af35a79d1b06c883889",
+    "encoding": "utf-8-sig",
+    "data_rows": 291,
+    "columns": [
+      "日期",
+      "沪深两市_上涨",
+      "沪深两市_平盘",
+      "沪深两市_下跌",
+      "沪市_上涨",
+      "沪市_平盘",
+      "沪市_下跌",
+      "沪市_上综指涨跌幅(%)",
+      "沪市_收盘点位",
+      "深市_上涨",
+      "深市_平盘",
+      "深市_下跌",
+      "深市_深成指涨跌幅(%)",
+      "深市_收盘点位",
+      "创业板_上涨",
+      "创业板_平盘",
+      "创业板_下跌",
+      "创业板_创业板指数涨跌幅(%)",
+      "创业板_收盘点位"
+    ]
+  },
+  {
+    "response": "ifind_st_history_20250901.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177670164.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ifind_st_history_20250901_0.csv",
+    "bytes": 43426,
+    "sha256": "9017db6c5a170bdb7ddfd5ab53fb17539ce6a5714c1b9e3585d4fd757a9f9878",
+    "encoding": "utf-8-sig",
+    "data_rows": 193,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "涨跌幅:不复权[20250901]",
+      "成交额[20250901]"
+    ]
+  },
+  {
+    "response": "ifind_st_history_20251103.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161327989580144685.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ifind_st_history_20251103_0.csv",
+    "bytes": 43364,
+    "sha256": "9cb76708302d0e51b688ae7960e35dbd5c3b7cea2205ffd11dcb1e3ed8bd8cb5",
+    "encoding": "utf-8-sig",
+    "data_rows": 193,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "涨跌幅:不复权[20251103]",
+      "成交额[20251103]"
+    ]
+  },
+  {
+    "response": "ifind_st_history_20261116.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177661973.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ifind_st_history_20261116_0.csv",
+    "bytes": 43316,
+    "sha256": "0823694c32da9ad779fc1973eea13a809709117824615e9af42b3f71d4968f90",
+    "encoding": "utf-8-sig",
+    "data_rows": 193,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "涨跌幅:不复权[20261116]",
+      "成交额[20261116]"
+    ]
+  },
+  {
+    "response": "ifind_st_pool_20261116_probe.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309445533917226.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ifind_st_pool_20261116_probe_0.csv",
+    "bytes": 43316,
+    "sha256": "e75bfb44736eeb001235d994ed5b2d6cacf2ce896a95cddb853f1d5c06a603b7",
+    "encoding": "utf-8-sig",
+    "data_rows": 193,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "涨跌幅:前复权[20261116]",
+      "成交额[20261116]"
+    ]
+  },
+  {
+    "response": "ma_prices_0000.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794895990305.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0000_0.csv",
+    "bytes": 102049,
+    "sha256": "1933cad78105bca52846024840b813d0c35d0ad8989409075d96b25257eafce6",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0001.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794895995225.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0001_0.csv",
+    "bytes": 102855,
+    "sha256": "192df3ae56a242dc1b0300072363aa742f6437b4ac26d3c5ed8f59bfb6cbd857",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0002.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794895995606.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0002_0.csv",
+    "bytes": 112099,
+    "sha256": "d015955b5d8767418c6fd1fb3ed2fb8f9347ef9f9c2877324018ca612ea9f52c",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0003.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794895999788.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0003_0.csv",
+    "bytes": 108884,
+    "sha256": "58b317b0f1d4e2486ab0ba66aab32770fbc096abdfa66743603110e926860114",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0004.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794895999630.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0004_0.csv",
+    "bytes": 109948,
+    "sha256": "5a56616b8f90ea29a34c3bfadb1073400f49ff5b2b8ffc331a6b963e6dea1b29",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0005.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896004446.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0005_0.csv",
+    "bytes": 103988,
+    "sha256": "78f903e1493682cff515f700deca4c27e866b22b77653fbcc970e71f7d3a67e0",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0006.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896004794.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0006_0.csv",
+    "bytes": 108730,
+    "sha256": "3821735277fe02a8af9564cef48fe319ab3c14abd1d083c638d2d666aa29840d",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0007.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896008270.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0007_0.csv",
+    "bytes": 115166,
+    "sha256": "c19b78ae685c93f8deee5615d0a7b0530d63a24819e6475b7299055f977b98f5",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0008.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896008871.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0008_0.csv",
+    "bytes": 114942,
+    "sha256": "1ba06263624f3534a2936004a6fc03730c8a93f123c9178094ec28b003c93ab4",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0009.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896012058.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0009_0.csv",
+    "bytes": 116645,
+    "sha256": "e7cb0dca5fbaf374dd63bb2fc8516e8cf30e2fb87af00d32d8206c59e104ca36",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0010.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896013170.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0010_0.csv",
+    "bytes": 116043,
+    "sha256": "24711a5153a79eadc5f3a464aac960ab8f2a0f37b555a8d895328cf37d868afe",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0011.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896016044.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0011_0.csv",
+    "bytes": 108921,
+    "sha256": "10688c2d1ce158663f9b7a0ffaf79112027937871d62176b3dfea1ded1aa635e",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0012.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896018546.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0012_0.csv",
+    "bytes": 117804,
+    "sha256": "093a606359c240e1707c4e074b760335d6437c4d01b457dd41abdbed233f6862",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0013.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896021105.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0013_0.csv",
+    "bytes": 112959,
+    "sha256": "8827ad3cc59722cc363d73d9a1abf128b4214863cad1428caa91a79446324d6e",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0014.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896022570.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0014_0.csv",
+    "bytes": 100405,
+    "sha256": "121f690acce8b7f1b28f5afe41f58bf737b9c32b6146a03d21462c6cdc64fb2d",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0015.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896025116.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0015_0.csv",
+    "bytes": 103135,
+    "sha256": "fd3862fa4ea6b19c1c683a3d3000d4e9ca2f6d999c412b525a1386e03a8df5a5",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0016.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896026474.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0016_0.csv",
+    "bytes": 106002,
+    "sha256": "4e0dbd007650de0ba6b9d07157a076c3d471b4acf92bd3929db5e39052884a3a",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0017.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896029268.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0017_0.csv",
+    "bytes": 114137,
+    "sha256": "3e3281e12b9b798aa75616a2907c19fd143aec87291ea06923923e33b0940564",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0018.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896032479.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0018_0.csv",
+    "bytes": 108730,
+    "sha256": "9ec8aec1090850408d9ec8d51adccae6c6395c46558099527be288b16184e342",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0019.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896033899.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0019_0.csv",
+    "bytes": 108235,
+    "sha256": "e7cc82dc71b25b15cb1f30260738308e1726b3c9b765e79b55230ce4235f97f4",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0020.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896034971.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0020_0.csv",
+    "bytes": 111857,
+    "sha256": "e814f4024d080f0176ffbbe7e821e4d1847dfb7633233cca3af5917cc37ca4d6",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0021.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896037997.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0021_0.csv",
+    "bytes": 107043,
+    "sha256": "72d5d2a9862b4f0055068359a9f3cf4cec25b8ddfbaccbc0bc9a2efe9754db74",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0022.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896039537.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0022_0.csv",
+    "bytes": 108005,
+    "sha256": "4757831bb7308569596692245d9d0befab0cfaae3fbf4000ba92c82c62624474",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0023.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896040967.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0023_0.csv",
+    "bytes": 105948,
+    "sha256": "99998ec0a6f4510d8c987de70be3ce90264b119f41bb476f0f62898e3bb7a6f7",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0024.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896042618.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0024_0.csv",
+    "bytes": 106978,
+    "sha256": "72573caed5172e4e37dcc2f8fbfd3d13e05883cf28a12a1f9b7c5056218b1a4b",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0025.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896046300.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0025_0.csv",
+    "bytes": 108441,
+    "sha256": "bbcbc6185497a60e69d7a1263553c9e613e96ac0d9ac79c96c78f86d28ed3cc0",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0026.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896046350.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0026_0.csv",
+    "bytes": 111258,
+    "sha256": "fff8907f76e2268cd66e4f25caadbc1b638a780268c35f84edfabf64a6ea9f8a",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0027.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896050956.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0027_0.csv",
+    "bytes": 112123,
+    "sha256": "f15d731ccdb281eeacce79b01a53d51b0b267e4d554b3ad0ea0a205d539b87bc",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0028.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896050416.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0028_0.csv",
+    "bytes": 113060,
+    "sha256": "2d6a10661bc334d186073b15b823360c2d282f0d888f94a239a1e2fd7cd8a2c2",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0029.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896055957.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0029_0.csv",
+    "bytes": 113614,
+    "sha256": "eb2e2f270371990b35140b298ead7058454d83dca099d618d2460263c615f8f6",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0030.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896056008.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0030_0.csv",
+    "bytes": 104416,
+    "sha256": "dd1112ecda7f26af864828c7bd250ed3ff84317273b2b16962285a1ab73eae7f",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0031.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896060232.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0031_0.csv",
+    "bytes": 104583,
+    "sha256": "4f47a9309e5e94ce3b147a4225b9545c4313f0ee957a066de096dd650af4f5ec",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0032.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896060507.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0032_0.csv",
+    "bytes": 122333,
+    "sha256": "3cdb7e6146e256ea036f4fb308415bbd3d33c470e0cce763d7ce613a29dea93c",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0033.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896064380.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0033_0.csv",
+    "bytes": 106340,
+    "sha256": "dc9a75631d725acfe3d2e64a0f2f089eff6947544d24556fb18ba64f57e89510",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0034.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896065093.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0034_0.csv",
+    "bytes": 106504,
+    "sha256": "5befd4f68a23c2f0969016becfd5a1e68320aa15d46fb96f473626d2a7a2becc",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0035.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896069480.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0035_0.csv",
+    "bytes": 109332,
+    "sha256": "0cae5728baf1f7205f339d11a3255f3e8b101a20178345ab576d05bb479a7660",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0036.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896070140.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0036_0.csv",
+    "bytes": 104119,
+    "sha256": "7b9ecf0342b64fddf0c08db25569ec30c45bad9eb9d27f3b9b6f101d86a90633",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0037.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896073961.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0037_0.csv",
+    "bytes": 105407,
+    "sha256": "f453a8682db9e428ee4fc3f878f4e5df75465bbe3069150bdf19253bd93a2e8c",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0038.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896073433.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0038_0.csv",
+    "bytes": 112554,
+    "sha256": "da1646389cb2e7fe9f5a2f64b13d2f63ef36d8a529473d86e431fbea873a4524",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0039.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896078105.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0039_0.csv",
+    "bytes": 119020,
+    "sha256": "b78efa361cca929be5efa7d41c7346e6ae9ee54d5506706cc55dfd5cee44bb4b",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0040.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896077936.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0040_0.csv",
+    "bytes": 107419,
+    "sha256": "f7e5dca723871b04ac634f21e9e3bc086c54800c897d828bb67c8971ea0d2a06",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0041.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896082495.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0041_0.csv",
+    "bytes": 115278,
+    "sha256": "b7bafa71f8ce4ec39f5c27ce0eb4550648719879a58d6f6e22523c8ae0b32c23",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0042.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896081614.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0042_0.csv",
+    "bytes": 111346,
+    "sha256": "b9510c82bec2e3d6c09404941ca0efe475b5624483c68d955475464e5685d7ec",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0043.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896085493.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0043_0.csv",
+    "bytes": 110759,
+    "sha256": "a934a71997106cff2df04005f04dab8394eaa712d4ba01844ee7bc4310846cda",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0044.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896089278.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0044_0.csv",
+    "bytes": 107247,
+    "sha256": "b38075532203f1cd1a40186a9f5335bc87f7d0acfeb31396ad7a356454a7acab",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0045.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896091236.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0045_0.csv",
+    "bytes": 109131,
+    "sha256": "43da3d8c7edc87cc8b8d6d2a1dc2bb318c01c6c625ce5f646d1d7579fb0c72f1",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0046.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896093667.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0046_0.csv",
+    "bytes": 102173,
+    "sha256": "0cae2421f907a9b241351eed7b63254739a26af83ecb06b3b9a735ae48433ad4",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0047.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896095660.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0047_0.csv",
+    "bytes": 108440,
+    "sha256": "19995fe511412972109da0bf83da80b19e9e0580c2e71ae674d32b9e19564159",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0048.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896098657.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0048_0.csv",
+    "bytes": 113270,
+    "sha256": "fb1b4258edcade298905282d2cc1ecf4ae00dfe0d5800f2ba0e8678f607a3001",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0049.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896098144.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0049_0.csv",
+    "bytes": 107350,
+    "sha256": "7e1054ee8e9e8c48d7d47858067f7b405824d71acb9e338a24804d57b2fd7855",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0050.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896103414.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0050_0.csv",
+    "bytes": 101822,
+    "sha256": "d2fa704815f5950567dd6287132c8a261ba16e2e86e214db30707a59a09e1fa0",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0051.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896102829.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0051_0.csv",
+    "bytes": 110617,
+    "sha256": "bfeeae181460e4478ed1e578099e4af9bcf1a7983a5c05dc6a200557a2d1b057",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0052.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896107100.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0052_0.csv",
+    "bytes": 105655,
+    "sha256": "2e16698d7301f5c1ee9447781365a8f337dc27958639cf5b9490c11fc1a67a2c",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0053.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896107343.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0053_0.csv",
+    "bytes": 107001,
+    "sha256": "c24d246169d3ba39cdc55a334e9e1f060c77e452e5bff31e5fcc343b94b5df24",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0054.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896110838.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0054_0.csv",
+    "bytes": 116099,
+    "sha256": "28ae717c5beec5bdec6c8199eebb80b18b760af899971c8b3cbfb943b9a53295",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0055.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896111164.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0055_0.csv",
+    "bytes": 112355,
+    "sha256": "044e88f8d1dab7d99b14cb8d6d93ffbda0a75d11dcb45e3cb9537c3057002329",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0056.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896115698.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0056_0.csv",
+    "bytes": 115832,
+    "sha256": "9bb08d5b3cedaa6ae181f65ace9a6095acdc8b180169783d35bcb3f60003a65b",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0057.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896115068.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0057_0.csv",
+    "bytes": 112552,
+    "sha256": "2fa465378f45a5970c454b1832a17bccaa5ff2494519039b049f71f2954a7e98",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0058.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896120692.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0058_0.csv",
+    "bytes": 114396,
+    "sha256": "02b18ccc6b9c03caecb5eb7eee556e300ce00498ccb8c4139f7e782e0b8e9ad7",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0059.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896119599.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0059_0.csv",
+    "bytes": 107385,
+    "sha256": "4e90d081caee2be5ee2e289c013336791ebae1559a4b321fa0a1a45936d64182",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0060.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896123248.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0060_0.csv",
+    "bytes": 119884,
+    "sha256": "07c877e4c1c718226d2ab9a7115b73b58f1546e573e96b87b79fb46fa1374391",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0061.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896125339.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0061_0.csv",
+    "bytes": 115708,
+    "sha256": "ca9825a54f1bebd99cdcffa616ffe03b785e34eac870d836a909bfddb4834193",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0062.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896125927.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0062_0.csv",
+    "bytes": 106946,
+    "sha256": "74f20c9b54b10c2594186323b5581d1a5d208662e18bb0999039e1f9563d9363",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0063.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896130216.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0063_0.csv",
+    "bytes": 118606,
+    "sha256": "c927b77146e8e368f62797b6d4baf6adf851368b361dd0ac509408e9b309d2b5",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0064.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896129575.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0064_0.csv",
+    "bytes": 112050,
+    "sha256": "e0ea64c8504a5afa6c1a8c60b308811c8a4c993bd2d8b61066198a6d37f2313b",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0065.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896136075.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0065_0.csv",
+    "bytes": 120322,
+    "sha256": "8421ad2e3dab17548ad5a07ee70cb22ed9ad40d4939dfc4394bf5f7f77ab1843",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0066.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896135128.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0066_0.csv",
+    "bytes": 112666,
+    "sha256": "a062f3417f57648cd22c54c69ab3b4b6233b3113093b406d0499f281a977d204",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0067.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896138876.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0067_0.csv",
+    "bytes": 114308,
+    "sha256": "c14568ae95ab0121d9ece2bd4daa3db6b5aafbfab86d2061a814320eb4cdeed1",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0068.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896140108.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0068_0.csv",
+    "bytes": 111489,
+    "sha256": "8a68a49ea1773555c98546ed913b14fd003ee01b642469303612e4fe6458aba1",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0069.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896142984.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0069_0.csv",
+    "bytes": 109626,
+    "sha256": "3f16ce92a5922fd2e720372cc6e5006ccb146e535fa600613fee74e3ad8013d9",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0070.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896143681.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0070_0.csv",
+    "bytes": 101060,
+    "sha256": "1d8abcb2570568acdab3ae683deade0ac62bd6c185a419d61b54c0f5016a8f40",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0071.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896147357.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0071_0.csv",
+    "bytes": 114145,
+    "sha256": "afbf71d25a5d49819475c3d354225120a600e78ac32c820dd9541cb77fc80889",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0072.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896147581.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0072_0.csv",
+    "bytes": 115303,
+    "sha256": "605cc5c5393027457386f4584498b0968694481d743a9997a0fc30710bc7b356",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0073.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896151194.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0073_0.csv",
+    "bytes": 114043,
+    "sha256": "bc5ba333f2f8333cb67be99ef4daf695f30de40e2fdb03e83ed125ca6f6f566a",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0074.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896151790.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0074_0.csv",
+    "bytes": 114420,
+    "sha256": "b92e38ef1b38a903016420653506b9f34e5b4409256cbf8dfaa96aca8480a83b",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0075.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896155395.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0075_0.csv",
+    "bytes": 110935,
+    "sha256": "66f7a620dd94f6729eaa8609b561755e5cc8616ee5db1b00f56c49ccfb6d4918",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0076.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896156890.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0076_0.csv",
+    "bytes": 107576,
+    "sha256": "276abfd96cd81ed00fbc211b46df79d5e5498d4daca4f782e0dbd08b1b7c6c02",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0077.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896159215.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0077_0.csv",
+    "bytes": 117281,
+    "sha256": "ca56155a2e210571a8b719e1f889c38695d59d56f2272b5b0274ba62ef5b4494",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0078.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896162629.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0078_0.csv",
+    "bytes": 114106,
+    "sha256": "367b56b6ac8bc9b6dcf8f210cb83f69abdffbfc6e7db71f0455db5a9abeeebe9",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0079.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896163343.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0079_0.csv",
+    "bytes": 116303,
+    "sha256": "3bf1a3e799a029b3aed73b03000585e44a7e880e06cffc7e5db5a0077266f43b",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0080.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896166992.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0080_0.csv",
+    "bytes": 115049,
+    "sha256": "8b8041b13fa961697a6753de61ec4523cb55213f100c7118c198daba243c33ff",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0081.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896166023.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0081_0.csv",
+    "bytes": 116494,
+    "sha256": "65204df6bf9477f6f121856eafaaf9d55714870f407b3b35ba7524bdc6e078cc",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0082.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896169742.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0082_0.csv",
+    "bytes": 113170,
+    "sha256": "ef691a6e9384b5a560cdaed50866e4726f047fcf322ca3b912312597a189b9dd",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0083.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896173413.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0083_0.csv",
+    "bytes": 110473,
+    "sha256": "31a6dbe52e36c998c54c8db0b7a732c6f2123936fdc6b9adbae272e8a173e075",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0084.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896174204.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0084_0.csv",
+    "bytes": 113972,
+    "sha256": "3c6c90e99622672c36160f82ed96435e08b9fff35dfb6f8c6605a41aee1c5e59",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0085.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896177742.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0085_0.csv",
+    "bytes": 114092,
+    "sha256": "11c7b23a8fe8969629e137359b04884c2e54b2e9243859b8b46d49464e7c3e14",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0086.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896177396.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0086_0.csv",
+    "bytes": 120134,
+    "sha256": "1b30174b9e380e38042dac30653d6bc9536824f140eab3c937779ecad6dc314b",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0087.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896182384.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0087_0.csv",
+    "bytes": 117767,
+    "sha256": "3093d2fc37dfcd401ea337d94e1400bab147f6f6a2df2589a149a72217f6185c",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0088.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896183679.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0088_0.csv",
+    "bytes": 112594,
+    "sha256": "24c4d3bf418281946fdab6ed964f82f591e6e0586a59315e9b838c8a0d79b1af",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0089.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896186444.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0089_0.csv",
+    "bytes": 109794,
+    "sha256": "cecbbb69e2faca210961834f82567f1ea05d47f10317b419b8983af70b00ec42",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0090.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896188210.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0090_0.csv",
+    "bytes": 108722,
+    "sha256": "b748158a67f5399cae7c9466a760eabe7407d69892018c739c8d5af44f68cbb7",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0091.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896190781.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0091_0.csv",
+    "bytes": 113258,
+    "sha256": "b6df676de4f6d5d11147c629b555e3b888318937d59ff36700cbffd1d9095e61",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_prices_0092.json",
+    "url": "http://o.thsi.cn/ifind-python-aime-tools-service.result-cache/query_result_1794896192886.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_prices_0092_0.csv",
+    "bytes": 115087,
+    "sha256": "319959dc41b99d6d575c3886a8957c1f955032dd3ab5c8bc8a6df9136ab7ea1f",
+    "encoding": "utf-8-sig",
+    "data_rows": 2652,
+    "columns": [
+      "证券代码",
+      "证券简称",
+      "日期",
+      "收盘价"
+    ]
+  },
+  {
+    "response": "ma_screen_000_probe.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309445533990954.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_screen_000_probe_0.csv",
+    "bytes": 22929,
+    "sha256": "660183437bf75112210ea4bc2cb56982c4d1e430bdb366c2c54e565c6d6f538c",
+    "encoding": "utf-8-sig",
+    "data_rows": 410,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "收盘价:不复权[20261116]",
+      "20日均线[20261116]",
+      "60日均线[20261116]",
+      "250日均线[20261116]",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "ma_screen_600_probe.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429991473.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/ma_screen_600_probe_0.csv",
+    "bytes": 41852,
+    "sha256": "c4641a1582152f1061cea16dddc03700ca3ae559c7fdfbec440664c1d5ec8cb7",
+    "encoding": "utf-8-sig",
+    "data_rows": 746,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "收盘价:不复权[20261116]",
+      "20日均线[20261116]",
+      "60日均线[20261116]",
+      "250日均线[20261116]",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_000.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177621012.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_000_0.csv",
+    "bytes": 92261,
+    "sha256": "1babebc7d4779f97b5588d3b94311f0876c277d3e58aea8cd8f9ee1d544994c9",
+    "encoding": "utf-8-sig",
+    "data_rows": 390,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_001.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177621013.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_001_0.csv",
+    "bytes": 28099,
+    "sha256": "78b8f5cf12f7762145a1e2560f7006c05e3455066aea03f8e15629a5b0ca1b29",
+    "encoding": "utf-8-sig",
+    "data_rows": 123,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_002.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429782576.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_002_0.csv",
+    "bytes": 218258,
+    "sha256": "1cd40faabc7b55ee4253113e626f486d162e278b0f43644cb1367e528ea2e20c",
+    "encoding": "utf-8-sig",
+    "data_rows": 865,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_300.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177625108.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_300_0.csv",
+    "bytes": 188983,
+    "sha256": "e33d0ee5398c515aa59a48880ce567dbf5a4a14ce27b01ccb3e6803a6d22f21e",
+    "encoding": "utf-8-sig",
+    "data_rows": 899,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_301.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429782577.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_301_0.csv",
+    "bytes": 105662,
+    "sha256": "732cefc6acd1792ad91ed6457722b926cfda45642cb047d80aae250807a7c6f1",
+    "encoding": "utf-8-sig",
+    "data_rows": 472,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_600.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177641493.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_600_0.csv",
+    "bytes": 182233,
+    "sha256": "d2dbde8da75004afd13b09a74a6c395451defa6a106896f44877353a3627d353",
+    "encoding": "utf-8-sig",
+    "data_rows": 704,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_601.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161343404177645588.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_601_0.csv",
+    "bytes": 60744,
+    "sha256": "da065e801f45084c19f7aa16cd3103719faac2223d003d5124ec523c55769baa",
+    "encoding": "utf-8-sig",
+    "data_rows": 223,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_603.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309445533863979.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_603_0.csv",
+    "bytes": 143585,
+    "sha256": "512e924220e9f64f71399858fa2d8e1ec8321ec9d7a21676d888cc462a05e212",
+    "encoding": "utf-8-sig",
+    "data_rows": 595,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_605.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309115212050477.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_605_0.csv",
+    "bytes": 25690,
+    "sha256": "7cd9c144dfe1b417951c3c5f6135d26589a277820abbbcd69c11c7fd32bf8638",
+    "encoding": "utf-8-sig",
+    "data_rows": 110,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_688.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429807152.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_688_0.csv",
+    "bytes": 138250,
+    "sha256": "c4b703098ea20622a932b804727b61cccbd161969b0964da547acdde854f3c28",
+    "encoding": "utf-8-sig",
+    "data_rows": 606,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  },
+  {
+    "response": "today_pool_all.json",
+    "url": "http://o.thsi.cn/ifind-java-ds-service-basic.cloud-model-trans/161309305429770289.csv",
+    "file": "/Users/yangguang/Documents/Codex/workspace/市场交易信号研究/douyin_research/full_validation_2026-11-17/downloads/today_pool_all_0.csv",
+    "bytes": 221236,
+    "sha256": "761fc24f88443a9d275d5e56ae82c8e18e4613184d8a421c7dca07279cfb2712",
+    "encoding": "utf-8-sig",
+    "data_rows": 1000,
+    "columns": [
+      "股票代码",
+      "股票简称",
+      "股票市场类型",
+      "新股上市日期"
+    ]
+  }
+]

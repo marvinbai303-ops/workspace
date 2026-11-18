@@ -1,0 +1,18 @@
+{
+  "complete_price_batches": 93,
+  "benchmark_codes": 561,
+  "adjustment_anchor_differences": [
+    {
+      "code": "002007.SZ",
+      "qfq_last": "11.68",
+      "unadjusted_last": "11.88"
+    }
+  ],
+  "complete_by_period": {
+    "20": 560,
+    "60": 559,
+    "250": 545
+  },
+  "note": "Old market-calendar-filled comparison only. Not accepted under the newly confirmed individual actual daily bar policy.",
+  "status": "obsolete_market_calendar_comparison"
+}

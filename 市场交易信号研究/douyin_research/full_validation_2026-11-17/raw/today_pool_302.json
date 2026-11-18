@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-11-17T06:02:59.572Z",
+  "tool": "search_stocks",
+  "arguments": {
+    "query": "沪深A股，股票代码以302开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"dataTotalVolume\":4,\"selectedSecuritiesCount\":1,\"answer\":\"# 选股结果及选股依据数据\\n\\n| 股票代码 | 股票简称 | 股票市场类型 | 新股上市日期 |\\n|---|---|---|---|\\n| 302132.SZ | 中航成飞 | 中证800;全部AB股;全部A股;全部A股(非ST);全部A股(非金融);全部上市公司;创业板;创业板50;沪深300;沪深AB股;沪深A股;沪深股通;深股通;深证100R;深证AB股;深证A股;深证上市公司;科创创业50 | 20100827 |\\n\"}}"
+      }
+    ]
+  }
+}

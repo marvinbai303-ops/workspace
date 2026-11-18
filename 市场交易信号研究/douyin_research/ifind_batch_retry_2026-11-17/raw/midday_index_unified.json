@@ -1,0 +1,19 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "mcp__hexin_ifind_ds_mcp__security_highfreq_quotes",
+  "arguments": {
+    "market": "指数",
+    "symbols": "000001.SH",
+    "indicators": "收盘价,成交量,成交额,日内累积涨跌幅",
+    "data_mode": "highfreq",
+    "interval": 60
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"tables\":[[\"证券代码\",\"证券简称\",\"time\"]],\"symbolMap\":{\"000001.SH\":\"上证指数\"},\"indicatorMap\":{},\"dataVol\":\"0\"}}"
+      }
+    ]
+  }
+}

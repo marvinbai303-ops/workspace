@@ -1,0 +1,1 @@
+[{"name": "ifind_cli_noon_probe", "tool": "stock_highfreq_quotes", "args": {"symbols": "600519.SH,600036.SH,300750.SZ", "indicators": "收盘价,成交量,成交额,涨跌,换手率", "data_mode": "highfreq", "interval": 60}}]

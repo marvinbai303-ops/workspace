@@ -1,0 +1,16 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "mx_ashare_finance_data",
+  "arguments": {
+    "query": "仅301055.SZ张小泉和688653.SH康希通信，分别查询2026-11-16、2026-11-17生效的流通A股股数，精确到股；不含H股、B股和限售股，不要总股本，也不要自由流通股本。需要核对盘中普通换手率分母，返回明确历史日期和字段名称。"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"data\":[{\"columns\":[\"流通A股\",\"2026-11-16\"],\"items\":[[\"张小泉(301055.SZ)\",\"1.527亿股\"],[\"康希通信(688653.SH)\",\"3.164亿股\"]],\"meta\":{\"jumpUrlList\":[{\"choiceUrl\":\"EM://stockdatacenter?type=browser&modType=STOCK&code=301055.SZ,688653.SH&indId=100000000000063\",\"typeName\":\"股票数据浏览器\"}],\"dataType\":\"数据浏览器\"},\"sheetName\":\"张小泉(301055.SZ)等的流通A股\"}]}"
+      }
+    ],
+    "isError": false
+  }
+}

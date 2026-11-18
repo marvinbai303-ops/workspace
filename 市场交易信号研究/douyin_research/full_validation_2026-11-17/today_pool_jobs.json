@@ -1,0 +1,100 @@
+[
+  {
+    "name": "today_pool_all",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，非ST，非*ST，非北交所。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_000",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以000开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_001",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以001开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_002",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以002开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_003",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以003开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_300",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以300开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_301",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以301开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_302",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以302开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_600",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以600开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_601",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以601开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_603",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以603开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_605",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以605开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_688",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以688开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  },
+  {
+    "name": "today_pool_689",
+    "tool": "search_stocks",
+    "args": {
+      "query": "沪深A股，股票代码以689开头，非ST，非*ST。显示股票代码、股票简称、上市日期。"
+    }
+  }
+]

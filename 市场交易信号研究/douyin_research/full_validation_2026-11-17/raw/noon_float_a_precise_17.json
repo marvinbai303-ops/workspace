@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-11-17T06:31:25.016Z",
+  "tool": "get_stock_shareholders",
+  "arguments": {
+    "query": "301055.SZ张小泉和688653.SH康希通信，2026年11月17日流通A股股数（股），只包含境内流通A股，不含H股、B股，不是自由流通股、也不是流通股合计。请返回字段原名和日期。"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer\":\"|证券代码|证券简称|\\n|---|---|\\n|301055.SZ|张小泉|\\n|688653.SH|康希通信|\",\"indicators_params\":{}}}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "native_ma_new_stock_probe_20",
+    "tool": "get_stock_performance",
+    "args": {
+      "query": "A股688827.SH,001381.SZ,301718.SZ,600519.SH,000831.SZ，20261116前复权收盘价与MA简单移动平均，周期20，计算周期日；均线交易日期20261116、复权方式前复权。"
+    },
+    "expected_codes": [
+      "688827.SH",
+      "001381.SZ",
+      "301718.SZ",
+      "600519.SH",
+      "000831.SZ"
+    ],
+    "period": 20,
+    "validate": "native_ma"
+  },
+  {
+    "name": "native_ma_new_stock_probe_60",
+    "tool": "get_stock_performance",
+    "args": {
+      "query": "A股688827.SH,001381.SZ,301718.SZ,600519.SH,000831.SZ，20261116前复权收盘价与MA简单移动平均，周期60，计算周期日；均线交易日期20261116、复权方式前复权。"
+    },
+    "expected_codes": [
+      "688827.SH",
+      "001381.SZ",
+      "301718.SZ",
+      "600519.SH",
+      "000831.SZ"
+    ],
+    "period": 60,
+    "validate": "native_ma"
+  },
+  {
+    "name": "native_ma_new_stock_probe_250",
+    "tool": "get_stock_performance",
+    "args": {
+      "query": "A股688827.SH,001381.SZ,301718.SZ,600519.SH,000831.SZ，20261116前复权收盘价与MA简单移动平均，周期250，计算周期日；均线交易日期20261116、复权方式前复权。"
+    },
+    "expected_codes": [
+      "688827.SH",
+      "001381.SZ",
+      "301718.SZ",
+      "600519.SH",
+      "000831.SZ"
+    ],
+    "period": 250,
+    "validate": "native_ma"
+  }
+]

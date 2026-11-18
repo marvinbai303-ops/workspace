@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-11-17",
+  "tool": "mcp__hexin_ifind_ds_stock_mcp__get_stock_info",
+  "arguments": {
+    "query": "仅688066.SH，分别查询2025-11-03和2026-11-16的是否属于风险警示板（ST或*ST）、风险警示实施与撤销生效日期；只接受历史状态，不以当前简称代替。"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer\":\"|证券代码|证券简称|是否属于风险警示板|\\n|---|---|---|\\n|688066.SH|*ST航图|否|\\n\\n|证券代码|证券简称|是否属于风险警示板|\\n|---|---|---|\\n|688066.SH|*ST航图|否|\",\"indicators_params\":{\"是否属于风险警示板\":{\"截止日期\":\"20251103\"}}}}"
+      }
+    ]
+  }
+}
