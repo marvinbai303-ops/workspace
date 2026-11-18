@@ -229,6 +229,7 @@ engine.getRange("L:M").format.columnWidth = 11;
 engine.getRange("N:N").format.columnWidth = 46;
 engine.getRange("O:O").format.columnWidth = 24;
 engine.getRange("4:53").format.rowHeight = 25;
+engine.getRange("16:16").format.rowHeight = 70;
 
 // ---------------- 边际变化 ----------------
 baseSheet(marginal,"A:I");
@@ -315,8 +316,10 @@ marginal.getRange("E15:G35").format.horizontalAlignment="right";
 marginal.getRange("E42:G62").format.horizontalAlignment="right";
 marginal.getRange(`D82:F${baselineRow-1}`).format.numberFormat="yyyy-mm-dd";
 marginal.getRange(`G82:G${baselineRow-1}`).format.numberFormat="0.000";
-marginal.getRange(`A82:I${baselineRow-1}`).format.rowHeight=25;
+marginal.getRange(`A82:I${baselineRow-1}`).format.rowHeight=40;
+marginal.getRange(`B82:B${baselineRow-1}`).format.wrapText=true;
 marginal.getRange(`H82:I${baselineRow-1}`).format.wrapText=true;
+for (let r=82;r<baselineRow;r++) if (String(marginal.getRange(`I${r}`).values[0][0]).startsWith("https://")) marginal.getRange(`${r}:${r}`).format.rowHeight=70;
 marginal.getRange("A3:I3").format.wrapText=true;
 marginal.getRange("3:3").format.rowHeight=30;
 marginal.getRange("40:40").format.rowHeight=25;
