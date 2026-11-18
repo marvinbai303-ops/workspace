@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-11-18",
+    "session": "noon",
+    "time": "11:30",
+    "amount": 6790852660.0,
+    "parts": [
+      {
+        "code": "510050.SH",
+        "amount": 695975880.0
+      },
+      {
+        "code": "510300.SH",
+        "amount": 1215841380.0
+      },
+      {
+        "code": "588000.SH",
+        "amount": 4879035400.0
+      }
+    ],
+    "validated": true,
+    "source": "smart_money_dashboard/data/runs/2026-11-18_noon/raw/etf_noon.json",
+    "sha256": "869d67171e9cfd14b7505e7f127511da00211aa81dcda2278b04a5858cb0873e"
+  }
+]

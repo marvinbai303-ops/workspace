@@ -9,8 +9,8 @@
     "统计范围": "A股"
   },
   "checks": {
-    "records": 291,
-    "unique_dates": 291,
+    "records": 292,
+    "unique_dates": 292,
     "negative_counts": 0,
     "sh_plus_sz_equals_total_every_day": true,
     "dates_equal_cached_Shanghai_index_dates": true,
@@ -61,17 +61,17 @@
     "note": "种子及200次预热为工程约定；两种种子对比不等同于证明原博主起点"
   },
   "latest": {
-    "date": "2026-11-16",
-    "A": 1109,
-    "D": 4019,
-    "U": 89,
+    "date": "2026-11-17",
+    "A": 1216,
+    "D": 3882,
+    "U": 119,
     "source_id": "ifind_A_share_advance_decline_report",
     "scope_id": "SHSZ_A_INCLUDE_ST_VENDOR_BREADTH_EOD_V1",
     "N": 5217,
-    "net_advances": -2910,
-    "ema19": -778.0880761272286,
-    "ema39": -594.5107354240536,
-    "mcl": -183.57734070317508,
+    "net_advances": -2666,
+    "ema19": -966.8792685145058,
+    "ema39": -698.085198652851,
+    "mcl": -268.79406986165486,
     "warmed": true
   },
   "recent_five": [
@@ -172,6 +172,20 @@
     {
       "path": "full_validation_2026-11-17/downloads/ifind_st_history_20261116_0.csv",
       "sha256": "0823694c32da9ad779fc1973eea13a809709117824615e9af42b3f71d4968f90"
+    }
+  ],
+  "incremental_updates": [
+    {
+      "date": "2026-11-18",
+      "session": "noon",
+      "audit": "data/runs/2026-11-18_noon/mcl_audit.json",
+      "audit_sha256": "eadeeedbecdbf6e7690ee9d168cd4461cf2a5243af7173e96db97cf98eff0659",
+      "source": "data/runs/2026-11-18_noon/raw/mcl_report.json",
+      "overlap_no_conflict": true,
+      "new_dates": [
+        "2026-11-17"
+      ],
+      "calendar_validated": true
     }
   ]
 }

@@ -16,6 +16,7 @@ await fs.mkdir(outputDir, { recursive: true });
 
 const wb = Workbook.create();
 const dash = wb.worksheets.add("模型总览");
+const marginal = wb.worksheets.add("边际变化");
 const engine = wb.worksheets.add("因子引擎");
 const risk = wb.worksheets.add("风险资产");
 const scen = wb.worksheets.add("场景与阈值");
@@ -229,6 +230,104 @@ engine.getRange("N:N").format.columnWidth = 46;
 engine.getRange("O:O").format.columnWidth = 24;
 engine.getRange("4:53").format.rowHeight = 25;
 
+// ---------------- 边际变化 ----------------
+baseSheet(marginal,"A:I");
+title(marginal,"A1:I2","利率指标边际变化","A3:I3",`运行日 ${runtimeData.runDate ?? asOfDate}。变化=当前值减比较值。日/周/月分别对应前一日、7日前、上月同日，缺少基准显示 n.a.。`);
+const changeData = runtimeData.changes ?? {};
+const horizons = [["day","日"],["week","周"],["month","月"]];
+const dateValue = value => value ? new Date(`${value}T00:00:00Z`) : null;
+let baselineRow = 82;
+marginal.getRange("A81:I81").values = [["比较口径","指标","间隔","目标日期","运行快照日期","数据所属日期","比较值","状态","原始来源"]];
+header(marginal,"A81:I81");
+function baseline(kind,label,horizon,prior,source) {
+  const r = baselineRow++;
+  marginal.getRange(`A${r}:I${r}`).values = [[kind,label,horizon,dateValue(prior?.targetDate),dateValue(prior?.snapshotDate),dateValue(prior?.date),Number.isFinite(prior?.value) ? prior.value : null,prior?.status ?? "历史不足",source]];
+  return r;
+}
+const scoreDefs = [["policy","政策路径",42],["inflation","通胀预期",43],["termPremium","期限溢价",44],["transmission","市场传导",45],["effective","有效利率压力",47]];
+marginal.getRange("A5:F5").values = [["模型评分","当前分","较前日","较前周","较前月","比较状态"]];
+header(marginal,"A5:F5");
+marginal.mergeCells("F5:I5");
+header(marginal,"F5:I5");
+for (let i=0;i<scoreDefs.length;i++) {
+  const [key,label,er] = scoreDefs[i],r=6+i;
+  marginal.getRange(`A${r}`).values = [[label]];
+  marginal.getRange(`B${r}`).formulas = [[`='因子引擎'!B${er}`]];
+  for (let j=0;j<horizons.length;j++) {
+    const [horizon,hl]=horizons[j],p=changeData.scores?.[horizon];
+    const br=baseline("模型评分",label,hl,{...p,value:p?.values?.[key]},"历史运行评分");
+    const col=String.fromCharCode(67+j);
+    marginal.getRange(`${col}${r}`).formulas = [[`=IF(ISNUMBER(G${br}),B${r}-G${br},"n.a.")`]];
+  }
+  marginal.mergeCells(`F${r}:I${r}`);
+  marginal.getRange(`F${r}`).values = [[horizons.every(([h]) => changeData.scores?.[h]?.values?.[key] !== undefined) ? "三期可比" : "缺少同口径评分基准，见下方明细"]];
+}
+const sourceLabel = m => m?.source?.includes("atlantafed") ? "Atlanta Fed WGT" : m?.source ?? "";
+function indicatorTable(start,kind) {
+  const isSnapshot=kind==="运行快照";
+  marginal.getRange(`A${start}:I${start}`).values = [["指标","当前值","变化单位","数据所属日期","较前日","较前周","较前月","比较状态（日/周/月）","来源"]];
+  header(marginal,`A${start}:I${start}`);
+  for (let i=0;i<rows.length;i++) {
+    const [er,,label,,,current,unit] = rows[i],r=start+1+i,m=runtimeMetrics[er];
+    marginal.getRange(`A${r}:D${r}`).values = [[label,null,unit==="%" ? "百分点" : unit,dateValue(m?.date)]];
+    marginal.getRange(`B${r}`).formulas = [[`='因子引擎'!E${er}`]];
+    const statuses=[];
+    for (let j=0;j<horizons.length;j++) {
+      const [horizon,hl]=horizons[j];
+      let prior=isSnapshot ? changeData.indicators?.[er]?.[horizon] : m?.observationComparisons?.[horizon];
+      if (m?.stale) prior={...prior,value:null,status:"本次抓取失败，沿用缓存"};
+      const br=baseline(kind,label,hl,prior,m?.source ?? "");
+      const col=String.fromCharCode(69+j);
+      marginal.getRange(`${col}${r}`).formulas = [[`=IF(ISNUMBER(G${br}),B${r}-G${br},"n.a.")`]];
+      const status=prior?.status ?? "无历史";
+      statuses.push(`${hl}:${status.replace("来源抓取失败，缓存不可作变化依据","抓取失败").replace("取数口径已修正，历史不可比","口径修正").replace("当前修订版观测序列","可比").replace("可比，本期尚无新发布","未换期").replace("月频不提供该间隔变化","月频").replace("周频不提供该间隔变化","周频")}`);
+    }
+    marginal.getRange(`H${r}:I${r}`).values = [[statuses.join("；"),sourceLabel(m)]];
+    marginal.getRange(`D${r}`).format.numberFormat="yyyy-mm-dd";
+    marginal.getRange(`B${r}`).format.numberFormat=unit==="人" || unit==="千人" ? "#,##0" : "0.000";
+    marginal.getRange(`E${r}:G${r}`).format.numberFormat=unit==="人" || unit==="千人" ? '#,##0;(#,##0);"—"' : '0.000;(0.000);"—"';
+    marginal.getRange(`H${r}`).format.wrapText=true;
+    marginal.getRange(`A${r}:I${r}`).format.rowHeight=38;
+  }
+}
+section(marginal,"A13:I13","相对历史运行快照的变化",TEAL);
+indicatorTable(14,"运行快照");
+section(marginal,"A39:I39","当前修订版观测序列的变化",TEAL);
+marginal.mergeCells("A40:I40");
+marginal.getRange("A40").values=[["以下以各指标最新观测日期为锚；遇休市取此前最近观测。月/周频不虚构日变化。本区不是当时已知数据，不能直接用于回测。"]];
+indicatorTable(41,"当前修订版序列");
+marginal.mergeCells("A65:I65");
+marginal.getRange("A65").values=[["快照比较以运行日为锚，周末取目标日之前最近运行（最多回溯4天）。基准日期、数据日期与原值列在下方，可逐项追溯。"]];
+marginal.mergeCells("A66:I66");
+marginal.getRange("A66").values=[["2026-11-18修正：WGT原缓存1%无效；FRED缺失值不再转为0。受影响的旧口径输入与综合评分不作可比变化。"]];
+marginal.mergeCells("A67:I67");
+marginal.getRange("A67").values=[["变化保留原量纲：利率/涨幅的差为百分点，人数为人或千人，指数为点。已有20日变动等因子显示的是该因子自身的增减。"]];
+marginal.getRange("A:I").format.columnWidth=14;
+marginal.getRange("A:A").format.columnWidth=34;
+marginal.getRange("D:D").format.columnWidth=16;
+marginal.getRange("H:H").format.columnWidth=47;
+marginal.getRange("I:I").format.columnWidth=29;
+marginal.getRange("F6:F10").format.wrapText=true;
+marginal.getRange("6:10").format.rowHeight=30;
+marginal.getRange("B6:E10").format.numberFormat='0.0;(0.0);"—"';
+marginal.getRange("B6:E10").format.horizontalAlignment="right";
+marginal.getRange("E15:G35").format.horizontalAlignment="right";
+marginal.getRange("E42:G62").format.horizontalAlignment="right";
+marginal.getRange(`D82:F${baselineRow-1}`).format.numberFormat="yyyy-mm-dd";
+marginal.getRange(`G82:G${baselineRow-1}`).format.numberFormat="0.000";
+marginal.getRange(`A82:I${baselineRow-1}`).format.rowHeight=25;
+marginal.getRange(`H82:I${baselineRow-1}`).format.wrapText=true;
+marginal.getRange("A3:I3").format.wrapText=true;
+marginal.getRange("3:3").format.rowHeight=30;
+marginal.getRange("40:40").format.rowHeight=25;
+marginal.getRange("65:67").format.rowHeight=25;
+for (const range of ["E15:G35","E42:G62","C6:E10"]) {
+  marginal.getRange(range).conditionalFormats.add("cellIs",{operator:"greaterThan",formula:0,format:{font:{color:RED}}});
+  marginal.getRange(range).conditionalFormats.add("cellIs",{operator:"lessThan",formula:0,format:{font:{color:TEAL}}});
+}
+marginal.freezePanes.freezeRows(5);
+marginal.tabColor=TEAL;
+
 // ---------------- 风险资产 ----------------
 baseSheet(risk, "A:J");
 title(risk, "A1:J2", "风险资产映射", "A3:J3", "环境分>50表示当前利率结构相对有利；<50表示相对不利。敏感度为可编辑的结构性假设，不是回归系数，也不是交易建议。");
@@ -432,7 +531,7 @@ audit.getRange("F:F").format.columnWidth = 30;
 
 // ---------------- 模型总览 ----------------
 baseSheet(dash, "A:O");
-title(dash, "A1:O2", "君君美债利率模型｜风险资产监测总览", "A3:O3", `当前快照截至 ${asOfDate}；官方数据经 FRED、纽约联储、BLS、DOL、EIA、Atlanta Fed 交叉核验。高分=利率/金融条件压力更大。`);
+title(dash, "A1:O2", "君君美债利率模型｜风险资产监测总览", "A3:O3", `快照最新观测 ${asOfDate}，各指标日期见因子引擎。历史变化见“边际变化”。高分代表利率/金融条件压力更大。`);
 
 const cards = [
   ["A5:C5","A6:C7","A8:C8","政策路径","='因子引擎'!$B$42"],
@@ -458,7 +557,7 @@ dash.mergeCells("A11:H11");
 dash.getRange("A11:H11").formulas = [["='因子引擎'!$B$53"]];
 dash.getRange("A11:H11").format = { fill: LIGHT_ORANGE, font: { name: FONT, size: 16, bold: true, color: NAVY }, horizontalAlignment: "center", verticalAlignment: "center", borders: { preset: "all", style: "thin", color: "#E6B8AF" } };
 dash.mergeCells("A12:H16");
-dash.getRange("A12:H16").values = [["结论：当前不是‘所有市场性利率全面失控’，而是政策路径和期限溢价偏紧、实际利率上行，但信用利差、VIX与NFCI只给出中等确认。对长久期成长、长债和高杠杆资产不利；尚不足以单独定义为系统性风险出清。原油冲击很强，但工资、失业与JOLTS没有同步显示广谱再通胀。"]];
+dash.getRange("A12").formulas = [[`="政策路径："&A8&"；通胀预期："&D8&"；期限溢价："&G8&"；市场传导："&J8&"。有效压力为"&TEXT(M6,"0.0")&"分。制度："&A11&"。请结合边际变化与各指标数据日期评估风险资产。"`]];
 dash.getRange("A12:H16").format = { fill: "#FFF7E6", font: { name: FONT, size: 11, color: DARK }, wrapText: true, verticalAlignment: "top", borders: { preset: "all", style: "thin", color: "#E6B8AF" } };
 section(dash, "I10:O10", "政策性利率 → 市场性利率传导", NAVY);
 dash.getRange("I11:O16").values = [
@@ -479,6 +578,12 @@ dash.getRange("M14").formulas = [["='因子引擎'!$E$29"]];
 dash.getRange("J15").formulas = [["='因子引擎'!$E$33"]];
 dash.getRange("M15").formulas = [["='因子引擎'!$E$35"]];
 dash.getRange("J16").formulas = [["='因子引擎'!$E$37"]];
+dash.getRange("K13").formulas = [["=TEXT(J13*100,\"+0.0;-0.0;0.0\")&\"bp\""]];
+dash.getRange("N13").formulas = [["=TEXT(M13*100,\"+0.0;-0.0;0.0\")&\"bp\""]];
+dash.getRange("K15").formulas = [["=TEXT(J15*100,\"+0.0;-0.0;0.0\")&\"bp\""]];
+dash.getRange("K14").formulas = [["=IF(J14>'因子引擎'!G28,\"高于样本均值\",\"低于样本均值\")"]];
+dash.getRange("N14").formulas = [["=IF(M14>0,\"边际抬升\",IF(M14<0,\"边际回落\",\"持平\"))"]];
+dash.getRange("N15").formulas = [["=IF(M15>'因子引擎'!G35,\"高于样本均值\",\"低于样本均值\")"]];
 dash.getRange("J12:M12").format.numberFormat = "0%";
 dash.getRange("J13:J15").format.numberFormat = "0.00";
 dash.getRange("M13:M15").format.numberFormat = "0.00";
@@ -555,10 +660,20 @@ audit.tabColor = "#A5A5A5";
 
 wb.recalculate();
 
+const scores = Object.fromEntries(scoreDefs.map(([key,,er]) => [key,engine.getRange(`B${er}`).values[0][0]]));
+const regime = engine.getRange("B53").values[0][0];
+const formulaErrors = await wb.inspect({kind:"match",searchTerm:"#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!|#SPILL!|#CALC!",options:{useRegex:true,maxResults:50}});
+if (!formulaErrors.ndjson.includes("matched 0 entries")) throw new Error(`公式检查失败: ${formulaErrors.ndjson}`);
+await fs.writeFile(path.join(outputDir,"model_summary.json"),JSON.stringify({runDate:runtimeData.runDate,asOfDate,modelVersion:runtimeData.modelVersion,scores,regime,formulaErrors:0},null,2));
+
 // Render key sheets for visual QA.
 for (const sheetName of ["模型总览", "因子引擎", "风险资产"]) {
   const preview = await wb.render({ sheetName, autoCrop: "all", scale: 1, format: "png" });
   await fs.writeFile(path.join(outputDir, `${sheetName}.png`), new Uint8Array(await preview.arrayBuffer()));
+}
+for (const [name,range] of [["边际变化","A1:I35"],["边际变化_序列","A39:I67"]]) {
+  const preview=await wb.render({sheetName:"边际变化",range,scale:1,format:"png"});
+  await fs.writeFile(path.join(outputDir,`${name}.png`),new Uint8Array(await preview.arrayBuffer()));
 }
 
 const xlsx = await SpreadsheetFile.exportXlsx(wb);

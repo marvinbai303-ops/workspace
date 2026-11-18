@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import worker from './worker/index.js';
+const memory=new Map(),env={BUCKET:{async get(k){const v=memory.get(k);return v?{json:async()=>JSON.parse(v)}:null},async put(k,v){memory.set(k,v)}}};
+const req=(name,args={},auth=true)=>new Request('https://example.test/mcp',{method:'POST',headers:{'content-type':'application/json',...(auth?{'oai-authenticated-user-id':'test-owner'}:{})},body:JSON.stringify({jsonrpc:'2.0',id:1,method:'tools/call',params:{name,arguments:args}})});
+assert.equal((await worker.fetch(req('initialize_thermometer',{},false),env)).status,403);
+const first=await (await worker.fetch(req('initialize_thermometer'),env)).json();assert.equal(first.result.isError,undefined);assert.equal(JSON.parse(first.result.content[0].text).readbackVerified,true);
+const original=memory.get('dashboard/latest.json');
+const second=await (await worker.fetch(req('initialize_thermometer'),env)).json();assert.equal(JSON.parse(second.result.content[0].text).alreadyInitialized,true);assert.equal(memory.get('dashboard/latest.json'),original);
+const d=JSON.parse(original);d.snapshots[0].p=100;
+const bad=await (await worker.fetch(req('update_thermometer',{data_json:JSON.stringify(d)}),env)).json();assert.equal(bad.result.isError,true);assert.equal(memory.get('dashboard/latest.json'),original);
+const missing=JSON.parse(original);missing.snapshots.shift();const loss=await (await worker.fetch(req('update_thermometer',{data_json:JSON.stringify(missing)}),env)).json();assert.equal(loss.result.isError,true);
+const good=await (await worker.fetch(req('update_thermometer',{data_json:original}),env)).json();assert.equal(JSON.parse(good.result.content[0].text).readbackVerified,true);
+const page=await (await worker.fetch(new Request('https://example.test/'),env)).text();assert.ok(page.includes('聪明钱温度计'));assert.ok(!page.includes('__BOOTSTRAP__'));
+const script=page.match(/<script>\n([\s\S]*?)<\/script>/)[1];new Function(script);
+console.log('PASS: unauthenticated write rejected; initialization idempotent; formulas validated; historical loss blocked; write readback verified; UI script parses.');
+
+const vwBad=JSON.parse(original);vwBad.vwMacd.daily.at(-1).histogram+=1;
+const vwRejected=await (await worker.fetch(req('update_thermometer',{data_json:JSON.stringify(vwBad)}),env)).json();assert.equal(vwRejected.result.isError,true);
+assert.equal(memory.get('dashboard/latest.json'),original);
+console.log('PASS: VW-MACD daily and weekly recomputed from source prices/volumes; corrupted histogram rejected.');

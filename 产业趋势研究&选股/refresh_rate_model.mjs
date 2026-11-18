@@ -2,6 +2,9 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
+import os from "node:os";
+import {createHash} from "node:crypto";
+import { MODEL_VERSION, snapshotChanges, observationChanges } from "./rate_model_changes.mjs";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const MODEL_DIR = path.join(ROOT, "君君美债利率模型_自动刷新");
@@ -16,6 +19,7 @@ const LATEST_FILE = path.join(PROCESSED_DIR, "latest.json");
 const HISTORY_FILE = path.join(PROCESSED_DIR, "history.jsonl");
 const PYTHON = process.env.RATE_MODEL_PYTHON ?? "/Users/yangguang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3";
 const SOFFICE = process.env.RATE_MODEL_SOFFICE ?? "/Users/yangguang/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice";
+const REPLAY_DIR = process.env.RATE_MODEL_REPLAY_DIR;
 
 const runDate = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
 const runYear = Number(runDate.slice(0, 4));
@@ -24,6 +28,8 @@ const rawRunDir = path.join(RAW_DIR, runDate);
 const logLines = [`开始刷新：${new Date().toISOString()}`, `运行日期：${runDate}`];
 const warnings = [];
 let lockAcquired = false;
+let priorSnapshots = [];
+const sourceStatus = {};
 
 async function ensureDirs() {
   for (const dir of [MODEL_DIR, rawRunDir, PROCESSED_DIR, OUTPUT_DIR, ARCHIVE_DIR, LOG_DIR]) {
@@ -56,11 +62,14 @@ async function readPriorMetrics() {
     // The latest snapshot below remains usable when no history file exists.
   }
   if (latestData?.metrics) snapshots.push(latestData);
+  priorSnapshots = snapshots;
 
   const metrics = {};
   for (const snapshot of snapshots) {
     for (const [key, metric] of Object.entries(snapshot.metrics)) {
       if (!metric || metric.stale || !metric.date || !Number.isFinite(metric.current)) continue;
+      // Old page extraction accepted a non-series value of 1%. Never carry it forward.
+      if (key === "16" && metric.definitionId !== "wgt-overall-3ma-v2") continue;
       if (!metrics[key] || metric.date >= metrics[key].date) metrics[key] = metric;
     }
   }
@@ -69,7 +78,7 @@ async function readPriorMetrics() {
 
 function command(file, args, options = {}) {
   return new Promise((resolve, reject) => {
-    const child = spawn(file, args, { ...options, stdio: ["ignore", "pipe", "pipe"] });
+    const child = spawn(file, args, { timeout: 150000, ...options, stdio: ["ignore", "pipe", "pipe"] });
     const stdout = [];
     const stderr = [];
     child.stdout.on("data", (chunk) => stdout.push(chunk));
@@ -120,19 +129,38 @@ function parseFredCsv(text, seriesId) {
   if (dateIndex < 0 || valueIndex < 0) throw new Error(`FRED ${seriesId} columns not found`);
   return lines.slice(1).map((line) => csvLine(line)).map((cells) => ({
     date: cells[dateIndex],
-    value: Number(cells[valueIndex]),
+    value: cells[valueIndex]?.trim() && cells[valueIndex] !== "." ? Number(cells[valueIndex]) : NaN,
   })).filter((row) => /^\d{4}-\d{2}-\d{2}$/.test(row.date) && Number.isFinite(row.value));
 }
 
 async function fetchFred(seriesId) {
   const url = `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${encodeURIComponent(seriesId)}&cosd=${startDate}`;
-  const response = await fetch(url, { headers: { "User-Agent": "junjun-rate-model/1.0" }, signal: AbortSignal.timeout(15000) });
-  if (!response.ok) throw new Error(`HTTP ${response.status} for ${seriesId}`);
-  const bytes = new Uint8Array(await response.arrayBuffer());
   const file = path.join(rawRunDir, `fred_${seriesId}.csv`);
+  let bytes;
+  if (REPLAY_DIR) bytes=await replayBytes(path.basename(file));
+  else for (let attempt=1;attempt<=2;attempt++) {
+    try {
+      const response=await fetch(url,{headers:{"User-Agent":"junjun-rate-model/1.0"},signal:AbortSignal.timeout(20000)});
+      if (!response.ok) throw new Error(`HTTP ${response.status} for ${seriesId}`);
+      bytes=new Uint8Array(await response.arrayBuffer());
+      break;
+    } catch(error) {
+      logLines.push(`FRED ${seriesId} 第${attempt}次失败: ${error.message} ${error.cause?.code ?? ""}`);
+      if (attempt===2) throw error;
+    }
+  }
   await fs.writeFile(file, bytes);
   const text = new TextDecoder().decode(bytes);
   return { seriesId, url, file, observations: parseFredCsv(text, seriesId) };
+}
+
+async function replayBytes(name) {
+  const manifest=await readJson(path.join(REPLAY_DIR,"fetch_manifest.json"),{});
+  if (manifest.runDate!==runDate || !manifest.files?.[name]) throw new Error("仅允许重算本日已校验快照");
+  const bytes=await fs.readFile(path.join(REPLAY_DIR,name));
+  if (createHash("sha256").update(bytes).digest("hex")!==manifest.files[name].sha256) throw new Error(`快照校验失败: ${name}`);
+  logLines.push(`复用本日已校验官方文件: ${name}`);
+  return bytes;
 }
 
 function latest(series) {
@@ -183,7 +211,7 @@ function alignSubtract(left, right) {
 }
 
 function modelMetric(series, meta = {}) {
-  const clean = values(series);
+  const clean = values(series).filter(x => x.date <= runDate).sort((a,b) => a.date.localeCompare(b.date));
   const last = latest(clean);
   const distribution = stats(clean);
   if (!last || distribution.mean === null || distribution.std === null) return null;
@@ -196,7 +224,37 @@ function modelMetric(series, meta = {}) {
     accuracy: meta.accuracy ?? 4,
     note: meta.note,
     source: meta.source,
+    frequency: meta.frequency ?? "日",
+    observationComparisons: observationChanges(clean, meta.frequency ?? "日"),
   };
+}
+
+async function downloadOfficial(source, url, file) {
+  const started = Date.now();
+  try {
+    if (REPLAY_DIR) {
+      const bytes=await replayBytes(path.basename(file));
+      await fs.writeFile(file,bytes);
+      sourceStatus[source]={ok:true,url,bytes:bytes.length,transport:"本日成功下载后的校验重算"};
+      return {zip:bytes[0]===0x50 && bytes[1]===0x4b};
+    }
+    const result = await command("/usr/bin/curl", ["--fail", "--location", "--silent", "--show-error",
+      "--connect-timeout", "15", "--max-time", "120", "--retry", "1", "--retry-delay", "1",
+      "--output", `${file}.part`, "--write-out", "%{http_code} %{size_download} %{time_total} %{url_effective}", url],{timeout:270000});
+    const bytes = await fs.readFile(`${file}.part`);
+    const zip = bytes[0] === 0x50 && bytes[1] === 0x4b;
+    const ole = bytes.subarray(0,4).equals(Buffer.from([0xd0,0xcf,0x11,0xe0]));
+    if (bytes.length < 1024 || !(zip || ole)) throw new Error("下载内容不是 Excel 文件");
+    await fs.rename(`${file}.part`, file);
+    sourceStatus[source] = {ok:true,url,bytes:bytes.length,elapsedMs:Date.now()-started,response:result.stdout.trim()};
+    logLines.push(`${source} 下载成功: ${result.stdout.trim()}`);
+    return {zip};
+  } catch (error) {
+    sourceStatus[source] = {ok:false,url,elapsedMs:Date.now()-started,error:error.message};
+    throw error;
+  } finally {
+    await fs.rm(`${file}.part`,{force:true});
+  }
 }
 
 function mergeWithPrevious(current, row, previous, sourceLabel) {
@@ -212,14 +270,19 @@ function mergeWithPrevious(current, row, previous, sourceLabel) {
 
 async function tryAcmeTermPremium(previous) {
   const url = "https://www.newyorkfed.org/medialibrary/media/research/data_indicators/ACMTermPremium.xls";
-  const response = await fetch(url, { headers: { "User-Agent": "junjun-rate-model/1.0" }, signal: AbortSignal.timeout(15000) });
-  if (!response.ok) throw new Error(`HTTP ${response.status} for NY Fed ACM`);
   const xlsFile = path.join(rawRunDir, "ACMTermPremium.xls");
-  await fs.writeFile(xlsFile, new Uint8Array(await response.arrayBuffer()));
+  const {zip} = await downloadOfficial("NY Fed ACM",url,xlsFile);
   const convertedDir = path.join(rawRunDir, "acm_converted");
   await fs.mkdir(convertedDir, { recursive: true });
-  await command(SOFFICE, ["--headless", "--convert-to", "xlsx", "--outdir", convertedDir, xlsFile]);
   const xlsxFile = path.join(convertedDir, "ACMTermPremium.xlsx");
+  if (zip) await fs.copyFile(xlsFile,xlsxFile);
+  else {
+    const profile = await fs.mkdtemp(path.join(os.tmpdir(),"rate-acm-lo-"));
+    try {
+      await fs.rm(xlsxFile,{force:true});
+      await command(SOFFICE, [`-env:UserInstallation=${new URL(`file://${profile}`).href}`,"--headless", "--convert-to", "xlsx", "--outdir", convertedDir, xlsFile]);
+    } finally { await fs.rm(profile,{recursive:true,force:true}); }
+  }
   const parsed = await command(PYTHON, [path.join(ROOT, "parse_acm_xlsx.py"), xlsxFile]);
   const observations = JSON.parse(parsed.stdout);
   const tp = observations.map((x) => ({ date: x.date, value: Number(x.ACMTP10) })).filter((x) => Number.isFinite(x.value));
@@ -232,15 +295,13 @@ async function tryAcmeTermPremium(previous) {
 }
 
 async function tryWageGrowthTracker(previous) {
-  const url = "https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/datafiles/chcs/wage-growth-tracker/wage-growth-data.xlsx";
-  const response = await fetch(url, { headers: { "User-Agent": "junjun-rate-model/1.0" }, signal: AbortSignal.timeout(15000) });
-  if (!response.ok) throw new Error(`HTTP ${response.status} for Atlanta Fed WGT`);
+  const url = "https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/research-and-data/data/wage-growth-tracker/wage-growth-data.xlsx";
   const file = path.join(rawRunDir, "atlanta_fed_wage_growth_data.xlsx");
-  await fs.writeFile(file, new Uint8Array(await response.arrayBuffer()));
+  await downloadOfficial("Atlanta Fed WGT",url,file);
   const parsed = await command(PYTHON, [path.join(ROOT, "parse_wgt_xlsx.py"), file]);
   const observations = JSON.parse(parsed.stdout).map((x) => ({ date: x.date, value: Number(x.value) })).filter((x) => Number.isFinite(x.value));
   if (!observations.length) throw new Error("Atlanta Fed WGT data_overall sheet is empty");
-  return modelMetric(observations, { availability: 5, accuracy: 4, note: "匹配同一劳动者的工资增速；官方三个月移动平均序列", source: "Atlanta Fed WGT" });
+  return {...modelMetric(observations, { frequency:"月", availability: 5, accuracy: 4, note: "data_overall / Overall，未加权三个月移动平均；2026年10月官方无配对样本，不发布；缺月不补零", source: url }),definitionId:"wgt-overall-3ma-v2"};
 }
 
 async function main() {
@@ -284,17 +345,17 @@ async function main() {
     add(11, modelMetric(lagDiff(t5yie, 20), { availability: 5, accuracy: 3, note: "适合看边际再定价", source: "FRED: T5YIE" }));
   }
   if (t5yifr) add(12, modelMetric(t5yifr, { availability: 5, accuracy: 3, note: "长期通胀锚，含风险与流动性成分", source: "FRED: T5YIFR" }));
-  if (series.CES0500000003) add(15, modelMetric(yoyChange(series.CES0500000003, 12), { availability: 5, accuracy: 3, note: "平均时薪同比；CES会月度及年度修订", source: "BLS/FRED: CES0500000003" }));
+  if (series.CES0500000003) add(15, modelMetric(yoyChange(series.CES0500000003, 12), { frequency: "月", availability: 5, accuracy: 3, note: "平均时薪同比；CES会月度及年度修订", source: "BLS/FRED: CES0500000003" }));
   try {
     add(16, await tryWageGrowthTracker(previous));
   } catch (error) {
     warnings.push(`Atlanta Fed WGT 未更新：${error.message}`);
     add(16, null);
   }
-  if (series.UNRATE) add(17, modelMetric(series.UNRATE, { availability: 5, accuracy: 4, note: "家庭调查月频；单月变化需谨慎", source: "BLS/FRED: UNRATE" }));
-  if (series.JTSJOL) add(18, modelMetric(series.JTSJOL, { availability: 5, accuracy: 3, note: "约1个月滞后，月度与年度修订较大", source: "BLS/FRED: JTSJOL" }));
-  if (series.ICSA) add(19, modelMetric(rollingMean(series.ICSA, 4), { availability: 5, accuracy: 4, note: "周频四周均值；受季调、假期与州级申报扰动", source: "DOL/FRED: ICSA" }));
-  if (series.PPIACO) add(22, modelMetric(pctChange(series.PPIACO, 3), { availability: 5, accuracy: 4, note: "广谱上游价格三个月变化，不等于最终消费价格", source: "BLS/FRED: PPIACO" }));
+  if (series.UNRATE) add(17, modelMetric(series.UNRATE, { frequency: "月", availability: 5, accuracy: 4, note: "家庭调查月频；单月变化需谨慎", source: "BLS/FRED: UNRATE" }));
+  if (series.JTSJOL) add(18, modelMetric(series.JTSJOL, { frequency: "月", availability: 5, accuracy: 3, note: "约1个月滞后，月度与年度修订较大", source: "BLS/FRED: JTSJOL" }));
+  if (series.ICSA) add(19, modelMetric(rollingMean(series.ICSA, 4), { frequency: "周", availability: 5, accuracy: 4, note: "周频四周均值；受季调、假期与州级申报扰动", source: "DOL/FRED: ICSA" }));
+  if (series.PPIACO) add(22, modelMetric(pctChange(series.PPIACO, 3), { frequency: "月", availability: 5, accuracy: 4, note: "广谱上游价格三个月变化，不等于最终消费价格", source: "BLS/FRED: PPIACO" }));
   if (series.DCOILWTICO) add(23, modelMetric(pctChange(series.DCOILWTICO, 60), { availability: 5, accuracy: 5, note: "高频能源价格变化，不能代表核心服务通胀", source: "EIA/FRED: DCOILWTICO" }));
 
   try {
@@ -312,11 +373,15 @@ async function main() {
   if (series.BAMLC0A0CM) add(34, modelMetric(lagDiff(series.BAMLC0A0CM, 20), { availability: 5, accuracy: 5, note: "投资级信用条件确认指标", source: "FRED: BAMLC0A0CM" }));
   if (series.VIXCLS) add(35, modelMetric(series.VIXCLS, { availability: 5, accuracy: 5, note: "股票隐含波动；事件冲击快、均值回归也快", source: "CBOE/FRED: VIXCLS" }));
   if (series.DTWEXBGS) add(36, modelMetric(pctChange(series.DTWEXBGS, 20), { availability: 5, accuracy: 4, note: "全球美元流动性与风险偏好代理", source: "Fed/FRED: DTWEXBGS" }));
-  if (series.NFCI) add(37, modelMetric(series.NFCI, { availability: 5, accuracy: 4, note: "周频综合金融条件；负值代表相对宽松", source: "Chicago Fed/FRED: NFCI" }));
+  if (series.NFCI) add(37, modelMetric(series.NFCI, { frequency: "周", availability: 5, accuracy: 4, note: "周频综合金融条件；负值代表相对宽松", source: "Chicago Fed/FRED: NFCI" }));
 
   for (const row of [5, 6, 7, 10, 11, 12, 15, 16, 17, 18, 19, 22, 23, 28, 29, 32, 33, 34, 35, 36, 37]) {
     if (!metrics[String(row)]) add(row, null);
   }
+
+  // Removing missing FRED observations changes observation-count transforms.
+  for (const row of [6,7,11,23,32,33,34,36]) if (metrics[row] && !metrics[row].stale) metrics[row].definitionId = "valid-observations-v2";
+  const changes = snapshotChanges(metrics,priorSnapshots,runDate);
 
   const dates = Object.values(metrics).map((x) => x.date).filter(Boolean).sort();
   const snapshotDate = dates.at(-1) ?? runDate;
@@ -326,9 +391,12 @@ async function main() {
     snapshotDate,
     sourcePolicy: "官方源/FRED取数；保留原始文件与每次运行快照；失败时沿用上一有效值并标记 stale",
     metrics,
+    modelVersion:MODEL_VERSION,
+    changes,
+    sourceStatus,
+    reprocessedFrom:REPLAY_DIR ? "本日成功下载的官方原始文件，SHA256校验后重算" : null,
   };
   await fs.writeFile(LATEST_FILE, JSON.stringify(latestData, null, 2), "utf8");
-  await fs.appendFile(HISTORY_FILE, `${JSON.stringify(latestData)}\n`, "utf8");
 
   const outputFile = "君君美债利率模型_最新.xlsx";
   try {
@@ -343,15 +411,22 @@ async function main() {
       },
     });
     await fs.copyFile(path.join(OUTPUT_DIR, outputFile), path.join(ARCHIVE_DIR, `${runDate}.xlsx`));
+    const summary = await readJson(path.join(OUTPUT_DIR,"model_summary.json"),{});
+    latestData.scores = summary.scores;
+    latestData.regime = summary.regime;
     logLines.push(`Excel已生成：${path.join(OUTPUT_DIR, outputFile)}`);
   } catch (error) {
     warnings.push(`Excel重算失败：${error.message}`);
+    process.exitCode = 1;
   }
+
+  await fs.writeFile(LATEST_FILE, JSON.stringify(latestData,null,2),"utf8");
+  await fs.appendFile(HISTORY_FILE, `${JSON.stringify(latestData)}\n`, "utf8");
 
   if (warnings.length) logLines.push("警告：", ...warnings.map((x) => `- ${x}`));
   else logLines.push("完成：所有配置来源均成功更新");
   await fs.writeFile(path.join(LOG_DIR, `${runDate}.log`), `${logLines.join("\n")}\n`, "utf8");
-  console.log(JSON.stringify({ runDate, snapshotDate, latestFile: LATEST_FILE, output: path.join(OUTPUT_DIR, outputFile), warnings }, null, 2));
+  console.log(JSON.stringify({ runDate, snapshotDate, latestFile: LATEST_FILE, output: path.join(OUTPUT_DIR, outputFile), scores:latestData.scores,regime:latestData.regime,sourceStatus,warnings }, null, 2));
 }
 
 try {

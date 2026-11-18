@@ -6,12 +6,12 @@
   "warmup_transitions": 200,
   "seed_and_warmup_are_research_conventions": true,
   "first_date": "2025-09-01",
-  "last_date": "2026-11-16",
-  "records": 291,
-  "last_ema19": -778.0880761272286,
-  "last_ema39": -594.5107354240536,
-  "last_mcl": -183.57734070317508,
-  "history_sha256": "b72284dad63e556e47a33527539e50281fb46abd2984f226ea49b0752c26eb03",
+  "last_date": "2026-11-17",
+  "records": 292,
+  "last_ema19": -966.8792685145058,
+  "last_ema39": -698.085198652851,
+  "last_mcl": -268.79406986165486,
+  "history_sha256": "b15d5e9610e403e869484a6dc4287055cd968b90d3cb694fa6756b3da618270a",
   "update_rule": "merge same-scope EOD rows, verify calendar, then recompute from unchanged seed",
   "midday_rule": "preview from previous EOD EMA state; never persist noon as another day"
 }

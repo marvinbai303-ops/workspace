@@ -1,47 +1,40 @@
+"""Read the named official Overall three-month series, never page/header numbers."""
 import json
 import sys
-import zipfile
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
-
-NS = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
-
-
-def q(tag):
-    return "{" + NS + "}" + tag
-
-
-def date_value(value):
-    number = float(value)
-    return (datetime(1899, 12, 30) + timedelta(days=number)).strftime("%Y-%m-%d")
+from datetime import datetime
+import math
+import openpyxl
 
 
 def parse(path):
-    with zipfile.ZipFile(path) as archive:
-        shared = []
-        if "xl/sharedStrings.xml" in archive.namelist():
-            root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
-            for item in root.findall(q("si")):
-                shared.append("".join(x.text or "" for x in item.iter(q("t"))))
-        root = ET.fromstring(archive.read("xl/worksheets/sheet1.xml"))
+    with open(path, "rb") as source:
+        book = openpyxl.load_workbook(source, read_only=True, data_only=True)
+        if "data_overall" not in book.sheetnames:
+            raise RuntimeError("WGT data_overall sheet not found")
+        rows = book["data_overall"].iter_rows(max_col=20, values_only=True)
+        value_col = None
         output = []
-        for row in root.findall(".//" + q("row")):
-            cells = {}
-            for cell in row.findall(q("c")):
-                ref = cell.attrib.get("r", "")
-                col = "".join(ch for ch in ref if ch.isalpha())
-                node = cell.find(q("v"))
-                value = "" if node is None else node.text or ""
-                if cell.attrib.get("t") == "s" and value:
-                    value = shared[int(value)]
-                cells[col] = value
-            if "A" not in cells or "B" not in cells:
+        for row in rows:
+            if value_col is None:
+                matches = [i for i, value in enumerate(row) if value == "Overall"]
+                if len(matches) == 1:
+                    value_col = matches[0]
                 continue
-            try:
-                output.append({"date": date_value(cells["A"]), "value": float(cells["B"])})
-            except (TypeError, ValueError):
+            date, value = row[0], row[value_col]
+            if not isinstance(date, datetime) or date.day != 1:
                 continue
-        print(json.dumps(output))
+            if value is None or not isinstance(value, (int, float)) or not math.isfinite(value):
+                continue
+            if not -20 <= value <= 30:
+                raise ValueError(f"WGT value out of range: {date}: {value}")
+            output.append({"date": date.strftime("%Y-%m-%d"), "value": value})
+        book.close()
+    if value_col is None or len(output) < 60:
+        raise RuntimeError("WGT Overall header or monthly series missing")
+    output.sort(key=lambda item: item["date"])
+    if len({x["date"] for x in output}) != len(output):
+        raise RuntimeError("Duplicate WGT observation dates")
+    print(json.dumps(output))
 
 
 if __name__ == "__main__":
