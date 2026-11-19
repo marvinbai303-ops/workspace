@@ -1,0 +1,44 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/nydczmpk", "action": "rewrite", "reason": "按用户要求改为戴维斯双击结论" }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "comparative evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/b29kza94", "action": "rewrite", "reason": "明确持续Alpha三项检验" },
+        { "sourceElementId": "sh/a10jqpsj", "action": "rewrite", "reason": "重命名证据区" },
+        { "sourceElementId": "ch/etgn2xwz", "action": "replace", "reason": "用同区域四维证据表替换单纯涨跌幅图" },
+        { "sourceElementId": "sh/r65knqtk", "action": "rewrite", "reason": "持续Alpha判定器一" },
+        { "sourceElementId": "sh/q5wjelsz", "action": "rewrite", "reason": "持续Alpha判定结果一" },
+        { "sourceElementId": "sh/ove9o7yd", "action": "rewrite", "reason": "持续Alpha判定证据一" },
+        { "sourceElementId": "sh/mtwrmxg7", "action": "rewrite", "reason": "持续Alpha判定器二" },
+        { "sourceElementId": "sh/nu58f2hs", "action": "rewrite", "reason": "持续Alpha判定结果二" },
+        { "sourceElementId": "sh/wjy9sry9", "action": "rewrite", "reason": "持续Alpha判定证据二" },
+        { "sourceElementId": "sh/ahwrqhgj", "action": "rewrite", "reason": "持续Alpha判定器三" },
+        { "sourceElementId": "sh/bip8jmho", "action": "rewrite", "reason": "持续Alpha判定结果三" },
+        { "sourceElementId": "sh/cnupgny5", "action": "rewrite", "reason": "持续Alpha判定证据三" },
+        { "sourceElementId": "sh/t8byxkn2", "action": "rewrite", "reason": "补充新增数据来源" }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "allocation conclusion",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/cza94vmx", "action": "keep", "reason": "保留原配置结论" }
+      ]
+    }
+  ],
+  "omittedSourceSlides": []
+}

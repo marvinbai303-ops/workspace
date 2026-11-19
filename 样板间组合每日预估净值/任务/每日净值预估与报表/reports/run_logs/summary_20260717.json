@@ -1,0 +1,85 @@
+{
+  "status": "FAILED",
+  "target_date": "20260717",
+  "started_at": "2026-07-17T22:54:54.462697+08:00",
+  "finished_at": "2026-07-17T22:54:58.519619+08:00",
+  "skipped": false,
+  "reason": null,
+  "attempt_count": 1,
+  "attempts": [
+    {
+      "checked_at": "2026-07-17T22:54:54.465691+08:00",
+      "ready": false,
+      "fund_latest_date": null,
+      "portfolio_asof": null,
+      "blocking": [
+        "iFinD 底层净值重算未完成：iFinD 最新复权单位净值未齐全：0/24"
+      ],
+      "warnings": [],
+      "ifind_recalc": {
+        "returncode": 1,
+        "log_path": "reports/run_logs/ifind_recalc_20260717.json"
+      }
+    }
+  ],
+  "final_check": {
+    "target_date": "20260717",
+    "ready": false,
+    "blocking": [
+      "iFinD 底层净值重算未完成：iFinD 最新复权单位净值未齐全：0/24"
+    ],
+    "warnings": [],
+    "ifind_recalc": {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "ifind_recalc_excel.py",
+        "--excel",
+        "样板间投顾组合监控模板-20260716调仓.xlsx",
+        "--target-date",
+        "20260717",
+        "--outdir",
+        "reports/run_logs",
+        "--stale-equal-limit",
+        "3"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 688, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 613, in main\n    navs, parsed_dates, raw_result = fetch_ifind_navs(codes, target_date, outdir, args.batch_size, args.delay_ms)\n                                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 225, in fetch_ifind_navs\n    raise RuntimeError(f'iFinD 查询失败：{proc.stderr.strip() or proc.stdout.strip()}')\nRuntimeError: iFinD 查询失败：Error: getaddrinfo ENOTFOUND api-mcp.51ifind.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)\n",
+      "log_path": "reports/run_logs/ifind_recalc_20260717.json",
+      "detail": {
+        "status": "FAILED",
+        "target_date": "20260717",
+        "reason": "iFinD 最新复权单位净值未齐全：0/24",
+        "missing_codes": [
+          "000216.OF",
+          "000917.OF",
+          "001170.OF",
+          "007044.OF",
+          "007045.OF",
+          "007817.OF",
+          "007818.OF",
+          "009993.OF",
+          "013840.OF",
+          "013841.OF",
+          "014201.OF",
+          "014202.OF",
+          "015453.OF",
+          "015454.OF",
+          "016370.OF",
+          "017488.OF",
+          "017489.OF",
+          "017612.OF",
+          "019632.OF",
+          "019633.OF",
+          "019923.OF",
+          "019924.OF",
+          "161119.OF",
+          "162214.OF"
+        ],
+        "parsed_navs": {},
+        "parsed_dates": {}
+      }
+    }
+  },
+  "report_run": null
+}

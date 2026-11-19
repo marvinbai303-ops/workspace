@@ -1,0 +1,69 @@
+# 精读组 1（2 个视频 / 32 张帧）
+
+## 视频 29（31 张）
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0024.40.jpg
+    - 扫描备注：「持买单量排名」IF 期指；数值 8773、8102、-171；字幕「他的买单量是8,700多手」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0030.12.jpg
+    - 扫描备注：「持卖单量排名」交易日：20261019；数值 5001、4482；字幕「比昨天增加了300手」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0036.40.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611；字幕「每个券商后面的两」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0048.40.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611 / 成交量排名；字幕「它是在中信期货开户的」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0060.40.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611；「中信期货（代客）」；数值 1941、1430
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0072.40.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611；数值 10507、8745、1733；字幕「只分析中信是没有意义的」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0084.40.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611；数值 10507、8745；字幕「我今天我在中信下单」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0089.39.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611；字幕「所以说我早在十几年前啊」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0090.99.jpg
+    - 扫描备注：「成交持仓排名」合约 2611；数值 10701、2163、249
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0096.40.jpg
+    - 扫描备注：「成交持仓排名」；字幕「我们国内的就是像」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0104.54.jpg
+    - 扫描备注：「中国金融期货交易所 China Financial Futures Exchange」网页，产品/持仓分类
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0108.40.jpg
+    - 扫描备注：「中国金融期货交易所」网页，新闻公告；字幕「机构持仓多少」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0120.40.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611；字幕「按照券商分类呢」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0120.78.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611；字幕「按照券商分类呢」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0122.38.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611；字幕「就是这个券商官」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0132.40.jpg
+    - 扫描备注：桌面/文件窗口；字幕「十几年前对a股的研究」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0144.40.jpg
+    - 扫描备注：Excel 文件「50 300 COT.xlsx」；字幕「也就是11年前」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0150.33.jpg
+    - 扫描备注：Excel 文件「50 300 COI.xlsx」；字幕「到2021年的8月17号」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0156.40.jpg
+    - 扫描备注：桌面/文件窗口；字幕「最终的结果是毛规律都没有」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0168.40.jpg
+    - 扫描备注：Excel「50 300 COT.xlsx」+PDF 窗口；数值 12227 0877998；字幕「10%」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0180.40.jpg
+    - 扫描备注：数据表；数值 15781、1520、825811、2926、13118
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0180.80.jpg
+    - 扫描备注：Excel 数据表；数值 11806 08000402；字幕「这些数据我们再往下拉」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0182.40.jpg
+    - 扫描备注：Excel 数据表；数值 194849、-5432、11159、5191、929
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0192.40.jpg
+    - 扫描备注：白底走势曲线+成交量柱；字幕「为什么他们」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0198.32.jpg
+    - 扫描备注：白底走势曲线+成交量柱；可见 TOTAL；字幕「但是找不到任何规律」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0204.40.jpg
+    - 扫描备注：白底走势曲线+成交量柱；数值 1014；字幕「但是每一个券商都同时」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0216.40.jpg
+    - 扫描备注：白底走势曲线+成交量柱；字幕「（看不清）」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0228.40.jpg
+    - 扫描备注：白底曲线图+手指；字幕「那我们就知道追谁了」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0240.40.jpg
+    - 扫描备注：白底曲线图+手指；可见「501月净」；字幕「很遗憾我们追踪不了」
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0252.40.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611 / 成交量排名；数值 -2165、-2462、8745
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/29/t_0264.40.jpg
+    - 扫描备注：「成交持仓排名」合约 IF2611 / 成交量排名；字幕「给大家做一个科普」
+
+## 视频 45（1 张）
+- [ ] /Users/yangguang/WorkBuddy/市场交易信号研究/douyin_research/frames/45/t_0034.25.jpg
+    - 扫描备注：手机指标页「市场宽度 · ARMS」：ARMS 现值 1.16（偏低），上涨 4673 / 下跌 822 / 平盘 81 / 涨停跌停 125 / 8 / 涨跌比 A/D 5.68

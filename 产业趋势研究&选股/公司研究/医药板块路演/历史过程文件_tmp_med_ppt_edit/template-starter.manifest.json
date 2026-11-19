@@ -1,0 +1,46 @@
+{
+  "sourcePptx": "/Users/yangguang/Documents/Codex/workspace/选股素材/医药板块投资机会_2026vs2025Q3.pptx",
+  "mapPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-frame-map.json",
+  "output": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter.pptx",
+  "outputBytes": 28290,
+  "sourceSlideCount": 3,
+  "slideCount": 3,
+  "previewDir": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter-preview",
+  "layoutDir": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter-layout",
+  "contactSheet": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter-contact-sheet.png",
+  "slides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 1,
+      "previewPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter-preview/starter-slide-01.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-01.png",
+      "layoutPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter-layout/starter-slide-01.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-01.layout.json"
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "comparative evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 13,
+      "previewPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter-preview/starter-slide-02.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-02.png",
+      "layoutPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter-layout/starter-slide-02.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-02.layout.json"
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "allocation conclusion",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 1,
+      "previewPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter-preview/starter-slide-03.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-03.png",
+      "layoutPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-starter-layout/starter-slide-03.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-03.layout.json"
+    }
+  ]
+}

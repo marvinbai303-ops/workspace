@@ -1,0 +1,223 @@
+<svg width="100%" viewBox="0 0 680 440" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>AI产业链网格拓扑图与ETF联接基金匹配</title>
+<desc>按博主147条视频蒸馏：6条产业链分列，纵向上游到下游，每个环节标注最相关的ETF联接基金代码，红点标注卡脖子环节。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<text class="th" x="40" y="26" style="font-size:16px">AI 产业链 · 网格拓扑图 × ETF 联接基金</text>
+<text class="ts" x="40" y="44" style="font-size:10.5px">列＝产业链　纵向＝价值链（上游↑→下游↓）　每格＝该环节最相关 ETF 联接代码　<tspan style="fill:var(--color-danger)">●</tspan>＝卡脖子(建议打个股)</text>
+<g class="c-blue">
+<rect x="40" y="64" width="90" height="30" rx="7"/>
+<text class="th" x="85" y="83" text-anchor="middle" style="font-size:11px">光通信链</text>
+</g>
+<g class="c-blue">
+<rect x="40" y="102" width="90" height="30" rx="6"/>
+<text class="th" x="85" y="115" text-anchor="middle" style="font-size:9.8px">MP/SOI衬底</text>
+<text class="ts" x="85" y="126" text-anchor="middle" style="font-size:8px">材料设备019632</text>
+</g>
+<circle cx="47" cy="109" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-blue">
+<rect x="40" y="136" width="90" height="30" rx="6"/>
+<text class="th" x="85" y="149" text-anchor="middle" style="font-size:9.8px">光源EML/CW</text>
+<text class="ts" x="85" y="160" text-anchor="middle" style="font-size:8px">通信007817</text>
+</g>
+<circle cx="47" cy="143" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-blue">
+<rect x="40" y="170" width="90" height="30" rx="6"/>
+<text class="th" x="85" y="183" text-anchor="middle" style="font-size:9.8px">硅光SiPh</text>
+<text class="ts" x="85" y="194" text-anchor="middle" style="font-size:8px">通信007817</text>
+</g>
+<g class="c-blue">
+<rect x="40" y="204" width="90" height="30" rx="6"/>
+<text class="th" x="85" y="217" text-anchor="middle" style="font-size:9.8px">光引擎FAU</text>
+<text class="ts" x="85" y="228" text-anchor="middle" style="font-size:8px">通信007817</text>
+</g>
+<g class="c-blue">
+<rect x="40" y="238" width="90" height="30" rx="6"/>
+<text class="th" x="85" y="251" text-anchor="middle" style="font-size:9.8px">MPO连接器</text>
+<text class="ts" x="85" y="262" text-anchor="middle" style="font-size:8px">通信007817</text>
+</g>
+<g class="c-blue">
+<rect x="40" y="272" width="90" height="30" rx="6"/>
+<text class="th" x="85" y="285" text-anchor="middle" style="font-size:9.8px">DSP</text>
+<text class="ts" x="85" y="296" text-anchor="middle" style="font-size:8px">通信007817</text>
+</g>
+<g class="c-blue">
+<rect x="40" y="306" width="90" height="30" rx="6"/>
+<text class="th" x="85" y="319" text-anchor="middle" style="font-size:9.8px">模块CPO/LPO</text>
+<text class="ts" x="85" y="330" text-anchor="middle" style="font-size:8px">通信007817</text>
+</g>
+<g class="c-blue">
+<rect x="40" y="340" width="90" height="30" rx="6"/>
+<text class="th" x="85" y="353" text-anchor="middle" style="font-size:9.8px">OCS·光纤缆</text>
+<text class="ts" x="85" y="364" text-anchor="middle" style="font-size:8px">通信007817</text>
+</g>
+<g class="c-amber">
+<rect x="142" y="64" width="90" height="30" rx="7"/>
+<text class="th" x="187" y="83" text-anchor="middle" style="font-size:11px">算力半导体</text>
+</g>
+<g class="c-amber">
+<rect x="142" y="102" width="90" height="30" rx="6"/>
+<text class="th" x="187" y="115" text-anchor="middle" style="font-size:9.8px">半导体设备</text>
+<text class="ts" x="187" y="126" text-anchor="middle" style="font-size:8px">材料设备019632</text>
+</g>
+<circle cx="149" cy="109" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-amber">
+<rect x="142" y="136" width="90" height="30" rx="6"/>
+<text class="th" x="187" y="149" text-anchor="middle" style="font-size:9.8px">硅片/材料</text>
+<text class="ts" x="187" y="160" text-anchor="middle" style="font-size:8px">材料设备019632</text>
+</g>
+<g class="c-amber">
+<rect x="142" y="170" width="90" height="30" rx="6"/>
+<text class="th" x="187" y="183" text-anchor="middle" style="font-size:9.8px">代工·中芯</text>
+<text class="ts" x="187" y="194" text-anchor="middle" style="font-size:8px">科创芯片017469</text>
+</g>
+<circle cx="149" cy="177" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-amber">
+<rect x="142" y="204" width="90" height="30" rx="6"/>
+<text class="th" x="187" y="217" text-anchor="middle" style="font-size:9.8px">GPU算力卡</text>
+<text class="ts" x="187" y="228" text-anchor="middle" style="font-size:8px">半导体008887</text>
+</g>
+<circle cx="149" cy="211" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-amber">
+<rect x="142" y="238" width="90" height="30" rx="6"/>
+<text class="th" x="187" y="251" text-anchor="middle" style="font-size:9.8px">ASIC设计</text>
+<text class="ts" x="187" y="262" text-anchor="middle" style="font-size:8px">芯片设计027574</text>
+</g>
+<g class="c-amber">
+<rect x="142" y="272" width="90" height="30" rx="6"/>
+<text class="th" x="187" y="285" text-anchor="middle" style="font-size:9.8px">CPU(海外)</text>
+<text class="ts" x="187" y="296" text-anchor="middle" style="font-size:8px">半导体008887</text>
+</g>
+<g class="c-teal">
+<rect x="244" y="64" width="90" height="30" rx="7"/>
+<text class="th" x="289" y="83" text-anchor="middle" style="font-size:11px">存储·封装</text>
+</g>
+<g class="c-teal">
+<rect x="244" y="102" width="90" height="30" rx="6"/>
+<text class="th" x="289" y="115" text-anchor="middle" style="font-size:9.8px">HBM</text>
+<text class="ts" x="289" y="126" text-anchor="middle" style="font-size:8px">半导体008887</text>
+</g>
+<circle cx="251" cy="109" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-teal">
+<rect x="244" y="136" width="90" height="30" rx="6"/>
+<text class="th" x="289" y="149" text-anchor="middle" style="font-size:9.8px">DRAM/NAND</text>
+<text class="ts" x="289" y="160" text-anchor="middle" style="font-size:8px">半导体008887</text>
+</g>
+<g class="c-teal">
+<rect x="244" y="170" width="90" height="30" rx="6"/>
+<text class="th" x="289" y="183" text-anchor="middle" style="font-size:9.8px">存储模组</text>
+<text class="ts" x="289" y="194" text-anchor="middle" style="font-size:8px">半导体008887</text>
+</g>
+<g class="c-teal">
+<rect x="244" y="204" width="90" height="30" rx="6"/>
+<text class="th" x="289" y="217" text-anchor="middle" style="font-size:9.8px">先进封装</text>
+<text class="ts" x="289" y="228" text-anchor="middle" style="font-size:8px">半导体008887</text>
+</g>
+<circle cx="251" cy="211" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-teal">
+<rect x="244" y="238" width="90" height="30" rx="6"/>
+<text class="th" x="289" y="251" text-anchor="middle" style="font-size:9.8px">封测</text>
+<text class="ts" x="289" y="262" text-anchor="middle" style="font-size:8px">半导体008887</text>
+</g>
+<g class="c-teal">
+<rect x="244" y="272" width="90" height="30" rx="6"/>
+<text class="th" x="289" y="285" text-anchor="middle" style="font-size:9.8px">ABF膜/玻基</text>
+<text class="ts" x="289" y="296" text-anchor="middle" style="font-size:8px">电子001617</text>
+</g>
+<circle cx="251" cy="279" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-teal">
+<rect x="244" y="306" width="90" height="30" rx="6"/>
+<text class="th" x="289" y="319" text-anchor="middle" style="font-size:9.8px">MLCC</text>
+<text class="ts" x="289" y="330" text-anchor="middle" style="font-size:8px">电子001617</text>
+</g>
+<g class="c-purple">
+<rect x="346" y="64" width="90" height="30" rx="7"/>
+<text class="th" x="391" y="83" text-anchor="middle" style="font-size:11px">PCB·电子·端侧</text>
+</g>
+<g class="c-purple">
+<rect x="346" y="102" width="90" height="30" rx="6"/>
+<text class="th" x="391" y="115" text-anchor="middle" style="font-size:9.8px">电子布Tglass</text>
+<text class="ts" x="391" y="126" text-anchor="middle" style="font-size:8px">电子001617</text>
+</g>
+<circle cx="353" cy="109" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-purple">
+<rect x="346" y="136" width="90" height="30" rx="6"/>
+<text class="th" x="391" y="149" text-anchor="middle" style="font-size:9.8px">覆铜板CCL</text>
+<text class="ts" x="391" y="160" text-anchor="middle" style="font-size:8px">电子001617</text>
+</g>
+<g class="c-purple">
+<rect x="346" y="170" width="90" height="30" rx="6"/>
+<text class="th" x="391" y="183" text-anchor="middle" style="font-size:9.8px">ABF载板</text>
+<text class="ts" x="391" y="194" text-anchor="middle" style="font-size:8px">电子001617</text>
+</g>
+<circle cx="353" cy="177" r="3.2" style="fill:var(--color-danger)"/>
+<g class="c-purple">
+<rect x="346" y="204" width="90" height="30" rx="6"/>
+<text class="th" x="391" y="217" text-anchor="middle" style="font-size:9.8px">PCB高速板</text>
+<text class="ts" x="391" y="228" text-anchor="middle" style="font-size:8px">电子001617</text>
+</g>
+<g class="c-purple">
+<rect x="346" y="238" width="90" height="30" rx="6"/>
+<text class="th" x="391" y="251" text-anchor="middle" style="font-size:9.8px">端侧PC/手机</text>
+<text class="ts" x="391" y="262" text-anchor="middle" style="font-size:8px">电子001617</text>
+</g>
+<g class="c-green">
+<rect x="448" y="64" width="90" height="30" rx="7"/>
+<text class="th" x="493" y="83" text-anchor="middle" style="font-size:11px">AI·云·模型</text>
+</g>
+<g class="c-green">
+<rect x="448" y="102" width="90" height="30" rx="6"/>
+<text class="th" x="493" y="115" text-anchor="middle" style="font-size:9.8px">云算力/涨价</text>
+<text class="ts" x="493" y="126" text-anchor="middle" style="font-size:8px">云计算021397</text>
+</g>
+<g class="c-green">
+<rect x="448" y="136" width="90" height="30" rx="6"/>
+<text class="th" x="493" y="149" text-anchor="middle" style="font-size:9.8px">大模型</text>
+<text class="ts" x="493" y="160" text-anchor="middle" style="font-size:8px">人工智能012733</text>
+</g>
+<g class="c-green">
+<rect x="448" y="170" width="90" height="30" rx="6"/>
+<text class="th" x="493" y="183" text-anchor="middle" style="font-size:9.8px">AI应用Agent</text>
+<text class="ts" x="493" y="194" text-anchor="middle" style="font-size:8px">软件018385</text>
+</g>
+<g class="c-green">
+<rect x="448" y="204" width="90" height="30" rx="6"/>
+<text class="th" x="493" y="217" text-anchor="middle" style="font-size:9.8px">GEO入口</text>
+<text class="ts" x="493" y="228" text-anchor="middle" style="font-size:8px">计算机160224</text>
+</g>
+<g class="c-green">
+<rect x="448" y="238" width="90" height="30" rx="6"/>
+<text class="th" x="493" y="251" text-anchor="middle" style="font-size:9.8px">港股大模型</text>
+<text class="ts" x="493" y="262" text-anchor="middle" style="font-size:8px">恒生013402</text>
+</g>
+<g class="c-cyan">
+<rect x="550" y="64" width="90" height="30" rx="7"/>
+<text class="th" x="595" y="83" text-anchor="middle" style="font-size:11px">旁支·配套</text>
+</g>
+<g class="c-cyan">
+<rect x="550" y="102" width="90" height="30" rx="6"/>
+<text class="th" x="595" y="115" text-anchor="middle" style="font-size:9.8px">散热液冷</text>
+<text class="ts" x="595" y="126" text-anchor="middle" style="font-size:8px">电子001617</text>
+</g>
+<g class="c-cyan">
+<rect x="550" y="136" width="90" height="30" rx="6"/>
+<text class="th" x="595" y="149" text-anchor="middle" style="font-size:9.8px">电源/燃机</text>
+<text class="ts" x="595" y="160" text-anchor="middle" style="font-size:8px">电力016185</text>
+</g>
+<g class="c-cyan">
+<rect x="550" y="170" width="90" height="30" rx="6"/>
+<text class="th" x="595" y="183" text-anchor="middle" style="font-size:9.8px">储能锂电</text>
+<text class="ts" x="595" y="194" text-anchor="middle" style="font-size:8px">电池012862</text>
+</g>
+<g class="c-cyan">
+<rect x="550" y="204" width="90" height="30" rx="6"/>
+<text class="th" x="595" y="217" text-anchor="middle" style="font-size:9.8px">商业航天</text>
+<text class="ts" x="595" y="228" text-anchor="middle" style="font-size:8px">军工512710</text>
+</g>
+<g class="c-cyan">
+<rect x="550" y="238" width="90" height="30" rx="6"/>
+<text class="th" x="595" y="251" text-anchor="middle" style="font-size:9.8px">机器人</text>
+<text class="ts" x="595" y="262" text-anchor="middle" style="font-size:8px">机器人018344</text>
+</g>
+<text class="ts" x="40" y="392" style="font-size:9.5px">核心配置：光通信 通信007817｜算力 半导体008887+材料设备019632｜PCB真β 电子001617｜应用 软件018385+人工智能012733+恒生013402</text>
+<text class="ts" x="40" y="408" style="font-size:9px" fill="var(--color-text-tertiary)">代码经 iFinD 基金库核实(2026-06，均为场外 ETF 联接，C 类约 A 类+1)。ETF 是一篮子，颗粒度低于个股，不构成投资建议。</text>
+</svg>

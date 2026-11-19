@@ -16,3 +16,9 @@ __pycache__/
 # ===== 登录凭证/浏览器数据（敏感，不上传；换机后重新登录即可）=====
 产业趋势研究&选股/scraper/user_data/
 产业趋势研究&选股/scraper/output/cookies.txt
+
+# 2026-11-18: moved task paths, same privacy/cache exclusions
+产业趋势研究&选股/任务/君君产业研究框架/scraper/output/audio/
+产业趋势研究&选股/任务/君君产业研究框架/scraper/models/
+产业趋势研究&选股/任务/君君产业研究框架/scraper/user_data/
+产业趋势研究&选股/任务/君君产业研究框架/scraper/output/cookies.txt

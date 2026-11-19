@@ -1,0 +1,380 @@
+[
+ {
+  "no": "01",
+  "out": "DURATION 306.7 REQUESTED 26 SAVED 25",
+  "err": "",
+  "rc": 0,
+  "sec": 20.9
+ },
+ {
+  "no": "02",
+  "out": "DURATION 241.8 REQUESTED 32 SAVED 29",
+  "err": "",
+  "rc": 0,
+  "sec": 24.1
+ },
+ {
+  "no": "03",
+  "out": "DURATION 197.7 REQUESTED 26 SAVED 25",
+  "err": "",
+  "rc": 0,
+  "sec": 21.0
+ },
+ {
+  "no": "04",
+  "out": "DURATION 337.0 REQUESTED 47 SAVED 46",
+  "err": "",
+  "rc": 0,
+  "sec": 31.4
+ },
+ {
+  "no": "05",
+  "out": "DURATION 506.1 REQUESTED 72 SAVED 70",
+  "err": "",
+  "rc": 0,
+  "sec": 43.6
+ },
+ {
+  "no": "06",
+  "out": "DURATION 285.5 REQUESTED 45 SAVED 40",
+  "err": "",
+  "rc": 0,
+  "sec": 27.9
+ },
+ {
+  "no": "07",
+  "out": "DURATION 429.4 REQUESTED 63 SAVED 63",
+  "err": "",
+  "rc": 0,
+  "sec": 39.5
+ },
+ {
+  "no": "08",
+  "out": "DURATION 510.4 REQUESTED 72 SAVED 44",
+  "err": "",
+  "rc": 0,
+  "sec": 38.3
+ },
+ {
+  "no": "09",
+  "out": "DURATION 555.4 REQUESTED 77 SAVED 75",
+  "err": "",
+  "rc": 0,
+  "sec": 48.0
+ },
+ {
+  "no": "10",
+  "out": "DURATION 179.8 REQUESTED 30 SAVED 29",
+  "err": "",
+  "rc": 0,
+  "sec": 18.1
+ },
+ {
+  "no": "11",
+  "out": "DURATION 314.2 REQUESTED 51 SAVED 49",
+  "err": "",
+  "rc": 0,
+  "sec": 32.9
+ },
+ {
+  "no": "12",
+  "out": "DURATION 70.3 REQUESTED 12 SAVED 11",
+  "err": "",
+  "rc": 0,
+  "sec": 5.7
+ },
+ {
+  "no": "13",
+  "out": "DURATION 295.8 REQUESTED 46 SAVED 44",
+  "err": "",
+  "rc": 0,
+  "sec": 28.3
+ },
+ {
+  "no": "14",
+  "out": "DURATION 183.5 REQUESTED 22 SAVED 22",
+  "err": "",
+  "rc": 0,
+  "sec": 15.2
+ },
+ {
+  "no": "15",
+  "out": "DURATION 505.9 REQUESTED 73 SAVED 73",
+  "err": "",
+  "rc": 0,
+  "sec": 49.0
+ },
+ {
+  "no": "16",
+  "out": "DURATION 309.0 REQUESTED 44 SAVED 44",
+  "err": "",
+  "rc": 0,
+  "sec": 25.4
+ },
+ {
+  "no": "17",
+  "out": "DURATION 138.3 REQUESTED 24 SAVED 24",
+  "err": "",
+  "rc": 0,
+  "sec": 14.4
+ },
+ {
+  "no": "18",
+  "out": "DURATION 129.8 REQUESTED 26 SAVED 24",
+  "err": "",
+  "rc": 0,
+  "sec": 18.6
+ },
+ {
+  "no": "19",
+  "out": "DURATION 72.5 REQUESTED 10 SAVED 10",
+  "err": "",
+  "rc": 0,
+  "sec": 5.2
+ },
+ {
+  "no": "20",
+  "out": "DURATION 518.6 REQUESTED 74 SAVED 70",
+  "err": "",
+  "rc": 0,
+  "sec": 39.8
+ },
+ {
+  "no": "21",
+  "out": "DURATION 197.0 REQUESTED 31 SAVED 31",
+  "err": "",
+  "rc": 0,
+  "sec": 23.3
+ },
+ {
+  "no": "22",
+  "out": "DURATION 313.8 REQUESTED 41 SAVED 41",
+  "err": "",
+  "rc": 0,
+  "sec": 28.0
+ },
+ {
+  "no": "23",
+  "out": "DURATION 171.6 REQUESTED 21 SAVED 21",
+  "err": "",
+  "rc": 0,
+  "sec": 11.7
+ },
+ {
+  "no": "24",
+  "out": "DURATION 320.6 REQUESTED 48 SAVED 48",
+  "err": "",
+  "rc": 0,
+  "sec": 23.5
+ },
+ {
+  "no": "25",
+  "out": "DURATION 291.0 REQUESTED 40 SAVED 38",
+  "err": "",
+  "rc": 0,
+  "sec": 19.2
+ },
+ {
+  "no": "26",
+  "out": "DURATION 181.0 REQUESTED 16 SAVED 16",
+  "err": "",
+  "rc": 0,
+  "sec": 10.1
+ },
+ {
+  "no": "27",
+  "out": "DURATION 205.2 REQUESTED 30 SAVED 30",
+  "err": "",
+  "rc": 0,
+  "sec": 17.6
+ },
+ {
+  "no": "28",
+  "out": "DURATION 496.1 REQUESTED 48 SAVED 44",
+  "err": "",
+  "rc": 0,
+  "sec": 29.5
+ },
+ {
+  "no": "29",
+  "out": "DURATION 273.5 REQUESTED 34 SAVED 34",
+  "err": "",
+  "rc": 0,
+  "sec": 22.3
+ },
+ {
+  "no": "30",
+  "out": "DURATION 21.1 REQUESTED 2 SAVED 2",
+  "err": "",
+  "rc": 0,
+  "sec": 1.4
+ },
+ {
+  "no": "31",
+  "out": "DURATION 298.1 REQUESTED 55 SAVED 55",
+  "err": "",
+  "rc": 0,
+  "sec": 32.2
+ },
+ {
+  "no": "32",
+  "out": "DURATION 410.7 REQUESTED 41 SAVED 41",
+  "err": "",
+  "rc": 0,
+  "sec": 23.3
+ },
+ {
+  "no": "33",
+  "out": "DURATION 84.8 REQUESTED 11 SAVED 11",
+  "err": "",
+  "rc": 0,
+  "sec": 5.3
+ },
+ {
+  "no": "34",
+  "out": "DURATION 99.8 REQUESTED 12 SAVED 12",
+  "err": "",
+  "rc": 0,
+  "sec": 4.7
+ },
+ {
+  "no": "35",
+  "out": "DURATION 161.5 REQUESTED 23 SAVED 23",
+  "err": "",
+  "rc": 0,
+  "sec": 10.7
+ },
+ {
+  "no": "36",
+  "out": "DURATION 269.4 REQUESTED 41 SAVED 41",
+  "err": "",
+  "rc": 0,
+  "sec": 15.6
+ },
+ {
+  "no": "37",
+  "out": "DURATION 127.2 REQUESTED 23 SAVED 23",
+  "err": "",
+  "rc": 0,
+  "sec": 9.5
+ },
+ {
+  "no": "38",
+  "out": "DURATION 502.5 REQUESTED 72 SAVED 72",
+  "err": "",
+  "rc": 0,
+  "sec": 29.9
+ },
+ {
+  "no": "39",
+  "out": "DURATION 231.5 REQUESTED 32 SAVED 31",
+  "err": "",
+  "rc": 0,
+  "sec": 15.7
+ },
+ {
+  "no": "40",
+  "out": "DURATION 212.4 REQUESTED 30 SAVED 30",
+  "err": "",
+  "rc": 0,
+  "sec": 14.9
+ },
+ {
+  "no": "41",
+  "out": "DURATION 463.4 REQUESTED 64 SAVED 64",
+  "err": "",
+  "rc": 0,
+  "sec": 30.9
+ },
+ {
+  "no": "42",
+  "out": "DURATION 220.7 REQUESTED 34 SAVED 30",
+  "err": "",
+  "rc": 0,
+  "sec": 14.3
+ },
+ {
+  "no": "43",
+  "out": "DURATION 205.6 REQUESTED 30 SAVED 30",
+  "err": "",
+  "rc": 0,
+  "sec": 13.4
+ },
+ {
+  "no": "44",
+  "out": "DURATION 102.7 REQUESTED 15 SAVED 15",
+  "err": "",
+  "rc": 0,
+  "sec": 5.7
+ },
+ {
+  "no": "45",
+  "out": "DURATION 157.7 REQUESTED 20 SAVED 20",
+  "err": "",
+  "rc": 0,
+  "sec": 9.0
+ },
+ {
+  "no": "46",
+  "out": "DURATION 78.0 REQUESTED 10 SAVED 10",
+  "err": "",
+  "rc": 0,
+  "sec": 5.0
+ },
+ {
+  "no": "47",
+  "out": "DURATION 107.6 REQUESTED 12 SAVED 12",
+  "err": "",
+  "rc": 0,
+  "sec": 5.2
+ },
+ {
+  "no": "48",
+  "out": "DURATION 107.5 REQUESTED 12 SAVED 12",
+  "err": "",
+  "rc": 0,
+  "sec": 5.3
+ },
+ {
+  "no": "49",
+  "out": "DURATION 104.4 REQUESTED 12 SAVED 12",
+  "err": "",
+  "rc": 0,
+  "sec": 5.3
+ },
+ {
+  "no": "50",
+  "out": "DURATION 356.0 REQUESTED 47 SAVED 47",
+  "err": "",
+  "rc": 0,
+  "sec": 20.3
+ },
+ {
+  "no": "51",
+  "out": "DURATION 439.0 REQUESTED 60 SAVED 60",
+  "err": "",
+  "rc": 0,
+  "sec": 21.6
+ },
+ {
+  "no": "52",
+  "out": "DURATION 63.9 REQUESTED 9 SAVED 9",
+  "err": "",
+  "rc": 0,
+  "sec": 5.2
+ },
+ {
+  "no": "53",
+  "out": "DURATION 205.7 REQUESTED 27 SAVED 27",
+  "err": "",
+  "rc": 0,
+  "sec": 12.3
+ },
+ {
+  "no": "54",
+  "out": "DURATION 170.6 REQUESTED 23 SAVED 23",
+  "err": "",
+  "rc": 0,
+  "sec": 10.6
+ }
+]

@@ -1,0 +1,1196 @@
+{
+  "generatedAt": "2026-11-19T00:58:46.837Z",
+  "runDate": "2026-11-19",
+  "snapshotDate": "2026-11-17",
+  "sourcePolicy": "官方源/FRED取数；保留原始文件与每次运行快照；失败时沿用上一有效值并标记 stale",
+  "metrics": {
+    "5": {
+      "current": 0.9500000000000002,
+      "mean": 0.03736376021798338,
+      "std": 0.7835961782190216,
+      "date": "2026-11-16",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "2Y与有效联邦基金利率之差，包含2Y期限溢价；本次来源未更新，沿用上一有效值",
+      "source": "FRED: DGS2-DFF",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-15",
+          "date": "2026-11-13",
+          "value": 1,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-09",
+          "date": "2026-11-09",
+          "value": 0.6799999999999997,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-16",
+          "date": "2026-10-16",
+          "value": 0.8600000000000003,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "6": {
+      "current": 0.08999999999999986,
+      "mean": 0.06190735694822882,
+      "std": 0.27594821269148306,
+      "date": "2026-11-16",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "捕捉政策路径重定价；本次来源未更新，沿用上一有效值",
+      "source": "FRED: DGS2",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-15",
+          "date": "2026-11-13",
+          "value": 0.11000000000000032,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-09",
+          "date": "2026-11-09",
+          "value": -0.2400000000000002,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-16",
+          "date": "2026-10-16",
+          "value": 0.07000000000000028,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "definitionId": "valid-observations-v2",
+      "stale": true
+    },
+    "7": {
+      "current": 0,
+      "mean": 0.03532152842497678,
+      "std": 0.1818363055768023,
+      "date": "2026-11-16",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "实际政策动作，离散且滞后于市场定价；本次来源未更新，沿用上一有效值",
+      "source": "FRED: DFF",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-15",
+          "date": "2026-11-15",
+          "value": 0,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-09",
+          "date": "2026-11-09",
+          "value": 0,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-16",
+          "date": "2026-10-16",
+          "value": 0,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "definitionId": "valid-observations-v2",
+      "stale": true
+    },
+    "10": {
+      "current": 2.26,
+      "mean": 2.4440435670524194,
+      "std": 0.272263422805234,
+      "date": "2026-11-17",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "含通胀风险与TIPS流动性溢价，不是纯预期；本次来源未更新，沿用上一有效值",
+      "source": "FRED: T5YIE",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-16",
+          "date": "2026-11-16",
+          "value": 2.25,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-10",
+          "date": "2026-11-10",
+          "value": 2.25,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-17",
+          "date": "2026-10-16",
+          "value": 2.37,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "11": {
+      "current": -0.1200000000000001,
+      "mean": 0.006637168141592899,
+      "std": 0.17508111707125437,
+      "date": "2026-11-17",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "适合看边际再定价；本次来源未更新，沿用上一有效值",
+      "source": "FRED: T5YIE",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-16",
+          "date": "2026-11-16",
+          "value": -0.1200000000000001,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-10",
+          "date": "2026-11-10",
+          "value": -0.08000000000000007,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-17",
+          "date": "2026-10-16",
+          "value": 0.050000000000000266,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "definitionId": "valid-observations-v2",
+      "stale": true
+    },
+    "12": {
+      "current": 2.16,
+      "mean": 2.254458815520763,
+      "std": 0.10504279249429378,
+      "date": "2026-11-17",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "长期通胀锚，含风险与流动性成分；本次来源未更新，沿用上一有效值",
+      "source": "FRED: T5YIFR",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-16",
+          "date": "2026-11-16",
+          "value": 2.15,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-10",
+          "date": "2026-11-10",
+          "value": 2.15,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-17",
+          "date": "2026-10-16",
+          "value": 2.33,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "15": {
+      "current": 3.1207598371777445,
+      "mean": 4.271415850088893,
+      "std": 0.8564775396915193,
+      "date": "2026-10-01",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "平均时薪同比；CES会月度及年度修订；本次来源未更新，沿用上一有效值",
+      "source": "BLS/FRED: CES0500000003",
+      "frequency": "月",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-09-30",
+          "status": "月频不提供该间隔变化"
+        },
+        "week": {
+          "targetDate": "2026-09-24",
+          "status": "月频不提供该间隔变化"
+        },
+        "month": {
+          "targetDate": "2026-09-01",
+          "date": "2026-09-01",
+          "value": 3.1607629427792716,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "16": {
+      "current": 3.9,
+      "mean": 4.776470588235295,
+      "std": 1.0237650218763872,
+      "date": "2026-09-01",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "data_overall / Overall，未加权三个月移动平均；2026年10月官方无配对样本，不发布；缺月不补零；本次来源未更新，沿用上一有效值",
+      "source": "https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/research-and-data/data/wage-growth-tracker/wage-growth-data.xlsx",
+      "frequency": "月",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-08-31",
+          "status": "月频不提供该间隔变化"
+        },
+        "week": {
+          "targetDate": "2026-08-25",
+          "status": "月频不提供该间隔变化"
+        },
+        "month": {
+          "targetDate": "2026-08-01",
+          "date": "2026-08-01",
+          "value": 4.1,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "definitionId": "wgt-overall-3ma-v2",
+      "stale": true
+    },
+    "17": {
+      "current": 4.1,
+      "mean": 4.188405797101449,
+      "std": 0.6996924181137733,
+      "date": "2026-10-01",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "家庭调查月频；单月变化需谨慎；本次来源未更新，沿用上一有效值",
+      "source": "BLS/FRED: UNRATE",
+      "frequency": "月",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-09-30",
+          "status": "月频不提供该间隔变化"
+        },
+        "week": {
+          "targetDate": "2026-09-24",
+          "status": "月频不提供该间隔变化"
+        },
+        "month": {
+          "targetDate": "2026-09-01",
+          "date": "2026-09-01",
+          "value": 4.2,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "18": {
+      "current": 7523,
+      "mean": 8805.31884057971,
+      "std": 1696.0367078848128,
+      "date": "2026-09-01",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "约1个月滞后，月度与年度修订较大；本次来源未更新，沿用上一有效值",
+      "source": "BLS/FRED: JTSJOL",
+      "frequency": "月",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-08-31",
+          "status": "月频不提供该间隔变化"
+        },
+        "week": {
+          "targetDate": "2026-08-25",
+          "status": "月频不提供该间隔变化"
+        },
+        "month": {
+          "targetDate": "2026-08-01",
+          "date": "2026-08-01",
+          "value": 7190,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "19": {
+      "current": 195250,
+      "mean": 263586.60130718956,
+      "std": 128758.04390043646,
+      "date": "2026-11-07",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "周频四周均值；受季调、假期与州级申报扰动；本次来源未更新，沿用上一有效值",
+      "source": "DOL/FRED: ICSA",
+      "frequency": "周",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-06",
+          "status": "周频不提供该间隔变化"
+        },
+        "week": {
+          "targetDate": "2026-10-31",
+          "date": "2026-10-31",
+          "value": 195250,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-07",
+          "date": "2026-10-03",
+          "value": 198250,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "22": {
+      "current": 3.189192415311215,
+      "mean": 1.7185801085129542,
+      "std": 3.2170986428491837,
+      "date": "2026-10-01",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "广谱上游价格三个月变化，不等于最终消费价格；本次来源未更新，沿用上一有效值",
+      "source": "BLS/FRED: PPIACO",
+      "frequency": "月",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-09-30",
+          "status": "月频不提供该间隔变化"
+        },
+        "week": {
+          "targetDate": "2026-09-24",
+          "status": "月频不提供该间隔变化"
+        },
+        "month": {
+          "targetDate": "2026-09-01",
+          "date": "2026-09-01",
+          "value": 3.036442205077061,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "23": {
+      "current": 3.630897317298798,
+      "mean": 5.111177191638689,
+      "std": 19.980368893660316,
+      "date": "2026-11-11",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "高频能源价格变化，不能代表核心服务通胀；本次来源未更新，沿用上一有效值",
+      "source": "EIA/FRED: DCOILWTICO",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-10",
+          "date": "2026-11-10",
+          "value": 4.160855416085529,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-04",
+          "date": "2026-11-04",
+          "value": 8.210451810782127,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-11",
+          "date": "2026-10-09",
+          "value": 23.366237660877175,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "definitionId": "valid-observations-v2",
+      "stale": true
+    },
+    "28": {
+      "current": 0.735247579459093,
+      "mean": -0.0372570786954149,
+      "std": 0.550216522280082,
+      "date": "2026-11-16",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "模型估计值；存在模型风险；本次来源未更新，沿用上一有效值",
+      "source": "NY Fed ACMTP10",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-15",
+          "date": "2026-11-13",
+          "value": 0.724600323827187,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-09",
+          "date": "2026-11-09",
+          "value": 0.708562942160947,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-16",
+          "date": "2026-10-16",
+          "value": 0.758552041099539,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "29": {
+      "current": -0.023304461640445973,
+      "mean": 0.020622060659425557,
+      "std": 0.2255050715224968,
+      "date": "2026-11-16",
+      "availability": 5,
+      "accuracy": 3,
+      "note": "判断长端上行是否来自期限溢价边际扩张；本次来源未更新，沿用上一有效值",
+      "source": "NY Fed ACMTP10",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-15",
+          "date": "2026-11-13",
+          "value": -0.02543823250602506,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-09",
+          "date": "2026-11-09",
+          "value": -0.19615841245419907,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-16",
+          "date": "2026-10-16",
+          "value": 0.14870421644750698,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "32": {
+      "current": 0.17999999999999972,
+      "mean": 0.05035422343324244,
+      "std": 0.2336080996937947,
+      "date": "2026-11-16",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "长久期估值的直接折现率通道；本次来源未更新，沿用上一有效值",
+      "source": "FRED: DFII10",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-15",
+          "date": "2026-11-13",
+          "value": 0.13000000000000034,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-09",
+          "date": "2026-11-09",
+          "value": -0.25,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-16",
+          "date": "2026-10-16",
+          "value": 0.13000000000000034,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "definitionId": "valid-observations-v2",
+      "stale": true
+    },
+    "33": {
+      "current": 0.04999999999999982,
+      "mean": -0.012552356020942389,
+      "std": 0.2958727076232774,
+      "date": "2026-11-16",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "信用风险与融资条件核心确认指标；本次来源未更新，沿用上一有效值",
+      "source": "FRED: BAMLH0A0HYM2",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-15",
+          "date": "2026-11-13",
+          "value": -0.08000000000000007,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-09",
+          "date": "2026-11-09",
+          "value": 0.22999999999999998,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-16",
+          "date": "2026-10-16",
+          "value": 0.6299999999999999,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "definitionId": "valid-observations-v2",
+      "stale": true
+    },
+    "34": {
+      "current": 0.030000000000000027,
+      "mean": -0.0055570117955439004,
+      "std": 0.06972234275125108,
+      "date": "2026-11-16",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "投资级信用条件确认指标；本次来源未更新，沿用上一有效值",
+      "source": "FRED: BAMLC0A0CM",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-15",
+          "date": "2026-11-13",
+          "value": 0.040000000000000036,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-09",
+          "date": "2026-11-09",
+          "value": 0.08000000000000007,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-16",
+          "date": "2026-10-16",
+          "value": 0.07999999999999996,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "definitionId": "valid-observations-v2",
+      "stale": true
+    },
+    "35": {
+      "current": 22.91,
+      "mean": 19.150026525198932,
+      "std": 5.0604253881254815,
+      "date": "2026-11-16",
+      "availability": 5,
+      "accuracy": 5,
+      "note": "股票隐含波动；事件冲击快、均值回归也快；本次来源未更新，沿用上一有效值",
+      "source": "CBOE/FRED: VIXCLS",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-15",
+          "date": "2026-11-13",
+          "value": 19.3,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-09",
+          "date": "2026-11-09",
+          "value": 19.92,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-16",
+          "date": "2026-10-16",
+          "value": 19.99,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    },
+    "36": {
+      "current": 0.8892047581091633,
+      "mean": 0.12471011168941322,
+      "std": 1.4165932112028399,
+      "date": "2026-11-13",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "全球美元流动性与风险偏好代理；本次来源未更新，沿用上一有效值",
+      "source": "Fed/FRED: DTWEXBGS",
+      "frequency": "日",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-12",
+          "date": "2026-11-12",
+          "value": 0.4422816685067721,
+          "status": "当前修订版观测序列"
+        },
+        "week": {
+          "targetDate": "2026-11-06",
+          "date": "2026-11-06",
+          "value": 0.35686378161978727,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-13",
+          "date": "2026-10-13",
+          "value": 2.317757765246764,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "definitionId": "valid-observations-v2",
+      "stale": true
+    },
+    "37": {
+      "current": -0.462,
+      "mean": -0.43083986928104573,
+      "std": 0.15288940772791512,
+      "date": "2026-11-06",
+      "availability": 5,
+      "accuracy": 4,
+      "note": "周频综合金融条件；负值代表相对宽松；本次来源未更新，沿用上一有效值",
+      "source": "Chicago Fed/FRED: NFCI",
+      "frequency": "周",
+      "observationComparisons": {
+        "day": {
+          "targetDate": "2026-11-05",
+          "status": "周频不提供该间隔变化"
+        },
+        "week": {
+          "targetDate": "2026-10-30",
+          "date": "2026-10-30",
+          "value": -0.465,
+          "status": "当前修订版观测序列"
+        },
+        "month": {
+          "targetDate": "2026-10-06",
+          "date": "2026-10-02",
+          "value": -0.497,
+          "status": "当前修订版观测序列"
+        }
+      },
+      "stale": true
+    }
+  },
+  "modelVersion": "2026-11-18-source-v2",
+  "changes": {
+    "indicators": {
+      "5": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-21",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-15",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "6": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-21",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-15",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "7": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-21",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-15",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "10": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-17",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-22",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "11": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-17",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-22",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "12": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-17",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-22",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "15": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-10-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-09-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-09-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "16": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-09-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-09-18",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-09-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "17": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-10-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-09-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-09-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "18": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-09-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-08-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-08-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "19": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-07",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-17",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-10",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "22": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-10-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-09-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-09-01",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "23": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-11",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-20",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-14",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "28": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-21",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-15",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "29": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-21",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-15",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "32": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-21",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-15",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "33": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-21",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-15",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "34": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-21",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-15",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "35": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-21",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-15",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "36": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-13",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-09",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      },
+      "37": {
+        "day": {
+          "targetDate": "2026-11-18",
+          "snapshotDate": "2026-11-18",
+          "date": "2026-11-06",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "week": {
+          "targetDate": "2026-11-12",
+          "snapshotDate": "2026-11-12",
+          "date": "2026-10-16",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        },
+        "month": {
+          "targetDate": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "date": "2026-10-09",
+          "value": null,
+          "status": "来源抓取失败，缓存不可作变化依据"
+        }
+      }
+    },
+    "scores": {
+      "day": {
+        "targetDate": "2026-11-18",
+        "snapshotDate": "2026-11-18",
+        "values": null,
+        "status": "同口径评分历史不足或来源未更新"
+      },
+      "week": {
+        "targetDate": "2026-11-12",
+        "snapshotDate": "2026-11-12",
+        "values": null,
+        "status": "同口径评分历史不足或来源未更新"
+      },
+      "month": {
+        "targetDate": "2026-10-19",
+        "snapshotDate": "2026-10-19",
+        "values": null,
+        "status": "同口径评分历史不足或来源未更新"
+      }
+    }
+  },
+  "sourceStatus": {
+    "Atlanta Fed WGT": {
+      "ok": false,
+      "url": "https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/research-and-data/data/wage-growth-tracker/wage-growth-data.xlsx",
+      "elapsedMs": 1039,
+      "error": "/usr/bin/curl exited with code 6: curl: (6) Could not resolve host: www.atlantafed.org\ncurl: (6) Could not resolve host: www.atlantafed.org"
+    },
+    "NY Fed ACM": {
+      "ok": false,
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/data_indicators/ACMTermPremium.xls",
+      "elapsedMs": 1020,
+      "error": "/usr/bin/curl exited with code 6: curl: (6) Could not resolve host: www.newyorkfed.org\ncurl: (6) Could not resolve host: www.newyorkfed.org"
+    }
+  },
+  "reprocessedFrom": null,
+  "scores": {
+    "policy": 60.713775825310385,
+    "inflation": 39.39380483091177,
+    "termPremium": 68.4872664543872,
+    "transmission": 57.87711707441038,
+    "effective": 57.77303497245905
+  },
+  "regime": "政策重定价 + 期限溢价冲击"
+}

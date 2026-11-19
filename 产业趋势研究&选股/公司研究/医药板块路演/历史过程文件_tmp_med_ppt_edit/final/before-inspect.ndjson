@@ -1,0 +1,87 @@
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"医药板块投资机会｜2026年8月","textShapes":20}
+{"kind":"textbox","id":"sh/uxgjq907","slide":1,"name":"kicker-1","text":"医药板块投资机会｜2026年8月","textPreview":"医药板块投资机会｜2026年8月","textChars":16,"textLines":1,"bbox":[48,25,520,22]}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"name":"title-1","text":"医药正在从估值修复走向盈利周期","textPreview":"医药正在从估值修复走向盈利周期","textChars":15,"textLines":1,"bbox":[48,52,1184,58]}
+{"kind":"shape","id":"sh/k3yl0zql","slide":1,"name":"accent-1","bbox":[48,122,92,0]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"name":"subtitle-1","text":"创新资产全球化，正在形成“BD回款—研发投入—CXO订单—利润兑现”的正循环","textPreview":"创新资产全球化，正在形成“BD回款—研发投入—CXO订单—利润兑现”的正循环","textChars":38,"textLines":1,"bbox":[48,137,1184,34]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"name":"arrow-1","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[399,315,50,48]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"name":"arrow-2","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[811,315,50,48]}
+{"kind":"shape","id":"sh/sryl4zqx","slide":1,"name":"stage-panel-1","bbox":[48,188,360,330]}
+{"kind":"shape","id":"sh/fu94fe98","slide":1,"name":"stage-panel-2","bbox":[460,188,360,330]}
+{"kind":"shape","id":"sh/utg3698n","slide":1,"name":"stage-panel-3","bbox":[872,188,360,330]}
+{"kind":"textbox","id":"sh/wn6dc7eh","slide":1,"name":"stage1-head","text":"① 资产重估","textPreview":"① 资产重估","textChars":6,"textLines":1,"bbox":[75,214,300,34]}
+{"kind":"textbox","id":"sh/hofulsf2","slide":1,"name":"stage1-metric-value","text":"997亿美元","textPreview":"997亿美元","textChars":6,"textLines":1,"bbox":[75,267,300,54]}
+{"kind":"textbox","id":"sh/ul4vaxgb","slide":1,"name":"stage1-metric-label","text":"2026H1中国创新药BD\n约为2025全年交易额的73%","textPreview":"2026H1中国创新药BD | 约为2025全年交易额的73%","textChars":29,"textLines":2,"bbox":[75,326,300,48]}
+{"kind":"shape","id":"sh/vmdcj2xw","slide":1,"name":"stage1-rule","bbox":[75,398,300,0]}
+{"kind":"textbox","id":"sh/4r6dg7et","slide":1,"name":"stage1-meaning","text":"中国创新资产\n从“可选”变为“必选”","textPreview":"中国创新资产 | 从“可选”变为“必选”","textChars":18,"textLines":2,"bbox":[75,420,300,64]}
+{"kind":"textbox","id":"sh/5sfepcfe","slide":1,"name":"stage2-head","text":"② 现金回流","textPreview":"② 现金回流","textChars":6,"textLines":1,"bbox":[487,214,300,34]}
+{"kind":"textbox","id":"sh/ipovexwn","slide":1,"name":"stage2-metric-value","text":"≈60亿美元","textPreview":"≈60亿美元","textChars":6,"textLines":1,"bbox":[487,267,300,54]}
+{"kind":"textbox","id":"sh/3qxwn2x8","slide":1,"name":"stage2-metric-label","text":"2026H1 BD首付款\n同比增长超过100%","textPreview":"2026H1 BD首付款 | 同比增长超过100%","textChars":23,"textLines":2,"bbox":[487,326,300,48]}
+{"kind":"shape","id":"sh/sfqdkrep","slide":1,"name":"stage2-rule","bbox":[487,398,300,0]}
+{"kind":"textbox","id":"sh/dgzetcfa","slide":1,"name":"stage2-meaning","text":"授权收入改善现金流\n并反哺下一轮研发","textPreview":"授权收入改善现金流 | 并反哺下一轮研发","textChars":18,"textLines":2,"bbox":[487,420,300,64]}
+{"kind":"textbox","id":"sh/1cvuxc7e","slide":1,"name":"stage3-head","text":"③ 盈利兑现","textPreview":"③ 盈利兑现","textChars":6,"textLines":1,"bbox":[899,214,300,34]}
+{"kind":"textbox","id":"sh/0bmd476t","slide":1,"name":"stage3-metric-value","text":"664亿元","textPreview":"664亿元","textChars":5,"textLines":1,"bbox":[899,267,300,54]}
+{"kind":"textbox","id":"sh/zadcv2p8","slide":1,"name":"stage3-metric-label","text":"药明康德持续经营业务在手订单\n同比增长25.2%","textPreview":"药明康德持续经营业务在手订单 | 同比增长25.2%","textChars":24,"textLines":2,"bbox":[899,326,300,48]}
+{"kind":"shape","id":"sh/e94v2hon","slide":1,"name":"stage3-rule","bbox":[899,398,300,0]}
+{"kind":"textbox","id":"sh/90ve1w7q","slide":1,"name":"stage3-meaning","text":"持续经营收入 +48%\n经营现金流 +41.3%","textPreview":"持续经营收入 +48% | 经营现金流 +41.3%","textChars":24,"textLines":2,"bbox":[899,420,300,64]}
+{"kind":"shape","id":"sh/ozmd8r65","slide":1,"name":"thesis-banner-1","bbox":[48,545,1184,78]}
+{"kind":"textbox","id":"sh/nydczmpk","slide":1,"name":"thesis-1","text":"行业Beta成立：2025交易“想象空间”，2026开始交易“盈利周期”","textPreview":"行业Beta成立：2025交易“想象空间”，2026开始交易“盈利周期”","textChars":36,"textLines":1,"bbox":[77,565,1126,40]}
+{"kind":"shape","id":"sh/mx4v6hoz","slide":1,"name":"footer-rule-1","bbox":[48,651,1184,0]}
+{"kind":"textbox","id":"sh/p4bu5s76","slide":1,"name":"source-1","text":"来源：国家医保局；国金证券（2026/7/5）；药明康德2026H1；浙商证券（2026/7/13）；IMA嘉实郝淼交流（2026/8/21）","textPreview":"来源：国家医保局；国金证券（2026/7/5）；药明康德2026H1；浙商证券（2026/7/13）；IMA嘉实郝淼交流（2026/8/21）","textChars":71,"textLines":1,"bbox":[48,660,1115,28]}
+{"kind":"textbox","id":"sh/432dwn6l","slide":1,"name":"page-1","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1180,660,52,24]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"核心讲法：2025年政策和BD解决的是“有没有全球价值”；2026年订单、利润和现金流开始回答“价值如何进入报表”。\n\n[Sources]\n- https://www.nhsa.gov.cn/art/2025/7/1/art_104_17058.html\n- https://www.nhsa.gov.cn/art/2026/4/14/art_53_20215.html\n- https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202607051826728220\n- https://www.wuxiapptec.cn/news/wuxi-news/wuxi-apptec-crdmo-model-delivers-strong-results\n- https://finance.sina.com.cn/wm/2026-07-13/doc-inihspyt4282488.shtml\n- IMA：嘉实基金郝淼交流，2026-08-21（私域资料）\n[/Sources]"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"历史类比｜产业、市场与机构交易","textShapes":15}
+{"kind":"textbox","id":"sh/76twva5c","slide":2,"name":"kicker-2","text":"历史类比｜产业、市场与机构交易","textPreview":"历史类比｜产业、市场与机构交易","textChars":15,"textLines":1,"bbox":[48,25,520,22]}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"name":"title-2","text":"2026年医药行情大概率强于2025年Q3","textPreview":"2026年医药行情大概率强于2025年Q3","textChars":21,"textLines":1,"bbox":[48,52,1184,58]}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"name":"accent-2","bbox":[48,122,92,0]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"subtitle-2","text":"2025是风险偏好中的板块轮动；2026是在弱指数环境中走出的独立Alpha","textPreview":"2025是风险偏好中的板块轮动；2026是在弱指数环境中走出的独立Alpha","textChars":38,"textLines":1,"bbox":[48,137,1184,32]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"name":"chart-caption-2","text":"区间涨跌幅（%）｜仅作为行情形态旁证","textPreview":"区间涨跌幅（%）｜仅作为行情形态旁证","textChars":18,"textLines":1,"bbox":[52,178,620,26]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"name":"logic-card-1","bbox":[742,184,490,122]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"name":"logic-title-1","text":"① 行情独立性","textPreview":"① 行情独立性","textChars":7,"textLines":1,"bbox":[770,205,210,28]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"name":"logic-main-1","text":"沪深300 -5.6%  vs  CXO +41.9%","textPreview":"沪深300 -5.6%  vs  CXO +41.9%","textChars":27,"textLines":1,"bbox":[770,241,425,32]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"name":"logic-sub-1","text":"本轮首先是产业Alpha，而非牛市轮动","textPreview":"本轮首先是产业Alpha，而非牛市轮动","textChars":19,"textLines":1,"bbox":[770,278,425,20]}
+{"kind":"shape","id":"sh/9wnqhczy","slide":2,"name":"logic-card-2","bbox":[742,323,490,122]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"name":"logic-title-2","text":"② 产业兑现度","textPreview":"② 产业兑现度","textChars":7,"textLines":1,"bbox":[770,344,210,28]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"name":"logic-main-2","text":"997亿美元BD  +  664亿元订单","textPreview":"997亿美元BD  +  664亿元订单","textChars":20,"textLines":1,"bbox":[770,380,425,32]}
+{"kind":"textbox","id":"sh/wjy9sry9","slide":2,"name":"logic-sub-2","text":"预期开始向收入、利润和现金流传导","textPreview":"预期开始向收入、利润和现金流传导","textChars":16,"textLines":1,"bbox":[770,417,425,20]}
+{"kind":"shape","id":"sh/xk7qlczu","slide":2,"name":"logic-card-3","bbox":[742,462,490,149]}
+{"kind":"textbox","id":"sh/ahwrqhgj","slide":2,"name":"logic-title-3","text":"③ 机构结构","textPreview":"③ 机构结构","textChars":6,"textLines":1,"bbox":[770,483,210,28]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"name":"logic-main-3","text":"医药仓位6.54%｜内部CXO占28.2%","textPreview":"医药仓位6.54%｜内部CXO占28.2%","textChars":21,"textLines":1,"bbox":[770,519,425,32]}
+{"kind":"textbox","id":"sh/cnupgny5","slide":2,"name":"logic-sub-3","text":"板块仍有增配空间，但CXO已局部拥挤\n→ 超越2025需要创新药接力","textPreview":"板块仍有增配空间，但CXO已局部拥挤 | → 超越2025需要创新药接力","textChars":34,"textLines":2,"bbox":[770,556,425,44]}
+{"kind":"shape","id":"sh/do3q9szq","slide":2,"name":"footer-rule-2","bbox":[48,651,1184,0]}
+{"kind":"textbox","id":"sh/t8byxkn2","slide":2,"name":"source-2","text":"来源：同花顺iFinD（2025/6/1–9/30；2026/6/1–8/21）；国信证券26Q2基金持仓；华源证券25Q3基金持仓","textPreview":"来源：同花顺iFinD（2025/6/1–9/30；2026/6/1–8/21）；国信证券26Q2基金持仓；华源证券25Q3基金持仓","textChars":66,"textLines":1,"bbox":[48,660,1115,28]}
+{"kind":"textbox","id":"sh/s72xofmh","slide":2,"name":"page-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1180,660,52,24]}
+{"kind":"chart","id":"ch/etgn2xwz","slide":2,"name":"Chart","chartType":"bar","bbox":[42,206,660,405]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"结论不是“2026涨得更多”，而是本轮行情的驱动力更独立、兑现度更高。2025年医药整体跑输大盘，CXO在7月完成快速补涨；2026年大盘走弱时医药仍产生超额收益。\n\n注：2025与2026基金持仓报告样本口径不同，PPT不将绝对仓位直接横比，只使用各自报告中的方向与结构。\n\n[Sources]\n- 同花顺iFinD：000300.SH、000808.CSI、931152.CSI、884244.TI；区间为2025-06-01至2025-09-30、2026-06-01至2026-08-21\n- https://data.eastmoney.com/report/info/AP202607301827476211.html\n- https://field.10jqka.com.cn/20251104/c672228873.shtml\n[/Sources]"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"配置结论｜胜率与赔率分工","textShapes":21}
+{"kind":"textbox","id":"sh/l4fi9cza","slide":3,"name":"kicker-3","text":"配置结论｜胜率与赔率分工","textPreview":"配置结论｜胜率与赔率分工","textChars":12,"textLines":1,"bbox":[48,25,520,22]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"name":"title-3","text":"CXO定胜率，创新药决定行情上限","textPreview":"CXO定胜率，创新药决定行情上限","textChars":16,"textLines":1,"bbox":[48,52,1184,58]}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"name":"accent-3","bbox":[48,122,92,0]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"subtitle-3","text":"当前更适合“CXO做底仓、创新药做增量”，而不是继续追逐单一赛道斜率","textPreview":"当前更适合“CXO做底仓、创新药做增量”，而不是继续追逐单一赛道斜率","textChars":34,"textLines":1,"bbox":[48,137,1184,32]}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"name":"cxo-panel","bbox":[48,184,565,250]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"name":"cxo-head","text":"CXO｜更高胜率","textPreview":"CXO｜更高胜率","textChars":8,"textLines":1,"bbox":[76,206,300,34]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"cxo-value1","text":"664亿元","textPreview":"664亿元","textChars":5,"textLines":1,"bbox":[76,256,210,54]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"name":"cxo-label1","text":"在手订单｜同比 +25.2%","textPreview":"在手订单｜同比 +25.2%","textChars":14,"textLines":1,"bbox":[76,310,250,26]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"name":"cxo-value2","text":"35.4×","textPreview":"35.4×","textChars":5,"textLines":1,"bbox":[342,256,210,54]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"cxo-label2","text":"PE｜2025/9约36.8×","textPreview":"PE｜2025/9约36.8×","textChars":15,"textLines":1,"bbox":[342,310,225,26]}
+{"kind":"shape","id":"sh/m1c3mlsn","slide":3,"name":"cxo-rule","bbox":[76,354,509,0]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"name":"cxo-bottom","text":"收入、订单、现金流均已验证\n但PE处于近一年约82%分位","textPreview":"收入、订单、现金流均已验证 | 但PE处于近一年约82%分位","textChars":28,"textLines":2,"bbox":[76,373,480,48]}
+{"kind":"shape","id":"sh/83ulovat","slide":3,"name":"drug-panel","bbox":[667,184,565,250]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"name":"drug-head","text":"创新药｜更高赔率","textPreview":"创新药｜更高赔率","textChars":8,"textLines":1,"bbox":[695,206,300,34]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"name":"drug-value1","text":"997亿美元","textPreview":"997亿美元","textChars":6,"textLines":1,"bbox":[695,256,235,54]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"name":"drug-label1","text":"2026H1 BD｜2025全年73%","textPreview":"2026H1 BD｜2025全年73%","textChars":19,"textLines":1,"bbox":[695,310,265,26]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"name":"drug-value2","text":"50.4×","textPreview":"50.4×","textChars":5,"textLines":1,"bbox":[978,256,210,54]}
+{"kind":"textbox","id":"sh/ja54na9g","slide":3,"name":"drug-label2","text":"PE｜2025/9约58×","textPreview":"PE｜2025/9约58×","textChars":13,"textLines":1,"bbox":[978,310,220,26]}
+{"kind":"shape","id":"sh/i9w3u58v","slide":3,"name":"drug-rule","bbox":[695,354,509,0]}
+{"kind":"textbox","id":"sh/e10f2twf","slide":3,"name":"drug-bottom","text":"估值尚未回到2025高点\n盈利型资产有望承接下一棒","textPreview":"估值尚未回到2025高点 | 盈利型资产有望承接下一棒","textChars":25,"textLines":2,"bbox":[695,373,480,48]}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"name":"score-caption","text":"研究框架评分（5分制）","textPreview":"研究框架评分（5分制）","textChars":11,"textLines":1,"bbox":[55,455,300,26]}
+{"kind":"shape","id":"sh/14ryd8fq","slide":3,"name":"final-banner","bbox":[842,478,390,157]}
+{"kind":"textbox","id":"sh/6d0fytg3","slide":3,"name":"final-banner-kicker","text":"本轮能否超过2025","textPreview":"本轮能否超过2025","textChars":10,"textLines":1,"bbox":[870,501,335,27]}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"name":"final-banner-main","text":"取决于创新药\n能否接力CXO","textPreview":"取决于创新药 | 能否接力CXO","textChars":14,"textLines":2,"bbox":[870,535,335,62]}
+{"kind":"textbox","id":"sh/sfix03y9","slide":3,"name":"final-banner-sub","text":"CXO持有、不追斜率；增量关注盈利与数据催化","textPreview":"CXO持有、不追斜率；增量关注盈利与数据催化","textChars":22,"textLines":1,"bbox":[870,605,335,20]}
+{"kind":"shape","id":"sh/tgry9ofu","slide":3,"name":"footer-rule-3","bbox":[48,651,1184,0]}
+{"kind":"textbox","id":"sh/a9kfadwn","slide":3,"name":"source-3","text":"来源：同花顺iFinD（估值截至2026/8/21）；药明康德2026H1；国金证券（2026/7/5）；浙商证券（2026/7/13）。评分为研究判断","textPreview":"来源：同花顺iFinD（估值截至2026/8/21）；药明康德2026H1；国金证券（2026/7/5）；浙商证券（2026/7/13）。评分为研究判断","textChars":76,"textLines":1,"bbox":[48,660,1115,28]}
+{"kind":"textbox","id":"sh/batgjixs","slide":3,"name":"page-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1180,660,52,24]}
+{"kind":"chart","id":"ch/k3ehszyd","slide":3,"name":"Chart","chartType":"bar","bbox":[48,480,760,155]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"配置判断：未来6—12个月，CXO仍具备更高的盈利确定性，但估值和交易拥挤度已经明显修复；创新药的胜率低于CXO，但相对估值位置和事件弹性更好。\n\n“研究框架评分”为基于产业兑现、估值位置和交易拥挤度的定性判断，仅用于比较，不是收益预测。\n\n[Sources]\n- 同花顺iFinD：931152.CSI、884244.TI，估值截至2026-08-21\n- https://www.wuxiapptec.cn/news/wuxi-news/wuxi-apptec-crdmo-model-delivers-strong-results\n- https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202607051826728220\n- https://finance.sina.com.cn/wm/2026-07-13/doc-inihspyt4282488.shtml\n[/Sources]"}

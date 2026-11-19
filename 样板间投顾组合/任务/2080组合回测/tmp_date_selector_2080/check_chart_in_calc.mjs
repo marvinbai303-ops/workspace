@@ -1,0 +1,10 @@
+import fs from "node:fs/promises";
+import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
+const book = await SpreadsheetFile.importXlsx(await FileBlob.load("../outputs/2080_date_selector_20261029/2080样板间回测模型_可选截止日.xlsx"));
+book.worksheets.getItem("2080回测").getRange("I3").values = [[45458]];
+book.recalculate();
+const preview = await book.render({ sheetName: "2080回测", range: "A1:U40", scale: 1.1, format: "png" });
+await fs.writeFile("selected_full_preview.png", new Uint8Array(await preview.arrayBuffer()));
+const out = await SpreadsheetFile.exportXlsx(book);
+await out.save("selected_date_test.xlsx");
+console.log("saved");

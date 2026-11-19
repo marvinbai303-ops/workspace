@@ -1,0 +1,1 @@
+../../科技新闻海报/代码/generate_poster_png.py

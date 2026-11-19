@@ -1,0 +1,78 @@
+{
+  "runDate": "2026-11-18",
+  "origin": "successful official-source verification run",
+  "files": {
+    "ACMTermPremium.xls": {
+      "bytes": 10173440,
+      "sha256": "6038ac66d99e9a2dc0f82e73250340d728e729b393c8e7adaa3fbdcfb3fef123"
+    },
+    "atlanta_fed_wage_growth_data.xlsx": {
+      "bytes": 339572,
+      "sha256": "6e1201f3ab2bfe026a4013995314e96a733f64919b1165c90d1a980d6823c2a5"
+    },
+    "fred_BAMLC0A0CM.csv": {
+      "bytes": 12664,
+      "sha256": "34e542744e406a2b5a143b21d9baf66f3d835151e36d3934f312953a8b28c18e"
+    },
+    "fred_BAMLH0A0HYM2.csv": {
+      "bytes": 12670,
+      "sha256": "3626f2ef6c0e036bc716cc2dfeb963f9d69b0ab613ff20e8fc4b58377296aef4"
+    },
+    "fred_CES0500000003.csv": {
+      "bytes": 1425,
+      "sha256": "0e292e9971de83e40825663f4182e9c6fad7abcad1a64f506dabf968f959e1af"
+    },
+    "fred_DCOILWTICO.csv": {
+      "bytes": 30224,
+      "sha256": "488bfe3ef8e42df5c633bbaaa9cf1d9213c3a01073fe1a4faffdea4a40932307"
+    },
+    "fred_DFF.csv": {
+      "bytes": 40213,
+      "sha256": "25da85ec0ffbeef72bb4e4428a657ca66c33092ac8836b0ca1daaaa567486940"
+    },
+    "fred_DFII10.csv": {
+      "bytes": 28974,
+      "sha256": "671c79fc11fc1bfcaad333d9c61123437fb32a4b733344c35325c21f32d57821"
+    },
+    "fred_DGS2.csv": {
+      "bytes": 28414,
+      "sha256": "006da4fb4fb9988bcc37b9eddeee1cf2917f0f84ffaef1cb4af2eccc661eaa1c"
+    },
+    "fred_DTWEXBGS.csv": {
+      "bytes": 35266,
+      "sha256": "4e734c9492b8501e88fdea322d8e3a4438f856e867463ff011c5f6623482edba"
+    },
+    "fred_ICSA.csv": {
+      "bytes": 6486,
+      "sha256": "ba13de951b2413062e0bf52c2f88e6f80b4d18dc16cb5a80a3303def4c7bfe25"
+    },
+    "fred_JTSJOL.csv": {
+      "bytes": 1340,
+      "sha256": "04484496f53fc4dccefea1253ee446a08ecb09b7589f6df53b0ce88d537deeeb"
+    },
+    "fred_NFCI.csv": {
+      "bytes": 6458,
+      "sha256": "abefcef42943caa69094d9e62903951c84693b789a226452a97eeda470e94aa0"
+    },
+    "fred_PPIACO.csv": {
+      "bytes": 1582,
+      "sha256": "a188d5105d53c9a9aa635d921fc3710bc66f09d4aafd148f5f108b39101ae2d7"
+    },
+    "fred_T5YIE.csv": {
+      "bytes": 28431,
+      "sha256": "3725d6226f4577c0f9cb1075f70377445f940fde4bbc66355c2f0ac0d49e707c"
+    },
+    "fred_T5YIFR.csv": {
+      "bytes": 28432,
+      "sha256": "fdb8884288fb4a0c53189946764c7e02df2be7c62b4984ae4b7957ef8fe3e7b8"
+    },
+    "fred_UNRATE.csv": {
+      "bytes": 1255,
+      "sha256": "c73bf531acc5efa6e2b64d8a4d53b0490bcab5d3a8c4391e84efe3d0050f5229"
+    },
+    "fred_VIXCLS.csv": {
+      "bytes": 30345,
+      "sha256": "9e12c9357267178ba5dfdb7bcd30f6a2e013afa227bd56efe66669a3526b3d8f"
+    }
+  }
+}

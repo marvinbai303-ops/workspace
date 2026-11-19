@@ -1,0 +1,79 @@
+{
+  "status": "SUCCESS",
+  "target_date": "20260715",
+  "started_at": "2026-07-16T18:07:36.785041+08:00",
+  "finished_at": "2026-07-16T18:07:46.122128+08:00",
+  "skipped": false,
+  "reason": null,
+  "attempt_count": 1,
+  "attempts": [
+    {
+      "checked_at": "2026-07-16T18:07:36.787898+08:00",
+      "ready": true,
+      "fund_latest_date": "20260715",
+      "portfolio_asof": "20260715",
+      "blocking": [],
+      "warnings": []
+    }
+  ],
+  "final_check": {
+    "target_date": "20260715",
+    "fund_latest_date": "20260715",
+    "fund_previous_date": "20260714",
+    "fund_count": 24,
+    "stale_equal_codes": [],
+    "fund_return_warnings": [],
+    "fund_return_failures": [],
+    "portfolio_return_warnings": [],
+    "portfolio_return_failures": [],
+    "portfolio_asof": "20260715",
+    "portfolios": {
+      "产业趋势": {
+        "nav": 0.916996535448017,
+        "day_ret": -0.0310386728753471,
+        "cum": -0.08300346455198304
+      },
+      "产业趋势基石": {
+        "nav": 0.938228287536828,
+        "day_ret": -0.0310562930940779,
+        "cum": -0.061771712463172035
+      },
+      "产业趋势2号": {
+        "nav": 0.945480521350675,
+        "day_ret": -0.0364241963360337,
+        "cum": -0.05451947864932505
+      },
+      "10-90": {
+        "nav": 0.990716882523793,
+        "day_ret": -0.00264826586561273,
+        "cum": -0.009283117476207026
+      },
+      "10-90基石": {
+        "nav": 0.990200599792385,
+        "day_ret": -0.00241299204264789,
+        "cum": -0.00979940020761505
+      },
+      "30-70": {
+        "nav": 0.971940971497666,
+        "day_ret": -0.00744963571104718,
+        "cum": -0.028059028502333994
+      }
+    },
+    "blocking": [],
+    "warnings": [],
+    "ready": true
+  },
+  "report_run": {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "excel_daily_report.py",
+      "--excel",
+      "样板间投顾组合监控模板-202600710调仓.xlsx",
+      "--outdir",
+      "reports"
+    ],
+    "returncode": 0,
+    "stdout": "=== Excel 数据日期 20260715 ===\n组合                模拟净值      今日涨跌      累计涨幅\n产业趋势            0.9170     -3.10%     -8.30%\n产业趋势基石          0.9382     -3.11%     -6.18%\n产业趋势2号          0.9455     -3.64%     -5.45%\n10-90           0.9907     -0.26%     -0.93%\n10-90基石         0.9902     -0.24%     -0.98%\n30-70           0.9719     -0.74%     -2.81%\nPNG -> reports/portfolio_overview.png\nPNG -> reports/strategy_10_90.png\nPNG -> reports/strategy_30_70.png\nPNG -> reports/strategy_industry_trend.png\nJSON -> reports/daily_report_from_excel.json\n",
+    "stderr": ""
+  }
+}

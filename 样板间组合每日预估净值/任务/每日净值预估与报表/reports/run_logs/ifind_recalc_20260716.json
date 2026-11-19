@@ -1,0 +1,181 @@
+{
+  "status": "SUCCESS",
+  "target_date": "20260716",
+  "fund_row": 24,
+  "combo_row": 24,
+  "fund_count": 24,
+  "stale_equal_codes": [],
+  "fund_navs": {
+    "000216.OF": {
+      "name": "华安黄金ETF联接A",
+      "nav": 3.0391,
+      "parsed_date": null
+    },
+    "000917.OF": {
+      "name": "嘉实快线货币A",
+      "nav": 1.3186,
+      "parsed_date": null
+    },
+    "001170.OF": {
+      "name": "宏利复兴混合A",
+      "nav": 5.034,
+      "parsed_date": null
+    },
+    "007044.OF": {
+      "name": "博道沪深300增强A",
+      "nav": 1.8634,
+      "parsed_date": null
+    },
+    "007045.OF": {
+      "name": "博道沪深300指增C",
+      "nav": 1.8105,
+      "parsed_date": null
+    },
+    "007817.OF": {
+      "name": "国泰通信设备ETF联接A",
+      "nav": 4.1053,
+      "parsed_date": null
+    },
+    "007818.OF": {
+      "name": "国泰通信设备C",
+      "nav": 4.0179,
+      "parsed_date": null
+    },
+    "009993.OF": {
+      "name": "嘉实前沿科技创新",
+      "nav": 2.5938,
+      "parsed_date": null
+    },
+    "013840.OF": {
+      "name": "银华集成电路混合A",
+      "nav": 3.3101,
+      "parsed_date": null
+    },
+    "013841.OF": {
+      "name": "银华集成电路混合C",
+      "nav": 3.2797,
+      "parsed_date": null
+    },
+    "014201.OF": {
+      "name": "天弘中证1000指增A",
+      "nav": 1.5209,
+      "parsed_date": null
+    },
+    "014202.OF": {
+      "name": "天弘中证1000指增C",
+      "nav": 1.5005,
+      "parsed_date": null
+    },
+    "015453.OF": {
+      "name": "中欧中证500指增A",
+      "nav": 1.5054,
+      "parsed_date": null
+    },
+    "015454.OF": {
+      "name": "中欧中证500指增C",
+      "nav": 1.4681,
+      "parsed_date": null
+    },
+    "016370.OF": {
+      "name": "信澳业绩驱动A",
+      "nav": 2.9675,
+      "parsed_date": null
+    },
+    "017488.OF": {
+      "name": "嘉实信息产业A",
+      "nav": 3.7713,
+      "parsed_date": null
+    },
+    "017489.OF": {
+      "name": "嘉实信息产业C",
+      "nav": 3.6921,
+      "parsed_date": null
+    },
+    "017612.OF": {
+      "name": "宏利复兴伟业C",
+      "nav": 4.982,
+      "parsed_date": null
+    },
+    "019632.OF": {
+      "name": "国泰半导体材料设备ETF联接A",
+      "nav": 2.9534,
+      "parsed_date": null
+    },
+    "019633.OF": {
+      "name": "国泰半导体材料设备C",
+      "nav": 2.9378,
+      "parsed_date": null
+    },
+    "019923.OF": {
+      "name": "华泰柏瑞中证2000指增A",
+      "nav": 1.8717,
+      "parsed_date": null
+    },
+    "019924.OF": {
+      "name": "华泰柏瑞中证2000指增C",
+      "nav": 1.8532,
+      "parsed_date": null
+    },
+    "161119.OF": {
+      "name": "易方达中债新综指LOFA",
+      "nav": 1.789,
+      "parsed_date": null
+    },
+    "162214.OF": {
+      "name": "宏利领先中小盘混合",
+      "nav": 2.535,
+      "parsed_date": null
+    }
+  },
+  "portfolios": {
+    "产业趋势": {
+      "nav": 0.8755971634280778,
+      "day_ret": -0.04514670494334272,
+      "drawdown": -0.18537575978410226,
+      "effective_date": "20260710",
+      "weight_row": 17,
+      "factor": 0.9525038423090397
+    },
+    "产业趋势基石": {
+      "nav": 0.8958761764190978,
+      "day_ret": -0.045140518230290194,
+      "drawdown": -0.1853722469417366,
+      "effective_date": "20260710",
+      "weight_row": 18,
+      "factor": 0.974451095753936
+    },
+    "产业趋势2号": {
+      "nav": 0.9036076841556057,
+      "day_ret": -0.044287361029132,
+      "drawdown": -0.18718877230398145,
+      "effective_date": "20260710",
+      "weight_row": 19,
+      "factor": 0.9941398138128975
+    },
+    "10-90": {
+      "nav": 0.9867635928626962,
+      "day_ret": -0.0039903323853995865,
+      "drawdown": -0.016454561548500557,
+      "effective_date": "20260707",
+      "weight_row": 14,
+      "factor": 0.9951805943592094
+    },
+    "10-90基石": {
+      "nav": 0.9861193390759537,
+      "day_ret": -0.0041216504183969604,
+      "drawdown": -0.01654595821751914,
+      "effective_date": "20260707",
+      "weight_row": 15,
+      "factor": 0.9937673124749831
+    },
+    "30-70": {
+      "nav": 0.9615297235412055,
+      "day_ret": -0.010711810965657542,
+      "drawdown": -0.04682190014345833,
+      "effective_date": "20260707",
+      "weight_row": 16,
+      "factor": 0.9844764004850477
+    }
+  },
+  "raw_source": "reports/run_logs/ifind_nav_manual_20260716.json"
+}

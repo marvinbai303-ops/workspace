@@ -1,0 +1,12 @@
+{
+  "channel_id": "C0BHVGDAHN0",
+  "message": "*样板间组合日报 20260715 [SUCCESS]*\n\n| 组合 | 模拟净值 | 今日涨跌 | 累计涨跌 |\n|---|---:|---:|---:|\n| 产业趋势 | 0.9170 | -3.10% | -8.30% |\n| 产业趋势基石 | 0.9382 | -3.11% | -6.18% |\n| 产业趋势2号 | 0.9455 | -3.64% | -5.45% |\n| 10-90 | 0.9907 | -0.26% | -0.93% |\n| 10-90基石 | 0.9902 | -0.24% | -0.98% |\n| 30-70 | 0.9719 | -0.74% | -2.81% |\n",
+  "attachment_files": [
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/portfolio_overview.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_10_90.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_30_70.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_industry_trend.png"
+  ],
+  "status": "SUCCESS",
+  "target_date": "20260715"
+}

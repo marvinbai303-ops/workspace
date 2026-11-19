@@ -1,0 +1,67 @@
+{
+  "status": "FAILED",
+  "target_date": "20260728",
+  "started_at": "2026-07-28T22:18:18.930272+08:00",
+  "finished_at": "2026-07-29T00:10:23.261509+08:00",
+  "skipped": false,
+  "reason": null,
+  "attempt_count": 2,
+  "attempts": [
+    {
+      "checked_at": "2026-07-28T22:18:18.942394+08:00",
+      "ready": false,
+      "fund_latest_date": null,
+      "portfolio_asof": null,
+      "blocking": [
+        "iFinD 底层净值重算未完成：Traceback (most recent call last):\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 688, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 613, in main\n    navs, parsed_dates, raw_result = fetch_ifind_navs(codes, target_date, outdir, args.batch_size, args.delay_ms)\n                                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 225, in fetch_ifind_navs\n    raise RuntimeError(f'iFinD 查询失败：{proc.stderr.strip() or proc.stdout.strip()}')\nRuntimeError: iFinD 查询失败：Error: getaddrinfo ENOTFOUND api-mcp.51ifind.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)"
+      ],
+      "warnings": [],
+      "ifind_recalc": {
+        "returncode": 1,
+        "log_path": "reports/run_logs/ifind_recalc_20260728.json"
+      }
+    },
+    {
+      "checked_at": "2026-07-29T00:10:05.340089+08:00",
+      "ready": false,
+      "fund_latest_date": null,
+      "portfolio_asof": null,
+      "blocking": [
+        "iFinD 底层净值重算未完成：Traceback (most recent call last):\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 688, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 613, in main\n    navs, parsed_dates, raw_result = fetch_ifind_navs(codes, target_date, outdir, args.batch_size, args.delay_ms)\n                                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 225, in fetch_ifind_navs\n    raise RuntimeError(f'iFinD 查询失败：{proc.stderr.strip() or proc.stdout.strip()}')\nRuntimeError: iFinD 查询失败：Error: getaddrinfo ENOTFOUND api-mcp.51ifind.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)"
+      ],
+      "warnings": [],
+      "ifind_recalc": {
+        "returncode": 1,
+        "log_path": "reports/run_logs/ifind_recalc_20260728.json"
+      }
+    }
+  ],
+  "final_check": {
+    "target_date": "20260728",
+    "ready": false,
+    "blocking": [
+      "iFinD 底层净值重算未完成：Traceback (most recent call last):\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 688, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 613, in main\n    navs, parsed_dates, raw_result = fetch_ifind_navs(codes, target_date, outdir, args.batch_size, args.delay_ms)\n                                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 225, in fetch_ifind_navs\n    raise RuntimeError(f'iFinD 查询失败：{proc.stderr.strip() or proc.stdout.strip()}')\nRuntimeError: iFinD 查询失败：Error: getaddrinfo ENOTFOUND api-mcp.51ifind.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)"
+    ],
+    "warnings": [],
+    "ifind_recalc": {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "ifind_recalc_excel.py",
+        "--excel",
+        "样板间投顾组合监控模板-20260716调仓.xlsx",
+        "--target-date",
+        "20260728",
+        "--outdir",
+        "reports/run_logs",
+        "--stale-equal-limit",
+        "3"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 688, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 613, in main\n    navs, parsed_dates, raw_result = fetch_ifind_navs(codes, target_date, outdir, args.batch_size, args.delay_ms)\n                                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 225, in fetch_ifind_navs\n    raise RuntimeError(f'iFinD 查询失败：{proc.stderr.strip() or proc.stdout.strip()}')\nRuntimeError: iFinD 查询失败：Error: getaddrinfo ENOTFOUND api-mcp.51ifind.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)\n",
+      "log_path": "reports/run_logs/ifind_recalc_20260728.json",
+      "detail": null
+    }
+  },
+  "report_run": null
+}

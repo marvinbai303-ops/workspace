@@ -1,0 +1,1861 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/hwbqtkby",
+    "id": "hwbqtkby",
+    "slide": 2,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "STHeiti"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/76twva5c",
+      "id": "22",
+      "name": "kicker-2",
+      "bbox": [
+        48,
+        25,
+        520,
+        22
+      ],
+      "geometry": "rect",
+      "text": "历史类比｜产业、市场与机构交易",
+      "textPreview": "历史类比｜产业、市场与机构交易",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "历史类比｜产业、市场与机构交易"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "历史类比｜产业、市场与机构交易",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "STHeiti",
+            "color": "#2F6BFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "历史类比｜产业、市场与机构交易",
+              "fontSize": 15,
+              "typeface": "STHeiti",
+              "color": "#2F6BFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9072xkry",
+      "id": "2",
+      "name": "title-2",
+      "bbox": [
+        48,
+        52,
+        1184,
+        58
+      ],
+      "geometry": "rect",
+      "text": "2026年医药行情大概率强于2025年Q3",
+      "textPreview": "2026年医药行情大概率强于2025年Q3",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2026年医药行情大概率强于2025年Q3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2026年医药行情大概率强于2025年Q3",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2026年医药行情大概率强于2025年Q3",
+              "fontSize": 48,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozy1ofad",
+      "id": "3",
+      "name": "accent-2",
+      "bbox": [
+        48,
+        122,
+        92,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#2F6BFF",
+      "lineWidth": 5
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b29kza94",
+      "id": "4",
+      "name": "subtitle-2",
+      "bbox": [
+        48,
+        137,
+        1184,
+        32
+      ],
+      "geometry": "rect",
+      "text": "持续Alpha不是“涨得多”，而是同时满足：独立于大盘、盈利持续上修、机构资金扩散",
+      "textPreview": "持续Alpha不是“涨得多”，而是同时满足：独立于大盘、盈利持续上修、机构资金扩散",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "持续Alpha不是“涨得多”，而是同时满足：独立于大盘、盈利持续上修、机构资金扩散"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "持续Alpha不是“涨得多”，而是同时满足：独立于大盘、盈利持续上修、机构资金扩散",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "持续Alpha不是“涨得多”，而是同时满足：独立于大盘、盈利持续上修、机构资金扩散",
+              "fontSize": 23,
+              "typeface": "STHeiti",
+              "color": "#667085"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a10jqpsj",
+      "id": "5",
+      "name": "chart-caption-2",
+      "bbox": [
+        52,
+        178,
+        620,
+        26
+      ],
+      "geometry": "rect",
+      "text": "四维证据｜为什么2025更像轮动，2026更可能形成持续Alpha",
+      "textPreview": "四维证据｜为什么2025更像轮动，2026更可能形成持续Alpha",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "四维证据｜为什么2025更像轮动，2026更可能形成持续Alpha"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "四维证据｜为什么2025更像轮动，2026更可能形成持续Alpha",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "四维证据｜为什么2025更像轮动，2026更可能形成持续Alpha",
+              "fontSize": 17,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3i1sfa9",
+      "id": "7",
+      "name": "logic-card-1",
+      "bbox": [
+        742,
+        184,
+        490,
+        122
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F2F4F7",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65knqtk",
+      "id": "8",
+      "name": "logic-title-1",
+      "bbox": [
+        770,
+        205,
+        210,
+        28
+      ],
+      "geometry": "rect",
+      "text": "① 独立于大盘",
+      "textPreview": "① 独立于大盘",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "① 独立于大盘"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "① 独立于大盘",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "STHeiti",
+            "color": "#2F6BFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "① 独立于大盘",
+              "fontSize": 21,
+              "typeface": "STHeiti",
+              "color": "#2F6BFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5wjelsz",
+      "id": "9",
+      "name": "logic-main-1",
+      "bbox": [
+        770,
+        241,
+        425,
+        32
+      ],
+      "geometry": "rect",
+      "text": "已满足  ✓",
+      "textPreview": "已满足  ✓",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "已满足  ✓"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "已满足  ✓",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "已满足  ✓",
+              "fontSize": 25,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ove9o7yd",
+      "id": "10",
+      "name": "logic-sub-1",
+      "bbox": [
+        770,
+        278,
+        425,
+        20
+      ],
+      "geometry": "rect",
+      "text": "大盘-5.6%，医药+9.9%；超额+15.5pp",
+      "textPreview": "大盘-5.6%，医药+9.9%；超额+15.5pp",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "大盘-5.6%，医药+9.9%；超额+15.5pp"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "大盘-5.6%，医药+9.9%；超额+15.5pp",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "大盘-5.6%，医药+9.9%；超额+15.5pp",
+              "fontSize": 16,
+              "typeface": "STHeiti",
+              "color": "#667085"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9wnqhczy",
+      "id": "11",
+      "name": "logic-card-2",
+      "bbox": [
+        742,
+        323,
+        490,
+        122
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EAF0FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwrmxg7",
+      "id": "12",
+      "name": "logic-title-2",
+      "bbox": [
+        770,
+        344,
+        210,
+        28
+      ],
+      "geometry": "rect",
+      "text": "② 盈利持续上修",
+      "textPreview": "② 盈利持续上修",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "② 盈利持续上修"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "② 盈利持续上修",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "STHeiti",
+            "color": "#2F6BFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "② 盈利持续上修",
+              "fontSize": 21,
+              "typeface": "STHeiti",
+              "color": "#2F6BFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nu58f2hs",
+      "id": "13",
+      "name": "logic-main-2",
+      "bbox": [
+        770,
+        380,
+        425,
+        32
+      ],
+      "geometry": "rect",
+      "text": "已满足  ✓",
+      "textPreview": "已满足  ✓",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "已满足  ✓"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "已满足  ✓",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "已满足  ✓",
+              "fontSize": 25,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjy9sry9",
+      "id": "14",
+      "name": "logic-sub-2",
+      "bbox": [
+        770,
+        417,
+        425,
+        20
+      ],
+      "geometry": "rect",
+      "text": "BD翻倍，收入与现金流进入报表",
+      "textPreview": "BD翻倍，收入与现金流进入报表",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BD翻倍，收入与现金流进入报表"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BD翻倍，收入与现金流进入报表",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BD翻倍，收入与现金流进入报表",
+              "fontSize": 16,
+              "typeface": "STHeiti",
+              "color": "#667085"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xk7qlczu",
+      "id": "15",
+      "name": "logic-card-3",
+      "bbox": [
+        742,
+        462,
+        490,
+        149
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#101828",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahwrqhgj",
+      "id": "16",
+      "name": "logic-title-3",
+      "bbox": [
+        770,
+        483,
+        210,
+        28
+      ],
+      "geometry": "rect",
+      "text": "③ 机构资金扩散",
+      "textPreview": "③ 机构资金扩散",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "③ 机构资金扩散"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "③ 机构资金扩散",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "STHeiti",
+            "color": "#6DCBF4",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "③ 机构资金扩散",
+              "fontSize": 21,
+              "typeface": "STHeiti",
+              "color": "#6DCBF4",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bip8jmho",
+      "id": "17",
+      "name": "logic-main-3",
+      "bbox": [
+        770,
+        519,
+        425,
+        32
+      ],
+      "geometry": "rect",
+      "text": "尚待验证  △",
+      "textPreview": "尚待验证  △",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "尚待验证  △"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "尚待验证  △",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "STHeiti",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "尚待验证  △",
+              "fontSize": 24,
+              "typeface": "STHeiti",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cnupgny5",
+      "id": "18",
+      "name": "logic-sub-3",
+      "bbox": [
+        770,
+        556,
+        425,
+        44
+      ],
+      "geometry": "rect",
+      "text": "总仓位低，但CXO已局部拥挤\n持续性取决于创新药接力",
+      "textPreview": "总仓位低，但CXO已局部拥挤 | 持续性取决于创新药接力",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "总仓位低，但CXO已局部拥挤"
+          },
+          {
+            "index": 2,
+            "text": "持续性取决于创新药接力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "总仓位低，但CXO已局部拥挤",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "STHeiti",
+            "color": "#E4E7EC",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "总仓位低，但CXO已局部拥挤",
+              "fontSize": 17,
+              "typeface": "STHeiti",
+              "color": "#E4E7EC",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "持续性取决于创新药接力",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "STHeiti",
+            "color": "#E4E7EC",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "持续性取决于创新药接力",
+              "fontSize": 17,
+              "typeface": "STHeiti",
+              "color": "#E4E7EC",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/do3q9szq",
+      "id": "19",
+      "name": "footer-rule-2",
+      "bbox": [
+        48,
+        651,
+        1184,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#D0D5DD",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t8byxkn2",
+      "id": "20",
+      "name": "source-2",
+      "bbox": [
+        48,
+        660,
+        1115,
+        28
+      ],
+      "geometry": "rect",
+      "text": "来源：同花顺iFinD；国金证券（2026/7/5）；药明康德2026H1；国信证券26Q2；华源证券25Q3",
+      "textPreview": "来源：同花顺iFinD；国金证券（2026/7/5）；药明康德2026H1；国信证券26Q2；华源证券25Q3",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "来源：同花顺iFinD；国金证券（2026/7/5）；药明康德2026H1；国信证券26Q2；华源证券25Q3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "来源：同花顺iFinD；国金证券（2026/7/5）；药明康德2026H1；国信证券26Q2；华源证券25Q3",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "来源：同花顺iFinD；国金证券（2026/7/5）；药明康德2026H1；国信证券26Q2；华源证券25Q3",
+              "fontSize": 11.51,
+              "typeface": "STHeiti",
+              "color": "#667085"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72xofmh",
+      "id": "21",
+      "name": "page-2",
+      "bbox": [
+        1180,
+        660,
+        52,
+        24
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 13,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/dwbmtore",
+      "id": "23",
+      "bbox": [
+        42,
+        206,
+        660,
+        405
+      ],
+      "text": "检验 | 2025Q3 | 2026本轮 | 指向\n市场环境 | 沪深300 +20.8%\n医药 +14.9% | 沪深300 -5.6%\n医药 +9.9% | 轮动 → Alpha\n行情节奏 | CXO 7月 +29.3%\n8–9月降至低个位数 | 创新药6–8月连续为正\n+4.5% / +4.8% / +5.9% | 单月 → 延续\n产业盈利 | 政策+BD打开预期\nCXO订单初现拐点 | BD规模约2.1×\n收入+48% / 现金流+41% | 预期 → 兑现\n机构交易 | 主动基金医药仓位\nQ3环比 -0.39pp | 医药总仓位6.54%低位\n但CXO内部占28.2% | 有空间 / 需扩散",
+      "textPreview": "检验 | 2025Q3 | 2026本轮 | 指向 | 市场环境 | 沪深300 +20.8% | 医药 +14.9% | 沪深300 -5.6% | 医药 +9.9% | 轮动 → Alpha | 行情节奏 | CXO 7月 +29.3% | 8–9月降至低个位数 | 创...",
+      "rows": 5,
+      "cols": 4,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            42,
+            206,
+            92,
+            43
+          ],
+          "text": "检验",
+          "textPreview": "检验",
+          "fillColor": "#101828",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "检验",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "检验"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            134,
+            206,
+            185,
+            43
+          ],
+          "text": "2025Q3",
+          "textPreview": "2025Q3",
+          "fillColor": "#101828",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2025Q3",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2025Q3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            319,
+            206,
+            238,
+            43
+          ],
+          "text": "2026本轮",
+          "textPreview": "2026本轮",
+          "fillColor": "#101828",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2026本轮",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2026本轮"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            557,
+            206,
+            145,
+            43
+          ],
+          "text": "指向",
+          "textPreview": "指向",
+          "fillColor": "#101828",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "指向",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "指向"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            42,
+            249,
+            92,
+            90.5
+          ],
+          "text": "市场环境",
+          "textPreview": "市场环境",
+          "fillColor": "#F2F4F7",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "市场环境",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "市场环境"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            134,
+            249,
+            185,
+            90.5
+          ],
+          "text": "沪深300 +20.8%\n医药 +14.9%",
+          "textPreview": "沪深300 +20.8% | 医药 +14.9%",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "沪深300 +20.8%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "沪深300 +20.8%"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "医药 +14.9%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "医药 +14.9%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            319,
+            249,
+            238,
+            90.5
+          ],
+          "text": "沪深300 -5.6%\n医药 +9.9%",
+          "textPreview": "沪深300 -5.6% | 医药 +9.9%",
+          "fillColor": "#EAF0FF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "沪深300 -5.6%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "沪深300 -5.6%"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "医药 +9.9%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "医药 +9.9%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            557,
+            249,
+            145,
+            90.5
+          ],
+          "text": "轮动 → Alpha",
+          "textPreview": "轮动 → Alpha",
+          "fillColor": "#F2F4F7",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "轮动 → Alpha",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "轮动 → Alpha"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            42,
+            339.5,
+            92,
+            90.5
+          ],
+          "text": "行情节奏",
+          "textPreview": "行情节奏",
+          "fillColor": "#F2F4F7",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "行情节奏",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "行情节奏"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            134,
+            339.5,
+            185,
+            90.5
+          ],
+          "text": "CXO 7月 +29.3%\n8–9月降至低个位数",
+          "textPreview": "CXO 7月 +29.3% | 8–9月降至低个位数",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "CXO 7月 +29.3%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "CXO 7月 +29.3%"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "8–9月降至低个位数",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "8–9月降至低个位数"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            319,
+            339.5,
+            238,
+            90.5
+          ],
+          "text": "创新药6–8月连续为正\n+4.5% / +4.8% / +5.9%",
+          "textPreview": "创新药6–8月连续为正 | +4.5% / +4.8% / +5.9%",
+          "fillColor": "#EAF0FF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "创新药6–8月连续为正",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "创新药6–8月连续为正"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "+4.5% / +4.8% / +5.9%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "+4.5% / +4.8% / +5.9%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            557,
+            339.5,
+            145,
+            90.5
+          ],
+          "text": "单月 → 延续",
+          "textPreview": "单月 → 延续",
+          "fillColor": "#F2F4F7",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "单月 → 延续",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "单月 → 延续"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            42,
+            430,
+            92,
+            90.5
+          ],
+          "text": "产业盈利",
+          "textPreview": "产业盈利",
+          "fillColor": "#F2F4F7",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "产业盈利",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "产业盈利"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            134,
+            430,
+            185,
+            90.5
+          ],
+          "text": "政策+BD打开预期\nCXO订单初现拐点",
+          "textPreview": "政策+BD打开预期 | CXO订单初现拐点",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "政策+BD打开预期",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "政策+BD打开预期"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "CXO订单初现拐点",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "CXO订单初现拐点"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            319,
+            430,
+            238,
+            90.5
+          ],
+          "text": "BD规模约2.1×\n收入+48% / 现金流+41%",
+          "textPreview": "BD规模约2.1× | 收入+48% / 现金流+41%",
+          "fillColor": "#EAF0FF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "BD规模约2.1×",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "BD规模约2.1×"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "收入+48% / 现金流+41%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "收入+48% / 现金流+41%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            557,
+            430,
+            145,
+            90.5
+          ],
+          "text": "预期 → 兑现",
+          "textPreview": "预期 → 兑现",
+          "fillColor": "#F2F4F7",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "预期 → 兑现",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "预期 → 兑现"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            42,
+            520.5,
+            92,
+            90.5
+          ],
+          "text": "机构交易",
+          "textPreview": "机构交易",
+          "fillColor": "#F2F4F7",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "机构交易",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "机构交易"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            134,
+            520.5,
+            185,
+            90.5
+          ],
+          "text": "主动基金医药仓位\nQ3环比 -0.39pp",
+          "textPreview": "主动基金医药仓位 | Q3环比 -0.39pp",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "主动基金医药仓位",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "主动基金医药仓位"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Q3环比 -0.39pp",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Q3环比 -0.39pp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            319,
+            520.5,
+            238,
+            90.5
+          ],
+          "text": "医药总仓位6.54%低位\n但CXO内部占28.2%",
+          "textPreview": "医药总仓位6.54%低位 | 但CXO内部占28.2%",
+          "fillColor": "#EAF0FF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "医药总仓位6.54%低位",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "医药总仓位6.54%低位"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "但CXO内部占28.2%",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "但CXO内部占28.2%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 5,
+          "column": 4,
+          "bbox": [
+            557,
+            520.5,
+            145,
+            90.5
+          ],
+          "text": "有空间 / 需扩散",
+          "textPreview": "有空间 / 需扩散",
+          "fillColor": "#F2F4F7",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "有空间 / 需扩散",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "有空间 / 需扩散"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

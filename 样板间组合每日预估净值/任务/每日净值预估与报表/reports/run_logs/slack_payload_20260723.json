@@ -1,0 +1,12 @@
+{
+  "channel_id": "C0BHVGDAHN0",
+  "message": "*样板间组合日报 20260723 [FAILED]*\n\n*失败/阻塞原因*\n- iFinD 底层净值重算未完成：Traceback (most recent call last):\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 688, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 613, in main\n    navs, parsed_dates, raw_result = fetch_ifind_navs(codes, target_date, outdir, args.batch_size, args.delay_ms)\n                                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/ifind_recalc_excel.py\", line 225, in fetch_ifind_navs\n    raise RuntimeError(f'iFinD 查询失败：{proc.stderr.strip() or proc.stdout.strip()}')\nRuntimeError: iFinD 查询失败：Error: Request timeout after 60s\n    at ClientRequest.<anonymous> (/Users/yangguang/.codex/skills/ifind-finance-data/call-node.js:73:20)\n    at ClientRequest.emit (node:events:509:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:948:9)\n    at Object.onceWrapper (node:events:630:28)\n    at TLSSocket.emit (node:events:521:24)\n    at Socket._onTimeout (node:net:610:8)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)\n",
+  "attachment_files": [
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/portfolio_overview.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_10_90.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_30_70.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_industry_trend.png"
+  ],
+  "status": "FAILED",
+  "target_date": "20260723"
+}

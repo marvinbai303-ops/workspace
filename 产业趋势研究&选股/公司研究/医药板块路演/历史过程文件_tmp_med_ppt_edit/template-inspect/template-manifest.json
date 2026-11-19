@@ -1,0 +1,71 @@
+{
+  "sourcePptx": "/Users/yangguang/Documents/Codex/workspace/选股素材/医药板块投资机会_2026vs2025Q3.pptx",
+  "workspace": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit",
+  "outDir": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-inspect",
+  "generatedAt": "2026-08-23T16:19:49.329Z",
+  "slideCount": 3,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-inspect/source-slides/source-slide-01.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-inspect/layouts/source-slide-01.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-inspect/source-slides/source-slide-02.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-inspect/layouts/source-slide-02.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-02.layout.json"
+    },
+    {
+      "slide": 3,
+      "previewPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-inspect/source-slides/source-slide-03.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-03.png",
+      "layoutPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-inspect/layouts/source-slide-03.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-03.layout.json"
+    }
+  ],
+  "inspectPath": "/Users/yangguang/Documents/Codex/workspace/选股素材/.tmp_med_ppt_edit/template-inspect/template-inspect.ndjson",
+  "inspectRelativePath": "template-inspect/template-inspect.ndjson",
+  "inspectTruncated": true,
+  "inspectMetadata": {
+    "revision": "f5idvp",
+    "target": {
+      "id": "pr/qptr8t"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [],
+  "fonts": [
+    "+mj-lt",
+    "+mn-lt",
+    "Calibri",
+    "Calibri Light",
+    "STHeiti"
+  ],
+  "packageParts": {
+    "mediaCount": 0,
+    "slideXmlCount": 3,
+    "chartCount": 0,
+    "tableSlideCount": 0
+  }
+}

@@ -1,0 +1,1821 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/poo6vy",
+    "id": "poo6vy",
+    "slide": 3,
+    "layoutId": "40756b8d-d7f1-4fec-9d87-47c926fa7d2d",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "cbbca1dd-56b7-453e-aba5-de75592a4ef5",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "STHeiti"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "40756b8d-d7f1-4fec-9d87-47c926fa7d2d",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "cbbca1dd-56b7-453e-aba5-de75592a4ef5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "cbbca1dd-56b7-453e-aba5-de75592a4ef5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58b6t8na",
+      "id": "1",
+      "name": "kicker-3",
+      "bbox": [
+        48,
+        25,
+        520,
+        22
+      ],
+      "geometry": "rect",
+      "text": "配置结论｜胜率与赔率分工",
+      "textPreview": "配置结论｜胜率与赔率分工",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "STHeiti",
+        "color": "#2F6BFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "配置结论｜胜率与赔率分工"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "配置结论｜胜率与赔率分工",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "STHeiti",
+            "color": "#2F6BFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "配置结论｜胜率与赔率分工",
+              "fontSize": 15,
+              "typeface": "STHeiti",
+              "color": "#2F6BFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i50nydoj",
+      "id": "2",
+      "name": "title-3",
+      "bbox": [
+        48,
+        52,
+        1184,
+        58
+      ],
+      "geometry": "rect",
+      "text": "CXO定胜率，创新药决定行情上限",
+      "textPreview": "CXO定胜率，创新药决定行情上限",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "STHeiti",
+        "color": "#101828",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CXO定胜率，创新药决定行情上限"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CXO定胜率，创新药决定行情上限",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CXO定胜率，创新药决定行情上限",
+              "fontSize": 48,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/369ory54",
+      "id": "3",
+      "name": "accent-3",
+      "bbox": [
+        48,
+        122,
+        92,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#2F6BFF",
+      "lineWidth": 5
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3i5w36d",
+      "id": "4",
+      "name": "subtitle-3",
+      "bbox": [
+        48,
+        137,
+        1184,
+        32
+      ],
+      "geometry": "rect",
+      "text": "当前更适合“CXO做底仓、创新药做增量”，而不是继续追逐单一赛道斜率",
+      "textPreview": "当前更适合“CXO做底仓、创新药做增量”，而不是继续追逐单一赛道斜率",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "STHeiti",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "当前更适合“CXO做底仓、创新药做增量”，而不是继续追逐单一赛道斜率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "当前更适合“CXO做底仓、创新药做增量”，而不是继续追逐单一赛道斜率",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "当前更适合“CXO做底仓、创新药做增量”，而不是继续追逐单一赛道斜率",
+              "fontSize": 23,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4rmp8ny",
+      "id": "5",
+      "name": "cxo-panel",
+      "bbox": [
+        48,
+        184,
+        565,
+        250
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EAF0FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u10nuton",
+      "id": "6",
+      "name": "cxo-head",
+      "bbox": [
+        76,
+        206,
+        300,
+        34
+      ],
+      "geometry": "rect",
+      "text": "CXO｜更高胜率",
+      "textPreview": "CXO｜更高胜率",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "STHeiti",
+        "color": "#2F6BFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CXO｜更高胜率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CXO｜更高胜率",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "STHeiti",
+            "color": "#2F6BFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CXO｜更高胜率",
+              "fontSize": 27,
+              "typeface": "STHeiti",
+              "color": "#2F6BFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v294nyp8",
+      "id": "7",
+      "name": "cxo-value1",
+      "bbox": [
+        76,
+        256,
+        210,
+        54
+      ],
+      "geometry": "rect",
+      "text": "664亿元",
+      "textPreview": "664亿元",
+      "resolvedFontSize": 43,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 43,
+        "typeface": "STHeiti",
+        "color": "#101828",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "664亿元"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "664亿元",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 43,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "664亿元",
+              "fontSize": 43,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zm58n6x",
+      "id": "8",
+      "name": "cxo-label1",
+      "bbox": [
+        76,
+        310,
+        250,
+        26
+      ],
+      "geometry": "rect",
+      "text": "在手订单｜同比 +25.2%",
+      "textPreview": "在手订单｜同比 +25.2%",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "STHeiti",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "在手订单｜同比 +25.2%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "在手订单｜同比 +25.2%",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "在手订单｜同比 +25.2%",
+              "fontSize": 17,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/10v61sni",
+      "id": "9",
+      "name": "cxo-value2",
+      "bbox": [
+        342,
+        256,
+        210,
+        54
+      ],
+      "geometry": "rect",
+      "text": "35.4×",
+      "textPreview": "35.4×",
+      "resolvedFontSize": 43,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 43,
+        "typeface": "STHeiti",
+        "color": "#2F6BFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "35.4×"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "35.4×",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 43,
+            "typeface": "STHeiti",
+            "color": "#2F6BFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "35.4×",
+              "fontSize": 43,
+              "typeface": "STHeiti",
+              "color": "#2F6BFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p47md0ru",
+      "id": "10",
+      "name": "cxo-label2",
+      "bbox": [
+        342,
+        310,
+        225,
+        26
+      ],
+      "geometry": "rect",
+      "text": "PE｜2025/9约36.8×",
+      "textPreview": "PE｜2025/9约36.8×",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "STHeiti",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PE｜2025/9约36.8×"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PE｜2025/9约36.8×",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PE｜2025/9约36.8×",
+              "fontSize": 17,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o3el4vq9",
+      "id": "11",
+      "name": "cxo-rule",
+      "bbox": [
+        76,
+        354,
+        509,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#B8C8FF",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n254bq9o",
+      "id": "12",
+      "name": "cxo-bottom",
+      "bbox": [
+        76,
+        373,
+        480,
+        48
+      ],
+      "geometry": "rect",
+      "text": "收入、订单、现金流均已验证\n但PE处于近一年约82%分位",
+      "textPreview": "收入、订单、现金流均已验证 | 但PE处于近一年约82%分位",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "STHeiti",
+        "color": "#101828",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "收入、订单、现金流均已验证"
+          },
+          {
+            "index": 2,
+            "text": "但PE处于近一年约82%分位"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "收入、订单、现金流均已验证",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "收入、订单、现金流均已验证",
+              "fontSize": 19,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "但PE处于近一年约82%分位",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "但PE处于近一年约82%分位",
+              "fontSize": 19,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/21w32l83",
+      "id": "13",
+      "name": "drug-panel",
+      "bbox": [
+        667,
+        184,
+        565,
+        250
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF5DF",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/10nm9gri",
+      "id": "14",
+      "name": "drug-head",
+      "bbox": [
+        695,
+        206,
+        300,
+        34
+      ],
+      "geometry": "rect",
+      "text": "创新药｜更高赔率",
+      "textPreview": "创新药｜更高赔率",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "STHeiti",
+        "color": "#F59E0B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "创新药｜更高赔率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "创新药｜更高赔率",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "STHeiti",
+            "color": "#F59E0B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "创新药｜更高赔率",
+              "fontSize": 27,
+              "typeface": "STHeiti",
+              "color": "#F59E0B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zel0bqx",
+      "id": "15",
+      "name": "drug-value1",
+      "bbox": [
+        695,
+        256,
+        235,
+        54
+      ],
+      "geometry": "rect",
+      "text": "997亿美元",
+      "textPreview": "997亿美元",
+      "resolvedFontSize": 43,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 43,
+        "typeface": "STHeiti",
+        "color": "#101828",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "997亿美元"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "997亿美元",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 43,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "997亿美元",
+              "fontSize": 43,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fy54769s",
+      "id": "16",
+      "name": "drug-label1",
+      "bbox": [
+        695,
+        310,
+        265,
+        26
+      ],
+      "geometry": "rect",
+      "text": "2026H1 BD｜2025全年73%",
+      "textPreview": "2026H1 BD｜2025全年73%",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "STHeiti",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2026H1 BD｜2025全年73%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2026H1 BD｜2025全年73%",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2026H1 BD｜2025全年73%",
+              "fontSize": 17,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/exw3y187",
+      "id": "17",
+      "name": "drug-value2",
+      "bbox": [
+        978,
+        256,
+        210,
+        54
+      ],
+      "geometry": "rect",
+      "text": "50.4×",
+      "textPreview": "50.4×",
+      "resolvedFontSize": 43,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 43,
+        "typeface": "STHeiti",
+        "color": "#F59E0B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "50.4×"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "50.4×",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 43,
+            "typeface": "STHeiti",
+            "color": "#F59E0B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "50.4×",
+              "fontSize": 43,
+              "typeface": "STHeiti",
+              "color": "#F59E0B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwrmlkr2",
+      "id": "18",
+      "name": "drug-label2",
+      "bbox": [
+        978,
+        310,
+        220,
+        26
+      ],
+      "geometry": "rect",
+      "text": "PE｜2025/9约58×",
+      "textPreview": "PE｜2025/9约58×",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "STHeiti",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PE｜2025/9约58×"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PE｜2025/9约58×",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PE｜2025/9约58×",
+              "fontSize": 17,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kvy5cfqh",
+      "id": "19",
+      "name": "drug-rule",
+      "bbox": [
+        695,
+        354,
+        509,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#F5D28C",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4bqxo32p",
+      "id": "20",
+      "name": "drug-bottom",
+      "bbox": [
+        695,
+        373,
+        480,
+        48
+      ],
+      "geometry": "rect",
+      "text": "估值尚未回到2025高点\n盈利型资产有望承接下一棒",
+      "textPreview": "估值尚未回到2025高点 | 盈利型资产有望承接下一棒",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "STHeiti",
+        "color": "#101828",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "估值尚未回到2025高点"
+          },
+          {
+            "index": 2,
+            "text": "盈利型资产有望承接下一棒"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "估值尚未回到2025高点",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "估值尚未回到2025高点",
+              "fontSize": 19,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "盈利型资产有望承接下一棒",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "STHeiti",
+            "color": "#101828",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "盈利型资产有望承接下一棒",
+              "fontSize": 19,
+              "typeface": "STHeiti",
+              "color": "#101828",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5czyx8ja",
+      "id": "21",
+      "name": "score-caption",
+      "bbox": [
+        55,
+        455,
+        300,
+        26
+      ],
+      "geometry": "rect",
+      "text": "研究框架评分（5分制）",
+      "textPreview": "研究框架评分（5分制）",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "STHeiti",
+        "color": "#667085",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "研究框架评分（5分制）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "研究框架评分（5分制）",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "研究框架评分（5分制）",
+              "fontSize": 17,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/idk769wr",
+      "id": "22",
+      "bbox": [
+        48,
+        480,
+        760,
+        155
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jahgvi14",
+      "id": "23",
+      "name": "final-banner",
+      "bbox": [
+        842,
+        478,
+        390,
+        157
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#101828",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7qx032t",
+      "id": "24",
+      "name": "final-banner-kicker",
+      "bbox": [
+        870,
+        501,
+        335,
+        27
+      ],
+      "geometry": "rect",
+      "text": "本轮能否超过2025",
+      "textPreview": "本轮能否超过2025",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "STHeiti",
+        "color": "#6DCBF4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "本轮能否超过2025"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "本轮能否超过2025",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "STHeiti",
+            "color": "#6DCBF4",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "本轮能否超过2025",
+              "fontSize": 18,
+              "typeface": "STHeiti",
+              "color": "#6DCBF4",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h8zet83e",
+      "id": "25",
+      "name": "final-banner-main",
+      "bbox": [
+        870,
+        535,
+        335,
+        62
+      ],
+      "geometry": "rect",
+      "text": "取决于创新药\n能否接力CXO",
+      "textPreview": "取决于创新药 | 能否接力CXO",
+      "resolvedFontSize": 27.19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "STHeiti",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.88,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "取决于创新药"
+          },
+          {
+            "index": 2,
+            "text": "能否接力CXO"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "取决于创新药",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "STHeiti",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "取决于创新药",
+              "fontSize": 31,
+              "typeface": "STHeiti",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "能否接力CXO",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "STHeiti",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "能否接力CXO",
+              "fontSize": 31,
+              "typeface": "STHeiti",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulofytkn",
+      "id": "26",
+      "name": "final-banner-sub",
+      "bbox": [
+        870,
+        605,
+        335,
+        20
+      ],
+      "geometry": "rect",
+      "text": "CXO持有、不追斜率；增量关注盈利与数据催化",
+      "textPreview": "CXO持有、不追斜率；增量关注盈利与数据催化",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.51,
+        "typeface": "STHeiti",
+        "color": "#E4E7EC",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CXO持有、不追斜率；增量关注盈利与数据催化"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CXO持有、不追斜率；增量关注盈利与数据催化",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "STHeiti",
+            "color": "#E4E7EC",
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CXO持有、不追斜率；增量关注盈利与数据催化",
+              "fontSize": 14.51,
+              "typeface": "STHeiti",
+              "color": "#E4E7EC",
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmhwryl8",
+      "id": "27",
+      "name": "footer-rule-3",
+      "bbox": [
+        48,
+        651,
+        1184,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#D0D5DD",
+      "lineWidth": 1
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8j6xwj2h",
+      "id": "28",
+      "name": "source-3",
+      "bbox": [
+        48,
+        660,
+        1115,
+        28
+      ],
+      "geometry": "rect",
+      "text": "来源：同花顺iFinD（估值截至2026/8/21）；药明康德2026H1；国金证券（2026/7/5）；浙商证券（2026/7/13）。评分为研究判断",
+      "textPreview": "来源：同花顺iFinD（估值截至2026/8/21）；药明康德2026H1；国金证券（2026/7/5）；浙商证券（2026/7/13）。评分为研究判断",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11.51,
+        "typeface": "STHeiti",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "来源：同花顺iFinD（估值截至2026/8/21）；药明康德2026H1；国金证券（2026/7/5）；浙商证券（2026/7/13）。评分为研究判断"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "来源：同花顺iFinD（估值截至2026/8/21）；药明康德2026H1；国金证券（2026/7/5）；浙商证券（2026/7/13）。评分为研究判断",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "来源：同花顺iFinD（估值截至2026/8/21）；药明康德2026H1；国金证券（2026/7/5）；浙商证券（2026/7/13）。评分为研究判断",
+              "fontSize": 11.51,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9kfepo32",
+      "id": "29",
+      "name": "page-3",
+      "bbox": [
+        1180,
+        660,
+        52,
+        24
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "STHeiti",
+        "color": "#667085",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "lineSpacingPercent": 95000,
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "STHeiti",
+            "color": "#667085",
+            "bold": true,
+            "alignment": "right",
+            "lineSpacing": 0.95
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 13,
+              "typeface": "STHeiti",
+              "color": "#667085",
+              "bold": true,
+              "alignment": "right",
+              "lineSpacing": 0.95
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

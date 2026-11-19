@@ -1,0 +1,12 @@
+{
+  "channel_id": "C0BHVGDAHN0",
+  "message": "*样板间组合日报 20260717 [FAILED]*\n\n*失败/阻塞原因*\n- iFinD 底层净值重算未完成：iFinD 最新复权单位净值未齐全：0/24\n",
+  "attachment_files": [
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/portfolio_overview.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_10_90.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_30_70.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_industry_trend.png"
+  ],
+  "status": "FAILED",
+  "target_date": "20260717"
+}

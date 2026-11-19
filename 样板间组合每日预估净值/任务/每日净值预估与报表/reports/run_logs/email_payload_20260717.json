@@ -1,0 +1,17 @@
+{
+  "to": "me",
+  "subject": "样板间组合日报 20260717 [FAILED]",
+  "body": "# 样板间组合日报 20260717\n\n- 状态：FAILED\n- 数据日期：20260717\n- 完成时间：2026-07-17T22:54:58.519619+08:00\n- 运行次数：1\n\n## 失败/阻塞原因\n- iFinD 底层净值重算未完成：iFinD 最新复权单位净值未齐全：0/24\n\n## 附件\n- portfolio_overview.png\n- strategy_10_90.png\n- strategy_30_70.png\n- strategy_industry_trend.png\n\n本邮件由 Codex 自动任务生成。数据仅供预览使用，最终务必以系统数据为准。",
+  "body_file": "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/run_logs/email_digest_20260717.md",
+  "content_type": "text/markdown",
+  "attachment_files": [],
+  "optional_attachment_files": [
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/portfolio_overview.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_10_90.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_30_70.png",
+    "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/strategy_industry_trend.png"
+  ],
+  "summary_path": "/Users/yangguang/Documents/Codex/workspace/样板间组合每日预估净值/reports/run_logs/summary_20260717.json",
+  "status": "FAILED",
+  "target_date": "20260717"
+}

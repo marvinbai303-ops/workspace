@@ -1,0 +1,205 @@
+{
+  "status": "SUCCESS",
+  "target_date": "20260717",
+  "fund_row": 25,
+  "combo_row": 25,
+  "fund_count": 24,
+  "stale_equal_codes": [
+    "000216.OF",
+    "001170.OF",
+    "007044.OF",
+    "007045.OF",
+    "007817.OF",
+    "007818.OF",
+    "009993.OF",
+    "013840.OF",
+    "013841.OF",
+    "014201.OF",
+    "014202.OF",
+    "015453.OF",
+    "015454.OF",
+    "016370.OF",
+    "017488.OF",
+    "017489.OF",
+    "017612.OF",
+    "019632.OF",
+    "019633.OF",
+    "019923.OF",
+    "019924.OF",
+    "161119.OF",
+    "162214.OF"
+  ],
+  "fund_navs": {
+    "000216.OF": {
+      "name": "华安黄金ETF联接A",
+      "nav": 3.0391,
+      "parsed_date": null
+    },
+    "000917.OF": {
+      "name": "嘉实快线货币A",
+      "nav": 1.3186,
+      "parsed_date": null
+    },
+    "001170.OF": {
+      "name": "宏利复兴混合A",
+      "nav": 5.034,
+      "parsed_date": null
+    },
+    "007044.OF": {
+      "name": "博道沪深300增强A",
+      "nav": 1.8634,
+      "parsed_date": null
+    },
+    "007045.OF": {
+      "name": "博道沪深300指增C",
+      "nav": 1.8105,
+      "parsed_date": null
+    },
+    "007817.OF": {
+      "name": "国泰通信设备ETF联接A",
+      "nav": 4.1053,
+      "parsed_date": null
+    },
+    "007818.OF": {
+      "name": "国泰通信设备C",
+      "nav": 4.0179,
+      "parsed_date": null
+    },
+    "009993.OF": {
+      "name": "嘉实前沿科技创新",
+      "nav": 2.5938,
+      "parsed_date": null
+    },
+    "013840.OF": {
+      "name": "银华集成电路混合A",
+      "nav": 3.3101,
+      "parsed_date": null
+    },
+    "013841.OF": {
+      "name": "银华集成电路混合C",
+      "nav": 3.2797,
+      "parsed_date": null
+    },
+    "014201.OF": {
+      "name": "天弘中证1000指增A",
+      "nav": 1.5209,
+      "parsed_date": null
+    },
+    "014202.OF": {
+      "name": "天弘中证1000指增C",
+      "nav": 1.5005,
+      "parsed_date": null
+    },
+    "015453.OF": {
+      "name": "中欧中证500指增A",
+      "nav": 1.5054,
+      "parsed_date": null
+    },
+    "015454.OF": {
+      "name": "中欧中证500指增C",
+      "nav": 1.4681,
+      "parsed_date": null
+    },
+    "016370.OF": {
+      "name": "信澳业绩驱动A",
+      "nav": 2.9675,
+      "parsed_date": null
+    },
+    "017488.OF": {
+      "name": "嘉实信息产业A",
+      "nav": 3.7713,
+      "parsed_date": null
+    },
+    "017489.OF": {
+      "name": "嘉实信息产业C",
+      "nav": 3.6921,
+      "parsed_date": null
+    },
+    "017612.OF": {
+      "name": "宏利复兴伟业C",
+      "nav": 4.982,
+      "parsed_date": null
+    },
+    "019632.OF": {
+      "name": "国泰半导体材料设备ETF联接A",
+      "nav": 2.9534,
+      "parsed_date": null
+    },
+    "019633.OF": {
+      "name": "国泰半导体材料设备C",
+      "nav": 2.9378,
+      "parsed_date": null
+    },
+    "019923.OF": {
+      "name": "华泰柏瑞中证2000指增A",
+      "nav": 1.8717,
+      "parsed_date": null
+    },
+    "019924.OF": {
+      "name": "华泰柏瑞中证2000指增C",
+      "nav": 1.8532,
+      "parsed_date": null
+    },
+    "161119.OF": {
+      "name": "易方达中债新综指LOFA",
+      "nav": 1.789,
+      "parsed_date": null
+    },
+    "162214.OF": {
+      "name": "宏利领先中小盘混合",
+      "nav": 2.535,
+      "parsed_date": null
+    }
+  },
+  "portfolios": {
+    "产业趋势": {
+      "nav": 0.8755609081283001,
+      "day_ret": -4.1406369609475746e-05,
+      "drawdown": -0.18540949041648458,
+      "effective_date": "20260710",
+      "weight_row": 17,
+      "factor": 0.95250384230904
+    },
+    "产业趋势基石": {
+      "nav": 0.8958465452984055,
+      "day_ret": -3.307501803540003e-05,
+      "drawdown": -0.18539919076935873,
+      "effective_date": "20260710",
+      "weight_row": 18,
+      "factor": 0.974451095753936
+    },
+    "产业趋势2号": {
+      "nav": 0.9035702690418544,
+      "day_ret": -4.140636960880961e-05,
+      "drawdown": -0.18722242786610077,
+      "effective_date": "20260710",
+      "weight_row": 19,
+      "factor": 0.994139813812898
+    },
+    "10-90": {
+      "nav": 0.9867418784314768,
+      "day_ret": -2.200570772603605e-05,
+      "drawdown": -0.016476205161957025,
+      "effective_date": "20260717",
+      "weight_row": 20,
+      "factor": 0.9872414312646938
+    },
+    "10-90基石": {
+      "nav": 0.9861057968006405,
+      "day_ret": -1.3732897000240385e-05,
+      "drawdown": -0.01655946389058094,
+      "effective_date": "20260717",
+      "weight_row": 21,
+      "factor": 0.9864985983008198
+    },
+    "30-70": {
+      "nav": 0.9614979209282575,
+      "day_ret": -3.3075018035289006e-05,
+      "drawdown": -0.046853426526299424,
+      "effective_date": "20260717",
+      "weight_row": 22,
+      "factor": 0.9622296472200902
+    }
+  },
+  "raw_source": "reports/run_logs/test_new_template_0717_navs.json"
+}

@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "target_date": "20260717",
+  "batches": [
+    {
+      "query": "查询以下基金的最新复权单位净值，只返回基金代码、证券简称、复权单位净值三列表格：000216.OF、000917.OF、001170.OF、007044.OF、007045.OF、007817.OF目标日报日期 20260717，如果当日净值未发布请返回当前最新可得净值。",
+      "result": {
+        "ok": true,
+        "status_code": 200,
+        "data": {
+          "jsonrpc": "2.0",
+          "result": {
+            "content": [
+              {
+                "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer1\":\"\\n\\n\\n\\n\\n\\n\"}}",
+                "type": "text"
+              }
+            ]
+          },
+          "id": 3
+        }
+      }
+    },
+    {
+      "query": "查询以下基金的最新复权单位净值，只返回基金代码、证券简称、复权单位净值三列表格：007818.OF、009993.OF、013840.OF、013841.OF、014201.OF、014202.OF目标日报日期 20260717，如果当日净值未发布请返回当前最新可得净值。",
+      "result": {
+        "ok": true,
+        "status_code": 200,
+        "data": {
+          "jsonrpc": "2.0",
+          "result": {
+            "content": [
+              {
+                "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer1\":\"\\n\\n\\n\\n\\n\\n\"}}",
+                "type": "text"
+              }
+            ]
+          },
+          "id": 4
+        }
+      }
+    },
+    {
+      "query": "查询以下基金的最新复权单位净值，只返回基金代码、证券简称、复权单位净值三列表格：015453.OF、015454.OF、016370.OF、017488.OF、017489.OF、017612.OF目标日报日期 20260717，如果当日净值未发布请返回当前最新可得净值。",
+      "result": {
+        "ok": true,
+        "status_code": 200,
+        "data": {
+          "jsonrpc": "2.0",
+          "result": {
+            "content": [
+              {
+                "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer1\":\"\\n\\n\\n\\n\\n\\n\"}}",
+                "type": "text"
+              }
+            ]
+          },
+          "id": 5
+        }
+      }
+    },
+    {
+      "query": "查询以下基金的最新复权单位净值，只返回基金代码、证券简称、复权单位净值三列表格：019632.OF、019633.OF、019923.OF、019924.OF、161119.OF、162214.OF目标日报日期 20260717，如果当日净值未发布请返回当前最新可得净值。",
+      "result": {
+        "ok": true,
+        "status_code": 200,
+        "data": {
+          "jsonrpc": "2.0",
+          "result": {
+            "content": [
+              {
+                "text": "{\"code\":1,\"msg\":\"success\",\"subCode\":null,\"subMsg\":null,\"data\":{\"answer1\":\"\\n\\n\\n\\n\\n\\n\"}}",
+                "type": "text"
+              }
+            ]
+          },
+          "id": 6
+        }
+      }
+    }
+  ]
+}

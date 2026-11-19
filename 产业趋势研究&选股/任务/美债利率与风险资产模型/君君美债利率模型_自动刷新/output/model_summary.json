@@ -1,0 +1,14 @@
+{
+  "runDate": "2026-11-19",
+  "asOfDate": "2026-11-17",
+  "modelVersion": "2026-11-18-source-v2",
+  "scores": {
+    "policy": 60.713775825310385,
+    "inflation": 39.39380483091177,
+    "termPremium": 68.4872664543872,
+    "transmission": 57.87711707441038,
+    "effective": 57.77303497245905
+  },
+  "regime": "政策重定价 + 期限溢价冲击",
+  "formulaErrors": 0
+}
