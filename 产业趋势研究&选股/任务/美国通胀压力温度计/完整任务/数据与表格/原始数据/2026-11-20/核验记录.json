@@ -1,0 +1,1635 @@
+{
+  "checked_at": "2026-11-20",
+  "source_workbook": "/Users/yangguang/Documents/Codex/workspace/产业趋势研究&选股/任务/美国通胀压力温度计/完整任务/数据与表格/美国通胀压力温度计_试算_20261011.xlsx",
+  "source_sha256": "e0557ac5436554e2d7ee771ff1f23e7d9bbf553be7ab8d2692ba90061ddeaa9a",
+  "line_range": [
+    175,
+    534
+  ],
+  "missing_mapping_matches": [],
+  "latest_mismatches": [],
+  "mapped": [
+    {
+      "row": 5,
+      "code": "SEAA01",
+      "name": "Men's suits, sport coats, and outerwear",
+      "line": 361,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 6,
+      "code": "SEAA02",
+      "name": "Men's underwear, nightwear, swimwear, and accessories",
+      "line": 362,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 7,
+      "code": "SEAA03",
+      "name": "Men's shirts and sweaters",
+      "line": 363,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 8,
+      "code": "SEAA04",
+      "name": "Men's pants and shorts",
+      "line": 364,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 9,
+      "code": "SEAC01",
+      "name": "Women's outerwear",
+      "line": 368,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 10,
+      "code": "SEAC02",
+      "name": "Women's dresses",
+      "line": 369,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 11,
+      "code": "SEAC03",
+      "name": "Women's suits and separates",
+      "line": 370,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 12,
+      "code": "SEAC04",
+      "name": "Women's underwear, nightwear, swimwear, and accessories",
+      "line": 371,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 13,
+      "code": "SEAE01",
+      "name": "Men's footwear",
+      "line": 374,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 14,
+      "code": "SEAE02",
+      "name": "Boys' and girls' footwear",
+      "line": 375,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 15,
+      "code": "SEAE03",
+      "name": "Women's footwear",
+      "line": 376,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 16,
+      "code": "SEAG01",
+      "name": "Watches",
+      "line": 379,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 17,
+      "code": "SEAG02",
+      "name": "Jewelry",
+      "line": 380,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 18,
+      "code": "SEEB01",
+      "name": "College tuition and fees",
+      "line": 513,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 19,
+      "code": "SEEB02",
+      "name": "Elementary and high school tuition and fees",
+      "line": 514,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 20,
+      "code": "SEEB03",
+      "name": "Day care and preschool",
+      "line": 515,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 21,
+      "code": "SEEB04",
+      "name": "Technical and vocational school tuition and fixed fees",
+      "line": 516,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 22,
+      "code": "SEEC01",
+      "name": "Postage",
+      "line": 518,
+      "raw": "13.3",
+      "value": 13.3
+    },
+    {
+      "row": 23,
+      "code": "SEEC02",
+      "name": "Delivery services",
+      "line": 519,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 24,
+      "code": "SEED03",
+      "name": "Wireless telephone services",
+      "line": 521,
+      "raw": "3.0",
+      "value": 3.0
+    },
+    {
+      "row": 25,
+      "code": "SEED04",
+      "name": "Residential telephone services",
+      "line": 522,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 26,
+      "code": "SEEE01",
+      "name": "Computers, peripherals, and smart home assistants",
+      "line": 422,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 27,
+      "code": "SEEE02",
+      "name": "Computer software and accessories",
+      "line": 423,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 28,
+      "code": "SEEE03",
+      "name": "Internet services and electronic information providers",
+      "line": 523,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 29,
+      "code": "SEEE04",
+      "name": "Telephone hardware, calculators, and other consumer information items",
+      "line": 424,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 30,
+      "code": "SEFA01",
+      "name": "Flour and prepared flour mixes",
+      "line": 202,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 31,
+      "code": "SEFA02",
+      "name": "Breakfast cereal",
+      "line": 203,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 32,
+      "code": "SEFA03",
+      "name": "Rice, pasta, cornmeal",
+      "line": 204,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 33,
+      "code": "SEFB01",
+      "name": "Bread",
+      "line": 207,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 34,
+      "code": "SEFB02",
+      "name": "Fresh biscuits, rolls, muffins",
+      "line": 210,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 35,
+      "code": "SEFB03",
+      "name": "Cakes, cupcakes, and cookies",
+      "line": 211,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 36,
+      "code": "SEFB04",
+      "name": "Other bakery products",
+      "line": 214,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 37,
+      "code": "SEFC01",
+      "name": "Uncooked ground beef",
+      "line": 222,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 38,
+      "code": "SEFC02",
+      "name": "Uncooked beef roasts",
+      "line": 223,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 39,
+      "code": "SEFC03",
+      "name": "Uncooked beef steaks",
+      "line": 224,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 40,
+      "code": "SEFC04",
+      "name": "Uncooked other beef and veal",
+      "line": 225,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 41,
+      "code": "SEFD01",
+      "name": "Bacon, breakfast sausage, and related products",
+      "line": 227,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 42,
+      "code": "SEFD02",
+      "name": "Ham",
+      "line": 230,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 43,
+      "code": "SEFD03",
+      "name": "Pork chops",
+      "line": 232,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 44,
+      "code": "SEFD04",
+      "name": "Other pork including roasts, steaks, and ribs",
+      "line": 233,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 45,
+      "code": "SEFF01",
+      "name": "Chicken",
+      "line": 238,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 46,
+      "code": "SEFF02",
+      "name": "Other uncooked poultry including turkey",
+      "line": 241,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 47,
+      "code": "SEFG01",
+      "name": "Fresh fish and seafood",
+      "line": 243,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 48,
+      "code": "SEFG02",
+      "name": "Processed fish and seafood",
+      "line": 244,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 49,
+      "code": "SEFJ01",
+      "name": "Milk",
+      "line": 249,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 50,
+      "code": "SEFJ02",
+      "name": "Cheese and related products",
+      "line": 252,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 51,
+      "code": "SEFJ03",
+      "name": "Ice cream and related products",
+      "line": 253,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 52,
+      "code": "SEFJ04",
+      "name": "Other dairy and related products",
+      "line": 254,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 53,
+      "code": "SEFK01",
+      "name": "Apples",
+      "line": 258,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 54,
+      "code": "SEFK02",
+      "name": "Bananas",
+      "line": 259,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 55,
+      "code": "SEFK03",
+      "name": "Citrus fruits",
+      "line": 260,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 56,
+      "code": "SEFK04",
+      "name": "Other fresh fruits",
+      "line": 262,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 57,
+      "code": "SEFL01",
+      "name": "Potatoes",
+      "line": 264,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 58,
+      "code": "SEFL02",
+      "name": "Lettuce",
+      "line": 265,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 59,
+      "code": "SEFL03",
+      "name": "Tomatoes",
+      "line": 266,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 60,
+      "code": "SEFL04",
+      "name": "Other fresh vegetables",
+      "line": 267,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 61,
+      "code": "SEFM01",
+      "name": "Canned fruits and vegetables",
+      "line": 269,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 62,
+      "code": "SEFM02",
+      "name": "Frozen fruits and vegetables",
+      "line": 272,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 63,
+      "code": "SEFM03",
+      "name": "Other processed fruits and vegetables including dried",
+      "line": 274,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 64,
+      "code": "SEFN01",
+      "name": "Carbonated drinks",
+      "line": 278,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 65,
+      "code": "SEFN02",
+      "name": "Frozen noncarbonated juices and drinks",
+      "line": 279,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 66,
+      "code": "SEFN03",
+      "name": "Nonfrozen noncarbonated juices and drinks",
+      "line": 280,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 67,
+      "code": "SEFP01",
+      "name": "Coffee",
+      "line": 282,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 68,
+      "code": "SEFP02",
+      "name": "Other beverage materials including tea",
+      "line": 285,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 69,
+      "code": "SEFR01",
+      "name": "Sugar and sugar substitutes",
+      "line": 288,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 70,
+      "code": "SEFR02",
+      "name": "Candy and chewing gum",
+      "line": 289,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 71,
+      "code": "SEFR03",
+      "name": "Other sweets",
+      "line": 290,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 72,
+      "code": "SEFS01",
+      "name": "Butter and margarine",
+      "line": 292,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 73,
+      "code": "SEFS02",
+      "name": "Salad dressing",
+      "line": 295,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 74,
+      "code": "SEFS03",
+      "name": "Other fats and oils including peanut butter",
+      "line": 296,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 75,
+      "code": "SEFT01",
+      "name": "Soups",
+      "line": 299,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 76,
+      "code": "SEFT02",
+      "name": "Frozen and freeze dried prepared foods",
+      "line": 300,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 77,
+      "code": "SEFT03",
+      "name": "Snacks",
+      "line": 301,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 78,
+      "code": "SEFT04",
+      "name": "Spices, seasonings, condiments, sauces",
+      "line": 302,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 79,
+      "code": "SEFT05",
+      "name": "Baby food and formula",
+      "line": 307,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 80,
+      "code": "SEFT06",
+      "name": "Other miscellaneous foods",
+      "line": 308,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 81,
+      "code": "SEFV01",
+      "name": "Full service meals and snacks",
+      "line": 311,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 82,
+      "code": "SEFV02",
+      "name": "Limited service meals and snacks",
+      "line": 312,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 83,
+      "code": "SEFV03",
+      "name": "Food at employee sites and schools",
+      "line": 313,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 84,
+      "code": "SEFV04",
+      "name": "Food from vending machines and mobile vendors",
+      "line": 315,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 85,
+      "code": "SEFV05",
+      "name": "Other food away from home",
+      "line": 316,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 86,
+      "code": "SEFW01",
+      "name": "Beer, ale, and other malt beverages at home",
+      "line": 428,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 87,
+      "code": "SEFW02",
+      "name": "Distilled spirits at home",
+      "line": 429,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 88,
+      "code": "SEFW03",
+      "name": "Wine at home",
+      "line": 432,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 89,
+      "code": "SEGA01",
+      "name": "Cigarettes",
+      "line": 439,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 90,
+      "code": "SEGA02",
+      "name": "Tobacco products other than cigarettes",
+      "line": 440,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 91,
+      "code": "SEGB01",
+      "name": "Hair, dental, shaving, and miscellaneous personal care products",
+      "line": 442,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 92,
+      "code": "SEGB02",
+      "name": "Cosmetics, perfume, bath, nail preparations and implements",
+      "line": 443,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 93,
+      "code": "SEGC01",
+      "name": "Haircuts and other personal care services",
+      "line": 526,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 94,
+      "code": "SEGD01",
+      "name": "Legal services",
+      "line": 528,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 95,
+      "code": "SEGD02",
+      "name": "Funeral expenses",
+      "line": 529,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 96,
+      "code": "SEGD03",
+      "name": "Laundry and dry cleaning services",
+      "line": 530,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 97,
+      "code": "SEGD04",
+      "name": "Apparel services other than laundry and dry cleaning",
+      "line": 531,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 98,
+      "code": "SEGD05",
+      "name": "Financial services",
+      "line": 532,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 99,
+      "code": "SEHB01",
+      "name": "Lodging while at school",
+      "line": 451,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 100,
+      "code": "SEHB02",
+      "name": "Other lodging away from home including hotels and motels",
+      "line": 452,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 101,
+      "code": "SEHC01",
+      "name": "Owners' equivalent rent of primary residence",
+      "line": 454,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 102,
+      "code": "SEHE01",
+      "name": "Fuel oil",
+      "line": 320,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 103,
+      "code": "SEHE02",
+      "name": "Propane, kerosene, and firewood",
+      "line": 321,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 104,
+      "code": "SEHF01",
+      "name": "Electricity",
+      "line": 329,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 105,
+      "code": "SEHF02",
+      "name": "Utility (piped) gas service",
+      "line": 330,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 106,
+      "code": "SEHG01",
+      "name": "Water and sewerage maintenance",
+      "line": 457,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 107,
+      "code": "SEHG02",
+      "name": "Garbage and trash collection",
+      "line": 458,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 108,
+      "code": "SEHH01",
+      "name": "Floor coverings",
+      "line": 335,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 109,
+      "code": "SEHH02",
+      "name": "Window coverings",
+      "line": 336,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 110,
+      "code": "SEHH03",
+      "name": "Other linens",
+      "line": 337,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 111,
+      "code": "SEHJ01",
+      "name": "Bedroom furniture",
+      "line": 339,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 112,
+      "code": "SEHJ02",
+      "name": "Living room, kitchen, and dining room furniture",
+      "line": 340,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 113,
+      "code": "SEHJ03",
+      "name": "Other furniture",
+      "line": 341,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 114,
+      "code": "SEHK01",
+      "name": "Major appliances",
+      "line": 343,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 115,
+      "code": "SEHK02",
+      "name": "Other appliances",
+      "line": 345,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 116,
+      "code": "SEHL01",
+      "name": "Clocks, lamps, and decorator items",
+      "line": 347,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 117,
+      "code": "SEHL02",
+      "name": "Indoor plants and flowers",
+      "line": 348,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 118,
+      "code": "SEHL03",
+      "name": "Dishes and flatware",
+      "line": 349,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 119,
+      "code": "SEHL04",
+      "name": "Nonelectric cookware and tableware",
+      "line": 350,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 120,
+      "code": "SEHM01",
+      "name": "Tools, hardware and supplies",
+      "line": 352,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 121,
+      "code": "SEHM02",
+      "name": "Outdoor equipment and supplies",
+      "line": 353,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 122,
+      "code": "SEHN01",
+      "name": "Household cleaning products",
+      "line": 355,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 123,
+      "code": "SEHN02",
+      "name": "Household paper products",
+      "line": 356,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 124,
+      "code": "SEHN03",
+      "name": "Miscellaneous household products",
+      "line": 357,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 125,
+      "code": "SEHP01",
+      "name": "Domestic services",
+      "line": 460,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 126,
+      "code": "SEHP02",
+      "name": "Gardening and lawncare services",
+      "line": 461,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 127,
+      "code": "SEHP03",
+      "name": "Moving, storage, freight expense",
+      "line": 462,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 128,
+      "code": "SEHP04",
+      "name": "Repair of household items",
+      "line": 463,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 129,
+      "code": "SEMC01",
+      "name": "Physicians' services",
+      "line": 466,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 130,
+      "code": "SEMC02",
+      "name": "Dental services",
+      "line": 467,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 131,
+      "code": "SEMC03",
+      "name": "Eyeglasses and eye care",
+      "line": 468,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 132,
+      "code": "SEMC04",
+      "name": "Services by other medical professionals",
+      "line": 469,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 133,
+      "code": "SEMD01",
+      "name": "Hospital services",
+      "line": 471,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 134,
+      "code": "SEMD02",
+      "name": "Nursing homes and adult day services",
+      "line": 474,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 135,
+      "code": "SEMD03",
+      "name": "Home health care",
+      "line": 475,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 136,
+      "code": "SEMF01",
+      "name": "Prescription drugs",
+      "line": 393,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 137,
+      "code": "SEMF02",
+      "name": "Nonprescription drugs",
+      "line": 394,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 138,
+      "code": "SERA01",
+      "name": "Televisions",
+      "line": 398,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 139,
+      "code": "SERA02",
+      "name": "Cable, satellite, and live streaming television service",
+      "line": 497,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 140,
+      "code": "SERA03",
+      "name": "Other video equipment",
+      "line": 399,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 141,
+      "code": "SERA04",
+      "name": "Purchase, subscription, and rental of video",
+      "line": 498,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 142,
+      "code": "SERA05",
+      "name": "Audio equipment",
+      "line": 400,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 143,
+      "code": "SERA06",
+      "name": "Recorded music and music subscriptions",
+      "line": 401,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 144,
+      "code": "SERB01",
+      "name": "Pets and pet products",
+      "line": 402,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 145,
+      "code": "SERB02",
+      "name": "Pet services including veterinary",
+      "line": 501,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 146,
+      "code": "SERC01",
+      "name": "Sports vehicles including bicycles",
+      "line": 406,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 147,
+      "code": "SERC02",
+      "name": "Sports equipment",
+      "line": 407,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 148,
+      "code": "SERD01",
+      "name": "Photographic equipment and supplies",
+      "line": 408,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 149,
+      "code": "SERD02",
+      "name": "Photographers and photo processing",
+      "line": 504,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 150,
+      "code": "SERE01",
+      "name": "Toys",
+      "line": 414,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 151,
+      "code": "SERE02",
+      "name": "Sewing machines, fabric and supplies",
+      "line": 416,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 152,
+      "code": "SERE03",
+      "name": "Music instruments and accessories",
+      "line": 417,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 153,
+      "code": "SERF01",
+      "name": "Club membership for shopping clubs, fraternal, or other organizations, or participant sports fees",
+      "line": 506,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 154,
+      "code": "SERF02",
+      "name": "Admissions",
+      "line": 507,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 155,
+      "code": "SERF03",
+      "name": "Fees for lessons or instructions",
+      "line": 510,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 156,
+      "code": "SERG01",
+      "name": "Newspapers and magazines",
+      "line": 411,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 157,
+      "code": "SERG02",
+      "name": "Recreational books",
+      "line": 412,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 158,
+      "code": "SETA01",
+      "name": "New vehicles",
+      "line": 382,
+      "raw": "0.7",
+      "value": 0.7
+    },
+    {
+      "row": 159,
+      "code": "SETA02",
+      "name": "Used cars and trucks",
+      "line": 385,
+      "raw": "-3.3",
+      "value": -3.3
+    },
+    {
+      "row": 160,
+      "code": "SETA03",
+      "name": "Leased cars and trucks",
+      "line": 478,
+      "raw": "0.0",
+      "value": 0.0
+    },
+    {
+      "row": 161,
+      "code": "SETA04",
+      "name": "Car and truck rental",
+      "line": 479,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 162,
+      "code": "SETB01",
+      "name": "Gasoline (all types)",
+      "line": 323,
+      "raw": "37.4",
+      "value": 37.4
+    },
+    {
+      "row": 163,
+      "code": "SETB02",
+      "name": "Other motor fuels",
+      "line": 327,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 164,
+      "code": "SETC01",
+      "name": "Tires",
+      "line": 387,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 165,
+      "code": "SETC02",
+      "name": "Vehicle accessories other than tires",
+      "line": 388,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 166,
+      "code": "SETD01",
+      "name": "Motor vehicle body work",
+      "line": 481,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 167,
+      "code": "SETD02",
+      "name": "Motor vehicle maintenance and servicing",
+      "line": 482,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 168,
+      "code": "SETD03",
+      "name": "Motor vehicle repair",
+      "line": 483,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 169,
+      "code": "SETF01",
+      "name": "State motor vehicle registration and license fees",
+      "line": 486,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 170,
+      "code": "SETF03",
+      "name": "Parking and other fees",
+      "line": 487,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 171,
+      "code": "SETG01",
+      "name": "Airline fares",
+      "line": 490,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 172,
+      "code": "SETG02",
+      "name": "Other intercity transportation",
+      "line": 491,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 173,
+      "code": "SETG03",
+      "name": "Intracity transportation",
+      "line": 493,
+      "raw": "-",
+      "value": null
+    },
+    {
+      "row": 174,
+      "code": "SEME",
+      "name": "Health insurance",
+      "line": 476,
+      "raw": "-",
+      "value": null
+    }
+  ],
+  "valid": [
+    {
+      "row": 22,
+      "code": "SEEC01",
+      "name": "Postage",
+      "line": 518,
+      "raw": "13.3",
+      "value": 13.3
+    },
+    {
+      "row": 24,
+      "code": "SEED03",
+      "name": "Wireless telephone services",
+      "line": 521,
+      "raw": "3.0",
+      "value": 3.0
+    },
+    {
+      "row": 158,
+      "code": "SETA01",
+      "name": "New vehicles",
+      "line": 382,
+      "raw": "0.7",
+      "value": 0.7
+    },
+    {
+      "row": 159,
+      "code": "SETA02",
+      "name": "Used cars and trucks",
+      "line": 385,
+      "raw": "-3.3",
+      "value": -3.3
+    },
+    {
+      "row": 160,
+      "code": "SETA03",
+      "name": "Leased cars and trucks",
+      "line": 478,
+      "raw": "0.0",
+      "value": 0.0
+    },
+    {
+      "row": 162,
+      "code": "SETB01",
+      "name": "Gasoline (all types)",
+      "line": 323,
+      "raw": "37.4",
+      "value": 37.4
+    }
+  ],
+  "valid_count": 6,
+  "above3_count": 2,
+  "input_comparison": [
+    {
+      "factor": "wgt",
+      "period": "2022-01",
+      "workbook": 5.3,
+      "official": 5.3,
+      "match": true
+    },
+    {
+      "factor": "wgt",
+      "period": "2022-02",
+      "workbook": 5.9,
+      "official": 5.9,
+      "match": true
+    },
+    {
+      "factor": "wgt",
+      "period": "2022-03",
+      "workbook": 6,
+      "official": 6,
+      "match": true
+    },
+    {
+      "factor": "wgt",
+      "period": "2022-04",
+      "workbook": 6.1,
+      "official": 6.1,
+      "match": true
+    },
+    {
+      "factor": "wgt",
+      "period": "2022-05",
+      "workbook": 6.2,
+      "official": 6.2,
+      "match": true
+    },
+    {
+      "factor": "wgt",
+      "period": "2022-06",
+      "workbook": 6.7,
+      "official": 6.7,
+      "match": true
+    },
+    {
+      "factor": "wgt",
+      "period": "2026-08",
+      "workbook": 4.1,
+      "official": 4.1,
+      "match": true
+    },
+    {
+      "factor": "wgt",
+      "period": "2026-09",
+      "workbook": 3.9,
+      "official": 3.9,
+      "match": true
+    },
+    {
+      "factor": "wgt",
+      "period": "2026-10",
+      "workbook": null,
+      "official": null,
+      "match": true
+    },
+    {
+      "factor": "sticky",
+      "period": "2022-01",
+      "workbook": 4.144298301,
+      "official": 4.144298301,
+      "match": true
+    },
+    {
+      "factor": "sticky",
+      "period": "2022-02",
+      "workbook": 4.480230095,
+      "official": 4.480230095,
+      "match": true
+    },
+    {
+      "factor": "sticky",
+      "period": "2022-03",
+      "workbook": 4.731284166,
+      "official": 4.731284166,
+      "match": true
+    },
+    {
+      "factor": "sticky",
+      "period": "2022-04",
+      "workbook": 4.90899746,
+      "official": 4.90899746,
+      "match": true
+    },
+    {
+      "factor": "sticky",
+      "period": "2022-05",
+      "workbook": 5.156160112,
+      "official": 5.156160112,
+      "match": true
+    },
+    {
+      "factor": "sticky",
+      "period": "2022-06",
+      "workbook": 5.567138359,
+      "official": 5.567138359,
+      "match": true
+    },
+    {
+      "factor": "sticky",
+      "period": "2026-08",
+      "workbook": 2.741335256,
+      "official": 2.741335256,
+      "match": true
+    },
+    {
+      "factor": "sticky",
+      "period": "2026-09",
+      "workbook": 2.81553373,
+      "official": 2.81553373,
+      "match": true
+    },
+    {
+      "factor": "sticky",
+      "period": "2026-10",
+      "workbook": 3.094394579,
+      "official": 3.094394579,
+      "match": true
+    },
+    {
+      "factor": "flexible",
+      "period": "2022-01",
+      "workbook": 17.256703798,
+      "official": 17.256703798,
+      "match": true
+    },
+    {
+      "factor": "flexible",
+      "period": "2022-02",
+      "workbook": 17.681701086,
+      "official": 17.681701086,
+      "match": true
+    },
+    {
+      "factor": "flexible",
+      "period": "2022-03",
+      "workbook": 19.104626424,
+      "official": 19.104626424,
+      "match": true
+    },
+    {
+      "factor": "flexible",
+      "period": "2022-04",
+      "workbook": 17.185409082,
+      "official": 17.185409082,
+      "match": true
+    },
+    {
+      "factor": "flexible",
+      "period": "2022-05",
+      "workbook": 17.702840922,
+      "official": 17.702840922,
+      "match": true
+    },
+    {
+      "factor": "flexible",
+      "period": "2022-06",
+      "workbook": 17.90608766,
+      "official": 17.90608766,
+      "match": true
+    },
+    {
+      "factor": "flexible",
+      "period": "2026-08",
+      "workbook": 4.942421343,
+      "official": 4.942421343,
+      "match": true
+    },
+    {
+      "factor": "flexible",
+      "period": "2026-09",
+      "workbook": 6.123248688,
+      "official": 6.123248688,
+      "match": true
+    },
+    {
+      "factor": "flexible",
+      "period": "2026-10",
+      "workbook": 6.201046392,
+      "official": 6.201046392,
+      "match": true
+    }
+  ],
+  "latest_source_period": {
+    "wgt": "2026-09",
+    "sticky": "2026-10",
+    "flexible": "2026-10"
+  },
+  "baseline_anomalies": [
+    {
+      "sheet": "因子4明细",
+      "cell": "E171",
+      "code": "SETG01",
+      "name": "Airline fares",
+      "period": "2022-02",
+      "stored": 197.204,
+      "official_yoy": 12.7,
+      "status": "paused_pending_confirmation",
+      "source": "https://www.bls.gov/news.release/archives/cpi_03102022.htm",
+      "classification_impact": "Both exceed 3.0; no change to this item flag. Other historical entries not fully certified."
+    }
+  ]
+}

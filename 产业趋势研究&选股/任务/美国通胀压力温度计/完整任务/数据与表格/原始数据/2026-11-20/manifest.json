@@ -1,0 +1,290 @@
+{
+  "observation": {
+    "checked_at": "2026-11-20",
+    "recorded_at_utc": "2026-11-20T02:28:04.634530+00:00",
+    "status": "totals_paused",
+    "total": null,
+    "aligned_total": null,
+    "aligned_period": "2026-09",
+    "weight_each": 0.25,
+    "baseline_definition": "arithmetic mean of Jan-Jun 2022; index=100",
+    "factors": [
+      {
+        "factor": "WGT",
+        "period": "2026-09",
+        "value": 3.9,
+        "baseline": 6.033333333333332,
+        "previous_period": "2026-08",
+        "previous": 4.1,
+        "change_pp": -0.2,
+        "release_date": "2026-10-08",
+        "source": "https://www.atlantafed.org/research-and-data/data/wage-growth-tracker"
+      },
+      {
+        "factor": "Sticky CPI",
+        "period": "2026-10",
+        "value": 3.094394579,
+        "baseline": 4.8313514155,
+        "previous_period": "2026-09",
+        "previous": 2.81553373,
+        "change_pp": 0.27886084899999997,
+        "release_date": "2026-11-10",
+        "source": "https://fred.stlouisfed.org/series/STICKCPIM159SFRBATL"
+      },
+      {
+        "factor": "Flexible CPI",
+        "period": "2026-10",
+        "value": 6.201046392,
+        "baseline": 17.806228162,
+        "previous_period": "2026-09",
+        "previous": 6.123248688,
+        "change_pp": 0.07779770399999997,
+        "release_date": "2026-11-10",
+        "source": "https://fred.stlouisfed.org/series/FLEXCPIM159SFRBATL"
+      },
+      {
+        "factor": "BLS breadth",
+        "period": "2026-10",
+        "value": 33.33333333333333,
+        "baseline_status": "pending_review",
+        "unverified_stored_baseline": 75.82605872592165,
+        "numerator": 2,
+        "denominator": 6,
+        "mapped": 170,
+        "unmapped": 41,
+        "unavailable_mapped": 164,
+        "universe": 211,
+        "mapped_coverage": 0.8056872037914692,
+        "valid_universe_coverage": 0.02843601895734597,
+        "valid_mapped_coverage": 0.03529411764705882,
+        "previous_period": "2026-09",
+        "previous_numerator": 79,
+        "previous_denominator": 166,
+        "previous": 47.59036144578313,
+        "comparable_change": null,
+        "change_note": "Denominator 166 to 6; do not interpret as comparable monthly change",
+        "release_date": "2026-11-10",
+        "page_modified_date": "2026-11-13",
+        "source": "https://www.bls.gov/news.release/cpi.t02.htm"
+      }
+    ],
+    "anomalies": [
+      {
+        "sheet": "因子4明细",
+        "cell": "E171",
+        "code": "SETG01",
+        "name": "Airline fares",
+        "period": "2022-02",
+        "stored": 197.204,
+        "official_yoy": 12.7,
+        "status": "paused_pending_confirmation",
+        "source": "https://www.bls.gov/news.release/archives/cpi_03102022.htm",
+        "classification_impact": "Both exceed 3.0; no change to this item flag. Other historical entries not fully certified."
+      }
+    ],
+    "download_issues": [
+      {
+        "source": "BLS direct download",
+        "status": "403",
+        "resolution": "Official page read via web tool; extracted visible table rows preserved; no substitution/estimation"
+      }
+    ],
+    "workbook_sha256_before": "e0557ac5436554e2d7ee771ff1f23e7d9bbf553be7ab8d2692ba90061ddeaa9a",
+    "workbook_sha256_after": "fb8df279b1b00458b98583bb2ae53db3d773d88179476b8ffe5caa70292db522"
+  },
+  "raw_files": [
+    {
+      "file": "2022H1_170项逐月核验.json",
+      "bytes": 224265,
+      "sha256": "a7305f58666728418ae7d239743bc8f1bd468d604b73c99294efcc1a98a1d20d"
+    },
+    {
+      "file": "baseline_2022-01.json",
+      "bytes": 16589,
+      "sha256": "864c8c3e9858c63442b9467c7ab57236106bca1dcf664149533f6e94536b2655"
+    },
+    {
+      "file": "baseline_2022-01_extra.json",
+      "bytes": 14793,
+      "sha256": "dec5fc7d6b753bae6d86fd74bdc1c2071408dcda2c4770ac5f3fc02eb15703a0"
+    },
+    {
+      "file": "bls_current_web_part2.json",
+      "bytes": 15839,
+      "sha256": "9d9ccbe2f8be777ae74236e3d895de27981d5ebf78bf6bcce321aa6bd342edca"
+    },
+    {
+      "file": "bls_web_evidence.json",
+      "bytes": 21697,
+      "sha256": "6e39b548f45f859fd6b5139b34757735ac762b4a9daf54142ee253d2cbc45ee2"
+    },
+    {
+      "file": "current3.json",
+      "bytes": 15328,
+      "sha256": "f42bcf295cf2609c7f84096bcba3506e812b6a82dffcc77f5cc357a92f87b141"
+    },
+    {
+      "file": "current4.json",
+      "bytes": 17239,
+      "sha256": "7e01a0f70cc8eeb905cc4632ab8c9e22b48043d8a1414f95bd2c4f617f783041"
+    },
+    {
+      "file": "febtable2a.json",
+      "bytes": 266,
+      "sha256": "87937e0b1e2dd2855b1f981a1f68f380b1140d3e6e6ecb9ed7de5e9300748aa4"
+    },
+    {
+      "file": "febtable2b.json",
+      "bytes": 16038,
+      "sha256": "b132a6f9191fd904b1e8700adb3a4e180ec430ae08820286b485ea2320553a1b"
+    },
+    {
+      "file": "flexible",
+      "bytes": 1396,
+      "sha256": "5b0e719d0d85087be18e1e345e86dd75beda576b77126e777c8c38617ab45bd0"
+    },
+    {
+      "file": "full_baseline_2022-01.json",
+      "bytes": 46059,
+      "sha256": "00a6497eec208a32db320e793bf625ec8d59c9ccb15e4de397b2e05d7f33e533"
+    },
+    {
+      "file": "full_baseline_2022-02.json",
+      "bytes": 45827,
+      "sha256": "96f1bcbcfbae351dc9f0fa68f8de2af2059c19a7e77f7e2177d7bbb493e0547d"
+    },
+    {
+      "file": "full_baseline_2022-03.json",
+      "bytes": 46104,
+      "sha256": "b43460c4105675b486230c61e5ddee0e50f134bdcdfd01118840366fc2da76bc"
+    },
+    {
+      "file": "full_baseline_2022-04.json",
+      "bytes": 46089,
+      "sha256": "1ac22a6c977c1a854d4cfde636af058d9b5e3f2b4d565ef9fc83dcb1fba1e2e8"
+    },
+    {
+      "file": "full_baseline_2022-05.json",
+      "bytes": 46397,
+      "sha256": "b03c1baf1949365ff0123402eedc60c6da75d7dff9bcad5758d01d19f448748b"
+    },
+    {
+      "file": "full_baseline_2022-06.json",
+      "bytes": 46297,
+      "sha256": "82f937567086ac37c317bc3f4b5b1f6f988b4e2c43dc72b4b35cfa0acad87570"
+    },
+    {
+      "file": "head_baseline_2022-01.json",
+      "bytes": 14788,
+      "sha256": "6759dcdc4e507f5f403fb8638e5b7f0a493ae3d9bcc0635a001aa79191686766"
+    },
+    {
+      "file": "head_baseline_2022-02.json",
+      "bytes": 14788,
+      "sha256": "2820d7a6087279303b9c750374ad07335667cf7da72df84e02e73b019f1b2d67"
+    },
+    {
+      "file": "head_baseline_2022-03.json",
+      "bytes": 14739,
+      "sha256": "d8746757b7718a71fb603e9a343c6359b949a5795a7a0ece3853dd97dd7a6fe0"
+    },
+    {
+      "file": "head_baseline_2022-04.json",
+      "bytes": 14759,
+      "sha256": "eb136d4737e31ebcc783412471d08c24d8da5ec0a107b9ea145a79503307a239"
+    },
+    {
+      "file": "head_baseline_2022-05.json",
+      "bytes": 14758,
+      "sha256": "87f3de743187c5aa09609d37e7f6645a82d656b3c9aa6ca395ea4a3c88914e6c"
+    },
+    {
+      "file": "head_baseline_2022-06.json",
+      "bytes": 14770,
+      "sha256": "19b31fa2a4f2b79794222de97d8386dccd1021695514d7394f8cb965d1c78df7"
+    },
+    {
+      "file": "release_date_and_baseline_error.json",
+      "bytes": 13737,
+      "sha256": "81498babc5b4dd4a6c626316de032c6d1e5e1499ec4f947dbabbeed105219984"
+    },
+    {
+      "file": "release_evidence.json",
+      "bytes": 22676,
+      "sha256": "f1f0ba1e7a1b10bbde372afa4d28ce11738fae4e6de1df9ca6e0ad4cd34a21dd"
+    },
+    {
+      "file": "sticky",
+      "bytes": 1371,
+      "sha256": "ce8a7e58ad2cd8e5e94c5f043894597523aec7dad28047572b7e5d789289f30e"
+    },
+    {
+      "file": "wgt",
+      "bytes": 339572,
+      "sha256": "6e1201f3ab2bfe026a4013995314e96a733f64919b1165c90d1a980d6823c2a5"
+    },
+    {
+      "file": "核验记录.json",
+      "bytes": 32322,
+      "sha256": "ff317f8f0a6d447e3ef02f86993bb5e1d11233f0b6f76251fcfffcc7dd8b076d"
+    }
+  ],
+  "restored_baseline_audit": {
+    "checked_at": "2026-11-20",
+    "recorded_at_utc": "2026-11-20T03:15:39.808974+00:00",
+    "status": "restored_after_full_baseline_audit",
+    "total": 51.86862974281551,
+    "total_periods": {
+      "WGT": "2026-09",
+      "sticky": "2026-10",
+      "flexible": "2026-10",
+      "breadth": "2026-10"
+    },
+    "aligned_total": 55.016996205005185,
+    "aligned_period": "2026-09",
+    "baseline_breadth": 75.82605872592165,
+    "weight_each": 0.25,
+    "correction": {
+      "sheet": "因子4明细",
+      "cell": "E171",
+      "period": "2022-02",
+      "code": "SETG01",
+      "old": 197.204,
+      "correct": 12.7,
+      "source": "https://www.bls.gov/news.release/archives/cpi_03102022.htm"
+    },
+    "baseline_audit": {
+      "mapped_item_months": 1020,
+      "valid_counts": [
+        167,
+        167,
+        167,
+        167,
+        167,
+        166
+      ],
+      "above3_counts": [
+        120,
+        125,
+        132,
+        125,
+        128,
+        129
+      ],
+      "official_blank_entries": 19,
+      "numeric_mismatches_corrected": 1,
+      "mapping_changes": 0,
+      "threshold_classification_changes": 0
+    },
+    "latest_breadth": {
+      "period": "2026-10",
+      "above3": 2,
+      "valid": 6,
+      "mapped": 170,
+      "universe": 211,
+      "source": "https://www.bls.gov/news.release/cpi.t02.htm"
+    },
+    "raw_evidence_path": "/Users/yangguang/Documents/Codex/workspace/产业趋势研究&选股/任务/美国通胀压力温度计/完整任务/数据与表格/原始数据/2026-11-20",
+    "workbook_sha256": "0848be0ba8279a27fc5972427ac555d91a2aa97e72b3c9880b241dbcea53a83b"
+  }
+}
