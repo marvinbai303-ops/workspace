@@ -1,0 +1,139 @@
+{
+  "date": "2026.11.10",
+  "news_window": "2026-11-07至2026-11-10北京时间早间；优先11月9日欧美交易时段与最新披露",
+  "thermometer_workbook": "/Users/yangguang/Documents/Codex/workspace/科技温度计&科技新闻/1110快照 转换 行业温度计_量价_估值.xlsx",
+  "source_note": "资料：iFinD、公司公告、Reuters、BLS、国家统计局及公开报道｜截至2026.11.10",
+  "avatar_style": "group-portrait",
+  "hero": {
+    "title": ["谷歌扩充TPU系统", "AI算力走向多架构"],
+    "subtitle": "AMD配套CPU，英伟达拓展NPU合作，供电采购再受关注"
+  },
+  "cards": [
+    {
+      "title": "谷歌TPU系统扩军，AMD提供CPU",
+      "body": "新增8tx、8i Max系统；AMD EPYC用于8tx主机端。",
+      "tag": "谷歌｜AMD｜AI算力",
+      "accent": "navy"
+    },
+    {
+      "title": "Anthropic据报锁定发电机",
+      "body": "FT称34亿美元购入1.7GW设备交付承诺，用于数据中心。",
+      "tag": "Anthropic｜电力｜AI基建",
+      "accent": "blue"
+    },
+    {
+      "title": "英伟达联手SKT开发异构算力",
+      "body": "拟用NVLink联通GPU与韩国自研NPU，系统预计2028年可部署。",
+      "tag": "英伟达｜Rebellions｜主权AI",
+      "accent": "navy"
+    },
+    {
+      "title": "智谱联手移动云，推进国产AI落地",
+      "body": "签署合作协议，聚焦国产算力适配、模型服务和行业应用。",
+      "tag": "智谱｜国产算力｜AI应用",
+      "accent": "blue"
+    },
+    {
+      "title": "Apple智能备案扩至iPad与Mac",
+      "body": "新增平板与笔记本两类场景；备案完成不等于正式全面上线。",
+      "tag": "端侧AI｜苹果｜国内备案",
+      "accent": "navy"
+    }
+  ],
+  "commentary": "市场情绪冰点大概率已过，阶段性磨底与中期反弹或逐步展开：绝对收益资金减仓进入尾声、托底力量加强、三季报负面信息充分反映、海外中选不确定性落地，四重条件同时具备。但中期看，三季度全球科技巨震已宣告科技方向仍有一定泥泞，反弹制约因素仍在；美国长债利率挤压全球流动性；AI叙事阶段性青黄不接，也需要coding场景以外的增长兑现，国内面临与美国资本开支脱钩风险；内需承压、广义财政偏收缩下K型分化延续，盈利局部高增但明年增速能否仍维持高增需要进一步跟踪；但从交易层面看，市场拥挤度已至极致并出现季度级别减量。风格上，我们依然建议从账户配置视角出发，在科技成长与红利底仓间削峰填谷，逢调整分批布局明年高景气方向，顺周期方向等待政策信号与基本面信号好转再加仓，切忌追高。",
+  "macro": [
+    "海外流动性：美国10月CPI今夜公布，利率路径仍待通胀验证",
+    "风险资产：隔夜半导体反弹、英伟达逆跌，科技交易仍有分化",
+    "国内物价：10月CPI同比+0.7%、PPI+5.7%，价格分化延续"
+  ],
+  "source_audit": [
+    {
+      "card": 1,
+      "event_date": "2026-11-09",
+      "published": "2026-11-09",
+      "sources": [
+        "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max",
+        "https://newsroom.amd.com/news/amd-epyc-expands-leadership-foundation-ai/"
+      ],
+      "fact": "Google发布基于第八代TPU的8tx和8i Max两款系统配置，不是宣布新一代硅片。AMD官方披露第五代EPYC为8tx提供主机基础设施；不能将其描述成AMD GPU取代TPU。",
+      "market_reaction": "iFinD收录21世纪经济报道11月10日美股复盘：11月9日AMD上涨13.26%，半导体板块大涨；不能把单日涨幅全部归因于这项合作。",
+      "editorial_judgment": "隔夜最明确、可由公司原始发布核实的AI算力事件，作为本期头条。"
+    },
+    {
+      "card": 2,
+      "event_date": "2026-09下旬（据媒体）",
+      "published": "2026-11-08",
+      "sources": [
+        "https://www.channelnewsasia.com/business/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-6534256"
+      ],
+      "fact": "Reuters转述FT：Anthropic据报斥约34亿美元取得1.7GW燃气发电设备交付承诺，交易在9月下旬达成、11月8日公开报道。不等于收购OnePWR，不等于设备已安装发电；Reuters未能立即独立核实。",
+      "market_reaction": "未发现可单独归因于该交易的可靠股价反应证据，因此海报不写其导致相关股票上涨。",
+      "editorial_judgment": "AI基础设施争夺扩展到发电设备，兼具产业意义与新闻关注度；使用‘据报’及‘FT称’限定。"
+    },
+    {
+      "card": 3,
+      "event_date": "2026-11-09",
+      "published": "2026-11-09",
+      "sources": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Rebellions-and-SK-Telecom-Announce-Collaboration-to-Advance-Sovereign-AI-Infrastructure-With-NVIDIA-NVLink-Fusion/default.aspx",
+        "https://news.sktelecom.com/232944"
+      ],
+      "fact": "三方签署合作安排，计划以NVLink Fusion、MGX连接Rebellions R200 NPU与NVIDIA平台，探索GPU预填充与NPU解码分工；官方称R200系统预计2028年具备部署条件，不是已经商用。",
+      "market_reaction": "iFinD收录隔夜复盘显示英伟达逆市下跌；未将其下跌归因于本合作，不引用未经独立核实的个人传闻。",
+      "editorial_judgment": "显示GPU龙头也在拓展外部专用芯片生态，与TPU事件构成多架构竞争主线。"
+    },
+    {
+      "card": 4,
+      "event_date": "2026-11-06",
+      "published": "2026-11-08",
+      "sources": [
+        "https://finance.eastmoney.com/a/202611083925655120.html"
+      ],
+      "fact": "证券日报11月8日报道，11月6日智谱与中国移动云公司签署合作协议，涉及国产算力适配、模型服务、AI Coding及金融政务等应用。合作协议不等于已确认收入订单。",
+      "market_reaction": "iFinD收录11月9日港股异动，智谱早盘一度涨超6%；仅作为关注度参考，不在图中堆砌涨幅。",
+      "editorial_judgment": "本周末新披露、周一发酵的国产模型商业化消息；在海外三条之后纳入。"
+    },
+    {
+      "card": 5,
+      "event_date": "2026-11-09",
+      "published": "2026-11-09 19:28北京时间",
+      "sources": [
+        "https://www.yicai.com/brief/103432903.html",
+        "https://www.mrjjxw.com/articles/2026-11-09/4642777.html"
+      ],
+      "fact": "第一财经、每日经济新闻引述网信上海公告，Apple智能服务新增平板与笔记本场景且已完成备案；未在原始公告中确认全面上线时间。",
+      "market_reaction": "未找到可单独归因于备案变更的可靠股价反应证据。",
+      "editorial_judgment": "国内端侧AI应用扩散消息，明确区分备案和正式上线。"
+    }
+  ],
+  "macro_audit": [
+    {
+      "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+      "fact": "BLS日程：美国10月CPI于11月10日08:30美东标准时间发布，即北京时间11月10日21:30。海报截点在发布前，不填写尚未公布的结果。利率路径待验证属于条件性编辑判断。"
+    },
+    {
+      "url": "https://m.21jingji.com/article/20261110/herald/37c32671e8a3e4601be0d622ed2cdecb_zaker.html",
+      "fact": "iFinD检索到的21世纪经济报道11月10日美股复盘：11月9日美国半导体股普遍反弹，而英伟达逆市下跌；仅描述价格分化，不对上涨/下跌原因强行归因。"
+    },
+    {
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202611/t20261109_1965796.html",
+      "fact": "国家统计局11月9日发布：10月CPI同比上涨0.7%，PPI同比上涨5.7%；二者统计口径不同，不能据此直接推断总需求或财政的单一方向。"
+    }
+  ],
+  "thermometer_audit": {
+    "sheet": "市场情绪温度计",
+    "latest_date_cell": "A5",
+    "latest_value_cell": "E5",
+    "latest_date": "2026-11-09",
+    "raw_latest": 0.16433333333333333,
+    "latest_degrees": 16.43,
+    "window_observations": 242,
+    "window_start": "2025-11-10",
+    "recent_note": "11月6日18.30度，11月9日16.43度；高于本窗口10月27日最低12.46度，但读数回升不等于反转得到确认。"
+  },
+  "commentary_validation": {
+    "user_supplied_verbatim": true,
+    "fact_vs_view": "用户提供的底部判断、减仓尾声、拥挤度极致、财政收缩及未来配置建议均按原文保留，未改写成新闻事实。因未给资金样本、拥挤度统计口径与财政定义，未对这些观点作独立背书。",
+    "figure_scope": "科技温度计仅反映指定工作簿口径，不凭走势图推导买卖信号。"
+  }
+}
